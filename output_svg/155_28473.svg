@@ -1,0 +1,110 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g>
+  <title>background</title>
+  <rect y="-1" x="-1" width="1068.66667" height="602" id="canvas_background" fill="#ffffff"/>
+ </g>
+
+ <g>
+  <title>title1</title>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeOutDown {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
+    }
+}
+
+@keyframes fadeOutDown {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
+    }
+}
+
+.animate__fadeOutDown {
+    -webkit-animation-name: fadeOutDown;
+    animation-name: fadeOutDown
+}
+
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }</style>
+  <g class="animate__animated animate__fadeOutDown animate__infinite">
+   <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="75" id="svg_2" y="129.60417" x="155.99999" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000" xmlns="http://www.w3.org/2000/svg">FadeOutdown</text>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeOutDown {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
+    }
+}
+
+@keyframes fadeOutDown {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
+    }
+}
+
+.animate__fadeOutDown {
+    -webkit-animation-name: fadeOutDown;
+    animation-name: fadeOutDown
+}
+
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }</style>
+  <g class="animate__animated animate__fadeOutDown animate__infinite">
+   <image xlink:href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTAwcHgiIGhlaWdodD0iMTAwcHgiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAgMTAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiMzRjU3OUYiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZD0iDQoJTTk0LjU2Niw5MS4yNGMwLDIuMDYxLTEuMjg1LDMuNzMyLTIuODY5LDMuNzMyYzAsMC0yLjk1Ni0wLjA3NC0xMi45MTQsMGMtMTMuOTY1LDAuMTA1LTI3LjAyLDAtMjcuMDIsMHMtMjMuMTg1LTAuMTk4LTMxLjQ0MywwDQoJYy04LjQzMSwwLjIwMi0xMC41ODEsMC0xMC41ODEsMGMtMS41ODUsMC0yLjg3LTEuNjcyLTIuODctMy43MzJjMCwwLTAuMzE0LTE4LjQyOCwwLTIzLjU1OWMwLjE2Ni0yLjcwMy0wLjEyNi0xMy44MTMtMC4xNC0yNC42NjgNCglDNi43MTgsMzMuMjY2LDYuOTk2LDIzLjc0OCw2Ljg3LDIwLjMzYy0wLjI3LTcuMjg5LDAtMTAuMDMsMC0xMC4wM2MwLTIuMDYxLDEuMjg0LTMuNzMyLDIuODctMy43MzJjMCwwLDcuNDgyLTAuNDExLDE0LjcwNiwwDQoJYzQuMzc5LDAuMjQ5LDE0LjE4Mi0wLjE0MSwyNC4zNDUtMC4xODJjOC4zNTYtMC4wMzQsMTYuOTI4LDAuMzE0LDIzLjE4LDAuMTgyYzEzLjg1NC0wLjI5MSwxOS43MjgsMCwxOS43MjgsMA0KCWMxLjU4NCwwLDIuODY5LDEuNjcxLDIuODY5LDMuNzMyYzAsMCwwLjEwMSwxLjIzOSwwLDguODY0Yy0wLjEwNCw3Ljc4LDAuMTMyLDI5Ljc4NiwwLjEzMiwzMS4xMDNjMCwxLjMxOC0wLjIzOSwxMC45NjEsMCwyMC4yOTMNCglDOTQuOTM4LDc5Ljg5Miw5NC41NjYsOTEuMjQsOTQuNTY2LDkxLjI0eiIvPg0KPHBhdGggZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSINCglNNTYuNSw1NS43NWMyLjc1LDAuMjUsMTEsMCwxMSwwYzAuNDM2LTMuMjQ5LTAuMTc1LTExLjAwMy0wLjI4OC0xNC4yMTJDNjMuMjU4LDQxLjMzNCw1OS4yMjMsNDEuNSw1NS4yNSw0MS41SDU1DQoJYzAuMDM0LTMuNTE0LTAuNTg2LTcuMjcyLDEuOTI5LTkuMTE3YzIuMDcxLTEuNTIsNy40ODgsMC4wOSwxMC44MjEtMC44ODN2LTAuMjVjMC40NjEtMS43NSwwLjcyMS03Ljc1LDAuMjUtMTFoLTAuNQ0KCWMtMy4xMzEtMC4wNS02LjI2Ni0wLjAwOC05LjM5NiwwLjAxN2MtNS40MjMsMC4wNDItOS44NjIsMC45NzQtMTIuNjIsNi4wNTNDNDMuMDQxLDMwLjgxOCw0My40MzUsMzcsNDMuNSw0Mi41DQoJYy0zLjY5My0wLjE0MS03LjY0OCwwLjQ5OS0xMS41LDAuNXYwLjVjLTAuMDgxLDQuMDkzLDAuNDI5LDcuNzQ4LDAuMjUsMTIuMjVoMC4yNWMzLjE2NywwLDcuMzMzLDAsMTAuNSwwVjU2DQoJYzAsNC42MDcsMC4yNSw5LjEyLDAuMjUxLDEzLjcyNGMwLjAwMSw0LjgxNywwLjEzLDkuNDAxLDAuNDA3LDE0LjI3NmM0LjIyMiwwLDguMTU5LDAuMDAzLDEyLjM0MiwwbDAuMjUtMC43NQ0KCWMwLTkuMDYxLTAuNjA1LTE4LjIwMS0wLjYwNi0yNy4yNSIvPg0KPC9zdmc+DQo=" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg_1" height="150" width="150" y="48.66667" x="19.33333" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+ </g>
+</svg>

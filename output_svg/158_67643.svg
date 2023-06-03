@@ -1,0 +1,134 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g>
+  <title>background</title>
+  <rect y="-1" x="-1" width="1068.66667" height="602" id="canvas_background" fill="#ffffff"/>
+ </g>
+
+ <g>
+  <title>title1</title>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    
+@-webkit-keyframes zoomInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
+        transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
+        -webkit-animation-timing-function: cubic-bezier(.55, .055, .675, .19);
+        animation-timing-function: cubic-bezier(.55, .055, .675, .19)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
+        transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
+        -webkit-animation-timing-function: cubic-bezier(.175, .885, .32, 1);
+        animation-timing-function: cubic-bezier(.175, .885, .32, 1)
+    }
+}
+
+@keyframes zoomInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
+        transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
+        -webkit-animation-timing-function: cubic-bezier(.55, .055, .675, .19);
+        animation-timing-function: cubic-bezier(.55, .055, .675, .19)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
+        transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
+        -webkit-animation-timing-function: cubic-bezier(.175, .885, .32, 1);
+        animation-timing-function: cubic-bezier(.175, .885, .32, 1)
+    }
+}
+
+.animate__zoomInLeft {
+    -webkit-animation-name: zoomInLeft;
+    animation-name: zoomInLeft
+}
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }</style>
+  <g class="animate__animated animate__zoomInLeft animate__infinite">
+   <image stroke="null" xlink:href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMzAwcHgiIGhlaWdodD0iMzAwcHgiIHZpZXdCb3g9IjAgMCAzMDAgMzAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAzMDAgMzAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiMxQTFCMUMiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGQ9Ik0xMzIuNTk4LDQzLjU4Mw0KCWMtNC45MTEtMC41NDMtNS4yNjksMC4xOTUtNy44MDYsNC40ODhjLTIuNTM3LDQuMjkzLTQ0LjYxNCwxMDguMzAyLTQ1LjQ2NywxMTEuMjI5Yy0wLjg1MywyLjkyNy00LjQ4OCw5LjM2NywxLjE3MSwxMS43MDgNCgljNS42NTksMi4zNDIsODAuMzk3LDMwLjgzMiw4My4zMjQsMzIuMzkzYzIuOTI3LDEuNTYxLDcuMDI1LDAuNzgxLDkuMzY3LTQuODc4YzIuMzQyLTUuNjU5LDQ4Ljk4LTEyMS41NzEsNDkuMzctMTIzLjkxMw0KCWMwLjM5LTIuMzQyLTEuMzY2LTUuMjY5LTQuMjkzLTYuNDRDMjE1LjMzNyw2Ni45OTksMTM0Ljc0Myw0My44MiwxMzIuNTk4LDQzLjU4M3oiLz4NCjxwYXRoIGZpbGw9IiM5MkM4M0UiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGQ9Ik0xMzEuNjIyLDU1LjQ4Ng0KCWMtMC41NzgsMC4yMTctNDMuNzExLDEwMy40MjMtNDMuNTE2LDEwNC43ODlzNzMuNTY3LDI5LjA3Niw3NC43MzgsMjguNjg1YzEuMTcxLTAuMzksNDYuMjQ4LTEwNy43MTYsNDYuMjQ4LTEwOS42NjgNCglTMTMzLjE4Myw1NC45MDEsMTMxLjYyMiw1NS40ODZ6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNMTYxLjgzNiwxMTAuNDQNCgljMC45MTQsMC41ODgsMi44NjMtMS4yODEsMS43MzMtMi4wMzRjLTEuMTMtMC43NTMtMjkuMzA1LTEwLjM5Ni0zMC4yMDktMTAuMzk2Yy0wLjkwNCwwLTEuNDMxLDEuMjgxLTEuNDMxLDIuMTA5DQoJYzAsMC44MjksMC4yMjYsMjQuODYsMC4zNzcsMjUuMzg3YzAuMTUxLDAuNTI3LDE5Ljg5MSw4LjM2MiwyMS4xMzMsNy43NTljMS4yNDEtMC42MDMsMjAuODI4LTI3LjU3MiwyMS40MzEtMjcuMzQ2DQoJYzAuNjAzLDAuMjI2LDMuMjM5LDAuNjc4LDQuMjE5LDEuMjA1YzAuOTc5LDAuNTI3LDIuNTYxLTAuODI5LDEuMjA1LTEuOTU5cy01LjcyNS0yLjkzOC02LjI1My0yLjcxMnMtMjAuMjY1LDI3Ljg3My0yMC45NDMsMjcuNzk4DQoJYy0wLjY3OC0wLjA3NS0xOC4xNTUtNi4wMjctMTguMTU1LTYuNDc5YzAtMC40NTItMC41MjctNS40MjQtMC4xNTEtNS4xOThzMTYuMTU3LDUuOTUxLDE2Ljg1NSw2LjEwMg0KCWMwLjY5OCwwLjE1MSwzLjE4Ny0xLjczMywxLjc5Mi0yLjI2Yy0xLjM5NS0wLjUyNy0xOC44NzMtNi4yOTUtMTguODczLTYuNzYzYzAtMC40NjksMC4yMjYtNS41OTEsMC44MjktNS41MTYNCglzMTkuNzM2LDYuOTU4LDIwLjk4LDcuMzIxYzEuMjQ0LDAuMzYzLDIuOTAxLTEuMTExLDEuNjk2LTEuODA1Yy0xLjIwNS0wLjY5NS0yMi45MDEtOC4xNTMtMjMuMTI3LTguOTA2DQoJYy0wLjIyNi0wLjc1My0wLjUyNy01LjY1LDAuMDc1LTUuMjczQzEzNS42MiwxMDEuODUyLDE2MC43ODEsMTA5Ljc2MiwxNjEuODM2LDExMC40NHoiLz4NCjxlbGxpcHNlIGZpbGw9IiNGRkZGRkYiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGN4PSIxMzcuNTAzIiBjeT0iMTMzLjc5NCIgcng9IjIuODYzIiByeT0iMy4wMTMiLz4NCjxjaXJjbGUgZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgY3g9IjE0NS41NjQiIGN5PSIxMzYuNTA2IiByPSIyLjc4NyIvPg0KPHBhdGggZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZD0iTTEyMi4zMiwxNDQuNTExDQoJYy0wLjkyMiwwLjEwNi0yLjI5LDEuMTQ1LTIuODI0LDIuMjEzYy0wLjUzNCwxLjA2OS0yLjQ0Miw1LjgwMS0yLjU5NSw2LjE4MmMtMC4xNTMsMC4zODItMC40NTgsMS43NTUsMC42MTEsMi40NDINCgljMS4wNjksMC42ODcsMjcuOTM1LDEwLjA3NSwyOC44NSwxMC41MzNjMC45MTYsMC40NTgsNC4yNzQtOC43MDEsNC40MjctOS40NjRzLTAuODQtMS45ODQtMS45ODQtMi4zNjYNCglDMTQ3LjY1OSwxNTMuNjcsMTIyLjkwNSwxNDQuNDQ0LDEyMi4zMiwxNDQuNTExeiIvPg0KPHRleHQgdHJhbnNmb3JtPSJtYXRyaXgoMC45Mzc1IDAuMzQ4MSAtMC4zNDgxIDAuOTM3NSAxMjAuNDM0OCAxNTMuMDkxNikiIGZvbnQtZmFtaWx5PSInQXJpYWxNVCciIGZvbnQtc2l6ZT0iNiI+QlVZIE5PVzwvdGV4dD4NCjxwYXRoIGZpbGw9IiNGQkJDQTIiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGQ9Ik0xMzMuNzcyLDIzMi45MzgNCgljLTEuMTY1LTEuNzE5LTIuOTM1LTUuNzE0LTMuNjk3LTguODg4Yy0wLjc2Mi0zLjE3NC01LjA3OS0yNC4xMjQtMy40MjgtMjguMTg3YzEuNjUxLTQuMDYzLDMuNjgyLTEwLjc5Miw0LjU3MS0xMy41ODYNCgljMC44ODktMi43OTMsMy45MzYtMTEuNTU0LDUuNDYtMTIuNTdjMS41MjQtMS4wMTYsNi40NzUtNi4yMjEsNy40OTEtNy4zNjRjMS4wMTYtMS4xNDMsNC4yMjUtNi45LDYuNjItNS45MjYNCgljMi4zOTUsMC45NzQsMS4zODEsMi4zNzEsMi4zOTYsMS44NjNjMS4wMTUtMC41MDgsMy4zLTYuNjAyLDQuMDYyLTkuMjY5YzAuNzYyLTIuNjY2LDQuNTcxLTMuOTM2LDYuODU2LTMuODA5DQoJYzIuMjg1LDAuMTI3LDMuODA5LDEuNzc4LDMuNjgyLDMuNjgycy0wLjEyNywxOS4yOTksMC42MzUsMTkuNDI2YzAuNzYyLDAuMTI3LDUuODQtMC42MzUsNy4zNjQsMi4xNTgNCgljMS41MjQsMi43OTMsNS43MTQsOS4wMTUsNS43MTQsOS45MDNzMS4xNDMsMS4yNywzLjMwMSwzLjU1NXM1Ljg0LDkuMDE1LDYuNjAyLDkuNTIzYzAuNzYyLDAuNTA4LDMuMzAxLDIuNDEyLDQuNTcxLDMuNTU1DQoJYzEuMjcsMS4xNDMsMy4zMDEsMy4zMDEsNC4wNjMsNC4zMTdzNC4wNjMsMy40MjgsMy40MjgsNy43NDVzLTcuODcyLDIxLjQ1Ny0xMC4yODQsMjYuMDI4Yy0yLjQxMiw0LjU3MS0yLjc5Myw0LjMxNy00LjMxNyw3LjIzNw0KCWMtMS41MjQsMi45Mi00LjU3MSwxMS4wNDYtNC41NzEsMTIuNDQzYzAsMS4zOTctNDEuMDEsMi42NjYtNDEuNTE4LDEuMDE2cy00LjQ0NC05LjY1LTUuMjA2LTEyLjA2Mg0KCUMxMzYuODA1LDI0MS4zMTgsMTM0Ljc5NiwyMzQuNDQ5LDEzMy43NzIsMjMyLjkzOHoiLz4NCjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGQ9Ik0xMzcuNTM5LDE5OC40MDMNCgljMC42NjItMS45MDUsMi44ODgtNi4yMjEsNC4xMjQtNy4yMzdjMS4yMzYtMS4wMTYsMy44MDEtNC42OTgsNC4zNTktNi4yMjFjMC41NTktMS41MjQsMS44MDEtNi4zNDgsMi41NzctNi44NTYNCglzMS45ODQtNS4zMzMsMi4yMDUtNi44NTZzMS40OC00LjMxNywyLjEyLTYuNDc1czEuMDA1LTUuOTU5LDAuMjYtNi40NzUiLz4NCjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGQ9Ik0xNjkuNDM1LDE3Ni45NDUNCgljLTAuNjM1LTEuNjUxLTEuMDg2LTguMDUtMS4yMy05LjIxIi8+DQo8L3N2Zz4NCg==" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg_1" height="233.99999" width="162.00001" y="232.66667" x="554.00001" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    
+@-webkit-keyframes zoomInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
+        transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
+        -webkit-animation-timing-function: cubic-bezier(.55, .055, .675, .19);
+        animation-timing-function: cubic-bezier(.55, .055, .675, .19)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
+        transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
+        -webkit-animation-timing-function: cubic-bezier(.175, .885, .32, 1);
+        animation-timing-function: cubic-bezier(.175, .885, .32, 1)
+    }
+}
+
+@keyframes zoomInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
+        transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
+        -webkit-animation-timing-function: cubic-bezier(.55, .055, .675, .19);
+        animation-timing-function: cubic-bezier(.55, .055, .675, .19)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
+        transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
+        -webkit-animation-timing-function: cubic-bezier(.175, .885, .32, 1);
+        animation-timing-function: cubic-bezier(.175, .885, .32, 1)
+    }
+}
+
+.animate__zoomInLeft {
+    -webkit-animation-name: zoomInLeft;
+    animation-name: zoomInLeft
+}
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }</style>
+  <g class="animate__animated animate__zoomInLeft animate__infinite">
+   <text stroke="#000" transform="matrix(0.6558343768119812,0,0,2.4878876209259033,251.68724471982569,-85.69302766770124) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="100" id="svg_2" y="117.1869" x="262.73274" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000" xmlns="http://www.w3.org/2000/svg">ZoomInleft</text>
+  </g>
+ </g>
+</svg>

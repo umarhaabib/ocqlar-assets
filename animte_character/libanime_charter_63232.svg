@@ -1,0 +1,655 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+ 
+ </g>
+
+ <g>
+  <title>background</title>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes jello {
+
+    from,
+    11.1%,
+    to {
+        -webkit-transform: none;
+        transform: none
+    }
+
+    22.2% {
+        -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+        transform: skewX(-12.5deg) skewY(-12.5deg)
+    }
+
+    33.3% {
+        -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+        transform: skewX(6.25deg) skewY(6.25deg)
+    }
+
+    44.4% {
+        -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+        transform: skewX(-3.125deg) skewY(-3.125deg)
+    }
+
+    55.5% {
+        -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+        transform: skewX(1.5625deg) skewY(1.5625deg)
+    }
+
+    66.6% {
+        -webkit-transform: skewX(-.78125deg) skewY(-.78125deg);
+        transform: skewX(-.78125deg) skewY(-.78125deg)
+    }
+
+    77.7% {
+        -webkit-transform: skewX(.390625deg) skewY(.390625deg);
+        transform: skewX(.390625deg) skewY(.390625deg)
+    }
+
+    88.8% {
+        -webkit-transform: skewX(-.1953125deg) skewY(-.1953125deg);
+        transform: skewX(-.1953125deg) skewY(-.1953125deg)
+    }
+}
+
+@keyframes jello {
+
+    from,
+    11.1%,
+    to {
+        -webkit-transform: none;
+        transform: none
+    }
+
+    22.2% {
+        -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+        transform: skewX(-12.5deg) skewY(-12.5deg)
+    }
+
+    33.3% {
+        -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+        transform: skewX(6.25deg) skewY(6.25deg)
+    }
+
+    44.4% {
+        -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+        transform: skewX(-3.125deg) skewY(-3.125deg)
+    }
+
+    55.5% {
+        -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+        transform: skewX(1.5625deg) skewY(1.5625deg)
+    }
+
+    66.6% {
+        -webkit-transform: skewX(-.78125deg) skewY(-.78125deg);
+        transform: skewX(-.78125deg) skewY(-.78125deg)
+    }
+
+    77.7% {
+        -webkit-transform: skewX(.390625deg) skewY(.390625deg);
+        transform: skewX(.390625deg) skewY(.390625deg)
+    }
+
+    88.8% {
+        -webkit-transform: skewX(-.1953125deg) skewY(-.1953125deg);
+        transform: skewX(-.1953125deg) skewY(-.1953125deg)
+    }
+}
+
+.animate__jello {
+    -webkit-animation-name: jello;
+    animation-name: jello;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes jello {
+
+    from,
+    11.1%,
+    to {
+        -webkit-transform: none;
+        transform: none
+    }
+
+    22.2% {
+        -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+        transform: skewX(-12.5deg) skewY(-12.5deg)
+    }
+
+    33.3% {
+        -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+        transform: skewX(6.25deg) skewY(6.25deg)
+    }
+
+    44.4% {
+        -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+        transform: skewX(-3.125deg) skewY(-3.125deg)
+    }
+
+    55.5% {
+        -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+        transform: skewX(1.5625deg) skewY(1.5625deg)
+    }
+
+    66.6% {
+        -webkit-transform: skewX(-.78125deg) skewY(-.78125deg);
+        transform: skewX(-.78125deg) skewY(-.78125deg)
+    }
+
+    77.7% {
+        -webkit-transform: skewX(.390625deg) skewY(.390625deg);
+        transform: skewX(.390625deg) skewY(.390625deg)
+    }
+
+    88.8% {
+        -webkit-transform: skewX(-.1953125deg) skewY(-.1953125deg);
+        transform: skewX(-.1953125deg) skewY(-.1953125deg)
+    }
+}
+
+@keyframes jello {
+
+    from,
+    11.1%,
+    to {
+        -webkit-transform: none;
+        transform: none
+    }
+
+    22.2% {
+        -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+        transform: skewX(-12.5deg) skewY(-12.5deg)
+    }
+
+    33.3% {
+        -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+        transform: skewX(6.25deg) skewY(6.25deg)
+    }
+
+    44.4% {
+        -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+        transform: skewX(-3.125deg) skewY(-3.125deg)
+    }
+
+    55.5% {
+        -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+        transform: skewX(1.5625deg) skewY(1.5625deg)
+    }
+
+    66.6% {
+        -webkit-transform: skewX(-.78125deg) skewY(-.78125deg);
+        transform: skewX(-.78125deg) skewY(-.78125deg)
+    }
+
+    77.7% {
+        -webkit-transform: skewX(.390625deg) skewY(.390625deg);
+        transform: skewX(.390625deg) skewY(.390625deg)
+    }
+
+    88.8% {
+        -webkit-transform: skewX(-.1953125deg) skewY(-.1953125deg);
+        transform: skewX(-.1953125deg) skewY(-.1953125deg)
+    }
+}
+
+.animate__jello {
+    -webkit-animation-name: jello;
+    animation-name: jello;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes pulse {
+            from {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1)
+            }
+
+            50% {
+                -webkit-transform: scale3d(1.05, 1.05, 1.05);
+                transform: scale3d(1.05, 1.05, 1.05)
+            }
+
+            to {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1)
+            }
+        }
+        @keyframes pulse {
+          from {
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1)
+          }
+
+          50% {
+              -webkit-transform: scale3d(1.05, 1.05, 1.05);
+              transform: scale3d(1.05, 1.05, 1.05)
+          }
+
+          to {
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1)
+          }
+        }
+        .animate__pulse {
+            -webkit-animation-name: pulse;
+            animation-name: pulse
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes jello {
+
+    from,
+    11.1%,
+    to {
+        -webkit-transform: none;
+        transform: none
+    }
+
+    22.2% {
+        -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+        transform: skewX(-12.5deg) skewY(-12.5deg)
+    }
+
+    33.3% {
+        -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+        transform: skewX(6.25deg) skewY(6.25deg)
+    }
+
+    44.4% {
+        -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+        transform: skewX(-3.125deg) skewY(-3.125deg)
+    }
+
+    55.5% {
+        -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+        transform: skewX(1.5625deg) skewY(1.5625deg)
+    }
+
+    66.6% {
+        -webkit-transform: skewX(-.78125deg) skewY(-.78125deg);
+        transform: skewX(-.78125deg) skewY(-.78125deg)
+    }
+
+    77.7% {
+        -webkit-transform: skewX(.390625deg) skewY(.390625deg);
+        transform: skewX(.390625deg) skewY(.390625deg)
+    }
+
+    88.8% {
+        -webkit-transform: skewX(-.1953125deg) skewY(-.1953125deg);
+        transform: skewX(-.1953125deg) skewY(-.1953125deg)
+    }
+}
+
+@keyframes jello {
+
+    from,
+    11.1%,
+    to {
+        -webkit-transform: none;
+        transform: none
+    }
+
+    22.2% {
+        -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+        transform: skewX(-12.5deg) skewY(-12.5deg)
+    }
+
+    33.3% {
+        -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+        transform: skewX(6.25deg) skewY(6.25deg)
+    }
+
+    44.4% {
+        -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+        transform: skewX(-3.125deg) skewY(-3.125deg)
+    }
+
+    55.5% {
+        -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+        transform: skewX(1.5625deg) skewY(1.5625deg)
+    }
+
+    66.6% {
+        -webkit-transform: skewX(-.78125deg) skewY(-.78125deg);
+        transform: skewX(-.78125deg) skewY(-.78125deg)
+    }
+
+    77.7% {
+        -webkit-transform: skewX(.390625deg) skewY(.390625deg);
+        transform: skewX(.390625deg) skewY(.390625deg)
+    }
+
+    88.8% {
+        -webkit-transform: skewX(-.1953125deg) skewY(-.1953125deg);
+        transform: skewX(-.1953125deg) skewY(-.1953125deg)
+    }
+}
+
+.animate__jello {
+    -webkit-animation-name: jello;
+    animation-name: jello;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <text fill="#000000" stroke="#000" stroke-width="0" x="495.99999" y="189.9375" id="svg_6" font-size="100" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">text</text>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes pulse {
+            from {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1)
+            }
+
+            50% {
+                -webkit-transform: scale3d(1.05, 1.05, 1.05);
+                transform: scale3d(1.05, 1.05, 1.05)
+            }
+
+            to {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1)
+            }
+        }
+        @keyframes pulse {
+          from {
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1)
+          }
+
+          50% {
+              -webkit-transform: scale3d(1.05, 1.05, 1.05);
+              transform: scale3d(1.05, 1.05, 1.05)
+          }
+
+          to {
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1)
+          }
+        }
+        .animate__pulse {
+            -webkit-animation-name: pulse;
+            animation-name: pulse
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g id="svg_1" class="animate__animated animate__pulse animate__infinite animate__slower">
+   <g id="svg_8">
+    <g stroke="null" id="svg_1944">
+     <g stroke="null" id="svg_1945">
+      <g stroke="null" id="svg_1946">
+       <g stroke="null" id="svg_1947">
+        <polygon stroke="null" points="230.55156457424164,84.91442358493805 240.94527184963226,85.23424780368805 240.62544763088226,92.4298883676529 249.4201101064682,92.7496896982193 250.0597585439682,73.56131994724274 230.87138879299164,74.20092260837555 " fill="#D9D9D8" id="svg_1948"/>
+       </g>
+       <path stroke="null" d="m181.46128,91.63037c0,1.59903 1.27922,2.87826 2.87826,3.03816l30.7014,0.95942c1.59903,0 2.87826,-1.27922 3.03816,-2.87826l0.63961,-20.4676l-36.45791,-1.11932l-0.79952,20.4676l0,0z" fill="#D9D9D8" id="svg_1949"/>
+       <g stroke="null" id="svg_1950">
+        <path stroke="null" d="m146.92221,110.81874c-0.47971,5.75651 -0.47971,12.95215 -0.47971,12.95215s2.07874,5.59661 5.91482,8.95457l0.79952,-24.30527l9.43588,-18.54876l-8.79467,-0.31981c0,0 -6.39612,15.3507 -6.87583,21.26711l0,0l-0.00001,0.00001z" fill="#3E3230" id="svg_1951"/>
+       </g>
+       <g stroke="null" id="svg_1952">
+        <path stroke="null" d="m102.94886,58.37052l-19.50818,-0.63961c-3.51787,-0.1599 -6.55603,2.71835 -6.71593,6.23622c-0.1599,3.51787 2.71835,6.55603 6.23622,6.71593l25.9043,0.79952l0.1599,-6.55603c0.31981,-3.51787 -2.55845,-6.39612 -6.07632,-6.55603l0.00001,0z" fill="#3E3230" id="svg_1953"/>
+       </g>
+       <g stroke="null" id="svg_1954">
+        <polygon stroke="null" points="153.79805505275726,89.55163061618805 162.43282067775726,89.87143194675446 162.75264489650726,82.67579138278961 173.1463521718979,82.99559271335602 173.46614587306976,72.28209173679352 154.43765771389008,70.36325323581696 " fill="#D9D9D8" id="svg_1955"/>
+       </g>
+       <g stroke="null" id="svg_1956">
+        <g stroke="null" id="svg_1957">
+         <polygon stroke="null" points="81.84164941310883,57.89081060886383 102.46913659572601,58.53041326999664 102.94885003566742,49.57585394382477 82.32136285305023,48.77633535861969 " fill="#FFFFFF" id="svg_1958"/>
+        </g>
+        <g stroke="null" id="svg_1959">
+         <g stroke="null" id="svg_1960">
+          <polygon stroke="null" points="89.83680474758148,49.096136689186096 94.95369470119476,49.25605261325836 95.5933278799057,37.10340368747711 90.4764074087143,36.94349157810211 " fill="#D9D9D8" id="svg_1961"/>
+         </g>
+         <g stroke="null" id="svg_1962">
+          <rect stroke="null" height="5.7" width="3.901" fill="#FFFFFF" transform="matrix(-0.0524482,1.59823,-1.59823,-0.0524482,523.546,-62.1391) " y="264.17608" x="66.89839" id="svg_1963"/>
+         </g>
+         <g stroke="null" id="svg_1964">
+          <path stroke="null" d="m93.51457,25.75029c-2.55845,-0.1599 -4.63559,1.91884 -4.63559,4.47729l0,0.47971l9.11288,0.31981l0,-0.47971c0,-2.55845 -2.07874,-4.79709 -4.47729,-4.79709l0,0l0,-0.00001z" fill="#FFFFFF" id="svg_1965"/>
+         </g>
+        </g>
+       </g>
+       <g stroke="null" id="svg_1966">
+        <g stroke="null" opacity="0.6" id="svg_1967">
+         <g stroke="null" id="svg_1968">
+          <rect stroke="null" height="8.7" width="4" fill="#FFFFFF" transform="matrix(-0.0522883,1.59823,-1.59823,-0.0522883,600.699,-80.0593) " y="280.424" x="96.38624" id="svg_1969"/>
+         </g>
+         <g stroke="null" id="svg_1970">
+          <g stroke="null" id="svg_1971">
+           <rect stroke="null" height="2.2" width="5.2" fill="#FFFFFF" transform="matrix(-0.0519685,1.59823,-1.59823,-0.0519685,594.183,-87.236) " y="279.47682" x="95.9009" id="svg_1972"/>
+          </g>
+          <g stroke="null" id="svg_1973">
+           <rect stroke="null" height="3.8" width="2.6" fill="#FFFFFF" transform="matrix(-0.0522883,1.59823,-1.59823,-0.0522883,588.26,-93.6995) " y="274.851" x="97.32524" id="svg_1974"/>
+          </g>
+          <g stroke="null" id="svg_1975">
+           <path stroke="null" d="m141.0058,43.97924c-1.75893,0 -3.03816,1.27922 -3.19806,3.03816l0,0.31981l6.07632,0.1599l0,-0.31981c0.1599,-1.75893 -1.11932,-3.19806 -2.87826,-3.19806z" fill="#FFFFFF" id="svg_1976"/>
+          </g>
+         </g>
+        </g>
+        <g stroke="null" opacity="0.6" id="svg_1977">
+         <g stroke="null" id="svg_1978">
+          <rect stroke="null" height="8.7" width="4" fill="#FFFFFF" transform="matrix(-0.0522883,1.59823,-1.59823,-0.0522883,735.735,-202.357) " y="283.047" x="175.62024" id="svg_1979"/>
+         </g>
+         <g stroke="null" id="svg_1980">
+          <g stroke="null" id="svg_1981">
+           <rect stroke="null" height="2.199" width="5.2" fill="#FFFFFF" transform="matrix(-0.0522883,1.59823,-1.59823,-0.0522883,728.956,-209.496) " y="282.022" x="175.06324" id="svg_1982"/>
+          </g>
+          <g stroke="null" id="svg_1983">
+           <rect stroke="null" height="3.8" width="2.6" fill="#FFFFFF" transform="matrix(-0.0522883,1.59823,-1.59823,-0.0522883,723.142,-216.163) " y="277.378" x="176.56224" id="svg_1984"/>
+          </g>
+          <g stroke="null" id="svg_1985">
+           <path stroke="null" d="m267.64906,48.13672c-1.76053,0 -3.03816,1.27922 -3.19806,3.03816l0,0.31981l6.07632,0.1599l0,-0.31981c0.1599,-1.75893 -1.11932,-3.19806 -2.87826,-3.19806z" fill="#FFFFFF" id="svg_1986"/>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g stroke="null" id="svg_1987">
+        <path stroke="null" d="m249.42011,92.74969l-8.79467,-0.31981l8.15666,19.02847l-0.79952,24.30527c3.99758,-3.03816 6.39612,-8.47486 6.39612,-8.47486s0.47971,-7.19564 0.47971,-12.95215c-0.1615,-5.91642 -5.4383,-21.58692 -5.4383,-21.58692l0,0z" fill="#3E3230" id="svg_1988"/>
+       </g>
+       <g stroke="null" id="svg_1989">
+        <polygon stroke="null" points="159.234761595726,64.76664984226227 96.39284265041351,62.687899231910706 96.07301843166351,71.1627756357193 162.43282067775726,73.24151861667633 181.78110253810883,84.27482092380524 218.7187398672104,85.23424780368805 239.34624230861664,76.9192682504654 311.7823385000229,78.19849646091461 311.9422506093979,69.72362768650055 247.02156579494476,67.64490759372711 " fill="#3E3230" id="svg_1990"/>
+       </g>
+       <g stroke="null" id="svg_1991">
+        <path stroke="null" d="m204.48733,31.5068l-0.31981,0c-30.7014,-0.95942 -42.37432,27.82314 -44.45306,32.30043l87.14719,2.87826c-2.07874,-4.47729 -11.67293,-34.05936 -42.37432,-35.17868l0,-0.00001z" fill="#FFFFFF" id="svg_1992"/>
+       </g>
+       <g stroke="null" id="svg_1993">
+        <path stroke="null" d="m202.7284,61.08887c-12.63075,0.63961 -26.54392,-0.79952 -38.05694,-6.87583c-2.87826,4.47729 -5.43511,9.11448 -6.07632,10.55361l88.58632,2.87826c-0.79952,-1.91884 -3.67937,-9.59419 -8.63477,-16.78983c-10.0739,7.19564 -23.50576,9.59419 -35.8183,10.2338l0.00001,-0.00001z" fill="#D9D9D8" id="svg_1994"/>
+       </g>
+       <g stroke="null" id="svg_1995">
+        <path stroke="null" d="m321.53641,65.56616l-19.50818,-0.63961c-3.51787,-0.1599 -6.55763,2.71835 -6.71593,6.23622l-0.1599,6.55603l25.9027,0.79952c3.51787,0.1599 6.55763,-2.71835 6.71593,-6.23622l0,0c0.1615,-3.67777 -2.55685,-6.71593 -6.23462,-6.71593l0,-0.00001z" fill="#3E3230" id="svg_1996"/>
+       </g>
+       <g stroke="null" id="svg_1997">
+        <g stroke="null" id="svg_1998">
+         <polygon stroke="null" points="302.188130736351,64.92653906345367 322.8156636953354,65.56616461277008 323.29536950588226,56.771490693092346 302.667867064476,55.971975922584534 " fill="#FFFFFF" id="svg_1999"/>
+        </g>
+        <g stroke="null" id="svg_2000">
+         <g stroke="null" id="svg_2001">
+          <polygon stroke="null" points="310.34319055080414,56.45168936252594 315.46013391017914,56.611578583717346 315.9398092031479,44.299044251441956 310.82295739650726,44.139132142066956 " fill="#D9D9D8" id="svg_2002"/>
+         </g>
+         <g stroke="null" id="svg_2003">
+          <rect stroke="null" height="5.699" width="3.901" fill="#FFFFFF" transform="matrix(-0.0524482,1.59823,-1.59823,-0.0524482,758.072,-274.896) " y="268.61608" x="204.61239" id="svg_2004"/>
+         </g>
+         <g stroke="null" id="svg_2005">
+          <path stroke="null" d="m313.70116,32.94593c-2.55845,-0.1599 -4.63719,1.91884 -4.63719,4.47729l0,0.47971l9.11448,0.31981l0,-0.47971c0,-2.55845 -1.91884,-4.79709 -4.47729,-4.79709l0,-0.00001z" fill="#FFFFFF" id="svg_2006"/>
+         </g>
+        </g>
+       </g>
+      </g>
+      <g stroke="null" id="svg_2007">
+       <path stroke="null" d="m93.19477,23.51164c-23.82396,-0.79952 -43.33374,1.27922 -43.49205,4.63719c-0.1615,3.35797 19.18837,6.71593 43.01234,7.51545c23.82556,0.79952 43.33534,-1.27922 43.49365,-4.63719c0.1599,-3.35797 -19.02847,-6.71593 -43.01394,-7.51545z" fill="#FFFFFF" opacity="0.4" id="svg_2008"/>
+       <path stroke="null" d="m49.86103,28.14883c0,2.23864 7.99516,4.31738 19.98789,5.75651l23.18595,-4.47729l-22.86614,-5.91642c-12.15264,0.79952 -20.30769,2.39855 -20.30769,4.63719l-0.00001,0.00001z" fill="#FFFFFF" opacity="0.5" id="svg_2009"/>
+       <path stroke="null" d="m119.73868,25.59038l-23.66566,4.47729l23.34585,5.1169c10.2338,-0.79952 16.78983,-2.23864 16.78983,-4.31738c0.1599,-1.75893 -6.39612,-3.83767 -16.47002,-5.2768l0,0l0,-0.00001z" fill="#FFFFFF" opacity="0.5" id="svg_2010"/>
+      </g>
+      <g stroke="null" id="svg_2011">
+       <path stroke="null" d="m312.74174,32.14641c-23.82556,-0.79952 -43.33534,1.27922 -43.49365,4.63719c-0.1615,3.35797 19.18837,6.71593 43.01234,7.51545c23.82556,0.79952 43.33534,-1.27922 43.49365,-4.63719c0.1615,-3.35797 -19.02687,-6.71593 -43.01234,-7.51545z" fill="#FFFFFF" opacity="0.4" id="svg_2012"/>
+       <path stroke="null" d="m269.40799,36.7836c0,2.23864 7.99516,4.31738 19.98789,5.75651l23.18595,-4.47729l-22.86614,-5.91642c-12.15264,0.79952 -20.30769,2.39855 -20.30769,4.63719l-0.00001,0.00001z" fill="#FFFFFF" opacity="0.5" id="svg_2013"/>
+       <path stroke="null" d="m339.28565,34.22515l-23.66566,4.47729l23.34585,5.1169c10.2338,-0.79952 16.78983,-2.23864 16.78983,-4.31738c0.1599,-1.91884 -6.39612,-3.83767 -16.47002,-5.2768l0,-0.00001z" fill="#FFFFFF" opacity="0.5" id="svg_2014"/>
+      </g>
+      <g stroke="null" opacity="0.6" id="svg_2015">
+       <path stroke="null" d="m267.64906,46.53769c-15.83041,-0.47971 -28.62266,0.79952 -28.62266,3.03816c0,2.23864 12.63235,4.47729 28.46275,4.957c15.83041,0.47971 28.62266,-0.79952 28.62266,-3.03816s-12.79225,-4.47729 -28.46275,-4.957z" fill="#FFFFFF" opacity="0.4" id="svg_2016"/>
+       <path stroke="null" d="m238.8665,49.57585c0,1.43913 5.2768,2.87826 13.27196,3.83767l15.3507,-2.87826l-15.1908,-3.83767c-7.99516,0.31981 -13.27196,1.43913 -13.43186,2.87826l0,0z" fill="#FFFFFF" opacity="0.5" id="svg_2017"/>
+       <path stroke="null" d="m285.0785,47.97682l-15.6705,2.87826l15.3523,3.35797c6.71433,-0.47971 11.03172,-1.59903 11.19322,-2.87826c0.1583,-1.11932 -4.15908,-2.39855 -10.87501,-3.35797l-0.00001,0z" fill="#FFFFFF" opacity="0.5" id="svg_2018"/>
+      </g>
+      <g stroke="null" opacity="0.6" id="svg_2019">
+       <path stroke="null" d="m139.88648,42.38021c-15.82881,-0.47971 -28.62106,0.79952 -28.62106,3.03816c0,2.23864 12.63075,4.47729 28.46275,4.957c15.82881,0.47971 28.62106,-0.79952 28.62106,-3.03816s-12.63235,-4.47729 -28.46275,-4.957z" fill="#FFFFFF" opacity="0.4" id="svg_2020"/>
+       <path stroke="null" d="m111.26382,45.41837c0,1.43913 5.2768,2.87826 13.27196,3.83767l15.3507,-2.87826l-15.1908,-3.83767c-7.99516,0.31981 -13.43186,1.43913 -13.43186,2.87826z" fill="#FFFFFF" opacity="0.5" id="svg_2021"/>
+       <path stroke="null" d="m157.47582,43.81934l-15.6705,2.87826l15.3507,3.35797c6.71593,-0.47971 11.03331,-1.59903 11.19322,-2.87826c0.1599,-1.11932 -4.15748,-2.39855 -10.87341,-3.35797l0,0l-0.00001,0z" fill="#FFFFFF" opacity="0.5" id="svg_2022"/>
+      </g>
+     </g>
+    </g>
+    <rect stroke="null" height="211.103" width="151.003" fill="#DC5249" transform="matrix(-0.00959419,1.59903,-1.59903,-0.00959419,836.507,38.0601) " y="288.07458" x="58.64085" id="svg_2023"/>
+    <g stroke="null" id="svg_2024">
+     <path stroke="null" d="m173.30623,137.25605c-6.55763,20.94731 -33.09994,18.06905 -49.25016,12.47244c-16.47162,-5.75651 -34.21927,-15.1908 -52.13001,-9.59419c-10.2322,3.19806 -21.26711,15.03089 -12.95215,25.5845c6.71593,8.47486 24.78498,13.11205 30.38159,1.11932c1.91884,-4.15748 1.43753,-10.0739 -3.67777,-11.35312c-4.63719,-1.27922 -8.79467,1.91884 -9.43428,6.39612c-0.31981,2.55845 2.39855,0.95942 2.71835,-0.63961c0.47971,-2.71835 4.63559,-2.71835 6.23462,-1.75893c0.48131,0.47971 1.11932,0.95942 1.59903,1.43913c-1.59903,3.19806 -3.19806,6.23622 -4.79709,9.43428c-3.67777,2.07874 -10.55361,-0.47971 -13.90997,-2.07874c-3.35956,-1.59903 -6.39612,-3.83767 -8.15666,-7.19564c-3.19806,-6.55603 1.91884,-12.95215 7.83525,-15.83041c15.82881,-7.99516 35.01718,0.95942 50.04967,6.55603c11.99273,4.47729 24.94489,8.31496 37.57723,4.63719c9.43428,-2.71835 17.26954,-9.11448 20.30769,-18.70866c0.80271,-2.55845 -1.75574,-2.39855 -2.39535,-0.47971l0.00001,0z" fill="#FFFFFF" id="svg_2025"/>
+    </g>
+    <g stroke="null" id="svg_2026">
+     <path stroke="null" d="m332.40982,141.41353c-17.58934,-5.1169 -34.85888,5.2768 -50.04967,12.63235c-16.47162,7.99516 -44.77287,15.03089 -54.20715,-7.19564c-0.79952,-1.75893 -3.19806,0.95942 -2.71835,2.23864c4.15908,9.91399 13.91157,15.1908 24.30527,16.31012c13.43186,1.27922 26.06421,-4.957 37.73713,-10.87341c13.91157,-6.87583 33.09994,-16.47002 48.45224,-7.67535c3.19806,1.91884 6.71433,4.957 7.51385,8.79467c1.59903,6.71593 -4.15748,11.35312 -9.27438,13.75167c-4.79709,2.23864 -10.87341,3.67777 -15.3507,0c-5.75811,-4.63719 3.19806,-14.23138 5.2768,-5.91642c0.47971,1.91884 3.03816,-0.95942 2.71835,-2.23864c-2.39855,-9.27438 -15.5106,-3.03816 -13.75327,5.43671c2.71835,14.39128 22.54794,7.19564 29.10237,0.1599c9.11608,-9.75409 2.08034,-22.06663 -9.75249,-25.42459l0,0l0,-0.00001z" fill="#FFFFFF" id="svg_2027"/>
+    </g>
+    <g stroke="null" id="svg_2028">
+     <g stroke="null" id="svg_2029">
+      <path stroke="null" d="m173.30623,127.18215c-7.51545,6.07632 -19.02847,13.91157 -19.02847,13.91157l14.87099,3.67777l0.48131,16.47002c0,0 16.78983,-12.79225 21.26711,-18.22895c3.83608,-4.47729 7.19564,-11.99273 8.95457,-22.06663l-4.63559,-3.19806c0.15671,0.1599 -14.55438,3.51787 -21.90992,9.43428l0,0z" fill="#F6F4F0" id="svg_2030"/>
+      <path stroke="null" d="m173.30623,127.18215c-2.56005,2.07874 -5.43671,4.15748 -8.31496,6.23622c5.75651,0.95942 11.67293,1.27922 17.58934,0.95942c2.71835,-0.31981 5.43671,-0.79952 8.15506,-1.59903c2.23864,-0.79952 4.31738,-1.75893 6.39612,-2.87826c0.1615,-0.1599 0.48131,-0.1599 0.63961,-0.31981c0.79952,-2.55845 1.59903,-5.43671 2.07874,-8.63477l-4.63559,-3.19806c0.1583,0.1599 -14.55278,3.51787 -21.90832,9.43428l0,0l0,0.00001z" fill="#010101" opacity="0.15" id="svg_2031"/>
+     </g>
+     <g stroke="null" id="svg_2032">
+      <path stroke="null" d="m204.96704,118.38748l-4.957,2.71835c0.63801,10.0739 3.19806,17.90915 6.55603,22.86614c3.99758,5.75651 19.18837,20.4676 19.18837,20.4676l2.23864,-16.31012l15.1908,-2.07874c0,0 -10.5552,-8.95457 -17.42944,-15.83041c-6.71593,-6.87583 -20.7874,-11.83283 -20.7874,-11.83283l0,0.00001z" fill="#F6F4F0" id="svg_2033"/>
+      <path stroke="null" d="m204.96704,118.38748l-4.957,2.71835c0.1599,3.19806 0.63801,6.07632 1.11772,8.79467c0.1615,0.1599 0.48131,0.31981 0.63961,0.31981c1.91884,1.27922 3.99758,2.39855 6.07632,3.51787c2.56005,1.11932 5.2768,1.91884 7.99516,2.55845c5.75811,0.95942 11.67293,1.27922 17.58934,0.95942c-2.55845,-2.39855 -5.2768,-4.79709 -7.51545,-7.19564c-6.87423,-6.71593 -20.94571,-11.67293 -20.94571,-11.67293l0,0l0.00001,0z" fill="#010101" opacity="0.15" id="svg_2034"/>
+     </g>
+     <g stroke="null" id="svg_2035">
+      <path stroke="null" d="m181.62119,103.35659c-4.63719,-1.27922 -7.51545,-2.07874 -9.27598,-2.55845c-1.43753,-0.31981 -2.87826,0.31981 -3.19806,1.75893l-6.55603,22.38644c-0.31981,1.27922 0.31981,2.71835 1.43913,3.19806c2.55845,1.11932 7.03414,2.71835 12.47244,3.03816c6.55603,0.47971 17.58934,-3.51787 21.58692,-5.2768c0.95942,-0.31981 1.59903,-1.27922 1.59903,-2.23864l0.1599,-3.67777c0,-0.47971 -0.1599,-1.11932 -0.31981,-1.59903c-1.75734,-2.71835 -8.47327,-12.47244 -17.90755,-15.03089l0,0l0.00001,-0.00001z" fill="#F6F4F0" id="svg_2036"/>
+      <path stroke="null" d="m233.26989,105.91504c-0.31981,-1.43913 -1.59903,-2.39855 -3.03816,-2.07874c-1.75893,0.31981 -4.63559,0.79952 -9.43268,1.59903c-9.75569,1.59903 -17.42944,10.55361 -19.34988,12.95215c-0.31981,0.47971 -0.47971,0.95942 -0.63801,1.43913l-0.1615,3.67777c0,0.95942 0.47971,1.91884 1.43913,2.39855c3.83608,2.07874 14.22978,7.35554 20.94731,7.51545c5.2768,0.1599 10.0739,-0.95942 12.63235,-1.75893c1.27922,-0.31981 2.07874,-1.59903 1.75893,-3.03816l-4.15748,-22.70624l0,0l-0.00001,-0.00001z" fill="#F6F4F0" id="svg_2037"/>
+      <path stroke="null" d="m232.63028,120.62612c-0.79952,-3.19806 -0.47971,-6.39612 -0.47971,-9.59419l0,-0.1599c0,0 0,0 0,-0.1599c0,-0.31981 -0.1599,-0.79952 -0.1599,-1.11932c0,-0.47971 0,-3.35797 -3.67937,-3.51787c-0.63801,0 -7.03414,-0.31981 -16.78983,4.47729c-0.79952,0.47971 -5.75651,3.83767 -5.75651,3.99758l0,0c1.43913,-0.47971 2.87826,-0.63961 4.31738,-0.95942c3.67777,-0.47971 8.79467,-0.79952 11.35312,2.23864c2.07874,2.39855 1.76053,5.59661 0,7.99516l0,0l0,0c0,0.1599 0.96102,2.07874 7.83525,2.55845c4.957,0.31981 4.47729,-2.07874 4.47729,-2.23864c-0.47811,-0.95942 -0.79792,-2.23864 -1.11772,-3.51787l0,0l0,-0.00001z" fill="#FFFFFF" opacity="0.08" id="svg_2038"/>
+      <path stroke="null" d="m189.61634,110.39233c-9.11448,-5.91642 -15.5106,-6.23622 -16.15181,-6.23622c-3.67777,-0.1599 -3.99758,2.55845 -3.99758,3.03816c-0.1599,0.31981 -0.1599,0.63961 -0.31981,1.11932c0,0 0,0 0,0.1599c0,0 0,0 0,0.1599c-0.31821,3.19806 -0.47971,6.39612 -1.59903,9.59419c-0.47971,1.27922 -0.95942,2.39855 -1.59903,3.67777c0,0.1599 -0.79952,2.55845 4.15908,2.71835c6.87583,0.31981 7.99516,-1.43913 7.99516,-1.59903l0,0l0,0c-1.43913,-2.55845 -1.43913,-5.91642 0.79952,-7.99516c3.03656,-2.87826 7.99516,-1.91884 11.67293,-1.11932c1.43913,0.31981 2.87826,0.79952 4.31738,1.27922l0,0c0,-0.47971 -4.47729,-4.31738 -5.2768,-4.79709l-0.00001,0.00001z" fill="#FFFFFF" opacity="0.08" id="svg_2039"/>
+      <path stroke="null" d="m190.25596,124.3039c5.91642,-2.07874 9.43428,-1.91884 9.43428,-1.91884l0.1599,-2.55845c0,0 -10.0739,-5.1169 -13.75167,-5.91642c-8.47486,-1.59903 -7.83525,14.71109 4.15748,10.3937l0.00001,0.00001z" fill="#010101" opacity="0.08" id="svg_2040"/>
+      <path stroke="null" d="m202.24869,119.98651l-0.1599,2.87826c0,0 3.67777,1.43913 10.55361,3.35797c7.19564,2.07874 8.15666,-6.39612 5.1169,-9.59419c-2.39855,-2.55845 -15.5106,3.35797 -15.5106,3.35797l-0.00001,-0.00001z" fill="#010101" opacity="0.08" id="svg_2041"/>
+     </g>
+     <path stroke="null" d="m200.64966,115.66913c-1.59903,-0.1599 -3.03656,1.11932 -3.19806,2.87826l-0.31981,5.43671c-0.1599,1.59903 1.11932,3.03816 2.87985,3.19806c1.75893,0.1599 3.03656,-1.11932 3.19806,-2.87826l0.31821,-5.43671c0,-1.59903 -1.27922,-3.03816 -2.87826,-3.19806l0.00001,0z" fill="#FFFFFF" id="svg_2042"/>
+     <path stroke="null" d="m198.89072,122.06525c-0.31981,-0.63961 -0.47971,-1.27922 -0.31981,-2.07874c0,-0.79952 0.1599,-1.59903 0.1599,-2.39855c0,-0.63961 0.1615,-1.27922 0.48131,-1.75893c-0.96102,0.31981 -1.59903,1.11932 -1.76053,2.07874l-0.31981,6.71593c0,1.27922 0.96102,2.39855 2.23864,2.55845l1.27922,0c1.11932,0 2.07874,-0.63961 2.39855,-1.59903c-1.11932,-0.1599 -2.23704,-0.79952 -3.03656,-1.59903c-0.48131,-0.63961 -0.96102,-1.11932 -1.12092,-1.91884l0,0l0.00001,0z" fill="#010101" opacity="0.08" id="svg_2043"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

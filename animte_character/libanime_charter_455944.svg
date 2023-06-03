@@ -1,0 +1,251 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+ 
+ </g>
+
+ <style>#white {
+    animation-name: white;
+    animation-duration: 15s;
+    
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes white {
+    0%   { transform: scale(0); }
+    2%   { transform: scale(1.2); }
+    
+    4% { transform: scale(01); }
+} 
+#leaf1,#leaf2  {
+    animation-name: l1;
+    animation-duration: 15s;
+    
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes l1 {
+    0%   { transform: scale(0); }
+	 5%   { transform: scale(0); }
+    6%   { transform: scale(1.2); }
+    
+    7% { transform: scale(1); }
+} 
+#leaf3,#leaf4  {
+    animation-name: l2;
+    animation-duration: 15s;
+    
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes l2 {
+    0%   { transform: scale(0); }
+	 5%   { transform: scale(0); }
+    6%   { transform: scale(1.2); }
+    
+    7% { transform: scale(1); }
+}
+#mobile  {
+    animation-name: m;
+    animation-duration: 15s;
+    
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes m {
+    0%   { transform: scale(0); }
+	 8%   { transform: scale(0); }
+    9%   { transform: scale(1.2); }
+    
+    10% { transform: scale(1); }
+}
+#online  {
+    animation-name: on;
+    animation-duration: 15s;
+    
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes on {
+    0%   { transform: scale(0); }
+	 11%   { transform: scale(0); }
+    12%   { transform: scale(1.2); }
+    
+    13% { transform: scale(1); }
+}
+#debt  {
+    animation-name: db;
+    animation-duration: 15s;
+    
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes db {
+    0%   { transform: scale(0); }
+	 13%   { transform: scale(0); }
+    14%   { transform: scale(1.2); }
+    
+    15% { transform: scale(1); }
+}
+#man  {
+    animation-name: man;
+    animation-duration: 15s;
+    
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes man {
+    0%   { transform: scale(0); }
+	 11%   { transform: scale(0); }
+    12%   { transform: scale(1.2); }
+    
+    13% { transform: scale(1); }
+}
+
+#l1,#l2 {
+    animation-name: l12;
+    animation-duration: 2s;
+	animation-direction:alternate;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+ @keyframes l12 {
+    0%{transform: rotateZ(5deg);}
+   
+    100%{transform: rotateZ(-5deg);}
+} 
+#l4,#l3 {
+    animation-name: l34;
+    animation-duration: 2s;
+	animation-direction:alternate;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+ @keyframes l34 {
+    0%{transform: rotateZ(-5deg);}
+   
+    100%{transform: rotateZ(5deg);}
+}
+#rhand {
+    animation: rh 15s linear forwards;
+   transform-origin: 90% 20%;
+    transform-box: fill-box;
+}
+ @keyframes rh {
+    0%{transform: rotateZ(-75deg);}
+	 10%{transform: rotateZ(-75deg);}
+	20%{transform: rotateZ(10deg);}
+	50%{transform: rotateZ(10deg);}
+	60%{transform: rotateZ(-75deg);}
+   
+    100%{transform: rotateZ(-75deg);}
+}
+#money{ animation: mo 15s linear forwards; }
+@keyframes mo {
+	0%{opacity:0}
+	10%{opacity:0}
+	12%{opacity:1}
+	30%{transform:translateY(0px)}
+	35%{transform:translateY(5px)}
+	45%{transform:translateY(5px)}
+	46%{opacity:1}
+	47%{opacity:0}
+	100%{opacity:0}
+}
+
+#hand1 {
+    animation: mh 15s linear forwards;
+    
+    transform-origin: 10% 20%;
+    transform-box: fill-box;
+}
+ @keyframes mh {
+    0%{transform: rotateZ(45deg);}
+	 20%{transform: rotateZ(45deg);}
+	30%{transform: rotateZ(-16deg);}
+	50%{transform: rotateZ(-16deg);}
+	60%{transform: rotateZ(45deg);}
+   
+    100%{transform: rotateZ(45deg);}
+}
+#eyes2{ animation: e2 15s linear forwards; }
+alteration count; infinite
+@keyframes e2 {
+	0%{opacity:0}
+	40%{opacity:0}
+	41%{opacity:1}
+	60%{opacity:1}
+	61%{opacity:0}
+	100%{opacity:0}
+	
+}
+
+#eyes1 { animation: ey 15s linear  forwards;
+
+    transform-origin:50% 50%;
+    transform-box: fill-box;}
+@keyframes ey {
+	0%{opacity:1; transform:rotateX(0deg)}
+	15%{transform:rotateX(0deg)}
+	16%{transform:rotateX(85deg)}
+	17%{transform:rotateX(0deg)}
+	40%{opacity:1}
+	41%{opacity:0}
+	60%{opacity:0}
+	61%{opacity:1}
+	100%{opacity:1}
+	
+} 
+
+#eyebrows { animation: br 15s linear forwards; }
+
+@keyframes br {
+	
+	
+	20%{transform:translateY(0px)}
+	25%{transform:translateY(-5px)}
+	40%{transform:translateY(-5px)}
+	41%{transform:translateY(-5px)}
+	42%{transform:translateY(0px)}
+	
+}</style>
+ <title>online debt</title>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_2">
+   <path id="svg_64" fill="#d1aef9" d="m246.81912,332.46306c0,8 -35.6,14.56 -79.51,14.56s-79.51,-6.52 -79.51,-14.56s35.6,-14.56 79.51,-14.56s79.51,6.52 79.51,14.56"/>
+   <path id="svg_66" fill="#1c2023" d="m119.49912,319.10306s16.9,-3.45 18.49,1.36s24.27,13.67 20.87,17.69s-35.67,-0.12 -40,-2.07s-8.51,-2 0.59,-17"/>
+   <path id="svg_68" fill="#1c2023" d="m177.70912,320.65306s16.9,-3.45 18.49,1.36s24.27,13.67 20.87,17.69s-35.67,-0.12 -39.95,-2.07s-8.51,-2 0.59,-17"/>
+   <g id="svg_1">
+    <path id="svg_65" fill="#2b3036" d="m119.37912,222.78306c-0.1,39.94 0,93.42 1.5,100.53l18.77,0l13.78,-100.53l-34.05,0z"/>
+    <path id="svg_67" fill="#2b3036" d="m177.58912,224.28306c-0.11,39.94 0,93.42 1.49,100.54l18.77,0l13.78,-100.54l-34.04,0z"/>
+    <path id="svg_69" fill="#383d49" d="m112.81912,280.07306l105.25,-0.86c8.08,-0.07 14.57,-7.73 14.49,-17.11l-1.87,-221.73c-0.09,-10.52 -7.51,-19 -16.57,-18.91l-101.69,0.83c-9.07,0.07 -16.34,8.66 -16.25,19.18l1.89,221.73c0.08,9.38 6.7,16.93 14.78,16.87"/>
+    <path id="svg_70" fill="#5e4e4d" d="m157.19912,33.16306l15.33,-0.13c0.19,0 0.35,-0.1 0.35,-0.22l0,-1.51c0,-0.12 -0.15,-0.22 -0.35,-0.22l-15.33,0.13c-0.19,0 -0.35,0.1 -0.35,0.22l0,1.51c0,0.12 0.15,0.22 0.35,0.22"/>
+    <path id="svg_71" fill="#c9ebf9" d="m188.06912,36.99306l33,-0.27c3.1,0 5.64,3 5.67,6.74l1.8,213.66c0,3.74 -2.46,6.8 -5.56,6.83l-52.67,0.42l-52.68,0.43c-3.1,0 -5.64,-3 -5.67,-6.73l-1.8,-213.66c0,-3.75 2.46,-6.8 5.56,-6.83l23.16,-0.19l49.19,-0.4z"/>
+    <g id="hand1">
+     <path id="svg_72" fill="#2b3036" d="m310.76912,247.71306l-0.45,0a342.79,342.79 0 0 1 -71.18,-9.08a254.42,254.42 0 0 1 -49.55,-17.34c-26,-12.4 -38.37,-24.6 -39.7,-25.95a16.05,16.05 0 0 1 23.18,-22.12a0.39,0.39 0 0 1 -0.09,-0.08c0.11,0.11 10.42,10.13 32.4,20.35c20.4,9.48 55.31,21.07 105.79,22.43a15.9,15.9 0 1 1 -0.43,31.79l0.03,0z"/>
+     <polygon id="svg_73" fill="#fff" points="297.609130859375,238.73306274414062 267.0191345214844,236.5030517578125 267.7191162109375,233.98306274414062 298.4391174316406,235.35305786132812 297.609130859375,238.73306274414062 "/>
+     <path id="svg_74" fill="#fff" d="m300.17912,225.15306a2.94,2.94 0 0 0 1.19,-4.29a3.76,3.76 0 0 0 -4.84,-0.93a2.94,2.94 0 0 0 -1.19,4.29a3.77,3.77 0 0 0 4.84,0.93"/>
+     <path id="svg_75" fill="#fff" d="m286.60912,223.63306a2.94,2.94 0 0 0 1.19,-4.29a3.77,3.77 0 0 0 -4.84,-0.93a2.94,2.94 0 0 0 -1.19,4.29a3.76,3.76 0 0 0 4.84,0.93"/>
+     <path id="svg_76" fill="#fff" d="m267.53912,222.83306a2.94,2.94 0 0 0 1.2,-4.28a3.76,3.76 0 0 0 -4.84,-0.93a2.93,2.93 0 0 0 -1.2,4.28a3.76,3.76 0 0 0 4.84,0.93"/>
+     <path id="svg_77" fill="#f4a48d" d="m310.43912,215.90306s22.71,-2.19 23,3.86c0.29,5.18 -4.59,6.17 -6,6.34c7.72,2.71 23.21,9.76 28.25,9.26c6.77,-0.67 13,6.54 6.22,15.57s-54.84,-3.37 -54.84,-3.37l3.37,-31.66z"/>
+    </g>
+    <path id="svg_78" fill="#32324c" d="m197.14912,123.67306a3.55,3.55 0 0 1 2.66,1.09a3.91,3.91 0 0 1 0.06,5.36c-0.58,0.62 -14.42,15.21 -31.05,14.81c-8.32,-0.2 -15.79,-4.07 -22.17,-11.51a3.9,3.9 0 0 1 0.26,-5.35a3.51,3.51 0 0 1 5.12,0.3c5,5.8 10.67,8.82 16.9,9c13.48,0.32 25.63,-12.42 25.75,-12.55a3.55,3.55 0 0 1 2.47,-1.13"/>
+    <g id="eyes2">
+     <path id="svg_79" fill="#32324c" d="m125.69912,100.30306a2.05,2.05 0 0 1 -0.95,-3.69c0.38,-0.28 9.57,-6.8 19,-5.06c4.71,0.88 8.58,3.63 11.53,8.19a2,2 0 0 1 -0.64,2.83a2.1,2.1 0 0 1 -2.88,-0.63c-2.3,-3.55 -5.24,-5.69 -8.76,-6.35c-7.62,-1.41 -15.67,4.28 -15.75,4.33a2.07,2.07 0 0 1 -1.51,0.38"/>
+     <path id="svg_80" fill="#32324c" d="m184.88912,98.64306a2.11,2.11 0 0 1 -1.41,-0.83a2,2 0 0 1 0.46,-2.86c0.38,-0.28 9.59,-6.8 19,-5.06c4.7,0.88 8.58,3.63 11.52,8.19a2,2 0 0 1 -0.64,2.83a2.09,2.09 0 0 1 -2.87,-0.63c-2.3,-3.55 -5.25,-5.69 -8.76,-6.35c-7.6,-1.43 -15.67,4.27 -15.75,4.33a2.13,2.13 0 0 1 -1.51,0.38"/>
+    </g>
+    <g id="eyes1">
+     <path id="svg_81" fill="#32324c" d="m153.33912,97.97306c0,5.91 -5.33,10.7 -11.89,10.7s-11.88,-4.79 -11.88,-10.7s5.32,-10.69 11.88,-10.69s11.89,4.79 11.89,10.69"/>
+     <path id="svg_82" fill="#32324c" d="m211.32912,97.97306c0,5.91 -5.32,10.7 -11.89,10.7s-11.88,-4.79 -11.88,-10.7s5.32,-10.69 11.88,-10.69s11.89,4.79 11.89,10.69"/>
+    </g>
+    <g id="eyebrows">
+     <path id="svg_83" fill="#363854" d="m146.84912,86.54306l-23.16,-3.57a2,2 0 0 1 -1.7,-2l0,-0.77a2,2 0 0 1 2.26,-1.87l24,2.32a1.91,1.91 0 0 1 1.66,2.64l-0.87,2a2.07,2.07 0 0 1 -2.23,1.18"/>
+     <path id="svg_84" fill="#363854" d="m188.06912,86.03306l23.45,-1a2,2 0 0 0 1.92,-1.76l0.06,-0.76a2,2 0 0 0 -2,-2.11l-24.13,-0.35a1.94,1.94 0 0 0 -2,2.44l0.63,2.1a2.05,2.05 0 0 0 2.07,1.42"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

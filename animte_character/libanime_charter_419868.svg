@@ -1,0 +1,510 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+ 
+ </g>
+
+ <g>
+  <title>background</title>
+ </g>
+ <g>
+  <title>background</title>
+ </g>
+ <g>
+  <title>background</title>
+ </g>
+ <style type="text/css">.st0{fill:#2B2A55;}
+	.st1{fill:#4D6690;}
+	.st2{fill:#3B4672;}
+	.st3{fill:#77AA35;}
+	.st4{opacity:0.3;fill:#3F4177;enable-background:new    ;}
+	.st5{fill:#393B6D;}
+	.st6{fill:#343462;}
+	.st7{opacity:0.3;}
+	.st8{fill:#27274F;}
+	.st9{fill:#42457C;}
+	.st10{opacity:0.27;fill:#DB2578;enable-background:new    ;}
+	.st11{fill:#DB2578;}
+	.st12{fill:#B61878;}
+	.st13{opacity:0.3;fill:#87005B;enable-background:new    ;}
+	.st14{opacity:0.3;fill:#A0EBFA;enable-background:new    ;}
+	.st15{fill:#78CDDD;}
+	.st16{fill:#A0EBFA;}
+	.st17{fill:#5C92A0;}
+	.st18{display:none;}
+	.st19{display:inline;}
+	.st20{fill:#C77B10;}
+	.st21{fill:#F5FE00;}
+	.st22{fill:#F6FE24;}
+	.st23{fill:#F6FE25;}
+	.st24{fill:#FCFCDA;}
+	.st25{fill:#FBFCD0;}
+	.st26{fill:#FCFCD8;}
+	.st27{fill:#FBFBC9;}
+	.st28{fill:#FBFBD3;}
+	.st29{fill:#FBFAD0;}
+	.st30{fill:#FBFCD6;}
+	.st31{fill:#FBFBD4;}
+	.st32{fill:#F7F699;}
+	.st33{fill:#FAFAC2;}
+	.st34{fill:#FBFBD1;}
+	.st35{fill:#F9F9B0;}
+	.st36{fill:#FAFBC4;}
+	.st37{fill:#FBFBCD;}
+	.st38{fill:#FBFBCE;}
+	.st39{fill:#F7F791;}
+	.st40{fill:#FBFAD1;}
+	.st41{fill:#F8F8AD;}
+	.st42{fill:#FBFBD0;}
+	.st43{fill:#FAFACA;}
+	.st44{fill:#FBFBCB;}
+	.st45{fill:#F9F8BF;}
+	.st46{fill:#F9F7C0;}
+	.st47{fill:#F7F4A8;}
+	.st48{fill:#F7F49F;}
+	.st49{fill:#F9FBA8;}
+	.st50{fill:#F3EE64;}
+	.st51{fill:#F7F692;}
+	.st52{fill:#FAFCAB;}
+	.st53{fill:#F5F478;}
+	.st54{fill:#F2ED58;}
+	.st55{fill:#F1EB5D;}
+	.st56{fill:#F7F96A;}
+	.st57{fill:#F7F879;}
+	.st58{fill:#EEE551;}
+	.st59{fill:#FCFEC7;}
+	.st60{fill:#F1EC4F;}
+	.st61{fill:#F5F381;}
+	.st62{fill:#C98011;}
+	.st63{fill:#FBFCC5;}
+	.st64{fill:#C87C11;}
+	.st65{fill:#FBFCCB;}
+	.st66{fill:#C98112;}
+	.st67{fill:#C87E11;}
+	.st68{fill:#FCFDD7;}
+	.st69{fill:#FAFBC1;}
+	.st70{fill:#FAFAC8;}
+	.st71{fill:#66300E;}
+	.st72{fill:#EDB77B;}
+	.st73{fill:#602C0F;}
+	.st74{fill:#E2AB74;}
+	.st75{fill:#E9AB6E;}
+	.st76{fill:#794617;}
+	.st77{fill:#390B00;}
+	.st78{fill:#FFFFFF;}
+	.st79{fill:#FF78D9;}
+	.st80{display:inline;fill:#FF78D9;}
+	.st81{fill:#EEDE34;}
+	.st82{fill:#DCA339;}
+	.st83{fill:#5FA7D4;}
+	.st84{fill:#DADBDC;}
+	.st85{fill:#CE483A;}
+	.st86{fill:#4C85C4;}
+	.st87{fill:#D26A53;}
+    #monkey-female{
+    transform : translateX(-800px);
+    animation: move1 7s ease-in-out 
+    }
+    @keyframes move1{
+    5%,30%{
+    transform : translateX(0)
+    }
+    40%,60%{
+    transform : translateX(0)
+    }
+    65%,70%{
+    transform : translateX(120px);
+    visibility : hidden
+    }
+    80%,100%{
+    visibility : hidden;
+    transform : translateX(120px)
+    }
+    
+    }
+    #monkey-male{
+    transform : translateX(800px);
+    animation: move2 7s ease-in-out  
+    }
+    @keyframes move2{
+    5%,30%{
+    transform : translateX(0)
+    }
+    40%,60%{
+    transform : translateX(0)
+    }
+    65%,70%{
+    transform : translateX(-120px);
+    visibility : hidden
+    }
+    80%,100%{
+    visibility : hidden;
+    transform : translateX(-120px)
+    }
+    }
+    #right-arm-up ,#right-arm2-up ,#left-arm-2-down ,#left-arm-down{
+    animation : wave1 7s ease-in-out  ;
+    
+    }
+    @keyframes wave1{
+    0%,15%{
+    visibility : visible
+    }
+    20%,25%{
+    visibility : hidden
+    }
+    26%,35%{
+     visibility : visible
+    }
+    40%,45%{
+    visibility : hidden
+    }
+    50%,65%{
+    visibility : visible
+    }
+    66%,100%{
+    visibility : hidden
+    }
+    }
+     #right-arm-down ,#right-arm2-down ,#left-arm-up ,#left-arm2-up{
+    animation : wave2 7s ease-in-out ;
+    
+    }
+    @keyframes wave2{
+    0%,16%{
+    visibility : hidden
+    }
+    17%,24%{
+    visibility : visible
+    }
+    25%,41%{
+     visibility : hidden
+    }
+    42%,45%{
+    visibility : visible
+    }
+    46%,100%{
+    visibility : hidden
+    }
+    }
+   #aa{
+    animation-name: aa;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: ;
+    transform-origin:right top;
+    animation-direction: normal;
+    transform-box: fill-box;
+}
+@keyframes aa{
+    0%{transform: rotateZ(0deg);}
+    5%{transform: rotateZ(-10deg);}
+    10%{transform: rotateZ(10deg);}
+    15%{transform: rotateZ(-10deg);}
+    20%{transform: rotateZ(10deg);}
+    25%{transform: rotateZ(-10deg);}
+    30%{transform: rotateZ(10deg);}
+    35%{transform: rotateZ(-10deg);}
+    40%{transform: rotateZ(10deg);}
+    45%{transform: rotateZ(-10deg);}
+    50%{transform: rotateZ(10deg);}
+    55%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(-0deg);}
+   
+    
+}
+#ab{
+    animation-name: ab;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: ;
+    transform-origin:right top;
+    animation-direction: normal;
+    transform-box: fill-box;
+}
+@keyframes ab{
+    0%{transform: rotateZ(0deg);}
+    5%{transform: rotateZ(10deg);}
+    10%{transform: rotateZ(-10deg);}
+    15%{transform: rotateZ(10deg);}
+    20%{transform: rotateZ(-10deg);}
+    25%{transform: rotateZ(10deg);}
+    30%{transform: rotateZ(-10deg);}
+    35%{transform: rotateZ(10deg);}
+    40%{transform: rotateZ(-10deg);}
+    45%{transform: rotateZ(10deg);}
+    50%{transform: rotateZ(-10deg);}
+    55%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(0deg);}
+   
+    
+
+@keyframes ba{
+    
+   
+    
+}
+#bb{
+   
+}
+@keyframes bb{
+    
+   
+    
+}
+    #PUNTA{
+    animation : fade1 7s linear ;
+    transform-origin : 40% 40%
+    }
+    @keyframes fade1{
+    0%,30%{
+    visibility : hidden;
+    transform : scale(.5)
+    }
+    35%,50%{
+    visibility : visible;
+    transform : scale(1)
+    }
+    60%,100%{
+    visibility : visible;
+    transform : scale(1)
+    }
+    }
+   
+    
+    
+}</style>
+ <g>
+  <title>Layer 1</title>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes pulse {
+            from {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1)
+            }
+
+            50% {
+                -webkit-transform: scale3d(1.05, 1.05, 1.05);
+                transform: scale3d(1.05, 1.05, 1.05)
+            }
+
+            to {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1)
+            }
+        }
+        @keyframes pulse {
+          from {
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1)
+          }
+
+          50% {
+              -webkit-transform: scale3d(1.05, 1.05, 1.05);
+              transform: scale3d(1.05, 1.05, 1.05)
+          }
+
+          to {
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1)
+          }
+        }
+        .animate__pulse {
+            -webkit-animation-name: pulse;
+            animation-name: pulse
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__slow {
+          -webkit-animation-duration: calc(1s * 6);
+          animation-duration: calc(1s * 6);
+          -webkit-animation-duration: calc(var(--animate-duration) * 6);
+          animation-duration: calc(var(--animate-duration) * 6);
+        }</style>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    
+         @-webkit-keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        @keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        .animate__flash {
+          -webkit-animation-name: flash;
+          animation-name: flash;
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__slow {
+          -webkit-animation-duration: calc(1s * 6);
+          animation-duration: calc(1s * 6);
+          -webkit-animation-duration: calc(var(--animate-duration) * 6);
+          animation-duration: calc(var(--animate-duration) * 6);
+        }</style>
+  <path id="svg_231" fill=" #eede34" d="m202.77397,277.93889c-19.53782,0 -40.7707,14.54185 -35.50709,44.42847s35.50709,58.52425 35.50709,58.52425s30.15426,-28.63763 35.50709,-58.52425s-15.96927,-44.42847 -35.50709,-44.42847z" stroke="null"/>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    
+         @-webkit-keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        @keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        .animate__flash {
+          -webkit-animation-name: flash;
+          animation-name: flash;
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__slow {
+          -webkit-animation-duration: calc(1s * 6);
+          animation-duration: calc(1s * 6);
+          -webkit-animation-duration: calc(var(--animate-duration) * 6);
+          animation-duration: calc(var(--animate-duration) * 6);
+        }</style>
+  <g class="animate__animated animate__flash animate__infinite animate__delay-1s animate__slow">
+   <path id="svg_232" fill=" #dca339" d="m202.77397,298.6365c-11.68701,0 -24.35537,8.65374 -21.23288,26.58571s21.23288,34.97181 21.23288,34.97181s18.02119,-17.12905 21.23288,-34.97181s-9.54588,-26.58571 -21.23288,-26.58571z" stroke="null" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+  <g id="PARTE_BAJA" stroke="null">
+   <path id="svg_233" fill=" #5fa7d4" d="m233.19588,255.63058l-59.86246,0l0,18.02119a96.86834,96.86834 0 0 0 12.22229,12.22229a7.85974,7.85974 0 0 0 5.1744,1.87349l25.06908,0a7.82405,7.82405 0 0 0 5.62047,-2.31956c2.67641,-2.5872 7.22632,-7.22632 11.68701,-12.40072l0,-17.39669l0.08921,0z" stroke="null"/>
+  </g>
+  <g id="COHETE" stroke="null">
+   <g id="svg_234" stroke="null">
+    <path id="svg_235" fill=" #fff" d="m152.99268,84.87538c-5.62047,20.25153 -8.65374,45.49904 -6.24497,76.9915c3.56855,47.46174 14.36342,76.63465 19.89468,93.94213c4.28226,13.38207 22.57109,22.48188 36.66687,22.48188l0,0c14.09578,0 31.6709,-9.09981 35.95316,-22.48188c5.53126,-17.30748 16.23691,-46.48039 19.89468,-93.94213c2.40877,-31.40326 -0.6245,-56.73997 -6.24497,-76.9915a109.17092,109.17092 0 0 1 -49.87051,12.04386a109.35827,109.35827 0 0 1 -50.04894,-12.04386z" stroke="null"/>
+    <path id="svg_236" fill=" #dadbdc" d="m241.7604,89.78214c4.37148,20.25153 6.42339,44.51768 4.19305,73.69059c-3.92541,52.01164 -15.70163,84.03939 -21.76817,103.04193a24.77467,24.77467 0 0 1 -4.37148,8.11846c8.92138,-3.83619 16.77219,-10.52723 19.35939,-18.82411c5.53126,-17.30748 16.23691,-46.48039 19.89468,-93.94213c2.40877,-31.40326 -0.6245,-56.73997 -6.24497,-76.9915" stroke="null"/>
+   </g>
+  </g>
+  <g id="PUNTA" stroke="null">
+   <g id="svg_237" stroke="null">
+    <g id="svg_238" stroke="null">
+     <path id="svg_239" fill=" #5fa7d4" d="m203.13083,91.03113c-18.02119,0 -34.70417,-4.72833 -49.87051,-12.13308a1.69506,1.69506 0 0 0 -2.40877,1.07057c-0.35686,1.15978 -0.6245,2.31956 -0.98135,3.39012a1.78428,1.78428 0 0 0 0.80292,1.9627c31.49247,17.30748 73.33374,17.66433 104.82621,0.08921a1.63261,1.63261 0 0 0 0.80292,-1.9627c-0.35686,-1.15978 -0.71371,-2.40877 -1.07057,-3.56855a1.78428,1.78428 0 0 0 -2.40877,-1.07057c-15.07713,7.49396 -31.6709,12.22229 -49.69208,12.22229l0,0.00001z" stroke="null"/>
+     <path id="svg_240" fill=" #ce483a" d="m203.13083,5.74274c-2.94406,2.5872 -35.32866,20.87603 -49.87051,73.15531a109.17092,109.17092 0 0 0 49.87051,12.04386a109.17092,109.17092 0 0 0 49.87051,-12.04386c-14.63106,-52.27928 -46.92646,-70.56811 -49.87051,-73.15531z" stroke="null"/>
+     <path id="svg_241" fill=" #5fa7d4" d="m203.13083,5.74274a112.07037,112.07037 0 0 0 -22.21423,19.80546a107.22606,107.22606 0 0 0 22.21423,2.23034a107.23498,107.23498 0 0 0 22.21423,-2.31956c-10.9733,-12.66836 -20.6976,-18.37804 -22.21423,-19.71625l0,0.00001z" stroke="null"/>
+    </g>
+    <path id="svg_242" fill=" #dadbdc" d="m254.96404,86.74887c-0.17843,-0.17843 1.60585,-1.78428 1.42742,-2.5872c-0.35686,-1.60585 -0.35686,-4.81754 -1.33821,-5.26361a2.0876,2.0876 0 0 0 -2.14113,0s-12.04386,-39.87857 -27.65628,-53.34985l0,0a107.77919,107.77919 0 0 0 -22.12502,-19.80546l0,0c-0.08921,0.08921 -0.80292,0.6245 -0.89214,0.71371s-0.35686,0.26764 -0.53528,0.35686c0.17843,0.17843 29.44055,39.34328 37.64822,66.28585a143.99106,143.99106 0 0 1 4.19305,18.37804" stroke="null"/>
+   </g>
+  </g>
+  <g id="VENTANA" stroke="null">
+   <g id="svg_243" stroke="null">
+    <circle id="svg_244" fill=" #ce483a" r="25.60436" cy="138.58208" cx="202.86319" stroke="null"/>
+    <circle id="svg_245" fill=" #fff" r="21.50052" cy="138.67129" cx="202.86319" stroke="null"/>
+    <circle id="svg_246" fill=" #4c85c4" r="18.46725" cy="138.58208" cx="202.86319" stroke="null"/>
+   </g>
+  </g>
+  <g id="ALA_2" stroke="null">
+   <g id="svg_247" stroke="null">
+    <path id="svg_248" fill=" #ce483a" d="m153.43875,212.62953l-15.79084,30.60033a9.4299,9.4299 0 0 0 -0.80292,6.42339l5.1744,61.91437a4.28226,4.28226 0 0 0 4.28226,3.92541l0,0a4.30903,4.30903 0 0 0 4.10383,-3.03327l14.98792,-49.7813l6.86946,-6.51261a3.2563,3.2563 0 0 0 0.80292,-3.30091l-14.8987,-39.78935a2.57828,2.57828 0 0 0 -4.72833,-0.44607l0,0.00001z" stroke="null"/>
+    <path id="svg_249" fill=" #d26a53" d="m144.51737,312.99505l-5.1744,-61.91437a9.4299,9.4299 0 0 1 0.80292,-6.42339l15.79084,-30.60033a2.67641,2.67641 0 0 1 2.05192,-1.33821a2.49799,2.49799 0 0 0 -4.46069,0l-15.79084,30.60033a9.4299,9.4299 0 0 0 -0.80292,6.42339l5.1744,61.91437a4.26442,4.26442 0 0 0 3.56855,3.83619a4.61235,4.61235 0 0 1 -1.15978,-2.49799l0,0.00001z" stroke="null"/>
+   </g>
+   <g id="svg_250" stroke="null">
+    <path id="svg_251" fill=" #ce483a" d="m252.1092,212.62953l15.79084,30.60033a9.4299,9.4299 0 0 1 0.80292,6.42339l-5.1744,61.91437a4.28226,4.28226 0 0 1 -4.28226,3.92541l0,0a4.30903,4.30903 0 0 1 -4.10383,-3.03327l-14.98792,-49.7813l-6.86946,-6.51261a3.2563,3.2563 0 0 1 -0.80292,-3.30091l14.8987,-39.78935a2.57828,2.57828 0 0 1 4.72833,-0.44607l0,0.00001z" stroke="null"/>
+    <path id="svg_252" fill=" #d26a53" d="m261.03058,312.99505l5.1744,-61.91437a9.4299,9.4299 0 0 0 -0.80292,-6.42339l-15.79084,-30.60033a2.67641,2.67641 0 0 0 -2.05192,-1.33821a2.49799,2.49799 0 0 1 4.46069,0l15.79084,30.60033a9.4299,9.4299 0 0 1 0.80292,6.42339l-5.1744,61.91437a4.26442,4.26442 0 0 1 -3.56855,3.83619a4.61235,4.61235 0 0 0 1.15978,-2.49799l0,0.00001z" stroke="null"/>
+   </g>
+  </g>
+  <g id="ALA_1" stroke="null">
+   <path id="svg_253" fill=" #ce483a" d="m192.51439,226.36845l7.85081,97.06461a3.37228,3.37228 0 0 0 3.30091,3.03327l0,0a3.2563,3.2563 0 0 0 3.30091,-3.12248l7.04789,-97.15382a10.80379,10.80379 0 0 0 -10.79487,-11.59779l0,0a10.83948,10.83948 0 0 0 -10.70566,11.77622l0.00001,-0.00001z" stroke="null"/>
+  </g>
+ </g>
+</svg>

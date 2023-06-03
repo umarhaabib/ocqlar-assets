@@ -1,0 +1,310 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  
+ </g>
+
+ <style>#ba { animation: arm1 20s linear alternate infinite;
+
+    transform-origin:10% 10%;
+    transform-box: fill-box;}
+
+  @keyframes arm1{
+  0%{transform:rotateZ(0deg);}
+  10%{transform:rotateZ(0deg);}
+  12%{transform: rotateZ(-25deg);}
+  15%{transform: rotateZ(-25deg);}
+  17%{transform: rotateZ(0deg);}
+  60%{transform:rotateZ(0deg);}
+  62%{transform: rotateZ(-25deg);}
+  65%{transform: rotateZ(-25deg);}
+  67%{transform: rotateZ(0deg);}
+
+  
+
+
+  100%{transform: rotateZ(0deg);}
+
+}
+#bb { animation: bb 20s linear alternate infinite;
+
+    transform-origin:90% 10%;
+    transform-box: fill-box;}
+
+  @keyframes bb{
+  0%{transform:rotateZ(0deg);}
+  30%{transform:rotateZ(0deg);}
+  32%{transform: rotateZ(25deg);}
+  35%{transform: rotateZ(25deg);}
+  37%{transform: rotateZ(0deg);}
+  80%{transform:rotateZ(0deg);}
+  82%{transform: rotateZ(25deg);}
+  85%{transform: rotateZ(25deg);}
+  87%{transform: rotateZ(0deg);}
+
+  
+
+
+  100%{transform: rotateZ(0deg);}
+
+  }
+  #body{ animation: body .4s ease-in-out alternate infinite;
+
+    transform-origin:bottom;
+    transform-box: fill-box;
+
+  }
+@keyframes body {
+  0%{transform: scale(1,1);}
+   100%{transform: scale(1,1.02);}
+}
+#amouth { animation: arm1 .3s linear alternate infinite;
+
+    transform-origin:40% 40%;
+    transform-box: fill-box;}
+
+  @keyframes arm1{
+   0%{transform: scale(1,1);}
+   100%{transform: scale(1,1.3);}
+
+  }
+#ctail { animation: ct .7s cubic-bezier(0.455, 0.03, 0.515, 0.955) alternate infinite;
+
+    transform-origin:90% 90%;
+    transform-box: fill-box;}
+
+  @keyframes ct {
+  0%{transform:rotateZ(-8deg);}
+  100%{transform: rotateZ(8deg);}
+
+  }
+  #d { animation: d 10s linear  infinite;
+  transform-origin:90% 90%;
+    transform-box: fill-box;}
+  @keyframes d {
+    0%{transform: translate(0px,0px);}
+    30%{transform: translate(-30px, 30px);}
+    50%{transform: translate(-30px, 30px);}
+  }
+  #da { animation: da .7s cubic-bezier(0.455, 0.03, 0.515, 0.955) alternate infinite;
+
+    transform-origin:0% 100%;
+    transform-box: fill-box;}
+
+  @keyframes da {
+  0%{transform:rotateZ(0deg);}
+  100%{transform: rotateZ(8deg);}
+
+  }
+   #db { animation: db .7s cubic-bezier(0.455, 0.03, 0.515, 0.955) alternate infinite;
+
+    transform-origin:90% 90%;
+    transform-box: fill-box;}
+
+  @keyframes db {
+  0%{transform:rotateZ(0deg);}
+  100%{transform: rotateZ(-8deg);}
+
+  }
+   #ea { animation: ea .7s cubic-bezier(0.455, 0.03, 0.515, 0.955) alternate infinite;
+
+    transform-origin:10% 95%;
+    transform-box: fill-box;}
+
+  @keyframes ea {
+  0%{transform:rotateZ(0deg);}
+  100%{transform: rotateZ(-10deg);}
+
+  }
+
+  #f { animation: f 50s linear  infinite;
+  transform-origin:center;
+    transform-box: fill-box;}
+  @keyframes f {
+    0%{transform: translate(-490px,0px) rotateY(0deg);}
+
+    50%{transform: translate(430px, 0px) rotateY(0deg);}
+    55%{transform: translate(430px, 0px) rotateY(0deg);}
+     52%{transform: translate(430px, 0px) rotateY(180deg);}
+
+     54%{transform: translate(430px, 0px) rotateY(180deg);}
+
+     55%{transform: translate(430px, 0px) rotateY(180deg);}
+    
+    100%{transform: translate(-490px, 0px) rotateY(180deg);}
+    
+  }
+  #g { animation: g 25s linear  infinite;
+  transform-origin:center;
+    transform-box: fill-box;}
+  @keyframes g {
+    0%{transform: translate(-490px,0px) rotateY(0deg);}
+
+    50%{transform: translate(490px, 0px) rotateY(0deg);}
+    55%{transform: translate(490px, 0px) rotateY(0deg);}
+     52%{transform: translate(490px, 0px) rotateY(180deg);}
+
+     54%{transform: translate(490px, 0px) rotateY(180deg);}
+
+     55%{transform: translate(490px, 0px) rotateY(180deg);}
+    
+    100%{transform: translate(-490px, 0px) rotateY(180deg);}
+    
+  }
+    #h { animation: h 20s linear  infinite;
+  transform-origin:center;
+    transform-box: fill-box;}
+  @keyframes h {
+    0%{transform: translate(690px,0px) rotateY(0deg);}
+
+    50%{transform: translate(-750px, 0px) rotateY(0deg);}
+    55%{transform: translate(-750px, 0px) rotateY(0deg);}
+     52%{transform: translate(-750px, 0px) rotateY(180deg);}
+
+     54%{transform: translate(-750px, 0px) rotateY(180deg);}
+
+     55%{transform: translate(-750px, 0px) rotateY(180deg);}
+    
+    100%{transform: translate(690px, 0px) rotateY(180deg);}
+    
+  }
+      #j { animation: j 15s linear  infinite;
+  transform-origin:30% 50%;
+    transform-box: fill-box;}
+  @keyframes j {
+    0%{transform: translate(150px,-70px)}
+    20%{transform: translate(150px,-70px)}
+    50%{transform: translate(-40px,70px) rotateY(0deg)}
+    53%{transform: translate(-40px,70px) rotateY(160deg)}
+     53%{transform: translate(-40px,70px) rotateY(160deg)}
+      100%{transform: translate(190px,120px) rotateY(160deg)}
+  }
+
+#km { animation: km .3s linear alternate infinite;
+
+    transform-origin:40% 40%;
+    transform-box: fill-box;}
+
+  @keyframes km {
+   0%{transform: scale(1,1);}
+100%{transform: scale(1,1.2);} 
+
+}
+#lha { animation: lh1 2s linear alternate infinite;
+
+    transform-origin:10% 60%;
+    transform-box: fill-box;}
+
+  @keyframes lh1 {
+  0%{transform:rotateZ(-8deg);}
+  100%{transform: rotateZ(8deg);}
+
+  }
+   #clouds { animation: cld 45s linear  infinite;
+  transform-origin:center;
+    transform-box: fill-box;}
+  @keyframes cld {
+    0%{transform: translate(470px,0px) rotateY(0deg);}
+
+    100%{transform: translate(-490px, 0px) rotateY(0deg);}
+  }
+ #iha { animation: i1 1s linear alternate infinite;
+
+    transform-origin:10% 60%;
+    transform-box: fill-box;}
+
+  @keyframes i1 {
+  0%{transform:rotateZ(-8deg);}
+  100%{transform: rotateZ(8deg);}
+
+  }
+   #ihb { animation: i2 1s linear alternate infinite;
+
+    transform-origin:10% 60%;
+    transform-box: fill-box;}
+
+  @keyframes i2 {
+  0%{transform:rotateZ(8deg);}
+  100%{transform: rotateZ(-8deg);}
+
+  }
+   #ihd { animation: i3 1s linear alternate infinite;
+
+    transform-origin:100% 100%;
+    transform-box: fill-box;}
+
+  @keyframes i3 {
+  0%{transform:rotateZ(8deg);}
+  100%{transform: rotateZ(-8deg);}
+
+  }
+      #i { animation: i 20s linear  infinite;
+  transform-origin:center;
+    transform-box: fill-box;}
+  @keyframes i {
+    0%{transform: translate(170px,0px) rotateY(0deg);}
+
+    50%{transform: translate(-150px, 0px) rotateY(0deg);}
+    55%{transform: translate(-150px, 0px) rotateY(0deg);}
+     52%{transform: translate(-150px, 0px) rotateY(180deg);}
+
+     54%{transform: translate(-150px, 0px) rotateY(180deg);}
+
+     55%{transform: translate(-150px, 0px) rotateY(180deg);}
+    
+    100%{transform: translate(170px, 0px) rotateY(180deg);}
+    
+  }
+    #hh { animation: hh 1s linear alternate infinite;
+
+    transform-origin:20% 80%;
+    transform-box: fill-box;}
+
+  @keyframes hh {
+  0%{transform:rotateZ(20deg);}
+  100%{transform: rotateZ(-20deg);}
+
+  }</style>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="k">
+   <ellipse stroke="null" id="svg_1093" fill="#d0aa8b" ry="15.01363" rx="60.7663" cy="249.95026" cx="156.38002"/>
+   <g stroke="null" id="svg_1094">
+    <path stroke="null" id="svg_1095" fill-rule="evenodd" fill="#f47a55" d="m117.52998,185.84024c5.97566,5.71081 5.97566,22.82668 -5.41285,21.40311c-4.25414,-0.5297 -5.19766,-6.53846 -4.96592,-11.48783c-5.41285,-1.55599 -2.11879,-7.76339 0.61246,-10.09737c2.88023,-20.75754 -0.67868,-43.76631 -7.05161,-64.259c-0.34761,-1.14216 7.91237,-0.62902 8.27653,0.64557c6.70399,20.06232 8.17721,43.18695 8.54138,63.79551z"/>
+    <path stroke="null" id="svg_1096" fill-rule="evenodd" fill="#fff9ae" d="m13.974,171.65426c28.83544,-23.17429 73.77701,-33.95034 108.48879,-39.18111c41.26679,-6.2074 105.17818,-4.73418 140.60174,-1.0925c15.52678,1.65531 24.97858,3.92308 25.9221,5.94255a23.17429,23.17429 0 0 1 1.45667,11.04089c-0.61246,2.49951 -8.17721,7.2999 -21.75073,12.82863c-34.67867,14.11976 -95.34566,31.96397 -137.14215,36.9961c-40.62122,4.88315 -82.26874,2.20156 -115.52385,-10.57741c-10.24635,-3.93963 -11.22298,-8.60759 -2.05258,-15.95716z"/>
+    <path stroke="null" id="svg_1097" fill-rule="evenodd" fill="#d2e288" d="m7.71694,179.69905l282.42841,-38.38656a26.83252,26.83252 0 0 1 0.41383,2.97955l-282.18011,38.35345a4.35346,4.35346 0 0 1 -0.66212,-2.94645z"/>
+    <path stroke="null" id="svg_1098" fill-rule="evenodd" fill="#f47a55" d="m157.85325,23.00773c28.83544,0 52.75462,20.31061 60.03797,46.81207a174.30378,174.30378 0 0 1 4.78384,45.78578a164.00777,164.00777 0 0 1 -5.148,37.5258c-12.10029,45.78578 -110.74001,42.93865 -119.03309,-1.65531a304.46054,304.46054 0 0 1 -4.48588,-36.69815c-0.96008,-15.67575 1.02629,-37.40993 5.37975,-50.05647a62.1071,62.1071 0 0 1 58.46543,-41.71373z"/>
+    <path stroke="null" id="svg_1099" fill-rule="evenodd" fill="#f47a55" d="m147.85519,235.88015a7.0185,7.0185 0 0 1 -3.16164,0a101.55306,101.55306 0 0 0 -49.57643,4.20448c-0.43038,2.41675 0.5297,5.9591 5.47906,6.09153a20.44304,20.44304 0 0 0 7.91237,-1.65531c10.36222,4.53554 26.02142,-1.83739 31.45082,0.19864c4.50243,1.65531 14.89776,2.13535 16.12269,0.19864s0.5297,-3.39338 -0.13242,-5.19766a23.55501,23.55501 0 0 1 -0.87731,-8.19377c0.26485,-29.91139 1.0594,-42.25998 1.15871,-64.27555c-7.61441,0.46349 -7.44888,-1.35735 -10.94158,2.76436c1.20837,13.12658 2.16845,39.06523 2.9961,58.84615c0.06621,2.06913 0.33106,6.72054 -0.43038,7.0185z"/>
+    <path stroke="null" id="svg_1100" fill-rule="evenodd" fill="#3c3838" d="m157.85325,23.00773c28.83544,0 52.75462,20.31061 60.03797,46.81207a167.18596,167.18596 0 0 1 4.43622,28.91821c-11.58715,-1.65531 -18.57254,-6.38948 -21.27069,-9.83252a12.96105,12.96105 0 0 1 -6.14119,0.54625c13.67283,-1.3739 8.45862,-23.50535 -3.54236,-18.0925c-5.23077,-2.74781 -9.93184,-6.93573 -10.69328,-13.14313c-42.75657,0.91042 -55.85004,-8.42551 -62.52093,-19.10224c-2.185,6.2074 -6.98539,10.5443 -13.07692,13.57351a62.02434,62.02434 0 0 1 52.77117,-29.67965z"/>
+    <path stroke="null" id="svg_1101" fill-rule="evenodd" fill="#f47a55" d="m164.85519,246.4079a6.78676,6.78676 0 0 1 -3.16164,0a101.43719,101.43719 0 0 0 -49.6592,4.22103c-0.43038,2.40019 0.5297,5.94255 5.47906,6.07498a20.5258,20.5258 0 0 0 7.92892,-1.57254c10.36222,4.53554 26.02142,-1.83739 31.45082,0.19864c4.48588,1.65531 14.89776,2.13535 16.12269,0.19864s0.51315,-3.39338 -0.14898,-5.19766a23.55501,23.55501 0 0 1 -0.87731,-8.19377c0.26485,-29.91139 1.07595,-42.25998 1.15871,-64.27555c-7.61441,0.46349 -7.44888,-1.35735 -10.94158,2.76436c1.22493,13.12658 2.185,39.06523 2.9961,58.84615c0.13242,1.98637 0.39727,6.58812 -0.34761,6.93573z"/>
+    <path stroke="null" id="svg_1102" fill-rule="evenodd" fill="#007d92" d="m217.94087,151.50918c-0.13242,0.5297 -0.2814,1.07595 -0.41383,1.65531c-4.61831,17.46348 -21.83349,27.84226 -41.8296,31.53359l0.34761,25.21032l-15.57643,0.36417l-0.2483,-24.0516l-2.59883,0l0.33106,18.98637l-14.50049,-0.23174l0.09932,-19.86368c-22.18111,-3.50925 -41.53164,-14.89776 -45.04089,-33.51996c28.66991,13.35832 96.6368,10.36222 119.43037,-0.08277z"/>
+    <path stroke="null" id="svg_1103" fill-rule="evenodd" fill="#3c3838" d="m125.16094,91.23947a7.11782,7.11782 0 0 0 -5.28043,4.22103c-2.66504,7.20058 6.30672,12.01753 11.78578,9.58423a6.07498,6.07498 0 0 0 3.47614,-7.92892c2.76436,3.01266 1.32425,7.71373 -3.06232,9.60078c-7.38267,3.16164 -17.29795,-3.31061 -13.4742,-11.71957a6.52191,6.52191 0 0 1 6.55501,-3.75755z"/>
+    <g stroke="null" id="km">
+     <path stroke="null" id="svg_1104" fill-rule="evenodd" fill="#3c3838" d="m99.43748,93.15962c13.5073,24.64751 48.89776,19.26777 63.9776,4.70107c0.54625,-0.5297 1.15871,1.00974 1.45667,1.80428c-11.83544,17.72833 -31.93086,22.56183 -47.73904,16.07303a36.63193,36.63193 0 0 1 -19.30087,-20.67478c-0.23174,-0.62902 0.84421,-1.29114 1.60565,-1.9036z"/>
+     <path stroke="null" id="svg_1105" fill-rule="evenodd" fill="#3c3838" d="m159.7403,97.6124c4.38656,0.84421 5.34664,3.87342 5.81013,6.62123c2.25122,-4.94937 -1.82084,-8.30964 -5.81013,-6.62123z"/>
+     <path stroke="null" id="svg_1106" fill-rule="evenodd" fill="#3c3838" d="m102.48324,93.39136c-3.64167,-0.18208 -4.96592,2.01947 -5.90944,4.13827c-0.8111,-4.38656 3.02921,-6.25706 5.90944,-4.13827z"/>
+    </g>
+    <polygon stroke="null" id="svg_1107" fill-rule="evenodd" fill="#3c3838" points="194.36928796768188,38.73313903808594 204.81428003311157,35.17424392700195 196.53772974014282,34.77692794799805 201.66919946670532,26.500402450561523 191.60494470596313,33.005794525146484 189.63512659072876,23.355329513549805 188.06258630752563,33.60167694091797 194.36928796768188,38.73313903808594 "/>
+    <g stroke="null" id="svg_1108">
+     <path stroke="null" id="svg_1109" fill-rule="evenodd" fill="#3c3838" d="m104.1551,60.23557s10.36222,3.31061 17.34761,-1.45667l-2.16845,-6.50535s0,6.17429 -15.17916,7.96202z"/>
+     <path stroke="null" id="svg_1110" fill-rule="evenodd" fill="#3c3838" d="m156.44624,60.66595s-11.45472,3.04576 -18.55599,-1.88705l2.16845,-6.50535s1.73807,6.60467 16.38753,8.3924z"/>
+    </g>
+    <g stroke="null" id="svg_1111">
+     <path stroke="null" id="svg_1112" fill-rule="evenodd" fill="#fff" d="m114.07039,62.47024c6.30672,0 11.42162,7.33301 11.42162,16.37098s-5.1149,16.35443 -11.42162,16.35443s-11.42162,-7.31646 -11.42162,-16.35443s5.1149,-16.37098 11.42162,-16.37098z"/>
+     <path stroke="null" id="svg_1113" fill-rule="evenodd" fill="#fff" d="m142.64098,62.47024c6.30672,0 11.42162,7.33301 11.42162,16.37098s-5.1149,16.35443 -11.42162,16.35443s-11.42162,-7.31646 -11.42162,-16.35443s5.09834,-16.37098 11.42162,-16.37098z"/>
+    </g>
+    <g stroke="null" id="svg_1114">
+     <path stroke="null" id="svg_1115" fill-rule="evenodd" fill="#3c3838" d="m108.87273,74.90159c3.17819,0 5.76047,3.67478 5.76047,8.27653s-2.58228,8.27653 -5.76047,8.27653s-5.74391,-3.67478 -5.74391,-8.27653a11.58715,11.58715 0 0 1 0.44693,-3.17819l4.28724,1.65531l-2.7147,-4.80039a4.96592,4.96592 0 0 1 3.72444,-1.95326z"/>
+     <path stroke="null" id="svg_1116" fill-rule="evenodd" fill="#3c3838" d="m137.44332,74.90159c3.16164,0 5.74391,3.67478 5.74391,8.27653s-2.58228,8.27653 -5.74391,8.27653s-5.76047,-3.67478 -5.76047,-8.27653a11.58715,11.58715 0 0 1 0.44693,-3.17819l4.28724,1.65531l-2.69815,-4.80039a4.8335,4.8335 0 0 1 3.72444,-1.95326z"/>
+    </g>
+    <path stroke="null" id="svg_1117" fill-rule="evenodd" fill="#f47a55" d="m105.94283,198.71852c-0.36417,2.38364 1.07595,8.3924 6.24051,8.75657s10.42843,-2.51607 9.7001,-8.27653s-15.26193,-4.91626 -15.9406,-0.48004z"/>
+    <path stroke="null" id="svg_1118" fill-rule="evenodd" fill="#f6adcd" d="m217.0139,154.8529a4.38656,4.38656 0 0 1 -2.97955,1.15871a5.28043,5.28043 0 0 1 -0.89387,-0.08277a4.45277,4.45277 0 0 1 -8.6407,-0.16553a71.8403,71.8403 0 0 0 13.44109,-4.25414c-0.13242,0.5297 -0.2814,1.07595 -0.41383,1.65531s-0.33106,1.15871 -0.51315,1.65531l0,0.03311zm-9.08763,14.5667a43.03797,43.03797 0 0 1 -5.54528,4.63486a3.4927,3.4927 0 0 0 0,-0.43038a2.79747,2.79747 0 1 0 -3.5258,2.7147a58.69717,58.69717 0 0 1 -5.46251,2.84713a4.45277,4.45277 0 0 1 -0.79455,-8.27653a4.56865,4.56865 0 0 1 -0.5297,-2.11879a60.96494,60.96494 0 0 0 11.37196,-4.02239a4.46933,4.46933 0 0 1 4.45277,4.45277l0,0.19864l0.03311,0zm-24.0516,13.24245c-1.78773,0.5297 -3.59202,0.99318 -5.44596,1.39046a2.79747,2.79747 0 0 0 -5.31353,1.24148a2.81402,2.81402 0 0 0 2.63194,2.83057l0.09932,6.70399l0,0a4.45277,4.45277 0 0 1 -4.40312,-3.80721l-0.48004,0a4.45277,4.45277 0 0 1 -1.98637,-8.44206a4.3038,4.3038 0 0 1 -0.5297,-2.10224a57.38948,57.38948 0 0 0 11.3554,-4.03895a4.46933,4.46933 0 0 1 4.10516,6.24051l-0.03311,-0.01655zm-8.12756,27.22979l-15.29503,0.34761l-0.11587,-11.27264a9.58423,9.58423 0 0 0 9.79941,-0.62902a482.50531,482.50531 0 0 0 5.69425,10.70983a4.8666,4.8666 0 0 1 -0.08277,0.84421zm-20.29406,-4.73418l-12.01753,-0.19864l0,-14.21908a5.08179,5.08179 0 0 1 0.87731,-0.08277a4.46933,4.46933 0 0 1 3.62512,1.8705a4.41967,4.41967 0 0 1 3.31061,-1.44012a4.46933,4.46933 0 0 1 4.46933,4.46933a4.40312,4.40312 0 0 1 -0.79455,2.51607a4.45277,4.45277 0 0 1 0.49659,7.08471l0.03311,0zm-18.50633,-21.41967a75.38266,75.38266 0 0 1 -14.23564,-4.8335a4.45277,4.45277 0 0 1 6.62123,0.69523a4.46933,4.46933 0 0 1 7.73028,3.02921a4.96592,4.96592 0 0 1 -0.13242,1.10906l0.01655,0zm-24.26679,-10.74294a37.74099,37.74099 0 0 1 -11.37196,-13.14313a4.43622,4.43622 0 0 1 2.92989,1.78773a4.45277,4.45277 0 0 1 7.73028,3.02921a4.40312,4.40312 0 0 1 -0.77799,2.51607a4.45277,4.45277 0 0 1 2.00292,3.72444a4.53554,4.53554 0 0 1 -0.49659,2.06913l-0.01655,0.01655zm10.24635,-14.79844c4.96592,0.76144 10.19669,1.32425 15.59299,1.65531a4.38656,4.38656 0 0 1 -0.54625,1.07595a4.46933,4.46933 0 0 1 -2.44985,8.19377a5.08179,5.08179 0 0 1 -0.87731,-0.08277a4.46933,4.46933 0 0 1 -8.72347,-0.5297l-0.46349,0a155.2512,155.2512 0 0 0 -2.53262,-10.39533l0,0.08277zm43.93184,2.08569c2.185,-0.08277 4.35346,-0.19864 6.50535,-0.33106a1.50633,1.50633 0 0 0 0,0.2814a2.79747,2.79747 0 0 0 5.59494,0a3.07887,3.07887 0 0 0 -0.08277,-0.69523c1.88705,-0.16553 3.75755,-0.34761 5.59494,-0.54625a4.45277,4.45277 0 0 1 -3.22785,7.5482a5.08179,5.08179 0 0 1 -0.87731,0a4.46933,4.46933 0 0 1 -8.72347,-0.5297l-0.46349,0a4.46933,4.46933 0 0 1 -4.46933,-4.46933a4.8335,4.8335 0 0 1 0.16553,-1.20837l-0.01655,-0.04966zm-0.57936,44.11392a2.81402,2.81402 0 1 0 2.79747,2.79747a2.79747,2.79747 0 0 0 -2.79747,-2.79747zm-18.85394,-7.25024a2.81402,2.81402 0 1 0 2.79747,2.81402a2.81402,2.81402 0 0 0 -2.79747,-2.81402zm-16.98345,-37.07887a2.79747,2.79747 0 1 0 2.79747,2.79747a2.78092,2.78092 0 0 0 -2.79747,-2.79747zm20.16163,5.23077a4.46933,4.46933 0 0 0 6.90263,0.43038a482.50531,482.50531 0 0 0 5.69425,10.70983a4.45277,4.45277 0 0 1 -4.46933,4.45277a5.08179,5.08179 0 0 1 -0.87731,-0.08277a4.46933,4.46933 0 0 1 -8.72347,-0.5297l-0.46349,0a379.14797,379.14797 0 0 0 -2.53262,-10.56086a4.45277,4.45277 0 0 1 4.46933,-4.45277l0,0.03311zm3.04576,6.4888a2.79747,2.79747 0 1 0 2.79747,2.79747a2.79747,2.79747 0 0 0 -2.78092,-2.79747l-0.01655,0z"/>
+    <path stroke="null" id="svg_1119" fill-rule="evenodd" fill="#3c3838" d="m210.59131,166.60557a256.70494,256.70494 0 0 0 -11.28919,-37.16163c3.80721,0.2483 6.62123,-1.0594 7.43233,-3.55891a138.46639,138.46639 0 0 1 11.28919,25.3593l-0.49659,1.96981a34.96007,34.96007 0 0 1 -6.93573,13.39143z"/>
+    <path stroke="null" id="svg_1120" fill-rule="evenodd" fill="#f47a55" d="m231.18333,201.8636c1.50633,3.39338 1.65531,6.38948 0,5.99221c-2.97955,-0.71178 -5.33009,-5.47906 -5.33009,-5.47906c2.08569,4.46933 1.82084,12.28237 -0.94352,10.22979s-3.82376,-9.2035 -3.82376,-9.2035c0.59591,4.81694 -0.77799,11.22298 -3.14508,9.55112s-1.65531,-6.98539 -1.65531,-10.21324c-3.17819,4.3369 -7.53164,5.94255 -6.62123,1.48978a14.3184,14.3184 0 0 1 6.70399,-8.62415c-1.24148,-28.71957 -7.49854,-45.81889 -17.08276,-66.21226l7.43233,-3.55891c9.93184,21.25414 15.6592,41.79649 18.57254,68.66212a16.28822,16.28822 0 0 1 5.89289,7.36611z"/>
+    <path stroke="null" id="svg_1121" fill-rule="evenodd" fill="#3c3838" d="m154.0957,135.71755a2.26777,2.26777 0 1 1 -2.26777,2.26777a2.26777,2.26777 0 0 1 2.26777,-2.26777z"/>
+    <path stroke="null" id="svg_1122" fill-rule="evenodd" fill="#3c3838" d="m111.19015,133.31736a2.28432,2.28432 0 1 1 -2.26777,2.26777a2.26777,2.26777 0 0 1 2.26777,-2.26777z"/>
+    <path stroke="null" id="svg_1123" fill-rule="evenodd" fill="#3c3838" d="m130.64001,153.66108a2.26777,2.26777 0 1 1 -2.26777,2.26777a2.26777,2.26777 0 0 1 2.26777,-2.26777z"/>
+   </g>
+  </g>
+ </g>
+</svg>

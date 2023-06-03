@@ -1,0 +1,403 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+ <style>#stroke {
+    
+    animation-name: ln1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+	animation-direction: alternate;
+    stroke-dasharray: 200;
+        stroke-dashoffset: 200;
+}
+@keyframes ln1 {
+    0%   { stroke-dashoffset: -200 }
+     90% { stroke-dashoffset: 0; }
+    100% { stroke-dashoffset: 0; }
+    
+}
+
+		#setingg {
+			animation: ta linear 6s infinite alternate;
+			transform-box: fill-box;
+			transform-origin: bottom;
+		}
+
+		@keyframes ta {
+			0% {
+				transform: translateY(50px);
+				visibility: hidden;
+			}
+
+			
+
+			100% {
+				transform: translateY(0px);
+			}
+		}
+
+		#table {
+			animation: taa linear 6s;
+			transform-box: fill-box;
+			transform-origin: bottom;
+		}
+
+		@keyframes taa {
+			0% {
+				transform: scale(0.1);
+				visibility: hidden;
+			}
+
+			5% {
+				transform: scale(1);
+			}
+
+
+			100% {
+				transform: scale(1);
+			}
+		}
+
+		#manb {
+			animation: manb linear 6s;
+			transform-box: fill-box;
+			transform-origin: bottom;
+		}
+
+		@keyframes manb {
+			0% {
+				transform: scale(0.1);
+				visibility: hidden;
+			}
+
+			5% {
+				transform: scale(0.1);
+				visibility: hidden;
+			}
+
+			10% {
+				transform: scale(1);
+			}
+
+
+			100% {
+				transform: scale(1);
+			}
+		}
+
+		#man {
+			animation: mane linear 6s;
+			transform-box: fill-box;
+			transform-origin: bottom;
+		}
+
+		@keyframes mane {
+			0% {
+				transform: scale(0.1);
+				visibility: hidden;
+			}
+
+			10% {
+				transform: scale(0.1);
+				visibility: hidden;
+			}
+
+			15% {
+				transform: scale(1);
+			}
+
+
+			100% {
+				transform: scale(1);
+			}
+		}
+
+		#woman,
+		#setinge,
+		#setingd
+		 {
+			animation: manedd linear 6s;
+			transform-box: fill-box;
+			transform-origin: bottom;
+		}
+
+		@keyframes manedd {
+			0% {
+				transform: scale(0.1);
+				visibility: hidden;
+			}
+
+			15% {
+				transform: scale(0.1);
+				visibility: hidden;
+			}
+
+			20% {
+				transform: scale(1);
+			}
+
+
+			100% {
+				transform: scale(1);
+			}
+		}
+
+		#setingc,
+		#setingf {
+			animation: maneddd linear 6s;
+			transform-box: fill-box;
+			transform-origin: bottom;
+		}
+
+		@keyframes maneddd {
+			0% {
+				transform: scale(0.1);
+				visibility: hidden;
+			}
+
+			20% {
+				transform: scale(0.1);
+				visibility: hidden;
+			}
+
+			25% {
+				transform: scale(1);
+			}
+
+
+			100% {
+				transform: scale(1);
+			}
+		}
+
+		#worldmap,
+		#setingb {
+			animation: manedddb linear 6s;
+			transform-box: fill-box;
+			transform-origin: bottom;
+		}
+
+		@keyframes manedddb {
+			0% {
+				transform: scale(0.1);
+				visibility: hidden;
+			}
+
+			25% {
+				transform: scale(0.1);
+				visibility: hidden;
+			}
+
+			30% {
+				transform: scale(1);
+			}
+
+
+			100% {
+				transform: scale(1);
+			}
+		}
+
+		#setinga {
+			animation: manedddc linear 6s;
+			transform-box: fill-box;
+			transform-origin: bottom;
+		}
+
+		@keyframes manedddc {
+			0% {
+				transform: scale(0.1);
+				visibility: hidden;
+			}
+
+			30% {
+				transform: scale(0.1);
+				visibility: hidden;
+			}
+
+			35% {
+				transform: scale(1);
+			}
+
+
+			100% {
+				transform: scale(1);
+			}
+		}
+
+		#setinga&gt;g {
+			animation: la linear 2s infinite;
+			transform-box: fill-box;
+			transform-origin: bottom;
+		}
+
+		@keyframes la {
+			0% {
+				transform: scale(1);
+
+			}
+
+			20% {
+				transform: scale(0.8);
+
+			}
+
+			50% {
+				transform: scale(0.8);
+			}
+
+			80% {
+				transform: scale(0.8);
+
+			}
+
+			100% {
+				transform: scale(1);
+			}
+		}
+
+		#setingb&gt;g {
+			animation: la linear 2s 1s infinite;
+			transform-box: fill-box;
+			transform-origin: bottom;
+		}
+
+		#setingc&gt;g {
+			animation: la linear 2s 1.5s infinite;
+			transform-box: fill-box;
+			transform-origin: bottom;
+		}
+
+		#setingd&gt;g {
+			animation: la linear 2s 2s infinite;
+			transform-box: fill-box;
+			transform-origin: bottom;
+		}
+
+		#womenlag {
+			animation: lega linear 4s 2s infinite;
+			transform-box: fill-box;
+			transform-origin: 90% 0%;
+
+		}
+
+		@keyframes lega {
+			0% {
+				transform: rotate(0deg);
+			}
+
+			50% {
+				transform: rotate(-6deg);
+			}
+
+
+			100% {
+				transform: rotate(0deg);
+			}
+		}
+
+		#whead {
+			animation: mothe linear 4s 2s infinite;
+			transform-box: fill-box;
+			transform-origin: bottom;
+		}
+
+		@keyframes mothe {
+			0% {
+				transform: rotate(0deg);
+			}
+
+			50% {
+				transform: rotate(4deg);
+			}
+
+
+			100% {
+				transform: rotate(0deg);
+			}
+		}
+
+		#manahead {
+			animation: mothf linear 4s 2s infinite;
+			transform-box: fill-box;
+			transform-origin: bottom;
+		}
+
+		@keyframes mothf {
+			0% {
+				transform: scaleY(0.9);
+			}
+
+			50% {
+				transform: scaleY(1);
+			}
+
+
+			100% {
+				transform: scaleY(0.9);
+			}
+		}
+
+		#manbhand {
+			animation: motheg linear 2s 2s infinite;
+			transform-box: fill-box;
+			transform-origin: bottom;
+		}
+
+		@keyframes motheg {
+			0% {
+				transform: rotate(0deg);
+			}
+
+			50% {
+				transform: rotate(8deg);
+			}
+
+
+			100% {
+				transform: rotate(0deg);
+			}
+		}
+
+		#manbhead {
+			animation: motheh linear 2s 2s infinite;
+			transform-box: fill-box;
+			transform-origin: bottom;
+		}
+
+		@keyframes motheh {
+			0% {
+				transform: rotate(0deg);
+			}
+
+			50% {
+				transform: rotate(-10deg);
+			}
+
+
+			100% {
+				transform: rotate(0deg);
+			}
+		}</style>
+
+ <title>Marketing Team meeting</title>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="stroke">
+   <line stroke="#8abfe7" id="svg_259" stroke-width="6" stroke-miterlimit="10" fill="none" y2="198.70609" x2="19.94" y1="151.53079" x1="19.94"/>
+   <line stroke="#afe2fa" id="svg_260" stroke-width="6" stroke-miterlimit="10" fill="none" y2="198.70609" x2="44.29433" y1="136.36633" x1="44.29433"/>
+   <line stroke="#8abfe7" id="svg_261" stroke-width="6" stroke-miterlimit="10" fill="none" y2="198.70609" x2="68.43419" y1="136.36633" x1="68.43419"/>
+   <line stroke="#67c7c5" id="svg_262" stroke-width="6" stroke-miterlimit="10" fill="none" y2="198.70609" x2="92.31192" y1="110.89329" x1="92.31192"/>
+   <line stroke="#8abfe7" id="svg_263" stroke-width="6" stroke-miterlimit="10" fill="none" y2="198.70609" x2="115.33176" y1="126.76307" x1="115.33176"/>
+   <line stroke="#67c7c5" id="svg_264" stroke-width="6" stroke-miterlimit="10" fill="none" y2="198.70609" x2="139.04268" y1="101.23578" x1="139.04268"/>
+   <line stroke="#afe2fa" id="svg_265" stroke-width="6" stroke-miterlimit="10" fill="none" y2="198.70609" x2="163.63531" y1="159.42499" x1="163.63531"/>
+   <line stroke="#67c7c5" id="svg_266" stroke-width="6" stroke-miterlimit="10" fill="none" y2="198.70609" x2="187.84666" y1="134.84717" x1="187.84666"/>
+   <line stroke="#afe2fa" id="svg_267" stroke-width="6" stroke-miterlimit="10" fill="none" y2="198.70609" x2="212.20099" y1="114.25714" x1="212.20099"/>
+   <line stroke="#8abfe7" id="svg_268" stroke-width="6" stroke-miterlimit="10" fill="none" y2="198.70609" x2="236.10255" y1="91.6054" x1="236.10255"/>
+   <line stroke="#67c7c5" id="svg_269" stroke-width="6" stroke-miterlimit="10" fill="none" y2="198.70609" x2="259.07474" y1="106.9055" x1="259.07474"/>
+   <line stroke="#afe2fa" id="svg_270" stroke-width="6" stroke-miterlimit="10" fill="none" y2="198.70609" x2="284.42993" y1="78.15" x1="284.42993"/>
+   <line stroke="#8abfe7" id="svg_271" stroke-width="6" stroke-miterlimit="10" fill="none" y2="198.70609" x2="306.73487" y1="125.18966" x1="306.73487"/>
+   <line stroke="#67c7c5" id="svg_272" stroke-width="6" stroke-miterlimit="10" fill="none" y2="198.70609" x2="331.44665" y1="137.15303" x1="331.44665"/>
+   <line stroke="#afe2fa" id="svg_273" stroke-width="6" stroke-miterlimit="10" fill="none" y2="198.70609" x2="355.13374" y1="103.92144" x1="355.13374"/>
+   <line stroke="#8abfe7" id="svg_274" stroke-width="6" stroke-miterlimit="10" fill="none" y2="198.70609" x2="380.05999" y1="115.72205" x1="380.05999"/>
+  </g>
+ </g>
+</svg>

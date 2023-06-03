@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="450px" width="800px"
+	 viewBox="0 0 800 450" style="enable-background:new 0 0 800 450;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:none;stroke:#1D272D;stroke-width:0.25;stroke-miterlimit:10;}
+	.st2{fill:#3E50A2;}
+	.st3{fill:#9094C6;}
+	.st4{fill:#ED88C2;}
+	.st5{fill:#F6E553;}
+	.st6{clip-path:url(#SVGID_2_);fill:#ED88C2;}
+	.st7{fill:#2BADBA;}
+	.st8{fill:none;stroke:#9094C6;stroke-miterlimit:10;}
+	.st9{clip-path:url(#SVGID_2_);fill:#3E50A2;}
+	#zig1 ,#zig2 ,#zig3 ,#zig4 ,#zig5 ,#zig6{
+	transform : translateX(-400px);
+	animation : vibrate1 5s ease infinite;
+	transform-origin : center;
+	transform-box : fill-box;
+	animation-fill-mode : forwards
+	}
+	@keyframes vibrate1{
+    0%{
+    transform : scale(.9) rotate(360deg) 
+    }
+    50%{
+    transform : scale(1) rotate(0deg) 
+    }
+    100%{
+    transform : scale(.9) rotate(360deg) 
+    }
+	}
+	
+	#triangle1{
+	transform :translateX(-600px);
+	animation : move1 5s ease infinite
+	}
+	@keyframes move1{
+	0%{
+	transform : translateX(-600px)
+	}
+	100%{
+	transform : translateX(0px)
+	}
+	}
+	#triangle3{
+	transform :translateX(600px);
+	animation : move2 5s ease infinite
+	}
+	@keyframes move2{
+	0%{
+	transform : translateX(600px)
+	}
+	100%{
+	transform : translateX(0px)
+	}
+	}
+	#rect2 ,#circle5 ,#triangle4{
+	transform :translateY(200px);
+	animation : move3 5s ease infinite
+	}
+	@keyframes move3{
+	0%{
+	transform : translateY(200px)
+	}
+	100%{
+	transform : translateY(0px)
+	}
+	}
+	#triangle2 ,#circle10 ,#rect1{
+	transform :translateY(-200px);
+	animation : move4 5s ease infinite
+	}
+	@keyframes move4{
+	0%{
+	transform : translateY(-200px)
+	}
+	100%{
+	transform : translateY(0px)
+	}
+	}
+	#circle1{
+	animation : fade 5s ease infinite;
+	transform-origin : center;
+	transform-box : fill-box;
+	animation-fill-mode : forwards
+	}
+	@keyframes fade{
+	0%{
+	transform : scale(0)
+	}
+	100%{
+	transform : scale(1)
+	}
+	}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="800" height="450"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<rect y="-5" class="st1" width="800" height="455"/>
+		<line class="st1" x1="0" y1="428.3" x2="800" y2="428.3"/>
+		<line class="st1" x1="0" y1="406.7" x2="800" y2="406.7"/>
+		<line class="st1" x1="0" y1="385" x2="800" y2="385"/>
+		<line class="st1" x1="0" y1="363.3" x2="800" y2="363.3"/>
+		<line class="st1" x1="0" y1="341.7" x2="800" y2="341.7"/>
+		<line class="st1" x1="0" y1="320" x2="800" y2="320"/>
+		<line class="st1" x1="0" y1="298.3" x2="800" y2="298.3"/>
+		<line class="st1" x1="0" y1="276.7" x2="800" y2="276.7"/>
+		<line class="st1" x1="0" y1="255" x2="800" y2="255"/>
+		<line class="st1" x1="0" y1="233.3" x2="800" y2="233.3"/>
+		<line class="st1" x1="0" y1="211.7" x2="800" y2="211.7"/>
+		<line class="st1" x1="0" y1="190" x2="800" y2="190"/>
+		<line class="st1" x1="0" y1="168.3" x2="800" y2="168.3"/>
+		<line class="st1" x1="0" y1="146.6" x2="800" y2="146.6"/>
+		<line class="st1" x1="0" y1="125" x2="800" y2="125"/>
+		<line class="st1" x1="0" y1="103.3" x2="800" y2="103.3"/>
+		<line class="st1" x1="0" y1="81.6" x2="800" y2="81.6"/>
+		<line class="st1" x1="0" y1="60" x2="800" y2="60"/>
+		<line class="st1" x1="0" y1="38.3" x2="800" y2="38.3"/>
+		<line class="st1" x1="0" y1="16.6" x2="800" y2="16.6"/>
+		<line class="st1" x1="761.9" y1="-5" x2="761.9" y2="450"/>
+		<line class="st1" x1="723.8" y1="-5" x2="723.8" y2="450"/>
+		<line class="st1" x1="685.7" y1="-5" x2="685.7" y2="450"/>
+		<line class="st1" x1="647.6" y1="-5" x2="647.6" y2="450"/>
+		<line class="st1" x1="609.5" y1="-5" x2="609.5" y2="450"/>
+		<line class="st1" x1="571.4" y1="-5" x2="571.4" y2="450"/>
+		<line class="st1" x1="533.3" y1="-5" x2="533.3" y2="450"/>
+		<line class="st1" x1="495.2" y1="-5" x2="495.2" y2="450"/>
+		<line class="st1" x1="457.1" y1="-5" x2="457.1" y2="450"/>
+		<line class="st1" x1="419" y1="-5" x2="419" y2="450"/>
+		<line class="st1" x1="381" y1="-5" x2="381" y2="450"/>
+		<line class="st1" x1="342.9" y1="-5" x2="342.9" y2="450"/>
+		<line class="st1" x1="304.8" y1="-5" x2="304.8" y2="450"/>
+		<line class="st1" x1="266.7" y1="-5" x2="266.7" y2="450"/>
+		<line class="st1" x1="228.6" y1="-5" x2="228.6" y2="450"/>
+		<line class="st1" x1="190.5" y1="-5" x2="190.5" y2="450"/>
+		<line class="st1" x1="152.4" y1="-5" x2="152.4" y2="450"/>
+		<line class="st1" x1="114.3" y1="-5" x2="114.3" y2="450"/>
+		<line class="st1" x1="76.2" y1="-5" x2="76.2" y2="450"/>
+		<line class="st1" x1="38.1" y1="-5" x2="38.1" y2="450"/>
+	</g>
+	<g id="circle10" class="st0">
+		<ellipse id="circle9" class="st2" cx="2" cy="21.5" rx="72.5" ry="40.8"/>
+		<ellipse class="st3" cx="18.3" cy="14.7" rx="72.5" ry="40.8"/>
+	</g>
+	<g id="circle1" class="st0">
+		<ellipse class="st2" cx="360.2" cy="198.7" rx="72.5" ry="40.8"/>
+		<ellipse class="st4" cx="376.4" cy="191.8" rx="72.5" ry="40.8"/>
+	</g>
+	<g id="rect1" class="st0">
+		<rect x="645.4" y="-18.5" class="st2" width="142.4" height="80.1"/>
+		<rect x="661.7" y="-25.4" class="st4" width="142.4" height="80.1"/>
+	</g>
+	<g id="rect2" class="st0">
+		<rect x="298.6" y="362.2" class="st2" width="142.4" height="80.1"/>
+		<rect x="314.8" y="355.3" class="st5" width="142.4" height="80.1"/>
+	</g>
+	<rect x="-197.9" y="91.4" class="st6" width="142.4" height="80.1"/>
+	<g id="triangle1" class="st0">
+		<polygon class="st2" points="630.5,201.3 544.4,285.2 716.6,285.2 		"/>
+		<polygon class="st7" points="646.8,194.4 560.7,278.3 732.9,278.3 		"/>
+		<polygon class="st8" points="664.3,190.5 578.2,274.3 750.4,274.3 		"/>
+	</g>
+	<g id="triangle2" class="st0">
+		<polygon class="st2" points="364.6,-33.6 278.5,50.3 450.7,50.3 		"/>
+		<polygon class="st5" points="380.9,-40.5 294.8,43.4 467,43.4 		"/>
+	</g>
+	<g id="triangle3" class="st0">
+		<polygon class="st2" points="98.7,197.5 12.6,281.4 184.8,281.4 		"/>
+		<polygon class="st3" points="115,190.7 28.9,274.6 201.1,274.6 		"/>
+		<polygon class="st8" points="132.5,186.7 46.4,270.6 218.6,270.6 		"/>
+	</g>
+	<g class="st0">
+		<ellipse class="st2" cx="734.6" cy="115.2" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="734.6" cy="125.6" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="734.6" cy="137.2" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="734.6" cy="147.6" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="734.6" cy="158" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="734.6" cy="168.3" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="734.6" cy="180" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="734.6" cy="190.4" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="751" cy="115.4" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="751" cy="125.8" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="751" cy="137.4" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="751" cy="147.8" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="751" cy="158.2" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="751" cy="168.5" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="751" cy="180.2" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="751" cy="190.6" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="767.1" cy="115.6" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="767.1" cy="126" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="767.1" cy="137.6" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="767.1" cy="148" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="767.1" cy="158.4" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="767.1" cy="168.7" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="767.1" cy="180.4" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="767.1" cy="190.8" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="783.5" cy="115.8" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="783.5" cy="126.2" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="783.5" cy="137.8" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="783.5" cy="148.2" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="783.5" cy="158.6" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="783.5" cy="168.9" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="783.5" cy="180.6" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="783.5" cy="191" rx="5" ry="2.8"/>
+		<g>
+			<ellipse class="st2" cx="800.1" cy="115.8" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="800.1" cy="126.2" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="800.1" cy="137.8" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="800.1" cy="148.2" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="800.1" cy="158.6" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="800.1" cy="168.9" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="800.1" cy="180.6" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="800.1" cy="191" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="816.5" cy="116" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="816.5" cy="126.4" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="816.5" cy="138" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="816.5" cy="148.4" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="816.5" cy="158.8" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="816.5" cy="169.1" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="816.5" cy="180.8" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="816.5" cy="191.2" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="832.6" cy="116.2" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="832.6" cy="126.6" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="832.6" cy="138.2" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="832.6" cy="148.6" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="832.6" cy="159" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="832.6" cy="169.3" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="832.6" cy="181" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="832.6" cy="191.4" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="849" cy="116.4" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="849" cy="126.8" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="849" cy="138.4" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="849" cy="148.8" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="849" cy="159.2" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="849" cy="169.5" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="849" cy="181.2" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="849" cy="191.6" rx="5" ry="2.8"/>
+		</g>
+	</g>
+	<g class="st0">
+		<ellipse class="st2" cx="17.4" cy="27.5" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="17.4" cy="37.9" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="17.4" cy="49.5" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="17.4" cy="59.9" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="17.4" cy="70.3" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="17.4" cy="80.6" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="17.4" cy="92.3" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="17.4" cy="102.7" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="33.8" cy="27.7" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="33.8" cy="38.1" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="33.8" cy="49.7" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="33.8" cy="60.1" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="33.8" cy="70.5" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="33.8" cy="80.8" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="33.8" cy="92.5" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="33.8" cy="102.9" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="49.9" cy="27.9" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="49.9" cy="38.3" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="49.9" cy="49.9" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="49.9" cy="60.3" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="49.9" cy="70.7" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="49.9" cy="81" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="49.9" cy="92.7" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="49.9" cy="103.1" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="66.3" cy="28.1" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="66.3" cy="38.5" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="66.3" cy="50.1" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="66.3" cy="60.5" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="66.3" cy="70.9" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="66.3" cy="81.2" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="66.3" cy="92.9" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="66.3" cy="103.3" rx="5" ry="2.8"/>
+		<g>
+			<ellipse class="st2" cx="82.9" cy="28.1" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="82.9" cy="38.5" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="82.9" cy="50.1" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="82.9" cy="60.5" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="82.9" cy="70.9" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="82.9" cy="81.2" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="82.9" cy="92.9" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="82.9" cy="103.3" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="99.3" cy="28.3" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="99.3" cy="38.7" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="99.3" cy="50.3" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="99.3" cy="60.7" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="99.3" cy="71.1" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="99.3" cy="81.4" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="99.3" cy="93.1" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="99.3" cy="103.5" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="115.4" cy="28.5" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="115.4" cy="38.9" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="115.4" cy="50.5" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="115.4" cy="60.9" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="115.4" cy="71.3" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="115.4" cy="81.6" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="115.4" cy="93.3" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="115.4" cy="103.7" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="131.7" cy="28.7" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="131.7" cy="39.1" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="131.7" cy="50.7" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="131.7" cy="61.1" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="131.7" cy="71.5" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="131.7" cy="81.8" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="131.7" cy="93.5" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="131.7" cy="103.9" rx="5" ry="2.8"/>
+		</g>
+	</g>
+	<g class="st0">
+		<ellipse class="st2" cx="235.2" cy="300.3" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="235.2" cy="310.6" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="235.2" cy="322.3" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="235.2" cy="332.7" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="235.2" cy="343" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="235.2" cy="353.4" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="235.2" cy="365.1" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="235.2" cy="375.4" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="251.6" cy="300.4" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="251.6" cy="310.8" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="251.6" cy="322.5" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="251.6" cy="332.9" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="251.6" cy="343.2" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="251.6" cy="353.6" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="251.6" cy="365.3" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="251.6" cy="375.6" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="267.7" cy="300.7" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="267.7" cy="311" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="267.7" cy="322.7" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="267.7" cy="333.1" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="267.7" cy="343.4" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="267.7" cy="353.8" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="267.7" cy="365.5" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="267.7" cy="375.8" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="284.1" cy="300.9" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="284.1" cy="311.2" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="284.1" cy="322.9" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="284.1" cy="333.3" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="284.1" cy="343.6" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="284.1" cy="354" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="284.1" cy="365.7" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="284.1" cy="376" rx="5" ry="2.8"/>
+		<g>
+			<ellipse class="st2" cx="300.7" cy="300.9" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="300.7" cy="311.2" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="300.7" cy="322.9" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="300.7" cy="333.3" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="300.7" cy="343.6" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="300.7" cy="354" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="300.7" cy="365.7" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="300.7" cy="376" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="317.1" cy="301" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="317.1" cy="311.4" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="317.1" cy="323.1" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="317.1" cy="333.4" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="317.1" cy="343.8" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="317.1" cy="354.2" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="317.1" cy="365.9" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="317.1" cy="376.2" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="333.2" cy="301.3" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="333.2" cy="311.6" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="333.2" cy="323.3" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="333.2" cy="333.7" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="333.2" cy="344" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="333.2" cy="354.4" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="333.2" cy="366.1" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="333.2" cy="376.4" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="349.6" cy="301.5" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="349.6" cy="311.8" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="349.6" cy="323.5" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="349.6" cy="333.9" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="349.6" cy="344.2" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="349.6" cy="354.6" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="349.6" cy="366.3" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="349.6" cy="376.6" rx="5" ry="2.8"/>
+		</g>
+	</g>
+	<g class="st0">
+		<ellipse class="st2" cx="858.5" cy="259.6" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="858.5" cy="270" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="858.5" cy="281.7" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="858.5" cy="292" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="858.5" cy="302.4" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="858.5" cy="312.8" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="858.5" cy="324.4" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="858.5" cy="334.8" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="874.9" cy="259.8" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="874.9" cy="270.2" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="874.9" cy="281.9" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="874.9" cy="292.2" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="874.9" cy="302.6" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="874.9" cy="313" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="874.9" cy="324.6" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="874.9" cy="335" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="891" cy="260" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="891" cy="270.4" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="891" cy="282.1" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="891" cy="292.4" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="891" cy="302.8" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="891" cy="313.2" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="891" cy="324.8" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="891" cy="335.2" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="907.3" cy="260.2" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="907.3" cy="270.6" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="907.3" cy="282.3" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="907.3" cy="292.6" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="907.3" cy="303" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="907.3" cy="313.4" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="907.3" cy="325" rx="5" ry="2.8"/>
+		<ellipse class="st2" cx="907.3" cy="335.4" rx="5" ry="2.8"/>
+		<g>
+			<ellipse class="st2" cx="924" cy="260.2" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="924" cy="270.6" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="924" cy="282.3" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="924" cy="292.6" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="924" cy="303" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="924" cy="313.4" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="924" cy="325" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="924" cy="335.4" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="940.3" cy="260.4" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="940.3" cy="270.8" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="940.3" cy="282.5" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="940.3" cy="292.8" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="940.3" cy="303.2" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="940.3" cy="313.6" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="940.3" cy="325.2" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="940.3" cy="335.6" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="956.4" cy="260.6" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="956.4" cy="271" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="956.4" cy="282.7" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="956.4" cy="293" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="956.4" cy="303.4" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="956.4" cy="313.8" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="956.4" cy="325.4" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="956.4" cy="335.8" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="972.8" cy="260.8" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="972.8" cy="271.2" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="972.8" cy="282.9" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="972.8" cy="293.2" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="972.8" cy="303.6" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="972.8" cy="314" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="972.8" cy="325.6" rx="5" ry="2.8"/>
+			<ellipse class="st2" cx="972.8" cy="336" rx="5" ry="2.8"/>
+		</g>
+	</g>
+	<g id="zig1" class="st0">
+		<g>
+			<path class="st2" d="M333.2,253.9c-4.1,0-7.7-1.8-8.1-4.1l-3.3-18.4c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.5-2.5,2.8-4.8,7.3-5l25-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l32.5-1.8
+				c4.5-0.2,8.5,1.6,9,4.1c0.5,2.5-2.8,4.8-7.3,5l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4
+				l2.5,13.8c0.4,2.1-1.8,4-5.2,4.8l-0.6,0.1c-0.7,0.1-1.4,0.2-2.1,0.3l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1
+				c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.5,2.5-2.8,4.8-7.3,5C333.7,253.9,333.5,253.9,333.2,253.9z"/>
+		</g>
+		<g>
+			<path class="st5" d="M345,251.3c-4.1,0-7.7-1.8-8.1-4.1l-3.3-18.4c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.2-1.2,0.4-2.4,1.8-3.4c1.4-0.9,3.4-1.5,5.5-1.7l25-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.5-2.5,2.8-4.8,7.3-5l32.5-1.8c4.5-0.3,8.5,1.6,9,4.1c0.5,2.5-2.8,4.8-7.3,5l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1
+				c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.4,2.1-1.8,4-5.2,4.8l-0.6,0.1c-0.7,0.1-1.4,0.2-2.1,0.3l-24.4,1.4l2.4,13.6
+				c0.2,0.7,0.1,1.4-0.2,2.1c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.5,2.5-2.8,4.8-7.3,5C345.6,251.3,345.3,251.3,345,251.3z"/>
+		</g>
+	</g>
+	<g id="zig2" class="st0">
+		<g>
+			<path class="st2" d="M289.5,227c-4.1,0-7.7-1.8-8.1-4.1l-3.3-18.4c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.5-2.5,2.8-4.8,7.3-5l25-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l32.5-1.8
+				c4.5-0.2,8.5,1.6,9,4.1c0.5,2.5-2.8,4.8-7.3,5l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4
+				l2.5,13.8c0.4,2.1-1.8,4-5.2,4.8l-0.6,0.1c-0.7,0.1-1.4,0.2-2.1,0.3l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1
+				c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.5,2.5-2.8,4.8-7.3,5C290,227,289.7,227,289.5,227z"/>
+		</g>
+		<g>
+			<path class="st5" d="M301.3,224.4c-4.1,0-7.7-1.8-8.1-4.1l-3.3-18.4c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.2-1.2,0.4-2.4,1.8-3.4c1.4-0.9,3.4-1.5,5.5-1.7l25-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.5-2.5,2.8-4.8,7.3-5l32.5-1.8c4.5-0.3,8.5,1.6,9,4.1c0.5,2.5-2.8,4.8-7.3,5l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1
+				c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.4,2.1-1.8,4-5.2,4.8l-0.6,0.1c-0.7,0.1-1.4,0.2-2.1,0.3l-24.4,1.4l2.4,13.6
+				c0.2,0.7,0.1,1.4-0.2,2.1c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.5,2.5-2.8,4.8-7.3,5C301.9,224.4,301.6,224.4,301.3,224.4z"
+				/>
+		</g>
+	</g>
+	<g class="st0">
+		<g>
+			<path class="st2" d="M-142.8,328.3c-4.1,0-7.7-1.8-8.1-4.1l-3.3-18.4c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.5-2.5,2.8-4.8,7.3-5l25-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l32.5-1.8
+				c4.5-0.2,8.5,1.6,9,4.1c0.5,2.5-2.8,4.8-7.3,5l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4
+				l2.5,13.8c0.4,2.1-1.8,4-5.2,4.8l-0.6,0.1c-0.7,0.1-1.4,0.2-2.1,0.3l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1
+				c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.5,2.5-2.8,4.8-7.3,5C-142.2,328.3-142.5,328.3-142.8,328.3z"/>
+		</g>
+		<g>
+			<path class="st4" d="M-130.9,325.7c-4.1,0-7.7-1.8-8.1-4.1l-3.3-18.4c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.2-1.2,0.4-2.4,1.8-3.4c1.4-0.9,3.4-1.5,5.5-1.7l25-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.5-2.5,2.8-4.8,7.3-5l32.5-1.8c4.5-0.3,8.5,1.6,9,4.1c0.5,2.5-2.8,4.8-7.3,5l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1
+				c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.4,2.1-1.8,4-5.2,4.8l-0.6,0.1c-0.7,0.1-1.4,0.2-2.1,0.3l-24.4,1.4l2.4,13.6
+				c0.2,0.7,0.1,1.4-0.2,2.1c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.5,2.5-2.8,4.8-7.3,5C-130.4,325.7-130.7,325.7-130.9,325.7z
+				"/>
+		</g>
+	</g>
+	<g id="zig3" class="st0">
+		<g>
+			<path class="st2" d="M574.4,439.4c-4.1,0-7.7-1.8-8.1-4.1l-3.3-18.4c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.5-2.5,2.8-4.8,7.3-5l25-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l32.5-1.8
+				c4.5-0.2,8.5,1.6,9,4.1c0.5,2.5-2.8,4.8-7.3,5l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4
+				l2.5,13.8c0.4,2.1-1.8,4-5.2,4.8l-0.6,0.1c-0.7,0.1-1.4,0.2-2.1,0.3l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1
+				c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.5,2.5-2.8,4.8-7.3,5C574.9,439.4,574.6,439.4,574.4,439.4z"/>
+		</g>
+		<g>
+			<path class="st7" d="M586.2,436.8c-4.1,0-7.7-1.8-8.1-4.1l-3.3-18.4c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4L604,394
+				c-0.2-1.2,0.4-2.4,1.8-3.4c1.4-0.9,3.4-1.5,5.5-1.7l25-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.5-2.5,2.8-4.8,7.3-5l32.5-1.8c4.5-0.3,8.5,1.6,9,4.1c0.5,2.5-2.8,4.8-7.3,5l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1
+				c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.4,2.1-1.8,4-5.2,4.8l-0.6,0.1c-0.7,0.1-1.4,0.2-2.1,0.3l-24.4,1.4l2.4,13.6
+				c0.2,0.7,0.1,1.4-0.2,2.1c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.5,2.5-2.8,4.8-7.3,5C586.7,436.8,586.5,436.8,586.2,436.8z"
+				/>
+		</g>
+	</g>
+	<g id="zig4" class="st0">
+		<g>
+			<path class="st2" d="M530.6,412.5c-4.1,0-7.7-1.8-8.1-4.1l-3.3-18.4c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.5-2.5,2.8-4.8,7.3-5l25-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l32.5-1.8
+				c4.5-0.2,8.5,1.6,9,4.1c0.5,2.5-2.8,4.8-7.3,5l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4
+				l2.5,13.8c0.4,2.1-1.8,4-5.2,4.8l-0.6,0.1c-0.7,0.1-1.4,0.2-2.1,0.3l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1
+				c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.5,2.5-2.8,4.8-7.3,5C531.2,412.5,530.9,412.5,530.6,412.5z"/>
+		</g>
+		<g>
+			<path class="st7" d="M542.5,409.9c-4.1,0-7.7-1.8-8.1-4.1l-3.3-18.4c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.2-1.2,0.4-2.4,1.8-3.4c1.4-0.9,3.4-1.5,5.5-1.7l25-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.5-2.5,2.8-4.8,7.3-5l32.5-1.8c4.5-0.3,8.5,1.6,9,4.1c0.5,2.5-2.8,4.8-7.3,5l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1
+				c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.4,2.1-1.8,4-5.2,4.8l-0.6,0.1c-0.7,0.1-1.4,0.2-2.1,0.3l-24.4,1.4l2.4,13.6
+				c0.2,0.7,0.1,1.4-0.2,2.1c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.5,2.5-2.8,4.8-7.3,5C543,409.9,542.7,409.9,542.5,409.9z"/>
+		</g>
+	</g>
+	<g id="zig5" class="st0">
+		<g>
+			<path class="st2" d="M624.2,121.5c-4.1,0-7.7-1.8-8.1-4.1L612.8,99c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4L642,78.7
+				c-0.5-2.5,2.8-4.8,7.3-5l25-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4L701,38.1c-0.5-2.5,2.8-4.8,7.3-5l32.5-1.8
+				c4.5-0.2,8.5,1.6,9,4.1c0.5,2.5-2.8,4.8-7.3,5l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1c-1,1.8-3.7,3.1-7,3.3L688.9,62
+				l2.5,13.8c0.4,2.1-1.8,4-5.2,4.8l-0.6,0.1c-0.7,0.1-1.4,0.2-2.1,0.3l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1
+				c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.5,2.5-2.8,4.8-7.3,5C624.7,121.5,624.5,121.5,624.2,121.5z"/>
+		</g>
+		<g>
+			<path class="st3" d="M636,118.9c-4.1,0-7.7-1.8-8.1-4.1l-3.3-18.4c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.2-1.2,0.4-2.4,1.8-3.4c1.4-0.9,3.4-1.5,5.5-1.7l25-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.5-2.5,2.8-4.8,7.3-5l32.5-1.8c4.5-0.3,8.5,1.6,9,4.1c0.5,2.5-2.8,4.8-7.3,5L730,39.1l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1
+				c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.4,2.1-1.8,4-5.2,4.8l-0.6,0.1c-0.7,0.1-1.4,0.2-2.1,0.3l-24.4,1.4l2.4,13.6
+				c0.2,0.7,0.1,1.4-0.2,2.1c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.5,2.5-2.8,4.8-7.3,5C636.6,118.9,636.3,118.9,636,118.9z"/>
+		</g>
+	</g>
+	<g id="zig6" class="st0">
+		<g>
+			<path class="st2" d="M580.5,94.6c-4.1,0-7.7-1.8-8.1-4.1l-3.3-18.4c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.5-2.5,2.8-4.8,7.3-5l25-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9c-0.5-2.5,2.8-4.8,7.3-5l32.5-1.8
+				c4.5-0.2,8.5,1.6,9,4.1c0.5,2.5-2.8,4.8-7.3,5l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4
+				l2.5,13.8c0.4,2.1-1.8,4-5.2,4.8l-0.6,0.1c-0.7,0.1-1.4,0.2-2.1,0.3l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1
+				c-1,1.8-3.7,3.1-7,3.3l-24.4,1.4l2.5,13.8c0.5,2.5-2.8,4.8-7.3,5C581,94.6,580.8,94.6,580.5,94.6z"/>
+		</g>
+		<g>
+			<path class="st3" d="M592.3,92c-4.1,0-7.7-1.8-8.1-4.1l-3.3-18.4c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.2-1.2,0.4-2.4,1.8-3.4c1.4-0.9,3.4-1.5,5.5-1.7l25-1.4L640,28.8c-0.5-2.5,2.8-4.8,7.3-5l24.4-1.4l-2.5-13.9
+				c-0.5-2.5,2.8-4.8,7.3-5L709,1.7c4.5-0.3,8.5,1.6,9,4.1c0.5,2.5-2.8,4.8-7.3,5l-24.4,1.4l2.4,13.6c0.2,0.7,0.1,1.4-0.2,2.1
+				c-1,1.8-3.7,3.1-7,3.3L657,32.5l2.5,13.8c0.4,2.1-1.8,4-5.2,4.8l-0.6,0.1c-0.7,0.1-1.4,0.2-2.1,0.3l-24.4,1.4l2.4,13.6
+				c0.2,0.7,0.1,1.4-0.2,2.1c-1,1.8-3.7,3.1-7,3.3L598,73.1l2.5,13.8c0.5,2.5-2.8,4.8-7.3,5C592.9,92,592.6,92,592.3,92z"/>
+		</g>
+	</g>
+	<g id="triangle4" class="st0">
+		<polygon class="st2" points="813.3,347.1 727.2,431 899.4,431 		"/>
+		<polygon class="st5" points="829.6,340.2 743.5,424.1 915.7,424.1 		"/>
+		<polygon class="st8" points="847.1,336.3 761,420.2 933.2,420.2 		"/>
+	</g>
+	<g id="circle5" class="st0">
+		<ellipse class="st8" cx="35.8" cy="391.4" rx="72.5" ry="40.8"/>
+		<ellipse class="st2" cx="2" cy="402.2" rx="72.5" ry="40.8"/>
+		<ellipse class="st7" cx="18.3" cy="395.4" rx="72.5" ry="40.8"/>
+	</g>
+	<g id="circle6" class="st0">
+		<path class="st3" d="M240.3,139c-20.2,0-36.6-9.2-36.6-20.6c0-11.4,16.4-20.6,36.6-20.6c20.2,0,36.6,9.2,36.6,20.6
+			C276.9,129.8,260.5,139,240.3,139z M240.3,103.9c-14.2,0-25.8,6.5-25.8,14.5s11.6,14.5,25.8,14.5c14.2,0,25.8-6.5,25.8-14.5
+			S254.5,103.9,240.3,103.9z"/>
+	</g>
+	<g id="circle7" class="st0">
+		<path class="st5" d="M484.8,334.7c-20.2,0-36.6-9.2-36.6-20.6c0-11.4,16.4-20.6,36.6-20.6c20.2,0,36.6,9.2,36.6,20.6
+			C521.4,325.4,505,334.7,484.8,334.7z M484.8,299.5c-14.2,0-25.8,6.5-25.8,14.5c0,8,11.6,14.5,25.8,14.5c14.2,0,25.8-6.5,25.8-14.5
+			C510.6,306.1,499,299.5,484.8,299.5z"/>
+	</g>
+	<ellipse class="st9" cx="556.2" cy="138.9" rx="16.5" ry="9.3"/>
+	<ellipse class="st9" cx="8.3" cy="313" rx="13.5" ry="7.6"/>
+	<ellipse class="st9" cx="10.4" cy="142.8" rx="15.6" ry="8.8"/>
+	<ellipse class="st9" cx="788.5" cy="306.2" rx="10" ry="5.6"/>
+</g>
+</svg>

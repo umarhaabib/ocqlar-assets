@@ -1,0 +1,575 @@
+<svg width="450" height="450" xmlns="http://www.w3.org/2000/svg">
+
+ <style type="text/css">.st0{fill:#5954A4;}
+	.st1{opacity:0.4;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#4AA4DB;}
+	.st4{fill:#F3AA06;}
+	.st5{fill:#F3F3F3;}
+	.st6{fill:#FFBF0D;}
+	.st7{fill:#FECE40;}
+	.st8{fill:#CDD5D7;}
+	.st9{fill:#D9E1E4;}
+	.st10{fill:#E04037;}
+	.st11{fill:#FF5931;}
+	.st12{fill:#92B400;}
+	.st13{fill:#9FC400;}
+	.st14{fill:#EDEDED;}
+	.st15{fill:#E2E2E2;}
+	.st16{fill:#B3B3B3;}
+	.st17{fill:#FF3D0D;}
+	.st18{fill:#879BA6;}
+	.st19{fill:#4E99FF;}
+	.st20{fill:#FDBF14;}
+	.st21{fill:#2C7EEA;}
+	.st22{fill:none;stroke:#FFFFFF;stroke-width:1.988;stroke-miterlimit:10;}
+	.st23{fill:#2B83FD;}
+	.st24{fill:#5DCFCA;}
+	.st25{opacity:0.3;}
+	.st26{fill:none;stroke:#879BA6;stroke-width:3.711;}
+	.st27{fill:#3DC7C9;}
+	.st28{fill:none;stroke:#B5D1DE;stroke-width:2.474;}
+	.st29{fill:none;stroke:#D8E5ED;stroke-width:2.474;}
+	.st30{fill:#D0DEE6;}
+	.st31{fill:url(#SVGID_7_);}
+	.st32{fill:#D8E5ED;}
+	.st33{fill:#F5B1AE;}
+	.st34{fill:#30363D;}
+	.st35{fill:#596273;}
+	.st36{fill:none;stroke:#879BA6;stroke-width:2.103;}
+	.st37{fill:#2872D4;}
+	.st38{fill:#37B3B5;}
+	.st39{fill:#E0C9A4;}
+	.st40{fill:#163F59;}
+	.st41{fill:#E9D6B8;}
+	.st42{fill:#161711;}
+	.st43{fill:#B6C2C9;}
+	.st44{fill:#E4EEF3;}
+	.st45{fill:#86C0F0;}
+	.st46{fill:#74B2E8;}
+	.st47{fill:#ECB60D;}
+	.st48{fill:#C4D1E1;}
+	.st49{fill:#282723;}
+	.st50{fill:#316091;}
+	.st51{fill:#323B31;}
+	.st52{fill:#3C463B;}
+	.st53{fill:#194866;}
+	.st54{fill:#3E3BC9;}
+	.st55{fill:#E2C59C;}
+	.st56{fill:#2975D9;}
+	.st57{fill:#15100C;}
+	.st58{fill:#E5E8EC;}
+	.st59{fill:#F7F8FC;}
+	.st60{fill:#484F59;}
+	.st61{fill:#B7BEC0;}
+
+ 
+#main
+{    animation-name: main;
+    
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes main {
+    0%   { transform: scale(0); }
+    3% { transform: scale(1.1); }
+    4% { transform: scale(1); }
+}
+#a
+{    animation-name: a;
+    
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes a {
+    0%   { transform: scale(0); }
+    1% { transform: scale(1.1); }
+    2% { transform: scale(1); }
+}
+#garm1{
+   animation-name: garm1;
+    
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction:initial;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+@keyframes garm1 {
+  0%{transform:rotateZ(0deg)}
+  10%{transform:rotateZ(5deg)}
+  15%{transform:rotateZ(5deg)}
+  20%{transform:rotateZ(0deg)}
+  50%{transform:rotateZ(10deg)}
+  100%{transform:rotateZ(0deg)}
+}
+#garm2{
+   animation-name: garm2;
+    
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction:initial;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+@keyframes garm2 {
+  0%{transform:rotateZ(0deg)}
+  10%{transform:rotateZ(5deg)}
+  15%{transform:rotateZ(5deg)}
+  20%{transform:rotateZ(0deg)}
+  15%{transform:rotateZ(0deg)}
+  50%{transform:rotateZ(5deg)}
+  100%{transform:rotateZ(0deg)}
+}
+#mike{
+   animation-name: garm2;
+    
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction:initial;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+@keyframes garm2 {
+  0%{transform:rotateZ(0deg)}
+  10%{transform:rotateZ(5deg)}
+  15%{transform:rotateZ(5deg)}
+  20%{transform:rotateZ(0deg)}
+  15%{transform:rotateZ(0deg)}
+  50%{transform:rotateZ(5deg)}
+  100%{transform:rotateZ(0deg)}
+}
+ #b{
+   animation-name: bb;
+    
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction:initial;
+    transform-origin: left 70%;
+    transform-box: fill-box;
+}
+@keyframes bb {
+  0%   { transform: scale(0); }
+  10% { transform: scale(0); }
+  11% { transform: scale(1); }
+  20%{transform:rotateZ(0deg)}
+  15%{transform:rotateZ(0deg)}
+  50%{transform:rotateZ(5deg)}
+  100%{transform:rotateZ(0deg)}
+}
+#t {
+    animation: t 30s ease-in-out infinite;
+    animation-direction: initial;
+    transform-origin:bottom;
+    transform-box: fill-box;
+}
+
+
+@keyframes t{
+  0%{transform:scale(0);}
+  10%{transform:scale(0);}
+   11%{transform:scale(1.3);}
+   
+  12%{transform:scale(1);}
+  20%{transform:translateY(0px);}
+
+  40%{transform:translateY(10px);}
+  60%{transform:translateY(0px);}
+  80%{transform:translateY(10px);}
+  90%{transform:translateY(0px);}
+  
+  100%{transform:scale(1);}
+}
+#u {
+    animation: u 30s ease-in-out infinite;
+    animation-direction: initial;
+    transform-origin:bottom;
+    transform-box: fill-box;
+}
+
+
+@keyframes u{
+  0%{transform:scale(0);}
+  10%{transform:scale(0);}
+   11%{transform:scale(1.3);}
+   
+  12%{transform:scale(1);}
+  20%{transform:translateY(0px);}
+
+  40%{transform:translateY(10px);}
+  60%{transform:translateY(0px);}
+  80%{transform:translateY(10px);}
+  90%{transform:translateY(0px);}
+  
+  100%{transform:scale(1);}
+}
+#r,#s {
+    animation: rs 30s ease-in-out infinite;
+    animation-direction: initial;
+    transform-origin:bottom;
+    transform-box: fill-box;
+}
+
+
+@keyframes rs{
+  0%{transform:scale(0);}
+  14%{transform:scale(0);}
+   15%{transform:scale(1.3);}
+   
+  16%{transform:scale(1);}
+  20%{transform:translateY(0px);}
+
+  56%{transform:translateY(10px);}
+  70%{transform:translateY(0px);}
+  80%{transform:translateY(10px);}
+  90%{transform:translateY(0px);}
+  
+  100%{transform:scale(1);}
+}
+#v
+{    animation-name: v;
+    
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes v {
+    0%   { transform: scale(0); }
+    12% { transform: scale(0); }
+    14% { transform: scale(1); }
+}
+#w
+{    animation-name: w;
+    
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes w {
+    0%   { transform: scale(0); }
+    12% { transform: scale(0); }
+    14% { transform: scale(1); }
+}
+
+ #vhead{
+   animation-name: vh;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes vh {
+  
+  0%{transform:rotateZ(0deg)}
+  
+  100%{transform:rotateZ(6deg)}
+  
+}
+
+#c
+{    animation-name: c;
+    
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes c {
+    0%   { transform: scale(0); }
+    12% { transform: scale(0); }
+    14% { transform: scale(1); }
+    40%{transform:translateY(-5px);}
+  60%{transform:translateY(0px);}
+  
+  100%{transform:translateY(-5px);}
+}
+#d{
+    animation-name: d ;
+    
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes d {
+    0% { opacity: 0; transform: translate(-25px, -25px); }
+    15% { opacity: 0; transform: translate(-25px, 20px); }
+    16% { opacity: 1; transform: translate(0px, 0px); }
+    20%{transform:translateY(0px);}
+
+  40%{transform:translateY(-5px);}
+  60%{transform:translateY(0px);}
+  
+  100%{transform:translateY(-5px);}
+}
+#e{
+    animation-name: e ;
+    
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes e {
+    0% { opacity: 0; transform: translate(-25px, -25px); }
+    17% { opacity: 0; transform: translate(-25px, 20px); }
+    18% { opacity: 1; transform: translate(0px, 0px); }
+    40%{transform:translateY(-5px);}
+  60%{transform:translateY(0px);}
+  
+  100%{transform:translateY(-5px);}
+}
+#f {
+    animation-name: ff ;
+    
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ff {
+    0% { opacity: 0; transform: translate(-25px, -25px); }
+    19% { opacity: 0; transform: translate(-25px, 20px); }
+    20% { opacity: 1; transform: translate(0px, 0px); }
+    40%{transform:translateY(-5px);}
+  60%{transform:translateY(0px);}
+  
+  100%{transform:translateY(-5px);}
+}
+#g {
+    animation-name: g ;
+    
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes g {
+    0% { opacity: 0; transform: translate(-65px, -45px); }
+    19% { opacity: 0; transform: translate(-65px, 40px); }
+    23% { opacity: 1; transform: translate(0px, 0px); }
+    40%{transform:translateY(-5px);}
+  60%{transform:translateY(0px);}
+  
+  100%{transform:translateY(-5px);}
+}
+#h {
+    animation-name: h ;
+    
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes h {
+    0% { opacity: 0; transform: translate(-75px, -45px); }
+    22% { opacity: 0; transform: translate(-75px, 40px); }
+    23% { opacity: 1;}
+    27% { opacity: 1; transform: translate(0px, 0px); }
+    40%{transform:translateY(-5px);}
+  60%{transform:translateY(0px);}
+  
+  100%{transform:translateY(-5px);}
+}
+#l {
+    animation-name: l ;
+    
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes l {
+    0% { opacity: 0; transform: translate(-75px, -5px); }
+    26% { opacity: 0; transform: translate(-75px, 0px); }
+    27% { opacity: 1;}
+    30% { opacity: 1; transform: translate(0px, 0px); }
+    440%{transform:translateY(-5px);}
+  60%{transform:translateY(0px);}
+  
+  100%{transform:translateY(-5px);}
+}
+#m {
+    animation-name: m ;
+    
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes m {
+    0% { opacity: 0; transform: translate(-75px, -5px); }
+    29% { opacity: 0; transform: translate(-75px, 0px); }
+    30% { opacity: 1;}
+    34% { opacity: 1; transform: translate(0px, 0px); }
+    40%{transform:translateY(-5px);}
+  60%{transform:translateY(0px);}
+  
+  100%{transform:translateY(-5px);}
+}
+#n {
+    animation-name: n ;
+    
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes n {
+    0% { opacity: 0; transform: translate(-105px, 5px); }
+    34% { opacity: 0; transform: translate(-105px, -10px); }
+    35% { opacity: 1;}
+    40% { opacity: 1; transform: translate(0px, 0px); }
+    40%{transform:translateY(-5px);}
+  60%{transform:translateY(0px);}
+  
+  100%{transform:translateY(-5px);}
+}
+#o {
+    animation-name: o ;
+    
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes o {
+    0% { opacity: 0; transform: translate(-145px, 5px); }
+    40% { opacity: 0; transform: translate(-145px, 30px); }
+    41% { opacity: 1;}
+    47% { opacity: 1; transform: translate(0px, 0px); }
+    40%{transform:translateY(-5px);}
+  60%{transform:translateY(0px);}
+  
+  100%{transform:translateY(-5px);}
+}
+#p {
+    animation-name: p ;
+    
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes p {
+    0% { opacity: 0; transform: translate(-165px, 5px); }
+    47% { opacity: 0; transform: translate(-165px, 10px); }
+    48% { opacity: 1;}
+    56% { opacity: 1; transform: translate(0px, 0px); }
+    40%{transform:translateY(-5px);}
+  60%{transform:translateY(0px);}
+  
+  100%{transform:translateY(-5px);}
+}
+#i {
+    animation-name: i ;
+    
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes i {
+    0% { opacity: 0; transform: translate(-165px, 50px); }
+    38% { opacity: 0; transform: translate(-165px, 50px); }
+    39% { opacity: 1;}
+    46% { opacity: 1; transform: translate(0px, 0px); }
+    40%{transform:translateY(-5px);}
+  60%{transform:translateY(0px);}
+  
+  100%{transform:translateY(-5px);}
+}
+#q {
+    animation-name: q ;
+    
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes q {
+    0% { opacity: 0; transform: translate(-65px, 5px); }
+    47% { opacity: 0; transform: translate(-65px, 10px); }
+    48% { opacity: 1;}
+    56% { opacity: 1; transform: translate(0px, 0px); }
+    40%{transform:translateY(-5px);}
+  60%{transform:translateY(0px);}
+  
+  100%{transform:translateY(-5px);}
+}
+#j {
+    animation-name: j ;
+    
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes j {
+    0% { opacity: 0; transform: translate(-65px, 5px); }
+    18% { opacity: 0; transform: translate(-65px, 10px); }
+    19% { opacity: 1;}
+    24% { opacity: 1; transform: translate(0px, 0px); }
+    40%{transform:translateY(-5px);}
+  60%{transform:translateY(0px);}
+  
+  100%{transform:translateY(-5px);}
+}
+#k {
+    animation-name: k ;
+    
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes k {
+    0% { opacity: 0; transform: translate(-65px, 5px); }
+    19% { opacity: 0; transform: translate(-65px, 10px); }
+    20% { opacity: 1;}
+    24% { opacity: 1; transform: translate(0px, 0px); }
+    40%{transform:translateY(-5px);}
+  60%{transform:translateY(0px);}
+  
+  100%{transform:translateY(-5px);}
+}</style>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="v">
+   <path stroke="null" id="svg_180" d="m281.15144,97.6631c15.70989,3.97111 44.64228,18.02274 50.70804,42.11124c9.07683,36.13275 -9.12047,89.19728 19.72464,141.08356c9.20774,16.53903 -159.14993,38.79471 -159.14993,38.79471l-32.46711,-182.6275c0,0 40.58389,-39.62384 48.87522,-42.32943c17.14997,-5.49846 40.933,-4.93116 72.30914,2.96742" class="st45"/>
+   <path stroke="null" id="svg_181" d="m159.66161,137.15602c-5.84757,14.57529 -20.59741,101.41608 -4.14567,121.88258c1.87646,2.35648 -8.55316,6.06576 -6.6767,16.8445c0.34911,1.83282 3.44745,10.42962 3.44745,10.42962l13.44069,3.49109l40.67117,-23.12845l-7.76767,-9.46957l-3.66564,0.08728c0,0 -3.49109,-3.22926 -2.53104,-7.24401c0.96005,-3.97111 -9.33866,-10.47326 -24.874,-77.85124c-4.53841,-19.85556 -6.58943,-38.27104 -7.89858,-35.04179" class="st46"/>
+   <path stroke="null" id="svg_182" d="m175.3715,254.89294l12.04425,-2.66195l4.88752,-0.78549c0.04364,3.31653 2.66195,5.76029 2.66195,5.76029l-9.33866,0.30547l-10.90965,2.35648l-13.17885,7.50584l13.83343,-12.48064z" class="st47"/>
+   <path stroke="null" id="svg_183" d="m192.60874,266.10805c0,0 -9.29502,-0.13092 -17.23724,4.75661c-6.02213,3.70928 -11.56423,11.78242 -6.02213,16.14628c5.5421,4.36386 14.09526,8.46589 14.09526,8.46589s21.16472,0.5673 9.1641,-29.36877" class="st48"/>
+   <path stroke="null" id="svg_184" d="m169.34938,287.36005l5.67302,-1.22188c0,0 19.50645,-1.74554 22.25568,-0.26183c2.79287,1.52735 11.73878,7.54948 11.73878,7.54948l1.83282,1.7019c0,0 -4.36386,2.70559 -10.21143,-1.39643c-5.89121,-4.10203 -6.37123,-0.96005 -6.37123,-0.96005l1.00369,5.19299l-0.08728,6.63307l0.91641,2.79287c0,0 0.82913,1.52735 0.17455,2.09465c-1.83282,1.61463 -3.70928,0.82913 -3.70928,0.82913l-5.93485,-10.34235l-1.61463,11.25876c0,0 -0.78549,1.52735 -2.66195,1.9201c-1.74554,0.39275 -1.74554,-0.08728 -1.74554,-0.08728l-1.3528,-2.88015c-0.13092,0.61094 -0.48002,1.39643 -1.17824,1.96374c-1.48371,1.1346 -3.53473,1.00369 -3.53473,1.00369l0.5673,-11.8697l-2.44376,6.02213c0,0 -0.87277,1.48371 -2.66195,1.9201c-1.96374,0.48002 -2.4874,0.61094 -2.4874,0.61094l1.83282,-22.47387z" class="st44"/>
+   <path stroke="null" id="svg_185" d="m270.37271,240.92859c0,0 -14.1389,35.87092 -48.177,45.47141c-5.89121,1.65827 -9.51321,8.0295 -6.6767,10.08051c3.622,2.61832 8.64044,3.18562 17.14997,3.14198c17.80454,-0.04364 41.98032,-5.58574 58.73754,-21.77566c24.78672,-23.95759 32.59803,-34.86723 30.06699,-46.95512c-2.44376,-12.08789 -51.10079,10.03688 -51.10079,10.03688" class="st41"/>
+   <path stroke="null" id="svg_186" d="m327.05924,127.68645c7.20037,11.82606 11.34603,30.85248 11.30239,58.03932c-0.04364,21.0338 -18.19729,55.55192 -20.99016,66.11246c-0.48002,1.78918 -1.57099,9.33866 -1.57099,9.33866l-20.11739,19.76828l-40.40933,-27.3614l12.26244,-18.85187l3.66564,0.39275c0,0 2.31285,-10.38598 1.7019,-14.44437c-0.65458,-4.05839 11.17148,-58.34479 17.01905,-93.16839c3.36017,-20.03011 29.97971,-11.56423 37.13644,0.17455" class="st46"/>
+   <path stroke="null" id="svg_187" d="m290.88285,234.51372l-11.73878,-3.66564l-4.80024,-1.17824c-0.30547,3.27289 -3.14198,5.49846 -3.14198,5.49846l9.25138,1.09096l10.69145,3.27289l12.52428,8.5968l-12.78611,-13.61524z" class="st45"/>
+   <path stroke="null" id="svg_188" d="m224.81402,286.26908l-20.55378,-5.62938c0,0 -5.84757,7.81131 -4.71297,9.77504c1.09096,1.9201 0,13.52796 0,13.52796l9.9496,8.46589l8.11678,-2.70559c0,0 0.5673,-3.53473 -2.22557,-3.88383c-2.79287,-0.34911 1.87646,-2.35648 3.31653,-3.18562c1.44007,-0.87277 13.35341,-6.98217 6.1094,-16.36447" class="st41"/>
+   <path stroke="null" id="svg_189" d="m54.23078,323.71099c5.01844,13.87707 92.86292,64.84694 122.31897,61.83588l88.71725,4.23294c75.45112,-9.20774 111.14749,-126.46463 111.14749,-126.46463c-3.01106,-29.45605 -77.32758,13.22249 -103.8162,26.44498c-41.98032,20.94652 -68.51258,21.99385 -68.51258,21.99385c-28.05961,2.88015 -60.614,-18.80823 -96.04853,-19.55009c-38.92562,-0.78549 -61.70496,9.68777 -53.80638,31.50706" class="st49"/>
+   <path stroke="null" id="svg_190" d="m247.2879,309.65937c0,-0.04364 0.04364,-0.08728 0.08728,-0.08728l0,-3.70928l-152.73506,-2.79287l-0.08728,3.70928c0,0 -0.04364,0.08728 0,0.13092l0.39275,0.69822c1.9201,3.22926 5.41119,3.88383 9.46957,3.97111l132.92314,2.40012c4.01475,0.08728 7.54948,-0.43639 9.60049,-3.57836l0.34911,-0.74186z" class="st43"/>
+   <path stroke="null" id="svg_191" d="m210.45693,309.57209c0,0 0,0.08728 0,0.08728l0.34911,0.5673c0.61094,0.82913 1.3528,1.44007 2.18193,1.9201l23.21573,0.43639c3.88383,0.08728 7.28764,-0.30547 9.20774,-2.88015l0.39275,-0.5673c0.04364,-0.04364 0.04364,-0.04364 0.08728,-0.08728l0,-1.78918l-35.3909,-0.65458l-0.04364,2.96742z" class="st32"/>
+   <polygon stroke="null" id="svg_192" points="189.85946655273438,308.2629699707031 113.53561401367188,306.86651611328125 113.57929992675781,304.2481384277344 189.9031219482422,305.6446228027344 " class="st18"/>
+   <path stroke="null" id="svg_193" d="m209.67143,305.03368l-18.41548,-75.40748c-0.48002,-1.96374 -2.4874,-3.622 -4.45114,-3.66564l-107.13274,-1.96374c-2.00738,-0.04364 -3.18562,1.52735 -2.70559,3.53473l18.45912,75.40748l114.24583,2.09465z" class="st9"/>
+   <path stroke="null" id="svg_194" d="m149.79929,264.5807c0.96005,3.8402 -1.39643,6.8949 -5.23663,6.85126c-3.8402,-0.08728 -7.68039,-3.27289 -8.64044,-7.11309c-0.96005,-3.8402 1.39643,-6.93854 5.23663,-6.85126c3.8402,0.08728 7.68039,3.27289 8.64044,7.11309" class="st43"/>
+   <path stroke="null" id="svg_195" d="m278.8386,409.3299c-10.56054,1.83282 -18.63368,-10.47326 -18.63368,-10.47326l-27.31776,-21.51382l5.76029,-14.53165l53.19544,23.91395c0,0 -2.44376,20.81561 -13.0043,22.60479" class="st41"/>
+   <path stroke="null" id="svg_196" d="m260.16128,398.02751c0,0 -0.04364,1.26552 2.00738,6.85126c2.05101,5.58574 4.53841,7.54948 7.15673,8.33497c10.21143,3.01106 17.54271,1.48371 42.0676,6.19668c24.52489,4.71297 31.85617,1.17824 39.05654,-10.12415c7.20037,-11.30239 -0.26183,-20.16103 -12.2188,-21.07744c-17.32452,-1.30916 -26.96865,0.65458 -35.9582,-0.69822c-9.42594,-1.44007 -10.03688,-3.53473 -15.57898,-6.93854c-5.19299,-3.18562 -9.9496,15.75353 -5.06208,20.16103c4.32022,3.92747 -17.80454,4.49477 -21.47019,-2.70559" class="st50"/>
+   <path stroke="null" id="svg_197" d="m265.39791,408.93716c10.21143,3.01106 17.54271,1.48371 42.0676,6.19668c24.52489,4.71297 31.85617,1.17824 39.05654,-10.12415c3.31653,-5.23663 3.44745,-9.90596 1.52735,-13.52796c5.41119,3.70928 7.24401,10.21143 2.40012,17.84818c-7.15673,11.30239 -14.53165,14.83712 -39.05654,10.12415c-24.52489,-4.71297 -31.85617,-3.22926 -42.0676,-6.19668c-2.05101,-0.61094 -3.97111,-1.9201 -5.71666,-5.06208c0.61094,0.34911 1.22188,0.5673 1.78918,0.74186" class="st44"/>
+   <path stroke="null" id="svg_198" d="m260.20492,398.37662c-0.04364,-0.21819 -0.04364,-0.34911 -0.04364,-0.34911c0.08728,0.13092 0.17455,0.26183 0.21819,0.39275c-0.04364,0 -0.13092,-0.04364 -0.17455,-0.04364" class="st41"/>
+   <path stroke="null" id="svg_199" d="m313.18217,406.88614c0.78549,0.30547 1.48371,-1.17824 1.74554,-3.27289c0.48002,-4.23294 1.39643,-8.46589 2.83651,-12.61155c0.69822,-2.09465 0.69822,-3.88383 -0.17455,-4.14567c-0.87277,-0.21819 -2.26921,1.26552 -2.92379,3.27289c-1.3528,4.14567 -2.26921,8.33497 -2.66195,12.48064c-0.26183,2.05101 0.39275,3.97111 1.17824,4.27658" class="st2"/>
+   <path stroke="null" id="svg_200" d="m305.54541,405.48971c0.82913,0.17455 1.57099,-1.26552 1.83282,-3.22926c0.48002,-3.97111 1.39643,-7.94222 2.79287,-11.8697c0.69822,-1.96374 0.65458,-3.622 -0.26183,-3.75292c-0.91641,-0.08728 -2.31285,1.3528 -3.01106,3.31653c-1.3528,3.92747 -2.22557,7.85495 -2.66195,11.73878c-0.13092,1.9201 0.52366,3.622 1.30916,3.79656" class="st2"/>
+   <path stroke="null" id="svg_201" d="m297.60319,405.1406c0.87277,0.13092 1.7019,-1.44007 2.05101,-3.44745c0.65458,-4.05839 1.74554,-8.20405 3.31653,-12.26244c0.78549,-2.00738 0.78549,-3.70928 -0.17455,-3.75292c-0.96005,-0.04364 -2.44376,1.52735 -3.18562,3.53473c-1.52735,4.05839 -2.57468,8.11678 -3.14198,12.13153c-0.34911,2.00738 0.26183,3.70928 1.1346,3.79656" class="st2"/>
+   <path stroke="null" id="svg_202" d="m276.96214,374.24448c0,0 -187.68957,-77.15303 -198.42466,-77.28394c-36.26367,-0.34911 -27.9287,36.35094 -9.55685,53.58819c21.64474,20.37922 186.42405,57.60294 186.42405,57.60294l21.55746,-33.90718z" class="st51"/>
+   <polygon stroke="null" id="svg_203" points="202.51470947265625,387.6415710449219 253.7463836669922,339.0718078613281 231.92710876464844,317.4270935058594 175.98239135742188,376.2518310546875 " class="st41"/>
+   <path stroke="null" id="svg_204" d="m191.91053,349.45776c0,0 130.3921,-119.5261 139.2071,-123.06082c29.76152,-12.08789 48.177,20.77197 47.12968,32.118c-1.3528,14.7062 -133.83955,134.40685 -133.83955,134.40685l-52.49722,-43.46403z" class="st52"/>
+   <path stroke="null" id="svg_205" d="m114.62659,391.43808c-3.0547,2.83651 -3.57836,11.0842 -3.57836,11.0842s43.50767,16.45175 58.78118,16.75722c3.97111,0.08728 11.12784,-1.52735 17.9791,-3.40381c1.1346,-0.30547 3.79656,-3.27289 4.93116,-3.622c2.09465,-0.61094 2.57468,1.39643 4.36386,0.82913c4.62569,-1.48371 7.94222,-2.74923 8.07314,-2.96742c9.20774,-19.55009 6.1094,-29.15058 6.1094,-29.15058s-19.98647,5.71666 -16.58266,1.26552c7.33128,-9.55685 -13.61524,-19.37553 -18.28457,-14.26982c-18.67732,20.37922 -52.93361,15.31714 -61.79224,23.47756" class="st50"/>
+   <path stroke="null" id="svg_206" d="m112.22646,395.49647c13.35341,5.32391 41.45666,16.27719 47.08604,16.66994c22.91026,1.65827 38.92562,-6.50215 49.61708,-11.30239c-0.96005,2.79287 -2.13829,5.84757 -3.75292,9.25138c-0.13092,0.21819 -3.40381,1.48371 -8.07314,2.96742c-1.78918,0.5673 -2.26921,-1.44007 -4.36386,-0.82913c-1.1346,0.34911 -3.75292,3.31653 -4.93116,3.622c-6.85126,1.87646 -13.96435,3.49109 -17.93546,3.40381c-15.27351,-0.30547 -58.78118,-16.75722 -58.78118,-16.75722s0.08728,-3.75292 1.1346,-7.02581" class="st44"/>
+   <path stroke="null" id="svg_207" d="m142.99167,382.84128c-0.39275,0.74186 1.30916,1.65827 3.75292,2.13829c4.9748,1.00369 9.90596,2.4874 14.7062,4.45114c2.35648,0.96005 4.53841,1.17824 4.88752,0.34911c0.30547,-0.82913 -1.30916,-2.40012 -3.66564,-3.36017c-4.75661,-1.87646 -9.64413,-3.31653 -14.53165,-4.27658c-2.4874,-0.43639 -4.75661,-0.08728 -5.14935,0.69822" class="st2"/>
+   <path stroke="null" id="svg_208" d="m152.72307,379.35019c-0.34911,0.78549 1.30916,1.87646 3.66564,2.57468c4.80024,1.39643 9.55685,3.27289 14.22618,5.58574c2.26921,1.1346 4.36386,1.52735 4.66933,0.65458c0.30547,-0.87277 -1.26552,-2.61832 -3.53473,-3.70928c-4.58205,-2.26921 -9.29502,-4.05839 -14.09526,-5.41119c-2.35648,-0.65458 -4.53841,-0.43639 -4.93116,0.30547" class="st2"/>
+   <path stroke="null" id="svg_209" d="m162.10537,376.33913c-0.34911,0.78549 1.26552,2.05101 3.57836,2.92379c4.66933,1.74554 9.25138,3.97111 13.70252,6.6767c2.18193,1.30916 4.1893,1.78918 4.45114,0.87277c0.30547,-0.91641 -1.22188,-2.79287 -3.36017,-4.10203c-4.45114,-2.61832 -8.98955,-4.75661 -13.5716,-6.45851c-2.26921,-0.82913 -4.45114,-0.69822 -4.80024,0.08728" class="st2"/>
+   <g stroke="null" id="vhead">
+    <path stroke="null" id="svg_210" d="m256.32108,95.91756c2.26921,6.54579 -1.17824,13.74616 -7.72403,16.01536l-11.6515,4.10203c-6.54579,2.26921 -13.74616,-1.17824 -16.01536,-7.68039l-10.38598,-29.67424c-2.26921,-6.50215 1.17824,-13.74616 7.72403,-16.01536l11.69514,-4.10203c6.50215,-2.26921 13.74616,1.17824 16.01536,7.72403l10.34235,29.6306z" class="st44"/>
+    <path stroke="null" id="svg_211" d="m212.50794,106.60901c1.17824,4.32022 5.67302,6.85126 9.99324,5.67302l35.21634,-9.68777c4.32022,-1.17824 6.85126,-5.67302 5.67302,-9.99324l-14.3571,-52.14811c-1.17824,-4.32022 -5.67302,-6.85126 -9.99324,-5.67302l-35.21634,9.68777c-4.32022,1.17824 -6.85126,5.67302 -5.67302,9.99324l14.3571,52.14811z" class="st41"/>
+    <path stroke="null" id="svg_212" d="m201.03099,65.23963c0,0 -6.1094,-3.75292 -7.85495,-6.63307c-0.87277,-1.44007 -0.96005,-7.81131 2.31285,-11.17148c3.27289,-3.36017 7.72403,-0.04364 7.72403,-0.04364s-5.28027,5.19299 -5.23663,6.58943c0.04364,1.44007 3.0547,11.25876 3.0547,11.25876" class="st40"/>
+    <path stroke="null" id="svg_213" d="m259.07032,62.92678c0,0 -0.21819,-21.51382 -2.79287,-27.09956c-2.57468,-5.62938 -4.36386,-9.51321 -11.69514,-8.16042c-10.99692,1.96374 -10.5169,4.32022 -16.6263,2.4874c-6.1094,-1.83282 -17.67363,-7.11309 -21.12108,-6.98217c-5.76029,0.17455 -13.65888,4.32022 -11.21512,14.48801c1.78918,7.54948 -2.40012,10.64782 -2.18193,10.90965c0.65458,0.78549 2.88015,1.1346 6.76398,1.87646c11.12784,2.18193 17.28088,1.57099 24.21942,-2.4874c6.93854,-4.01475 19.76828,-12.13153 22.91026,-7.02581c3.14198,5.10571 7.15673,22.25568 8.20405,23.34665c0.96005,1.09096 2.4874,0 3.53473,-1.3528" class="st53"/>
+    <path stroke="null" id="svg_214" d="m252.2627,81.64774c0.39275,1.44007 1.87646,2.26921 3.31653,1.87646l7.63675,-2.09465c1.44007,-0.39275 2.26921,-1.87646 1.87646,-3.31653l-3.8402,-13.92071c-0.39275,-1.44007 -1.87646,-2.31285 -3.36017,-1.87646l-7.59311,2.09465c-1.44007,0.39275 -2.31285,1.87646 -1.87646,3.31653l3.8402,13.92071z" class="st41"/>
+    <path stroke="null" id="svg_215" d="m206.9222,94.12837c0.39275,1.44007 1.87646,2.31285 3.36017,1.9201l7.59311,-2.09465c1.44007,-0.39275 2.26921,-1.87646 1.87646,-3.31653l-3.8402,-13.92071c-0.39275,-1.44007 -1.87646,-2.31285 -3.31653,-1.87646l-7.59311,2.09465c-1.44007,0.39275 -2.26921,1.87646 -1.87646,3.31653l3.79656,13.87707z" class="st41"/>
+    <path stroke="null" id="svg_216" d="m256.93202,68.42525c0,0 5.67302,20.55378 7.54948,27.40503c1.7019,6.19668 2.96742,20.4665 -31.98709,30.11063c-20.68469,5.71666 -24.13214,-9.73141 -25.52857,-14.7062c-1.04733,-3.79656 0.08728,-16.40811 1.7019,-19.20098c0.04364,-0.08728 2.31285,8.46589 2.31285,8.46589s2.00738,-9.42594 11.8697,-12.17517c15.88445,-4.36386 22.03749,3.92747 28.97602,1.83282c5.41119,-1.61463 7.02581,-11.52059 5.10571,-21.73202" class="st53"/>
+    <path stroke="null" id="svg_217" d="m233.14899,100.01958l-10.86601,3.01106c-1.44007,0.39275 -2.92379,-0.43639 -3.31653,-1.87646l-0.43639,-1.52735l16.10264,-4.45114l0.43639,1.52735c0.34911,1.39643 -0.48002,2.92379 -1.9201,3.31653" class="st41"/>
+   </g>
+  </g>
+ </g>
+</svg>

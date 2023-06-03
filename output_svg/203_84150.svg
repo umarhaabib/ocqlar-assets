@@ -1,0 +1,684 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="602" width="1068.66667" y="-1" x="-1"/>
+ </g>
+
+ <style type="text/css">.st0{fill:#C17A3C;}
+	.st1{fill:#764F27;}
+	.st2{fill:#732F2E;}
+	.st3{fill:#7D7662;}
+	.st4{fill:#615E47;}
+	.st5{fill:#66634B;}
+	.st6{fill:#6C684F;}
+	.st7{fill:#716D53;}
+	.st8{fill:#5B5942;}
+	.st9{fill:#AA8F61;}
+	.st10{fill:#A47E37;}
+	.st11{fill:#825B4F;}
+	.st12{fill:#6C5431;}
+	.st13{fill:#96774D;}
+	.st14{fill:#3C434D;}
+	.st15{fill:#5A646D;}
+	.st16{fill:#A5A6AA;}
+	.st17{fill:#5A606F;}
+	.st18{fill:#D5D6D7;}
+	.st19{fill:#393A3E;}
+	.st20{fill:#494A4F;}
+	.st21{fill:#B6A5AF;}
+	.st22{fill:#BEDDDC;}
+	.st23{fill:#471210;}
+	.st24{fill:#F0BC83;}
+	.st25{fill:#B43831;}
+	.st26{fill:#7D7B7A;}
+	.st27{fill:none;}
+	.st28{fill:#68111E;}
+	.st29{fill:#341215;}
+	.st30{fill:#DBA77F;}
+	.st31{fill:#EEC09B;}
+	.st32{fill:#EEC9AB;}
+	.st33{fill:#861728;}
+	.st34{fill:#321215;}
+	.st35{fill:#FFFFFF;}
+	.st36{fill:#352311;}
+	.st37{fill:#291E10;}
+	.st38{fill:#17120E;}
+	.st39{fill:#3D3D3D;}
+	.st40{fill:#9DD87D;}
+	.st41{fill:#7FC5D6;}
+	.st42{fill:#261D15;}
+	.st43{fill:#483729;}
+	.st44{fill:#191C19;}
+	.st45{fill:#292E2A;}
+	.st46{fill:#BEA176;}
+	.st47{fill:#E3CCAA;}
+	.st48{fill:#43311B;}
+	.st49{fill:#2B2B2B;}
+	.st50{opacity:0.33;fill:#2B2B2B;enable-background:new    ;}
+	.st51{fill:#DDDDD8;}
+	.st52{fill:#C15A3F;}
+	.st53{fill:#2E9F8E;}
+	.st54{fill:#F6921E;}
+	.st55{fill:#A7B590;}
+	.st56{fill:#DEA926;}
+	.st57{fill:#F8B11D;}
+	.st58{fill:#FDCD2F;}
+	.st59{fill:#E14C4B;}
+    #girl{
+    animation : move 6s ease-in-out infinite ;
+    
+    }
+   @keyframes move{
+    0%{
+    transform : translateX(0px)
+    }
+    40%{
+    transform : translateX(500px)
+    }
+    100%{
+    transform : translateX(500px)
+    }
+    }
+    #BRAZO_IZQ ,#phone{
+    animation : swip1 6s ease-in-out infinite;
+    
+    }
+    @keyframes swip1{
+    0%,50%{
+   visibility : visible
+    }
+    55%,100%{
+    visibility : hidden
+    }
+   
+    }
+    #BRAZO_IZQ-2 ,#phone-2{
+    animation : swip2 6s ease-in-out infinite;
+    
+    }
+    @keyframes swip2{
+    0%,50%{
+   visibility : hidden
+    }
+    55%,100%{
+    visibility : visible
+    }
+   
+    }
+    #BRAZO_DERE{
+    animation : swip 6s ease-in-out infinite;
+    }
+    @keyframes swip{
+    0%,55%{
+    visibility : visible
+    }
+    56%,100%{
+    visibility : hidden
+    }
+    }
+    #BRAZO_DERE-3{
+    animation : swip4 6s ease-in-out infinite;
+    }
+    @keyframes swip4{
+    0%,65%{
+    visibility : hidden
+    }
+    66%,75%{
+    visibility : visible
+    }
+    76%,85%{
+    visibility : hidden
+    }
+    86%,95%{
+    visibility : visible
+    }
+    96%,100%{
+    visibility : hidden
+    }
+    }
+    
+    #BRAZO_DERE-2{
+    animation : swip3 6s ease-in-out infinite;
+    }
+    @keyframes swip3{
+    0%,55%{
+    visibility : hidden
+    }
+    56%,65%{
+    visibility : visible
+    }
+    66%,75%{
+    visibility : hidden
+    }
+    76%,85%{
+    visibility : visible
+    }
+    86%,95%{
+    visibility : hidden
+    }
+    100%{
+    visibility : visible
+    }
+   
+    }
+    /*#phone{
+    animation : fade 6s ease-in-out infinite 
+    }
+    @keyframes fade{
+    0%,50%{
+    transform : translate(0)
+    }
+    55%{
+    transform : translate(57px,-60px)
+    }
+    100%{
+    transform : translate(57px,-60px)
+    }
+    }*/
+    #CARA ,#CABELLO{
+    animation : shake 6s ease-in-out infinite ;
+    
+    
+    }
+    @keyframes shake{
+    0%,50%{
+    visibility : visible
+    }
+    51%,100%{
+    visibility : hidden
+    }
+    
+    }
+    #CARA-down{
+    animation : shake1 6s ease-in-out infinite ;
+    
+    
+    }
+    @keyframes shake1{
+    0%,50%{
+    visibility : hidden
+    }
+    51%,100%{
+    visibility : visible
+    }
+    
+    }
+   
+    #OJOS{
+    animation : blink 6s ease-in-out infinite
+    }
+    @keyframes blink{
+    0%,40%{
+    visibility : visible
+    }
+    45%,50%{
+    visibility : hidden
+    }
+    55%,65%{
+    visibility : visible
+    }
+    70%,75%{
+    visibility : hidden
+    }
+    80%,100%{
+    visibility : visible
+    }
+    }
+    #BOCA{
+    animation : smile 6s ease-in-out infinite
+    }
+    @keyframes smile{
+    0%,50%{
+    visibility : hidden
+    }
+    55%{
+     visibility : visible
+    }
+    100%{
+    visibility : visible
+    }
+    }</style>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="null" x="30.23809" y="304.71192" class="st12" width="531.76669" height="129.35474" id="svg_383"/>
+  <rect stroke="null" x="58.54087" y="335.63489" class="st9" width="221.77286" height="97.09559" id="svg_384"/>
+  <rect stroke="null" x="315.70673" y="328.2541" class="st9" width="224.15564" height="98.11363" id="svg_385"/>
+  <polygon stroke="null" class="st25" points="8.266688227653503,305.3481750488281 53.190797209739685,272.5163879394531 544.2759603261948,272.5163879394531 589.2001546621323,305.3481750488281 " id="svg_386"/>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes slideInRight {
+    from {
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+.animate__slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-3s {
+          -webkit-animation-delay: calc(1s * 3);
+          animation-delay: calc(1s * 3);
+          -webkit-animation-delay: calc(var(--animate-delay) * 3);
+          animation-delay: calc(var(--animate-delay) * 3);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(2s);
+          animation-duration: calc(2s);
+          -webkit-animation-duration: calc(var(--animate-duration));
+          animation-duration: calc(var(--animate-duration));
+        }</style>
+  <g stroke="null" class="animate__animated animate__slideInRight animate__repeat-1 animate__delay-3s animate__faster" id="svg_4">
+   <g stroke="null" id="svg_390">
+    <path stroke="null" class="st51" d="m381.78998,280.8516c6.46272,-2.22696 19.52858,-7.44442 13.06588,-16.16139c-6.46272,-8.71697 0,-21.06071 0,-21.06071l-13.34689,0l-6.18171,0l-13.34689,0c0,0 6.46272,12.34374 0,21.06071c-6.46272,8.71697 6.46272,13.93443 13.06588,16.16139l0,9.67138l-10.81798,0.89079l0,0.95441l11.09898,0l6.18171,0l11.09898,0l0,-0.95441l-10.81798,-0.89079l0,-9.67138l-0.00005,0l0.00005,0l0.00002,0z" id="svg_391"/>
+    <path stroke="null" class="st53" d="m364.36879,248.08343c1.40492,4.00853 2.80986,11.07119 -1.26444,16.60678c-5.76023,7.76256 5.05777,12.59825 11.37996,14.82521l8.00814,0c6.32221,-2.22696 17.14019,-6.99903 11.37996,-14.82521c-4.07431,-5.5356 -2.66936,-12.59825 -1.26444,-16.60678l-28.23917,0l-0.00001,0z" id="svg_392"/>
+   </g>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+.animate__slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(2s);
+          animation-duration: calc(2s);
+          -webkit-animation-duration: calc(var(--animate-duration));
+          animation-duration: calc(var(--animate-duration));
+        }</style>
+  <g id="svg_1" class="animate__animated animate__slideInLeft animate__repeat-1 animate__delay-1s animate__faster">
+   <g stroke="null" id="svg_413">
+    <g stroke="null" id="svg_414">
+     <circle stroke="null" class="st56" cx="229.60923" cy="239.36645" r="4.73579" id="svg_415"/>
+     <ellipse stroke="null" transform="matrix(0.1221799752504565,-0.6280672353441852,0.7528330435064021,0.10193128467443875,263.4288946444258,373.186653783854) " class="st57" cx="200.49658" cy="-77.45616" rx="10.6" ry="10.6" id="svg_416"/>
+     <g stroke="null" id="svg_417">
+      <g stroke="null" id="svg_418">
+       <path stroke="null" class="st58" d="m229.15163,240.76626l-1.90667,3.56314c-0.15253,0.19088 0,0.44539 0.30507,0.57265c0.76266,0.25451 2.51682,0.69991 4.49976,0.19088c0.30507,-0.06363 0.4576,-0.38176 0.30507,-0.57265l-2.288,-3.75402c-0.15253,-0.38176 -0.76266,-0.38176 -0.91521,0l-0.00001,0l-0.00001,0z" id="svg_419"/>
+       <path stroke="null" class="st58" d="m231.0583,240.06636l3.58456,2.5451c0.2288,0.12725 0.53386,0.12725 0.76266,-0.06363c0.61013,-0.50902 1.6016,-1.71794 1.6016,-3.37226c0,-0.25451 -0.30507,-0.44539 -0.61013,-0.44539l-5.1099,0.57265c-0.38133,0.06363 -0.53386,0.50902 -0.2288,0.76353l0.00001,0.00001l0,-0.00001z" id="svg_420"/>
+       <path stroke="null" class="st58" d="m230.8295,238.34842l4.11843,-1.97246c0.2288,-0.12725 0.30507,-0.38176 0.15253,-0.57265c-0.4576,-0.57265 -1.52534,-1.78157 -3.5083,-2.29059c-0.30507,-0.06363 -0.61013,0.06363 -0.68641,0.31813l-0.91521,4.07216c0,0.38176 0.4576,0.63628 0.83894,0.44539l0.00001,0l0,0.00002l0.00001,0z" id="svg_421"/>
+       <path stroke="null" class="st58" d="m228.77029,238.03028l-1.06774,-3.75402c-0.07627,-0.25451 -0.38133,-0.38176 -0.61013,-0.31813c-0.83894,0.12725 -2.59309,0.63628 -3.81336,1.97246c-0.2288,0.19088 -0.07627,0.50902 0.15253,0.63628l4.57604,1.97246c0.4576,0.12725 0.91521,-0.19088 0.76266,-0.50902l0,-0.00001l0,-0.00002z" id="svg_422"/>
+       <path stroke="null" class="st58" d="m227.70254,239.49371l-4.72857,-0.31813c-0.30507,0 -0.53386,0.12725 -0.53386,0.38176c-0.07627,0.69991 -0.07627,2.16334 1.14401,3.49951c0.15253,0.19088 0.53386,0.25451 0.76266,0.06363l3.73709,-2.86324c0.30507,-0.31813 0.07627,-0.76353 -0.38133,-0.76353l0,-0.00001l0,0.00001z" id="svg_423"/>
+      </g>
+     </g>
+    </g>
+    <path stroke="null" class="st51" d="m214.5846,292.68632c-3.58456,-4.07216 -0.53386,-24.87836 0.15253,-28.37788c0.68641,-3.56314 14.56703,-22.07875 14.56703,-22.07875l-17.61771,0l-17.61771,0c0,0 13.88063,18.51561 14.56703,22.07875c0.68641,3.56314 3.73709,24.30571 0.15253,28.37788c0,0 -10.6774,-0.12725 -11.66887,2.41784c0,0 1.52534,3.11775 14.56703,3.11775s14.56703,-3.11775 14.56703,-3.11775c-0.99147,-2.5451 -11.66887,-2.41784 -11.66887,-2.41784l-0.00003,0l0.00001,0z" id="svg_424"/>
+    <path stroke="null" class="st59" d="m211.7627,242.2297l-17.00758,0c0,0 7.32166,10.11678 11.36381,16.79767l0,0c0,0 5.49123,2.09971 11.05873,0c0.07627,0 0.15253,-0.06363 0.2288,-0.06363c4.11843,-6.68089 11.36381,-16.73404 11.36381,-16.73404l-17.00758,0l0,0l-0.00001,0l0.00003,0l-0.00001,0z" id="svg_425"/>
+    <path stroke="null" class="st51" d="m194.14499,242.2297c0,0 0.4576,0.57265 1.14401,1.52706l0,0l32.03221,0c0,0 0.30507,0.12725 0.76266,0.31813c0.83894,-1.1453 1.37281,-1.78157 1.37281,-1.78157l-17.61771,0l-17.69398,-0.06363l0,0l-0.00001,0.00001l0.00001,0z" id="svg_426"/>
+   </g>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes slideInRight {
+    from {
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+.animate__slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__slow {
+          -webkit-animation-duration: calc(1s * 6);
+          animation-duration: calc(1s * 6);
+          -webkit-animation-duration: calc(var(--animate-duration) * 6);
+          animation-duration: calc(var(--animate-duration) * 6);
+        }</style>
+  <g class="animate__animated animate__slideInRight animate__repeat-1 animate__delay-1s animate__slow" id="svg_5">
+   <g stroke="null" id="svg_387">
+    <path stroke="null" class="st51" d="m469.56753,292.28165l-6.73174,-1.56716c-1.90899,-0.45709 -3.11468,-1.56716 -3.11468,-2.87313l0,-13.38616c16.37724,-7.31341 14.56869,-33.49805 14.56869,-33.49805l-15.47296,0l-3.71754,0l-15.47296,0c0,0 -1.90899,26.18464 14.56869,33.49805l0,13.38616c0,1.30597 -1.20569,2.41604 -3.11468,2.87313l-6.73174,1.56716c-0.50236,0.19589 -0.30142,0.78358 0.30142,0.78358l10.44928,0l3.71754,0l10.44928,0c0.60284,0 0.90427,-0.52239 0.30142,-0.78358l-0.00003,0l0.00001,0z" id="svg_388"/>
+    <path stroke="null" class="st52" d="m441.03299,252.18846c1.10521,7.70521 4.32038,17.69586 13.26254,21.67905l5.32511,0c8.94216,-3.9832 12.15733,-13.97385 13.26254,-21.67905l-31.85018,0l-0.00002,0l0.00001,0z" id="svg_389"/>
+   </g>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes slideInRight {
+    from {
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+.animate__slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g id="svg_2" class="animate__animated animate__slideInRight animate__repeat-1 animate__delay-1s animate__slower">
+   <g stroke="null" id="svg_399">
+    <g stroke="null" id="svg_400">
+     <ellipse stroke="null" transform="matrix(0.18282453664451373,-0.5951423917000014,0.780008627857575,0.13949413905704636,470.5666500456056,677.3980015699303) " class="st56" cx="721.4963" cy="-75.97376" rx="11.7" ry="11.7" id="svg_401"/>
+     <circle stroke="null" class="st57" cx="543.25631" cy="237.42364" r="4.122" id="svg_402"/>
+     <g stroke="null" id="svg_403">
+      <g stroke="null" id="svg_404">
+       <path stroke="null" class="st58" d="m542.77563,238.76845l-2.00289,3.42317c-0.08012,0.18338 0,0.42789 0.32047,0.55015c0.80115,0.24451 2.64383,0.67242 4.72684,0.18338c0.32047,-0.06113 0.4807,-0.36676 0.32047,-0.55015l-2.40347,-3.60655c-0.16023,-0.36676 -0.80115,-0.30563 -0.96139,0l-0.00001,0l-0.00001,0l-0.00001,0z" id="svg_405"/>
+       <path stroke="null" class="st58" d="m544.77852,238.09604l3.76545,2.44512c0.24035,0.12225 0.5608,0.12225 0.80115,-0.06113c0.64092,-0.48902 1.68242,-1.65045 1.68242,-3.23979c0,-0.24451 -0.32047,-0.42789 -0.64092,-0.42789l-5.36777,0.55015c-0.40058,0.06113 -0.5608,0.48902 -0.24035,0.73354l0.00001,0.00001l0,-0.00001l0.00001,0z" id="svg_406"/>
+       <path stroke="null" class="st58" d="m544.53817,236.44559l4.32627,-1.89498c0.24035,-0.12225 0.32047,-0.36676 0.16023,-0.55015c-0.4807,-0.55015 -1.60232,-1.71158 -3.68534,-2.20061c-0.32047,-0.06113 -0.64092,0.06113 -0.72104,0.30563l-0.96139,3.91219c0,0.36676 0.4807,0.61128 0.88127,0.42789l0.00001,0l0,0.00002l-0.00001,0.00001z" id="svg_407"/>
+       <path stroke="null" class="st58" d="m542.37504,236.13995l-1.12162,-3.60655c-0.08012,-0.24451 -0.40058,-0.36676 -0.64092,-0.30563c-0.88127,0.12225 -2.72395,0.61128 -4.0058,1.89498c-0.24035,0.18338 -0.08012,0.48902 0.16023,0.61128l4.80696,1.89498c0.40058,0.12225 0.88127,-0.18338 0.80115,-0.48902l0,-0.00001l0,-0.00002l0,-0.00001z" id="svg_408"/>
+       <path stroke="null" class="st58" d="m541.2534,237.54589l-4.96719,-0.30563c-0.32047,0 -0.5608,0.12225 -0.5608,0.36676c-0.08012,0.67242 -0.08012,2.07836 1.20174,3.36204c0.16023,0.18338 0.5608,0.24451 0.80115,0.06113l3.92568,-2.75076c0.32047,-0.30563 0.08012,-0.73354 -0.40058,-0.73354l0,-0.00001l0,0.00001z" id="svg_409"/>
+      </g>
+     </g>
+    </g>
+    <path stroke="null" class="st51" d="m527.47348,288.71004c-3.76545,-3.91219 -0.5608,-23.90106 0.16023,-27.2631c0.72104,-3.42317 15.30215,-21.21142 15.30215,-21.21142l-18.50678,0l-18.50678,0c0,0 14.5811,17.78826 15.30215,21.21142c0.72104,3.42317 3.92568,23.3509 0.16023,27.2631c0,0 -11.21623,-0.12225 -12.25773,2.32286c0,0 1.60232,2.99527 15.30215,2.99527s15.30215,-2.99527 15.30215,-2.99527c-1.0415,-2.50625 -12.25773,-2.32286 -12.25773,-2.32286l-0.00003,0l-0.00001,0z" id="svg_410"/>
+    <path stroke="null" class="st55" d="m524.42908,240.23553l-17.86586,0c0,0 7.69114,9.71936 11.93727,16.1378l0,0c0,0 5.76834,2.01723 11.6168,0c0.08012,0 0.16023,-0.06113 0.24035,-0.06113c4.32627,-6.41844 11.93727,-16.07667 11.93727,-16.07667l-17.86586,0l0,0l-0.00001,0l0.00003,0l0.00001,0z" id="svg_411"/>
+    <path stroke="null" class="st51" d="m505.92228,240.23553c0,0 0.4807,0.55015 1.20174,1.46707l0,0l33.6487,0c0,0 0.32047,0.12225 0.80115,0.30563c0.88127,-1.10031 1.44209,-1.71158 1.44209,-1.71158l-18.50678,0l-18.5869,-0.06113l0,0l-0.00001,0.00001l0.00001,0z" id="svg_412"/>
+   </g>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+.animate__slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g id="svg_3" class="animate__animated animate__slideInLeft animate__repeat-1 animate__delay-1s animate__slower">
+   <g stroke="null" id="svg_393">
+    <path stroke="null" class="st51" d="m149.23347,240.19361l-14.21272,0l-2.50812,0l-14.21272,0c0,0 -15.51325,21.76061 13.65536,23.22404l0,27.0417l-9.10359,0.82716l0,1.27255l9.66095,0l2.50812,0l9.66095,0l0,-1.27255l-9.10359,-0.82716l0,-27.0417c29.16862,-1.46343 13.65536,-23.22404 13.65536,-23.22404z" id="svg_394"/>
+    <path stroke="null" class="st54" d="m151.7416,249.61049l-0.18578,0l-35.85696,0l-0.18578,0l0.18578,0.12725c-0.27868,1.27255 -2.13655,12.78913 17.83558,12.91638l0,0l0.0929,0l0.0929,0l0,0c19.97213,-0.06363 18.11426,-11.64383 17.83558,-12.91638l0.18578,-0.12725z" id="svg_395"/>
+   </g>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+.animate__slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g id="svg_6" class="animate__animated animate__slideInLeft animate__repeat-1 animate__delay-1s animate__slower">
+   <g stroke="null" id="svg_396">
+    <path stroke="null" class="st51" d="m67.00049,285.56004c4.64511,-2.09971 13.93528,-6.87177 9.29017,-14.95247s0,-19.53365 0,-19.53365l-9.50622,0l-4.42904,0l-9.50622,0c0,0 4.64511,11.45295 0,19.53365s4.64511,12.85276 9.29017,14.95247l0,8.90786l-7.77782,0.82716l0,0.89079l7.99387,0l4.42904,0l7.99387,0l0,-0.89079l-7.77782,-0.82716l0,-8.90786z" id="svg_397"/>
+    <path stroke="null" class="st55" d="m54.46953,255.20971c0.97223,3.69039 2.05247,10.24403 -0.8642,15.33423c-4.10497,7.18991 3.67288,11.64383 8.1019,13.67992l5.61732,0c4.42904,-2.03608 12.20688,-6.49001 8.1019,-13.67992c-2.91667,-5.0902 -1.83643,-11.64383 -0.8642,-15.33423l-20.09272,0z" id="svg_398"/>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,400 @@
+<svg width="800" height="449.99999999999994" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="502" width="890.88889" y="-1" x="-1"/>
+ </g>
+ <style>#a  {
+    animation: a 10s ease-in-out forwards;
+    animation-direction: initial;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+
+@keyframes a {
+  0%{transform:scale(0);}
+   1%{transform:scale(1.3);}
+   2%{transform:scale(.9);}
+    3%{transform:scale(1);}
+    100%{transform:scale(1);}
+}
+#b {
+    animation: man 10s ease-in-out forwards;
+    animation-direction: initial;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+
+@keyframes man {
+  0%{transform:scale(0);}
+  3%{transform:scale(0);}
+   4%{transform:scale(1.3);}
+   5%{transform:scale(.9);}
+  6%{transform:scale(1);}
+  100%{transform:scale(1);}
+}
+#c {
+    animation: pc 10s ease-in-out forwards;
+    animation-direction: initial;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+
+@keyframes pc {
+  0%{transform:scale(0);}
+  7%{transform:scale(0);}
+   8%{transform:scale(1.3);}
+   9%{transform:scale(.9);}
+  10%{transform:scale(1);}
+  100%{transform:scale(1);}
+}
+#d {
+    animation: cup 10s ease-in-out forwards;
+    animation-direction: initial;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+
+@keyframes cup {
+  0%{transform:scale(0);}
+  11%{transform:scale(0);}
+   12%{transform:scale(1.3);}
+   13%{transform:scale(.9);}
+  14%{transform:scale(1);}
+  100%{transform:scale(1);}
+}
+#d-2 {
+    animation: dd 10s ease-in-out forwards;
+    animation-direction: initial;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+
+
+@keyframes dd {
+  0%{transform:scale(0);}
+  11%{transform:scale(0);}
+   
+  14%{transform:scale(1);}
+  100%{transform:scale(1);}
+}
+#e {
+    animation: paper 10s ease-in-out forwards;
+    animation-direction: initial;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+
+@keyframes paper {
+  0%{transform:scale(0);}
+  15%{transform:scale(0);}
+   16%{transform:scale(1.3);}
+   17%{transform:scale(.9);}
+  18%{transform:scale(1);}
+  100%{transform:scale(1);}
+}
+#f {
+    animation: b1 10s ease-in-out forwards;
+    animation-direction: initial;
+    transform-origin:50% 50%;
+    transform-box: fill-box;
+}
+
+
+@keyframes b1 {
+  0%{transform:scale(0);}
+  19%{transform:scale(0);}
+   20%{transform:scale(1.3);}
+   21%{transform:scale(.9);}
+  22%{transform:scale(1);}
+  
+  100%{transform:scale(1);}
+}
+#g {
+    animation: b2 10s ease-in-out forwards;
+    animation-direction: initial;
+    transform-origin:50% 50%;
+    transform-box: fill-box;
+}
+
+
+@keyframes b2 {
+  0%{transform:scale(0);}
+  22%{transform:scale(0);}
+   23%{transform:scale(1.3);}
+   24%{transform:scale(.9);}
+  25%{transform:scale(1);}
+  
+  100%{transform:scale(1);}
+}
+
+#h {
+    animation: b4 10s ease-in-out forwards;
+    animation-direction: initial;
+    transform-origin:50% 50%;
+    transform-box: fill-box;
+}
+
+
+@keyframes b4 {
+  0%{transform:scale(0);}
+  25%{transform:scale(0);}
+   26%{transform:scale(1.3);}
+   27%{transform:scale(.9);}
+  28%{transform:scale(1);}
+  
+  100%{transform:scale(1);}
+}
+#i {
+    animation: b3 10s ease-in-out forwards;
+    animation-direction: initial;
+    transform-origin:50% 50%;
+    transform-box: fill-box;
+}
+
+
+@keyframes b3 {
+  0%{transform:scale(0);}
+  28%{transform:scale(0);}
+   29%{transform:scale(1.3);}
+   30%{transform:scale(.9);}
+  31%{transform:scale(1);}
+  
+  100%{transform:scale(1);}
+}
+#j {
+    animation: b5 10s ease-in-out forwards;
+    animation-direction: initial;
+    transform-origin:50% 50%;
+    transform-box: fill-box;
+}
+
+
+@keyframes b5 {
+  0%{transform:scale(0);}
+  31%{transform:scale(0);}
+   32%{transform:scale(1.3);}
+   33%{transform:scale(.9);}
+  34%{transform:scale(1);}
+  
+  100%{transform:scale(1);}
+}
+#girl {
+    animation: girl 10s ease-in-out forwards;
+    animation-direction: initial;
+    transform-origin: 60% 80%;
+    transform-box: fill-box;
+}
+
+
+@keyframes girl {
+  0%{transform:scale(0);}
+  34%{transform:scale(0);}
+   35%{transform:scale(1);}
+   36%{transform:scale(1);}
+  37%{transform:scale(1);}
+  
+  100%{transform:scale(1);}
+}
+#arm{
+    animation-name: h1diamondMoves;
+    animation-duration: 1.5s;
+
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: top;
+}
+@keyframes h1diamondMoves {
+    
+    100%  { transform: rotateZ(9deg); }
+}
+#sound {
+    animation: sound .6s ease-in-out infinite;
+    animation-direction: initial;
+	 animation-direction: alternate;
+    transform-origin: 90% 90%;
+    transform-box: fill-box;
+}
+
+
+@keyframes sound {
+  0%{transform:scale(.96);}
+  
+  
+  100%{transform:scale(1);}
+}
+#eyes {
+    animation: eyes 8s ease-in-out infinite;
+    animation-direction: initial;
+	 
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+@keyframes eyes {
+	0%{transform: rotateX(0deg);}
+	20%{transform: rotateX(0deg);}
+	21.5%{transform: rotateX(90deg);}
+	22.5%{transform: rotateX(0deg);}
+	50%{transform: rotateX(0deg);}
+	51.5%{transform: rotateX(90deg);}
+	52.5%{transform: rotateX(0deg);}
+}
+#mouth {
+    animation: mu 7s ease-in-out infinite;
+    animation-direction: initial;
+	 
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+@keyframes mu {
+	0%{transform: rotateX(0deg);}
+	20%{transform: rotateX(0deg);}
+	21.5%{transform: rotateX(90deg);}
+	22.5%{transform: rotateX(0deg);}
+	25%{transform: rotateX(0deg);}
+	26.5%{transform: rotateX(70deg);}
+	27.5%{transform: rotateX(0deg);}
+	35%{transform: rotateX(0deg);}
+	36.5%{transform: rotateX(60deg);}
+	37.5%{transform: rotateX(0deg);}
+	50%{transform: rotateX(0deg);}
+	51.5%{transform: rotateX(90deg);}
+	52.5%{transform: rotateX(0deg);}
+	60%{transform: rotateX(0deg);}
+	61.5%{transform: rotateX(90deg);}
+	62.5%{transform: rotateX(0deg);}
+	66%{transform: rotateX(0deg);}
+	67.5%{transform: rotateX(70deg);}
+	68.5%{transform: rotateX(0deg);}
+	70%{transform: rotateX(0deg);}
+	71.5%{transform: rotateX(60deg);}
+	72.5%{transform: rotateX(0deg);}
+	75%{transform: rotateX(0deg);}
+	76.5%{transform: rotateX(90deg);}
+	77.5%{transform: rotateX(0deg);}
+}
+#eye_brows {
+    animation: eb 10s ease-in-out infinite;
+   
+	 
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+@keyframes eb {
+	0%{transform: translateY(0);}
+	38%{transform: translateY(0);}
+	39%{transform: translateY(-1px);}
+	100%{transform: translateY(-1px);}
+}</style>
+ <defs>
+  <clipPath id="clip-path">
+   <path d="m271.46,180.67a18.39,18.39 0 0 0 -18.39,18.39l0,68.43l142.66,-86.82l-124.27,0z" fill="none" id="svg_1"/>
+  </clipPath>
+  <clipPath id="clip-path-2">
+   <rect x="218.96" y="332.1" width="139.02" height="17.63" fill="none" id="svg_2"/>
+  </clipPath>
+  <clipPath id="clip-path-3">
+   <polygon points="242.75 332.1 218.96 349.33 331.32 349.74 357.98 332.1 242.75 332.1" fill="none" id="svg_3"/>
+  </clipPath>
+  <clipPath id="clip-path-4">
+   <path d="m453,308.92a2.87,2.87 0 0 0 0,5.74l19.27,0a2.87,2.87 0 0 0 0,-5.74l-19.27,0z" fill="none" id="svg_4"/>
+  </clipPath>
+  <clipPath id="clip-path-5">
+   <path d="m365.36,213.48a7.07,7.07 0 1 0 7.07,-7.07a7.07,7.07 0 0 0 -7.07,7.07" fill="none" id="svg_5"/>
+  </clipPath>
+  <clipPath id="clip-path-6">
+   <path d="m366.39,213a6.56,6.56 0 1 0 6.56,-6.56a6.56,6.56 0 0 0 -6.56,6.56" fill="none" id="svg_6"/>
+  </clipPath>
+  <clipPath id="clip-path-7">
+   <path d="m315.13,218.92a1.44,1.44 0 1 0 1.44,-1.44a1.44,1.44 0 0 0 -1.44,1.44" fill="none" id="svg_7"/>
+  </clipPath>
+  <clipPath id="clip-path-8">
+   <path d="m322.1,218.92a1.44,1.44 0 1 0 1.44,-1.44a1.44,1.44 0 0 0 -1.44,1.44" fill="none" id="svg_8"/>
+  </clipPath>
+  <clipPath id="clip-path-9">
+   <path d="m328.25,218.92a1.44,1.44 0 1 0 1.44,-1.44a1.44,1.44 0 0 0 -1.44,1.44" fill="none" id="svg_9"/>
+  </clipPath>
+  <clipPath id="clip-path-10">
+   <path d="m299.34,196.16a0.62,0.62 0 1 0 0.62,-0.62a0.62,0.62 0 0 0 -0.62,0.62" fill="none" id="svg_10"/>
+  </clipPath>
+  <clipPath id="clip-path-11">
+   <path d="m302.62,196.16a0.62,0.62 0 1 0 0.62,-0.62a0.62,0.62 0 0 0 -0.62,0.62" fill="none" id="svg_11"/>
+  </clipPath>
+  <clipPath id="clip-path-12">
+   <path d="m305.9,196.16a0.62,0.62 0 1 0 0.62,-0.62a0.62,0.62 0 0 0 -0.62,0.62" fill="none" id="svg_12"/>
+  </clipPath>
+  <clipPath id="clip-path-13">
+   <path d="m330.09,196.16a0.62,0.62 0 1 0 0.62,-0.62a0.62,0.62 0 0 0 -0.62,0.62" fill="none" id="svg_13"/>
+  </clipPath>
+  <clipPath id="clip-path-14">
+   <path d="m333.38,196.16a0.62,0.62 0 1 0 0.62,-0.62a0.62,0.62 0 0 0 -0.62,0.62" fill="none" id="svg_14"/>
+  </clipPath>
+  <clipPath id="clip-path-15">
+   <path d="m336.66,196.16a0.62,0.62 0 1 0 0.62,-0.62a0.62,0.62 0 0 0 -0.62,0.62" fill="none" id="svg_15"/>
+  </clipPath>
+  <clipPath id="clip-path-16">
+   <path d="m371.45,171a1.85,1.85 0 1 0 0,3.7l34.86,0a1.85,1.85 0 1 0 0,-3.7l-34.86,0z" fill="none" id="svg_16"/>
+  </clipPath>
+  <clipPath id="clip-path-17">
+   <path d="m371.45,163.61a1.85,1.85 0 1 0 0,3.7l14.35,0a1.85,1.85 0 0 0 0,-3.7l-14.35,0z" fill="none" id="svg_17"/>
+  </clipPath>
+  <clipPath id="clip-path-18">
+   <path d="m388.23,171.91l0,19.27l23,-2.05l0,-19.68s-22.56,2.46 -23,2.46" fill="none" id="svg_18"/>
+  </clipPath>
+  <clipPath id="clip-path-19">
+   <polygon points="377.15 167.81 388.43 172.12 411.19 169.45 396.63 165.55 377.15 167.81" fill="none" id="svg_19"/>
+  </clipPath>
+  <clipPath id="clip-path-20">
+   <polygon points="388.43 172.12 410.99 187.29 411.4 169.66 388.43 172.12" fill="none" id="svg_20"/>
+  </clipPath>
+  <clipPath id="clip-path-21">
+   <polygon points="375.31 165.55 377.36 168.02 396.63 165.55 397.86 162.68 375.31 165.55" fill="none" id="svg_21"/>
+  </clipPath>
+  <clipPath id="clip-path-22">
+   <polygon points="377.36 168.02 388.43 172.12 389.66 169.25 374.49 165.55 377.36 168.02" fill="none" id="svg_22"/>
+  </clipPath>
+  <clipPath id="clip-path-23">
+   <polygon points="377.15 183.6 388.23 191.19 388.23 171.91 377.15 167.81 377.15 183.6" fill="none" id="svg_23"/>
+  </clipPath>
+  <clipPath id="clip-path-24">
+   <path d="m398.73,187.65a30.12,30.12 0 0 1 -6.61,0.87c-4.1,-0.41 -4.31,7.18 -4.31,7.18c0.82,0 15.58,3.55 18.66,8.54c4.1,-3.55 10,-8.54 5.54,-15.52c-1.35,-1.48 -3.51,-2 -5.95,-2a42.06,42.06 0 0 0 -7.33,0.9" fill="none" id="svg_24"/>
+  </clipPath>
+  <clipPath id="clip-path-25">
+   <path d="m373.83,183a2.24,2.24 0 0 0 -0.19,2.94l7.21,9.31l11.89,1.64l-15.86,-14a2.24,2.24 0 0 0 -1.48,-0.56a2.27,2.27 0 0 0 -1.57,0.66" fill="none" id="svg_25"/>
+  </clipPath>
+  <clipPath id="clip-path-26">
+   <path d="m376.46,182.37a2.13,2.13 0 0 0 -0.58,3.09l4.88,6.52l9.8,2.64l-3.59,-5.4l-8,-6.68a2.12,2.12 0 0 0 -1.37,-0.5a2.09,2.09 0 0 0 -1.13,0.33" fill="none" id="svg_26"/>
+  </clipPath>
+  <clipPath id="clip-path-27">
+   <path d="m379.56,185.81l0,0a2.29,2.29 0 0 0 0.66,2.28l3.09,2.86l7.08,1.8a2.3,2.3 0 0 0 1.19,-4.44l-5.39,-1.52l-3,-2.23a2.3,2.3 0 0 0 -3.59,1.25" fill="none" id="svg_27"/>
+  </clipPath>
+  <clipPath id="clip-path-28">
+   <path d="m379.56,185.81a2.29,2.29 0 0 0 0.66,2.28l0.89,0.82a0.7,0.7 0 0 0 0.23,-0.11c0.5,-0.37 0.41,-1.34 -0.21,-2.18a2.19,2.19 0 0 0 -1.52,-1a1.09,1.09 0 0 1 -0.05,0.17" fill="none" id="svg_28"/>
+  </clipPath>
+  <clipPath id="clip-path-29">
+   <path d="m375.88,185.46l0.9,1.2a0.49,0.49 0 0 0 0.17,-0.06c0.49,-0.28 0.43,-1.31 -0.14,-2.29a3.08,3.08 0 0 0 -1.09,-1.16a2.14,2.14 0 0 0 0.16,2.31" fill="none" id="svg_29"/>
+  </clipPath>
+  <clipPath id="clip-path-30">
+   <path d="m373.64,186l0.85,1.1a0.63,0.63 0 0 0 0.41,-0.06c0.49,-0.28 0.43,-1.31 -0.14,-2.29a2.84,2.84 0 0 0 -1.27,-1.25a2.22,2.22 0 0 0 0.15,2.5" fill="none" id="svg_30"/>
+  </clipPath>
+  <clipPath id="clip-path-31">
+   <polygon points="396.63 165.55 410.85 169.72 413.58 166.1 398.82 162.75 396.63 165.55" fill="none" id="svg_31"/>
+  </clipPath>
+  <clipPath id="clip-path-32">
+   <polygon points="392.53 168.43 388.43 172.12 411.4 169.66 413.86 165.96 392.53 168.43" fill="none" id="svg_32"/>
+  </clipPath>
+  <clipPath id="clip-path-33">
+   <path d="m467.16,149.66c0.43,2 1.66,3.35 2.89,3.18s2.19,-2.15 1.88,-4.4c0,-0.15 -0.05,-0.31 -0.08,-0.45a8.27,8.27 0 0 0 -4.69,1.67" fill="none" id="svg_33"/>
+  </clipPath>
+ </defs>
+ <title>14 Online Shopping Promotion2</title>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="null" x="-12.22221" y="-14.44444" width="821.11111" height="472.22221" fill="#475faa" id="svg_34"/>
+ </g>
+</svg>

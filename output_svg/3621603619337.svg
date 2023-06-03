@@ -1,0 +1,29 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g><title>background</title><rect fill="#ffffff" id="canvas_background" height="450" width="800"/><style type="text/css"  rel="stylesheet">
+    
+      :root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    undefined
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 3);
+          animation-duration: calc(1s * 3);
+          -webkit-animation-duration: calc(var(--animate-duration) * 3);
+          animation-duration: calc(var(--animate-duration) * 3);
+        }
+    </style> <g class="animate__animated animate__shakeY animate__infinite animate__slower"><text transform="matrix(5.718161951202092,0,0,14.23143542723028,-144.3220635725911,-4086.152840349966) "  xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="6" font-weight="bold" y="304.65067" x="93.44536" stroke-width="0" fill="#000000">TEst</text></g></g></svg>

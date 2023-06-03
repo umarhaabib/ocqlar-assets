@@ -1,0 +1,942 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="802" height="452" id="canvas_background" fill="#fff"/>
+ </g>
+
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="540.79495" width="959.85769" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="1068.66667" height="602" id="canvas_background" fill="#fff"/>
+ </g>
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="602" width="1068.66667" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>background</title>
+  <rect id="canvas_background" x="-1" y="-1" fill="none" width="802" height="452"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.animate__fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn
+}
+
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }</style>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.animate__fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn
+}
+
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.animate__fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.animate__fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-2s {
+          -webkit-animation-delay: calc(1s * 2);
+          animation-delay: calc(1s * 2);
+          -webkit-animation-delay: calc(var(--animate-delay) * 2);
+          animation-delay: calc(var(--animate-delay) * 2);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.animate__fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-2s {
+          -webkit-animation-delay: calc(1s * 2);
+          animation-delay: calc(1s * 2);
+          -webkit-animation-delay: calc(var(--animate-delay) * 2);
+          animation-delay: calc(var(--animate-delay) * 2);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.animate__fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn
+}
+
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-3s {
+          -webkit-animation-delay: calc(1s * 3);
+          animation-delay: calc(1s * 3);
+          -webkit-animation-delay: calc(var(--animate-delay) * 3);
+          animation-delay: calc(var(--animate-delay) * 3);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.animate__fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn
+}
+
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.animate__fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn
+}
+
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-2s {
+          -webkit-animation-delay: calc(1s * 2);
+          animation-delay: calc(1s * 2);
+          -webkit-animation-delay: calc(var(--animate-delay) * 2);
+          animation-delay: calc(var(--animate-delay) * 2);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.animate__fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn
+}
+
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-3s {
+          -webkit-animation-delay: calc(1s * 3);
+          animation-delay: calc(1s * 3);
+          -webkit-animation-delay: calc(var(--animate-delay) * 3);
+          animation-delay: calc(var(--animate-delay) * 3);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes rollIn {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+        transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes rollIn {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+        transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.animate__rollIn {
+    -webkit-animation-name: rollIn;
+    animation-name: rollIn
+}
+
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes rollIn {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+        transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes rollIn {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+        transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.animate__rollIn {
+    -webkit-animation-name: rollIn;
+    animation-name: rollIn
+}
+
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes rollIn {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+        transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes rollIn {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+        transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.animate__rollIn {
+    -webkit-animation-name: rollIn;
+    animation-name: rollIn
+}
+
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-3s {
+          -webkit-animation-delay: calc(1s * 3);
+          animation-delay: calc(1s * 3);
+          -webkit-animation-delay: calc(var(--animate-delay) * 3);
+          animation-delay: calc(var(--animate-delay) * 3);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.animate__fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <g class="animate__animated animate__fadeInRight animate__repeat-1 animate__delay-1s animate__faster">
+   <image stroke="null" transform="rotate(-0.2881160080432892 549.49993896485,240.83337402345148) " xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNzUzLjA2IDU4Mi40MSI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50KTt9LmNscy0ye2ZpbGw6dXJsKCNsaW5lYXItZ3JhZGllbnQtMik7fS5jbHMtM3tmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTMpO30uY2xzLTR7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudC00KTt9LmNscy01e2ZpbGw6dXJsKCNsaW5lYXItZ3JhZGllbnQtNSk7fS5jbHMtNntmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTYpO30uY2xzLTd7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudC03KTt9LmNscy04e2ZpbGw6dXJsKCNsaW5lYXItZ3JhZGllbnQtOCk7fS5jbHMtOXtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTkpO30uY2xzLTEwe2ZpbGw6dXJsKCNsaW5lYXItZ3JhZGllbnQtMTApO30uY2xzLTExe2ZpbGw6dXJsKCNsaW5lYXItZ3JhZGllbnQtMTEpO30uY2xzLTEye2ZpbGw6I2NhYjliODt9LmNscy0xM3tmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTEyKTt9LmNscy0xNHtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTEzKTt9LmNscy0xNXtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTE0KTt9LmNscy0xNntmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTE1KTt9LmNscy0xN3tmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTE2KTt9LmNscy0xOHtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTE3KTt9LmNscy0xOXtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTE4KTt9LmNscy0yMHtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTE5KTt9LmNscy0yMXtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTIwKTt9LmNscy0yMntmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTIxKTt9LmNscy0yM3tmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTIyKTt9LmNscy0yNHtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTIzKTt9LmNscy0yNXtmaWxsOiNmZmY7fS5jbHMtMjZ7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudC0yNCk7fS5jbHMtMjd7ZmlsbDojMDA5ZGIwO30uY2xzLTI4e2ZpbGw6IzAxOGJhMDt9LmNscy0yOXtmaWxsOiMwMGMwY2Q7fS5jbHMtMzB7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudC0yNSk7fS5jbHMtMzF7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudC0yNik7fS5jbHMtMzJ7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudC0yNyk7fS5jbHMtMzN7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudC0yOCk7fTwvc3R5bGU+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSI1MzcuMzQiIHkxPSItMTYzLjY4IiB4Mj0iMzA4LjYzIiB5Mj0iMzMxLjYyIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNjE0NDYzIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjODM1ZGZmIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudC0yIiB4MT0iMjUwLjg2IiB5MT0iNDY4Ljc1IiB4Mj0iNjYyLjQ1IiB5Mj0iNTcuMTUiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQiLz48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudC0zIiB4MT0iNTQyLjI5IiB5MT0iNTQ2LjE5IiB4Mj0iNTQ1LjQ5IiB5Mj0iMjYyLjY2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmZlMWRjIi8+PHN0b3Agb2Zmc2V0PSIwLjQzIiBzdG9wLWNvbG9yPSIjZDNhOWFlIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmZhMGJjIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudC00IiB4MT0iMTI2LjQiIHkxPSIyMDIuOTgiIHgyPSIxNTMuOTYiIHkyPSIzMDUuMzUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNkNzc0NTgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM5YzM2MTUiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTUiIHgxPSIzODUuNjQiIHkxPSIyODUuMTYiIHgyPSIzNzkuMjQiIHkyPSI0NTkuNzYiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM3NmRkY2EiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM0MmI1YTAiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTYiIHgxPSIzODUuNTUiIHkxPSI0MDYuODMiIHgyPSIzODUuNTUiIHkyPSI0MDEuODgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNjNWMyZGQiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmNmY2ZjYiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTciIHgxPSIzODcuNTIiIHkxPSI0MDcuOTMiIHgyPSIzODQuNjciIHkyPSIzMDMuMjciIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQtNiIvPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTgiIHgxPSIzMTguMTUiIHkxPSIyODkuNzEiIHgyPSIxNjIuOTQiIHkyPSIzNTcuMzUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZmEwNzEiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZjgzNzgiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTkiIHgxPSIzODUuNzMiIHkxPSIyNTUuMzkiIHgyPSIzODUuNzMiIHkyPSIzNDEuMzYiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZmUxZGMiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmEwYmMiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTEwIiB4MT0iMTY5LjY2IiB5MT0iMjYyLjMzIiB4Mj0iMTcwLjczIiB5Mj0iMzI4LjAxIiB4bGluazpocmVmPSIjbGluZWFyLWdyYWRpZW50LTkiLz48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudC0xMSIgeDE9IjE3Ny45NiIgeTE9IjM0NC4wNyIgeDI9IjE0MC4zNyIgeTI9IjM5Mi43NyIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudC04Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtMTIiIHgxPSI1NDYuODIiIHkxPSIxOTAuNjgiIHgyPSI1NTYuNDMiIHkyPSIyODUuMTkiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQtOSIvPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTEzIiB4MT0iNzMxLjciIHkxPSI0ODIuNTEiIHgyPSI1NTMuOSIgeTI9IjIyOS40MiIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudC05Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtMTQiIHgxPSIyNjkuOSIgeTE9IjI2My4yNyIgeDI9IjM3MC45OCIgeTI9IjI2My4yNyIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudC05Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtMTUiIHgxPSIyNTMuNjIiIHkxPSIzODcuOTciIHgyPSIxNjguNzIiIHkyPSIzOTAuNjQiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQtOSIvPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTE2IiB4MT0iNDI4Ljk4IiB5MT0iMjY4LjQyIiB4Mj0iNDAzLjk4IiB5Mj0iMjk5LjA5IiB4bGluazpocmVmPSIjbGluZWFyLWdyYWRpZW50LTkiLz48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudC0xNyIgeDE9IjU4NS40MyIgeTE9IjQwMS4zMSIgeDI9IjUzNy4wOSIgeTI9IjQwNS42NCIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudC05Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtMTgiIHgxPSIxNjUuOTgiIHkxPSIyNjAuNzUiIHgyPSIxNzEuODYiIHkyPSIxNTUuNTUiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQtOSIvPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTE5IiB4MT0iMjA5LjU5IiB5MT0iMTg0LjQ0IiB4Mj0iLTkuMjgiIHkyPSIyMTcuOTMiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQtNCIvPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTIwIiB4MT0iNTM5LjMiIHkxPSIxOTMuNTgiIHgyPSI0NTcuMDciIHkyPSI3Ni4xIiB4bGluazpocmVmPSIjbGluZWFyLWdyYWRpZW50LTkiLz48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudC0yMSIgeDE9IjM4My4wOCIgeTE9IjE4My45NCIgeDI9IjM3Ni44IiB5Mj0iMjMuOTEiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQiLz48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudC0yMiIgeDE9IjM4Ni4zNCIgeTE9IjI0NC44OSIgeDI9IjM4My4xNCIgeTI9IjExMC44NyIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudC05Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtMjMiIHgxPSI0ODIuNzMiIHkxPSIxNTMuNTkiIHgyPSI0NzYuODciIHkyPSI1Mi4xMiIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxLCAwLCAwLjEzLCAwLjk5LCA0LjM4LCAtMC4yNikiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM2MTQ0NjMiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNkMjFjMmEiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTI0IiB4MT0iMzI1LjYiIHkxPSI1MjIuOTEiIHgyPSIzMjUuNiIgeTI9IjM3MS4wNiIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudC00Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtMjUiIHgxPSIzMzkuMjgiIHkxPSI0MjYuMTEiIHgyPSIzMzkuMjgiIHkyPSIzNzQuMjEiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQtNCIvPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTI2IiB4MT0iOTcwLjQyIiB5MT0iLTE2Ljc4IiB4Mj0iOTg3LjQ1IiB5Mj0iLTQ2LjU3IiBncmFkaWVudFRyYW5zZm9ybT0idHJhbnNsYXRlKDE2NDIuMzEgLTI5OC40Mikgcm90YXRlKDE2MikiIHhsaW5rOmhyZWY9IiNsaW5lYXItZ3JhZGllbnQtOCIvPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTI3IiB4MT0iMTQyOC41NyIgeTE9Ii05MTkuODUiIHgyPSIxNDU1LjA4IiB5Mj0iLTk2Ni4yNCIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtMC42NSwgLTAuNzYsIDAuNzYsIC0wLjY1LCAxOTA5LjA3LCAxMDI5LjMxKSIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudC04Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtMjgiIHgxPSIzODAuNTciIHkxPSItOTMuNjMiIHgyPSI0MzUuNDIiIHkyPSItOTMuNjMiIGdyYWRpZW50VHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzEuMTkgNTA2LjY2KSByb3RhdGUoLTcyLjE5KSIgeGxpbms6aHJlZj0iI2xpbmVhci1ncmFkaWVudC04Ii8+PC9kZWZzPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl81IiBkYXRhLW5hbWU9IkxheWVyIDUiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTczOS45Myw2NC41N2M1NS41MSwxNjUuMTUtMTQ4LDQzNC4zMi0yOTMuNjgsNDgzLjNTODMuMzcsNDY5LjA4LDI3Ljg1LDMwMy45MywzNCwyMi4yOCwyOTEuMjksNzUuMThDNDQ2LjI2LDEwNy4wNSw2ODQuNDEtMTAwLjU5LDczOS45Myw2NC41N1oiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik03MzkuOTMsNjQuNTdjLTUxLjg0LTE1NC4yLTI2Mi44NywxNi41Ni00MTYuNzgsMTRhMjU2LjM0LDI1Ni4zNCwwLDAsMC0zMS44NiwxMjQuMTVjMCwxNDIuMjEsMTE1LjI4LDI1Ny41LDI1Ny41LDI1Ny41YTI2MC43OCwyNjAuNzgsMCwwLDAsMzAuMjctMS43OEM2ODcuNzQsMzUyLjM2LDc3OS40NCwxODIuMTIsNzM5LjkzLDY0LjU3WiIvPjxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTQyNy4zOCwyOTJjLjU0LTEuOTIsMTUuODQtMTYuMTYsMTUuODQtMTYuMTZzMjAuNTksMzkuODcsMzYuODIsMzcsMTQuNDQtMjEuMzYsMTYuOTQtNDAuMjNTNTI5LDIwNCw2MDguNzUsMjIxLjc3LDY3NC42MSwzODcuNjMsNjAyLDQxMC40Mkg1MTMuMzVzMTMuODgtMTguMzQsMTAtNjAuNjFjMCwwLTI0LjkyLDIwLjItNTIuMzMsMFM0MjcuMzgsMjkyLDQyNy4zOCwyOTJaIi8+PHBhdGggY2xhc3M9ImNscy00IiBkPSJNMjE3LjE3LDE5Ni44M3MtMTIuMS01MC45MS02Mi42NS00NS45Mi02OC43LDUzLjc1LTYwLjE2LDg3LjkyLDkuMjYsNjkuMDYtMzMuNDYsNjEuMjNjMCwwLDEuNzgsNjkuNTYsMTE1LjY5LDM1LjZDMjUwLjY0LDMxMy41OSwyMTcuMTcsMTk2LjgzLDIxNy4xNywxOTYuODNaIi8+PHBhdGggY2xhc3M9ImNscy01IiBkPSJNMzE1LjQzLDQxMC40Mkg0NDkuMjhzMjQuMi0xNC4xNCwxOS45My02OC43LTQzLjA3LTY1LTg2LjUtNjVjLTMzLjE1LDAtODEuNTIsOC44My04NS43OSw2Ni43NUMyOTMuMTEsMzk1LjE1LDMxNS40Myw0MTAuNDIsMzE1LjQzLDQxMC40MloiLz48cmVjdCBjbGFzcz0iY2xzLTYiIHg9IjMyOC4yNCIgeT0iMzk4LjMxIiB3aWR0aD0iMTE0LjYzIiBoZWlnaHQ9IjEyLjEiLz48cG9seWdvbiBjbGFzcz0iY2xzLTciIHBvaW50cz0iNDUwLjM0IDMzNS42NiAzMjAuNzYgMzM1LjY2IDMyOC4yNCAzOTguMzEgNDQyLjg3IDM5OC4zMSA0NTAuMzQgMzM1LjY2Ii8+PHBhdGggY2xhc3M9ImNscy04IiBkPSJNMjc4LjQsMjc2Ljc1cy0xMy4yMywzOC4yNi01NS45MiwyOC4zLTUwLjA5LTUwLjItOTEuNzgsMCwxMi42MSwxMDUuMzcsMTIuNjEsMTA1LjM3aDc2cy0xNS42LTI5LjU1LDUuNDEtNDEuNjUsNTcuNi0xOSw2OS4zNS04NFoiLz48cGF0aCBjbGFzcz0iY2xzLTkiIGQ9Ik0zODUuNzMsMzAyaDBhMTEuMjEsMTEuMjEsMCwwLDEtMTEuMjEtMTEuMjFWMjQwLjA4SDM5N3Y1MC43M0ExMS4yMSwxMS4yMSwwLDAsMSwzODUuNzMsMzAyWiIvPjxwYXRoIGNsYXNzPSJjbHMtMTAiIGQ9Ik0xNjkuODMsMjk3LjU3aDBhOC41NCw4LjU0LDAsMCwxLTguNTQtOC41NFYyNTUuOTJoMTcuMDhWMjg5QTguNTQsOC41NCwwLDAsMSwxNjkuODMsMjk3LjU3WiIvPjxwYXRoIGNsYXNzPSJjbHMtMTEiIGQ9Ik0xMjMuMjUsMzE1Ljc1czEyLjQtMjEuNzQsMzItMTEuNzcsMTQuNiwyNy45NCwxNC42LDQ1LjgzLDUsMzcuODIsNDIuMzYsMjkuNjRsMy4yLDE1LjY2cy0yMC4yOSwxOS45NC01NC4xLDEzLjUzUzk2LjE2LDM3NiwxMjMuMjUsMzE1Ljc1WiIvPjxyZWN0IGNsYXNzPSJjbHMtMTIiIHg9IjI0NC42NCIgeT0iMzY0Ljg1IiB3aWR0aD0iMzIuMzkiIGhlaWdodD0iNDUuNTciLz48cGF0aCBjbGFzcz0iY2xzLTEzIiBkPSJNNTMyLjIyLDIwMS4xczkuMjUsMTUsOC45LDI2LjcsMS40MiwxOS45Myw3LjEyLDE5LjU4LDE2LjczLTEwLjcyLDE2LTM2LjMzYTExMS42LDExMS42LDAsMCwwLTEwLjMzLTQ0LjEyWiIvPjxwYXRoIGNsYXNzPSJjbHMtMTQiIGQ9Ik01NzguMTQsMjczLjM2UzYyOS43NiwzMzIuMSw1ODkuODksMzkzYzAsMC0zLjIxLDcuNDgsMTIuMSwxNy40NSwwLDAsNTEuNjItNS4zNCw2Mi4zLTgzLjY2UzYzMywyMjYuMzcsNjA4LjQsMjM0LjkyLDU3Ni42MywyNjEuMjYsNTc4LjE0LDI3My4zNloiLz48cGF0aCBjbGFzcz0iY2xzLTE1IiBkPSJNMjc4LjQsMjc2Ljc1cy0xMS42MS0xMi4zMi03LjctMTYuOTUsMTAuMzMtNC42MywxMS43NS04LjU0LDcuODMsNC42Miw1LjcsMTAuMzIsMTctOC44MSwyMS4yMi0xNy43NiwxOS4yMywxMy44OCwxMy4xOCwyMy44NS0yOC40OCwxNy4wOS0yOC40OCwxNy4wOVoiLz48cGF0aCBjbGFzcz0iY2xzLTE2IiBkPSJNMjEyLjE5LDM3OS40NXMxMS43NS0xMC4zMywxNS4zMS00LjI3LDExLjM5LDIuODQsMTIuODEsNC4yNyw1LDE2LjM3LDAsMjEuNzEtMjIuOCw0LjI4LTI0LjkyLTYuMDVaIi8+PHBhdGggY2xhc3M9ImNscy0xNyIgZD0iTTQ0My4yMiwyNzUuODZzLTExLjc0LTEyLjcyLTIxLTEyLjU5QTE5LjgxLDE5LjgxLDAsMCwwLDQwNy4zNywyNzBjLTQuNjUsNS41Mi04LjMxLDE2LjYzLTEuNzYsMjEuODQsNi4yLDQuOTIsMTUuNjUsNS43NCwyMS43Ny4xNloiLz48cGF0aCBjbGFzcz0iY2xzLTE4IiBkPSJNNTg5Ljg5LDM5M2MtMS41Ni0uMDctMjYuNTItMy41Ni0zMy43MywzLjEycy00LjI3LDE0LjMzLTQuMjcsMTQuMzNINjAyUzYxMC40OSwzOTMuOTEsNTg5Ljg5LDM5M1oiLz48cGF0aCBjbGFzcz0iY2xzLTE5IiBkPSJNMTc2LjI0LDE3MC44NGMtMjAuNDUsMC0zNy4yMywxOS4zOC0zOSw0NC4xLTIuMjEtMi4yNC00Ljg0LTQuMS03LjMxLTMuODctNS44OC41My0xMy4xOCwxNC4wNi02LjU5LDI0Ljc0LDQuMjcsNi45MywxMi41MSw2LjIxLDE3Ljc4LDQuODYsNi4zOSwxNiwxOS43MSwyNywzNS4xMiwyNywyMS42MiwwLDM5LjE1LTIxLjY4LDM5LjE1LTQ4LjQxUzE5Ny44NiwxNzAuODQsMTc2LjI0LDE3MC44NFoiLz48cGF0aCBjbGFzcz0iY2xzLTIwIiBkPSJNMTkzLjMxLDE5Ni45MXMtMTcuNjgsMzcuNjEtNzIuNTcsMTkuNDZjMCwwLC43NS02NC41LDU2LTY0Ljk0czQ1LDY5Ljg5LDQ1LDY5Ljg5UzIwMS42LDIyMy41OCwxOTMuMzEsMTk2LjkxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMjEiIGQ9Ik01NTcuODQsMTMwLjYyYy02LjYyLDEuODMtOS41Myw3LjczLTEwLjgsMTMuMTdhNDUuOTQsNDUuOTQsMCwxLDAsMTAsMjEuMjcsMzEuNjksMzEuNjksMCwwLDAsOS02LjY4QzU3My4xNiwxNTAuOTEsNTcwLjY2LDEyNy4wNiw1NTcuODQsMTMwLjYyWiIvPjxwYXRoIGNsYXNzPSJjbHMtMjIiIGQ9Ik0zMjMuNDQsMjExLjI1czE4LjUxLDE1LjEyLDIyLjQyLDcuMTIsMS4yNS0xMC41MSw0LjYzLTExLjkzLTMuMi0xNC42LDIuMTQtMTcuNDQsOS43OSwyLjEzLDE0Ljc3LDAsMTAuNjgtMTUuODQsMTguNTEtMTQuMjQsNy4zLDE1LjY2LDE0LjI0LDE1LjY2LDE2LjM3LTMuNzQsMjEuMzYsMy4zOC0yLjg1LDE2LjU2LDEuNzgsMjAuNDcsMTQuOTUsMS43OCwxOS4yMi03LjMtMi40OS04LjktMS43OC0xMy41Miw3LjMtMTAuMTUsNC42My0xNy42Mi04Ljg2LTUuMTctOS41OS0xMC44Niw0LjgyLTExLjkzLDAtMTYuMzgtMTIuNjYuMzYtMTYtNC4wOS0xLjA3LTkuNjEtNi43Ny0xMS41Ny0xNC4yMywyLjY3LTE4LjY4LDItOC45LTkuNzktMTUuODUtOC4zN1MzNjcsMTM4LjQ1LDM2MSwxMzkuODdzLTE2LjQ5LTEuNi0yMC4zNSwzLC4wNiwxNC4yNC01LjEsMTkuMjItMTQuNzcsOC0xNS4zMSwxNC43Nyw3LjEyLDkuNDQsNi40MSwxNS44NFMzMTYuMzIsMjAyLjUyLDMyMy40NCwyMTEuMjVaIi8+PHBhdGggY2xhc3M9ImNscy0yMyIgZD0iTTQzNi44MiwyMTBjLTMuMzMtLjMtNi45MywzLjE2LTkuNDQsNi4yMywwLTI3LjgyLTE4LjY5LTUwLjM3LTQxLjc0LTUwLjM3LTIyLjksMC00MS40OSwyMi4yNS00MS43NCw0OS44LTIuNDctMi45MS01Ljg0LTUuOTQtOS01LjY2LTUuODguNTMtMTMuMTcsMTQuMDYtNi41OSwyNC43NCw0Ljk1LDgsMTUuMjIsNS44LDIwLDQuMiw2Ljg4LDE2LjQxLDIxLDI3LjY2LDM3LjI2LDI3LjY2UzQxNi4xLDI1NS4yOCw0MjMsMjM4Ljc5YzQuNTksMS42LDE1LjM0LDQuMjIsMjAuNDQtNEM0NTAsMjI0LjA2LDQ0Mi42OSwyMTAuNTMsNDM2LjgyLDIxMFoiLz48cGF0aCBjbGFzcz0iY2xzLTI0IiBkPSJNNTcyLjgyLDEwNC4xYTcxLjczLDcxLjczLDAsMCwwLTQuNDctMTQuMjgsMjkuNzEsMjkuNzEsMCwwLDAtOC45MS0xMS42MmMtMS0uNzYtMTQtNS42OS0xMy4wOS0yLjY4YTE2LjQxLDE2LjQxLDAsMCwwLTQuNjUtNy4zYy0xNS0xMy43Mi0zNy44Mi0yLjM3LTQ2Ljc4LDguNjYtLjQ3LjU4LS45LDEuMTgtMS4zMSwxLjgtMy42NywzLjg3LTcsOC4xMy0xMi4xNSwxMC4xOS00LjQ4LDEuNzktOC44MS4xNy0xMy42Ni0uOGEzNiwzNiwwLDAsMC0xMy4wOS0uNTgsMzEsMzEsMCwwLDAtMTkuMzksMTIuMSwzOSwzOSwwLDAsMC03LDMyLjE4LDg0LjgyLDg0LjgyLDAsMCwwLDUuMzMsMTcuMzFjOC4zNSwyMC40LDM1LjE2LDIxLjc2LDM1LjE2LDIxLjc2bDQ3LjU4LTQzLjUyczIuNDQsMTUuOTMsMi41MiwxNi41MVM1MzMsMTM1LjQ4LDUzMywxMzUuNDhsMTQuNDQsMjYuMjNjMTMuODQtNy4xOSwxNS4xMS0xOC4wNSwxOC4xMi0yMS43M0M1NzMuNzEsMTMwLDU3NS4zNSwxMTcsNTcyLjgyLDEwNC4xWiIvPjxjaXJjbGUgY2xhc3M9ImNscy0yNSIgY3g9IjM4Ni4wMiIgY3k9IjM2NS4wNyIgcj0iMTAuNzIiLz48cGF0aCBjbGFzcz0iY2xzLTI2IiBkPSJNNjEuMTEsNDMwLjU0QzE1Miw1MzYuODQsMzA0LjU0LDYwMi4xOCw0MTUuNTksNTY0Ljg1YzU1LjYyLTE4LjY5LDExOS42Ni02OS40OCwxNzQuNS0xMzQuMzFaIi8+PHBhdGggY2xhc3M9ImNscy0yNyIgZD0iTTc3LjU0LDQxNi42UzMzLjgyLDQyOSwwLDM1Mi4wNUMwLDM1Mi4wNSw2Mi43MywzNTIuMjUsNzcuNTQsNDE2LjZaIi8+PHBhdGggY2xhc3M9ImNscy0yOCIgZD0iTTczLjU4LDQxNS44NXMtMTcuNSwxMS4zOC02NC42Ni0xNUM4LjkyLDQwMC44MiwzOS4yOCwzOTAuNzksNzMuNTgsNDE1Ljg1WiIvPjxwYXRoIGNsYXNzPSJjbHMtMjkiIGQ9Ik03Ny42Miw0MTYuNTRTOC44OCw0MDEuODQsMjMuMzYsMzA3LjE3QzIzLjM2LDMwNy4xNywxMTEuMTksMzUzLjM2LDc3LjYyLDQxNi41NFoiLz48cGF0aCBjbGFzcz0iY2xzLTI3IiBkPSJNODEuNDksNDIxLjgyYTEuNDMsMS40MywwLDAsMS0uMjIuMTUsMS4zNSwxLjM1LDAsMCwxLTEuODEtLjU5TDMxLjYsMzI2LjkxYTEuMzcsMS4zNywwLDAsMSwuNTktMS44LDEuMzQsMS4zNCwwLDAsMSwxLjguNTlsNDcuODYsOTQuNDdBMS4zMiwxLjMyLDAsMCwxLDgxLjQ5LDQyMS44MloiLz48cGF0aCBjbGFzcz0iY2xzLTI3IiBkPSJNNDguNjUsMzU3YTEuMzQsMS4zNCwwLDAsMS0xLjk0LTEuODFsOS0xMy4xMmExLjM2LDEuMzYsMCwwLDEsMS44Ny0uMzUsMS4zMywxLjMzLDAsMCwxLC4zNCwxLjg2bC05LDEzLjEyQTEuMzEsMS4zMSwwLDAsMSw0OC42NSwzNTdaIi8+PHBhdGggY2xhc3M9ImNscy0yNyIgZD0iTTY2LjI4LDM5MS43NmExLjM1LDEuMzUsMCwwLDEtMS45NC0xLjgybDktMTMuMTJhMS4zNCwxLjM0LDAsMSwxLDIuMiwxLjUybC05LDEzLjEyQTEuOTMsMS45MywwLDAsMSw2Ni4yOCwzOTEuNzZaIi8+PHBhdGggY2xhc3M9ImNscy0yNyIgZD0iTTU4Ljg0LDM3Ny4xNGExLjM1LDEuMzUsMCwwLDEtMS4wNi4yNmwtMjEtMy42OGExLjM0LDEuMzQsMCwwLDEsLjQ2LTIuNjRsMjEsMy42OGExLjM0LDEuMzQsMCwwLDEsMS4wOCwxLjU1QTEuMzIsMS4zMiwwLDAsMSw1OC44NCwzNzcuMTRaIi8+PHJlY3QgY2xhc3M9ImNscy0zMCIgeD0iMi45NiIgeT0iNDA4LjUyIiB3aWR0aD0iNjcyLjY0IiBoZWlnaHQ9IjMyLjc2IiByeD0iMTYuMzgiLz48cGF0aCBjbGFzcz0iY2xzLTMxIiBkPSJNNjk3LjQxLDExLjlhNi4xMyw2LjEzLDAsMCwxLDQuNjctMS4zNmw0NS42LDUuNzJhNi4xNCw2LjE0LDAsMCwxLDQuMTMsOS44TDcyNC4wNSw2Mi42OWE2LjE0LDYuMTQsMCwwLDEtMTAuNTUtMS4zMkw2OTUuNjYsMTlhNi4xNSw2LjE1LDAsMCwxLC43Ny02LjFBNi4zMiw2LjMyLDAsMCwxLDY5Ny40MSwxMS45Wk03MzUuNiwyNy4xMmwtMjQuNS0zLjA3LDkuNTksMjIuNzVaIi8+PHBhdGggY2xhc3M9ImNscy0zMiIgZD0iTTI3NC40Miw0OTUuMzhhOS41OSw5LjU5LDAsMCwxLDQuNzMsNS45MmwxOC44Miw2OWE5LjU1LDkuNTUsMCwwLDEtMTEuNjUsMTEuNzVsLTY5LjE5LTE4LjIxYTkuNTYsOS41NiwwLDAsMS00LjM2LTE2bDUwLjM3LTUwLjgyYTkuNTQsOS41NCwwLDAsMSw5LjIyLTIuNTFBOS42OCw5LjY4LDAsMCwxLDI3NC40Miw0OTUuMzhabS43Niw2NC0xMC4xMi0zNy4wOEwyMzgsNTQ5LjYxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMzMiIGQ9Ik05Myw5OGEyNy40MiwyNy40MiwwLDEsMS0xNy43MS0zNC41QTI3LjQ0LDI3LjQ0LDAsMCwxLDkzLDk4Wk01NC41Niw4NS42M2ExMi45MywxMi45MywwLDEsMCwxNi4yNy04LjM2QTEzLDEzLDAsMCwwLDU0LjU2LDg1LjYzWiIvPjwvZz48L2c+PC9zdmc+" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg_7" height="335.01941" width="717.67204" y="75.32367" x="201.66394" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.animate__fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <g class="animate__animated animate__fadeInLeft animate__repeat-1 animate__delay-1s animate__faster">
+   <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="75" id="svg_18" y="199.45313" x="64" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="null" fill="#6260fb" xmlns="http://www.w3.org/2000/svg">TEAM</text>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.animate__fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-2s {
+          -webkit-animation-delay: calc(1s * 2);
+          animation-delay: calc(1s * 2);
+          -webkit-animation-delay: calc(var(--animate-delay) * 2);
+          animation-delay: calc(var(--animate-delay) * 2);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <g class="animate__animated animate__fadeInLeft animate__repeat-1 animate__delay-2s animate__faster">
+   <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="75" id="svg_17" y="294.45313" x="62" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="null" fill="#6260fb" xmlns="http://www.w3.org/2000/svg">WORK</text>
+  </g>
+ </g>
+</svg>

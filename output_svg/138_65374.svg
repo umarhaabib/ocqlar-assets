@@ -1,0 +1,644 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450"><g><title>background</title><rect fill="#fff" id="canvas_background" height="450" width="800" y="-1" x="-1"/></g>
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="461.18367" width="818.32653" y="-1" x="-1"/>
+ </g>
+
+ <g>
+  <title>background</title>
+  <rect id="canvas_background" x="-1" y="-1" width="802" height="452"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.animate__fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown
+}
+
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <g id="svg_1" class="animate__animated animate__fadeInDown animate__repeat-1 animate__delay-1s animate__faster">
+   <text id="svg_339" transform="matrix(1,0,0,1,65.1643,63.874) " fill="#14FC74" font-family="'HelveticaWorld-Bold'" font-size="41.5733">BIG SAVINGS HEADED YOUR WAY</text>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes bounceIn {
+
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1.000);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1.000)
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1)
+    }
+
+    40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03)
+    }
+
+    80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+@keyframes bounceIn {
+
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1.000);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1.000)
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1)
+    }
+
+    40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03)
+    }
+
+    80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+.animate__bounceIn {
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <g id="svg_2">
+   <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes bounceIn {
+
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1.000);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1.000)
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1)
+    }
+
+    40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03)
+    }
+
+    80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+@keyframes bounceIn {
+
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1.000);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1.000)
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1)
+    }
+
+    40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03)
+    }
+
+    80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+.animate__bounceIn {
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-2s {
+          -webkit-animation-delay: calc(1s * 2);
+          animation-delay: calc(1s * 2);
+          -webkit-animation-delay: calc(var(--animate-delay) * 2);
+          animation-delay: calc(var(--animate-delay) * 2);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+   <g id="svg_3" class="animate__animated animate__bounceIn animate__repeat-1 animate__delay-2s animate__faster">
+    <g id="svg_574">
+     <path id="svg_544" fill="#8CC153" d="m491.548,215.259c-0.692,-1.67 -2.313,-2.753 -4.118,-2.753l-35.659,0c-1.806,0 -3.432,1.083 -4.112,2.753c-0.692,1.663 -0.313,3.579 0.967,4.855l17.83,17.83c0.832,0.832 1.965,1.306 3.146,1.306c1.18,0 2.319,-0.474 3.152,-1.306l17.829,-17.83c1.273,-1.277 1.653,-3.192 0.965,-4.855z"/>
+     <path id="svg_545" fill="#656D78" d="m478.824,271.429l-0.76,-0.214c-11.057,-2.973 -14.796,-5.824 -19.722,-7.697c-17.462,-6.658 -22.007,-11.457 -23.167,-13.717c-0.047,-0.087 -0.08,-0.167 -0.12,-0.254l-0.146,-20.289l-41.417,-0.466l-41.43,0.466l-0.141,20.289c-0.04,0.087 -0.073,0.167 -0.113,0.254c-1.159,2.26 -5.705,7.059 -23.168,13.717c-4.925,1.873 -8.664,4.725 -19.729,7.697l-0.76,0.214c-10.07,3.325 -16.835,12.67 -16.835,23.208l0,29.293l102.175,0l76.108,0l26.067,-29.293c0.002,-10.538 -6.769,-19.883 -16.842,-23.208l0,0z"/>
+     <path id="svg_546" fill="#DBAFA5" d="m435.176,249.801c-0.047,-0.088 -0.08,-0.168 -0.12,-0.254l-0.146,-20.289l-41.417,-0.467l-41.43,0.467l-0.141,20.289c-0.04,0.086 -0.073,0.166 -0.113,0.254c-1.1,2.146 -5.252,6.578 -20.628,12.723c8.758,5.771 29.573,16.656 62.025,16.656c31.972,0 53.693,-10.57 63.244,-16.402c-15.902,-6.273 -20.161,-10.798 -21.274,-12.977l0,0z"/>
+     <path id="svg_547" fill="#EAC6BB" d="m450.972,189.814c0,37.344 -35.604,71.717 -57.479,71.717c-21.882,0 -57.48,-34.373 -57.48,-71.717c0,-37.348 25.734,-61.988 57.48,-61.988c31.745,0.001 57.479,24.641 57.479,61.988z"/>
+     <g id="svg_548" transform="matrix(0.426581058321522,0,0,0.426581058321522,-4285.039457934152,-2564.652630024415) ">
+      <path id="svg_549" fill="#434A54" d="m11126.863,6633.009c-2.438,-1.154 -4.828,-2.202 -7.328,-3.155c-6.188,-2.358 -11.671,-4.624 -16.561,-6.767c-5.891,3.281 -13.141,6.955 -21.702,10.627c-23.921,10.215 -63.2,22.403 -114.432,22.403c-51.125,0 -89.044,-12.124 -111.873,-22.295c-8.763,-3.892 -16.031,-7.813 -21.764,-11.266c-5.172,2.313 -11.032,4.748 -17.72,7.296c-1.92,0.719 -3.763,1.518 -5.624,2.36c6.719,4.872 18.625,12.607 35.609,20.247c24.844,11.204 66.044,24.545 121.371,24.545c55.233,0 97.667,-13.31 123.54,-24.468c16.955,-7.326 29.219,-14.683 36.484,-19.527l0,0z"/>
+      <polygon id="svg_550" fill="#434A54" points="10727.988,6729.692 11183.111,6729.692 11201.721,6708.787 10727.988,6708.787         "/>
+     </g>
+     <path id="svg_551" fill="#ED5564" d="m450.972,189.814c0,-4.515 -0.387,-8.844 -1.1,-12.967l-112.766,0c-0.713,4.123 -1.093,8.452 -1.093,12.967c0,4.659 0.553,9.271 1.566,13.777l111.826,0c1.013,-4.505 1.567,-9.118 1.567,-13.777z"/>
+     <g id="svg_552" transform="matrix(0.426581058321522,0,0,0.426581058321522,-4285.039457934152,-2564.652630024415) ">
+      <path id="svg_553" fill="#EAC6BB" d="m11051.086,6458.024c0,11.539 -14.031,20.904 -31.343,20.904s-31.342,-9.368 -31.342,-20.904c0,-11.538 14.03,-20.898 31.342,-20.898c17.312,-0.001 31.343,9.359 31.343,20.898z"/>
+      <path id="svg_554" fill="#EAC6BB" d="m10946.605,6458.024c0,11.539 -14.015,20.904 -31.343,20.904c-17.312,0 -31.342,-9.368 -31.342,-20.904c0,-11.538 14.03,-20.898 31.342,-20.898c17.329,-0.001 31.343,9.359 31.343,20.898z"/>
+     </g>
+     <path id="svg_555" fill="#A0D468" d="m498.533,249.466c-8.125,-12.337 -18.402,-19.135 -28.933,-19.135c-10.531,0 -20.802,6.799 -28.933,19.135c-6.892,10.465 -11.178,23.627 -11.178,34.352c0,22.115 17.996,40.11 40.11,40.11c22.121,0 40.117,-17.996 40.117,-40.11c0.002,-10.725 -4.284,-23.887 -11.183,-34.352z"/>
+     <path id="svg_556" fill="#CCD1D9" d="m469.601,306.106c-2.46,0 -4.459,-1.993 -4.459,-4.458l0,-44.569c0,-2.466 1.999,-4.459 4.459,-4.459c2.459,0 4.458,1.993 4.458,4.459l0,44.569c0,2.465 -1.999,4.458 -4.458,4.458z"/>
+     <path id="svg_557" fill="#656D78" d="m450.972,189.375c-1.626,-39.081 -2.146,-49.925 -23.201,-66.671c-34.278,-27.271 -87.165,-2.183 -87.165,-2.183l9.551,6.691c0,0 -34.951,23.084 -26.173,80.837c1.079,7.095 49.288,-48.199 100.568,-45.186l26.42,26.512l0,0z"/>
+     <path id="svg_558" fill="#E6E9ED" d="m456.231,297.195c-2.466,0 -4.453,-1.992 -4.453,-4.452c-0.007,-2.466 1.986,-4.459 4.453,-4.459l15.983,0l-19.136,-19.136c-1.273,-1.279 -1.653,-3.191 -0.967,-4.858s2.313,-2.753 4.119,-2.753l26.74,0c2.46,0 4.459,1.993 4.459,4.453c0,2.465 -1.999,4.459 -4.459,4.459l-15.982,0l19.135,19.135c1.273,1.279 1.653,3.192 0.96,4.859c-0.687,1.666 -2.306,2.752 -4.112,2.752l-26.74,0l0,0l0,0z"/>
+     <g id="svg_559" transform="matrix(0.426581058321522,0,0,0.426581058321522,-4285.039457934152,-2564.652630024415) "/>
+     <g id="svg_560" transform="matrix(0.426581058321522,0,0,0.426581058321522,-4285.039457934152,-2564.652630024415) "/>
+     <g id="svg_561" transform="matrix(0.426581058321522,0,0,0.426581058321522,-4285.039457934152,-2564.652630024415) "/>
+     <g id="svg_562" transform="matrix(0.426581058321522,0,0,0.426581058321522,-4285.039457934152,-2564.652630024415) "/>
+     <g id="svg_563" transform="matrix(0.426581058321522,0,0,0.426581058321522,-4285.039457934152,-2564.652630024415) "/>
+     <g id="svg_564" transform="matrix(0.426581058321522,0,0,0.426581058321522,-4285.039457934152,-2564.652630024415) "/>
+     <g id="svg_565" transform="matrix(0.426581058321522,0,0,0.426581058321522,-4285.039457934152,-2564.652630024415) "/>
+     <g id="svg_566" transform="matrix(0.426581058321522,0,0,0.426581058321522,-4285.039457934152,-2564.652630024415) "/>
+     <g id="svg_567" transform="matrix(0.426581058321522,0,0,0.426581058321522,-4285.039457934152,-2564.652630024415) "/>
+     <g id="svg_568" transform="matrix(0.426581058321522,0,0,0.426581058321522,-4285.039457934152,-2564.652630024415) "/>
+     <g id="svg_569" transform="matrix(0.426581058321522,0,0,0.426581058321522,-4285.039457934152,-2564.652630024415) "/>
+     <g id="svg_570" transform="matrix(0.426581058321522,0,0,0.426581058321522,-4285.039457934152,-2564.652630024415) "/>
+     <g id="svg_571" transform="matrix(0.426581058321522,0,0,0.426581058321522,-4285.039457934152,-2564.652630024415) "/>
+     <g id="svg_572" transform="matrix(0.426581058321522,0,0,0.426581058321522,-4285.039457934152,-2564.652630024415) "/>
+     <g id="svg_573" transform="matrix(0.426581058321522,0,0,0.426581058321522,-4285.039457934152,-2564.652630024415) "/>
+    </g>
+   </g>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.animate__fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-3s {
+          -webkit-animation-delay: calc(1s * 3);
+          animation-delay: calc(1s * 3);
+          -webkit-animation-delay: calc(var(--animate-delay) * 3);
+          animation-delay: calc(var(--animate-delay) * 3);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <g id="svg_4" class="animate__animated animate__fadeInLeft animate__repeat-1 animate__delay-3s animate__faster">
+   <text id="svg_534" transform="matrix(1,0,0,1,190.554,363.8457) " fill="#ECF0F1" font-family="'HelveticaWorld-Bold'" font-size="23.4195">YOURE HEADLINE TEXT GOES HERE</text>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.animate__fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-3s {
+          -webkit-animation-delay: calc(1s * 3);
+          animation-delay: calc(1s * 3);
+          -webkit-animation-delay: calc(var(--animate-delay) * 3);
+          animation-delay: calc(var(--animate-delay) * 3);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <g id="svg_5" class="animate__animated animate__fadeInRight animate__repeat-1 animate__delay-3s animate__faster">
+   <text id="svg_533" transform="matrix(1,0,0,1,268.6633,384.75) " fill="#ECF0F1" font-family="'HelveticaWorld-Bold'" font-size="12.9409">YOURE SUB-HEADLINE TEXT GOES HERE</text>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.animate__fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-3s {
+          -webkit-animation-delay: calc(1s * 3);
+          animation-delay: calc(1s * 3);
+          -webkit-animation-delay: calc(var(--animate-delay) * 3);
+          animation-delay: calc(var(--animate-delay) * 3);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <g id="svg_6" class="animate__animated animate__fadeInLeft animate__repeat-1 animate__delay-3s animate__faster">
+   <text id="svg_531" transform="matrix(1,0,0,1,217.0461,405.7012) " fill="#ECF0F1" font-family="'HelveticaWorld-Regular'" font-size="11.253">Lorem Ipsum is simply dummy text of the printing and typesetting industry</text>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.animate__fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-3s {
+          -webkit-animation-delay: calc(1s * 3);
+          animation-delay: calc(1s * 3);
+          -webkit-animation-delay: calc(var(--animate-delay) * 3);
+          animation-delay: calc(var(--animate-delay) * 3);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <g id="svg_7" class="animate__animated animate__fadeInRight animate__repeat-1 animate__delay-3s animate__faster">
+   <text id="svg_532" transform="matrix(1,0,0,1,320.8147,421.4141) " fill="#ECF0F1" font-family="'HelveticaWorld-Regular'" font-size="11.253">printing and typesetting industry</text>
+  </g>
+ </g>
+</svg>

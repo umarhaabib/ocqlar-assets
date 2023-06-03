@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-256 -256 512 512">
+ <title>Snow CSS3 animation example</title>
+ <desc>Example of SVG animation using CSS3 and SMIL with a Merry Christmas &amp; Happy New Year ambigram and lighting filters, drawn by CMG Lee.</desc>
+ <style type="text/css">
+  @keyframes         x { from { transform:         translate(100px, 0); }
+                         to   { transform:         translate(-99px, 0); } }
+  @keyframes         y { from { transform:         translate(0,-500px) rotate( 0deg); }
+                         to   { transform:         translate(0, 500px) rotate(90deg); } }
+  @-o-keyframes      x { from { -o-transform:      translate(100px, 0); }
+                         to   { -o-transform:      translate(-99px, 0); } }
+  @-o-keyframes      y { from { -o-transform:      translate(0,-500px) rotate( 0deg); }
+                         to   { -o-transform:      translate(0, 500px) rotate(90deg); } }
+  @-moz-keyframes    x { from { -moz-transform:    translate(100px, 0); }
+                         to   { -moz-transform:    translate(-99px, 0); } }
+  @-moz-keyframes    y { from { -moz-transform:    translate(0,-500px) rotate( 0deg); }
+                         to   { -moz-transform:    translate(0, 500px) rotate(90deg); } }
+  @-webkit-keyframes x { from { -webkit-transform: translate(100px, 0); }
+                         to   { -webkit-transform: translate(-99px, 0); } }
+  @-webkit-keyframes y { from { -webkit-transform: translate(0,-500px) rotate( 0deg); }
+                         to   { -webkit-transform: translate(0, 500px) rotate(90deg); } }
+  .x1  { animation:         x 10s infinite ease alternate;
+         -o-animation:      x 10s infinite ease alternate;
+         -moz-animation:    x 10s infinite ease alternate;
+         -webkit-animation: x 10s infinite ease alternate; }
+  .y1  { animation:         y 20s infinite linear;
+         -o-animation:      y 20s infinite linear;
+         -moz-animation:    y 20s infinite linear;
+         -webkit-animation: y 20s infinite linear; }
+  .x2  { animation:         x 13s infinite ease alternate;
+         -o-animation:      x 13s infinite ease alternate;
+         -moz-animation:    x 13s infinite ease alternate;
+         -webkit-animation: x 13s infinite ease alternate; }
+  .y2  { animation:         y 23s infinite linear;
+         -o-animation:      y 23s infinite linear;
+         -moz-animation:    y 23s infinite linear;
+         -webkit-animation: y 23s infinite linear; }
+  .x3  { animation:         x 16s infinite ease alternate;
+         -o-animation:      x 16s infinite ease alternate;
+         -moz-animation:    x 16s infinite ease alternate;
+         -webkit-animation: x 16s infinite ease alternate; }
+  .y3  { animation:         y 26s infinite linear;
+         -o-animation:      y 26s infinite linear;
+         -moz-animation:    y 26s infinite linear;
+         -webkit-animation: y 26s infinite linear; }
+  .x4  { animation:         x 19s infinite ease alternate;
+         -o-animation:      x 19s infinite ease alternate;
+         -moz-animation:    x 19s infinite ease alternate;
+         -webkit-animation: x 19s infinite ease alternate; }
+  .y4  { animation:         y 29s infinite linear;
+         -o-animation:      y 29s infinite linear;
+         -moz-animation:    y 29s infinite linear;
+         -webkit-animation: y 29s infinite linear; }
+ </style>
+ <defs>
+  <filter id="filter" filterUnits="userSpaceOnUse" x="-250" y="-125" width="500" height="250">
+   <feGaussianBlur stdDeviation="2"/>
+   <feSpecularLighting result="specular" specularExponent="100" lighting-color="#ff6666">
+    <fePointLight x="-55" y="-12" z="50">
+     <animate attributeName="x" values="-200;200;-200" keySplines="0.2 0 0.8 1;0.2 0 0.8 1" calcMode="spline" dur="60s" repeatCount="indefinite"/>
+     <animate attributeName="y" values="-100;100;-100" keySplines="0.3 0 0.7 1;0.3 0 0.7 1" calcMode="spline" dur="23s" repeatCount="indefinite"/>
+    </fePointLight>
+   </feSpecularLighting>
+   <feComposite in="specular" in2="SourceGraphic" operator="arithmetic" k1="0" k2="1.5" k3="0.75" k4="0"/>
+  </filter>
+  <radialGradient id="grad_background" cx="50%" cy="80%" r="50%" fx="50%" fy="45%">
+   <stop offset="10%" stop-color="#336699"/>
+   <stop offset="99%" stop-color="#000033"/>
+  </radialGradient>
+  <g id="layer" font-family="Helvetica,Arial,sans-serif" text-anchor="middle" stroke="none">
+   <text x="-200" y="50"   font-size="30" fill="#ffffff">&#x2743;</text>
+   <text x="150"  y="-150" font-size="35" fill="#eeeeff">&#x2746;</text>
+   <text x="-100" y="-200" font-size="40" fill="#ddddff">&#x273b;</text>
+   <text x="-50"  y="200"  font-size="45" fill="#ccccff">&#x273c;</text>
+   <text x="200"  y="100"  font-size="50" fill="#bbbbff">&#x2745;</text>
+   <text x="0"    y="0"    font-size="55" fill="#9999ff">&#x2744;</text>
+  </g>
+ </defs>
+ <circle cx="0" cy="0" r="9999" fill="#000033"/>
+ <circle cx="0" cy="0" r="999" fill="url(#grad_background)"/>
+ <g class="x1"><g class="y1"><use xlink:href="#layer" transform="rotate( 45) scale(1.0)"/></g></g>
+ <g class="x2"><g class="y2"><use xlink:href="#layer" transform="rotate(315) scale(0.8)"/></g></g>
+ <g class="x3"><g class="y3"><use xlink:href="#layer" transform="rotate(135) scale(0.6)"/></g></g>
+ <g class="x4"><g class="y4"><use xlink:href="#layer" transform="rotate(225) scale(0.5)"/></g></g>
+ <g filter="url(#filter)">
+  <path transform="scale(0.7,0.8) translate(-330,-65)" d="
+   M 100,50 v -100 v 10 a 40,50 0 0 0 80,0 v -10 v 100
+   m 50,0 a 40,50 0 1 1 50,-50 m -80,0 a 80,80 0 0 0 50,-10
+   m 40,-40 a 10,10 0 0 1 10,10 v 90 v -70 a 40,30 0 1 1 40,30
+   m 50,-60 a 10,10 0 0 1 10,10 v 90 v -70 a 40,30 0 1 1 40,30
+   m 55,-60 a 40,60 0 0 0 80,0 m -40,60 v 40
+   m -490,120 a 45,55 0 1 1 30,-60 v 60 v -60 l 60,30 v -70 v 100
+   m 32,0 a 35,50 0 0 1 60,-85 a 10,10 0 1 1 -30,20
+   m 52,-35 v 80 a 20,20 0 0 0 40,0 v -20 v 10 a 25,35 0 1 0 40,-33 a 15,20 0 1 1 25,-40
+   m 30,-5 a 40,20 0 0 0 80,0 m -40,20 v 85
+   m 115,-80 a 28,28 0 1 0 -40,32 a 30,30 0 1 0 -20,50
+   m 58,-25 h 60 m -70,25 l 40,-100 l 38,95 a 15,15 0 1 0 25,-25 a 32,39 0 1 1 40,-45"
+   stroke-linejoin="round" stroke-linecap="round" stroke-width="15" stroke="#660000" fill="none"/>
+ </g>
+</svg>

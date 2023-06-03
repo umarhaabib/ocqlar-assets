@@ -1,0 +1,1443 @@
+<svg width="360" height="380" xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;" stroke="null">
+ <g stroke="null">
+  <title stroke="null">background</title>
+ </g>
+ <style style="vector-effect: non-scaling-stroke;" stroke="null">#drone
+{
+    animation-name: drone;
+    animation-duration:20s;
+    animation-fill-mode: forwards;
+   animation-timing-function: ease-out;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes drone {
+  0%{ transform: scale(0) translate(0px, 0px);}
+  55%   { transform: scale(0); }
+  60%   { transform: scale(1); }
+  
+  60% { transform: scale(01); }
+  64%{ transform: translate(-6px, 70px);}
+  70%{ transform: translate(-6px, 70px);}
+  75%{ transform: translate(0px, 0px);}
+  78%{ transform: translate(0px, 0px);}
+  85%{ transform: translate(-215px, 25px);}
+
+  100%{ transform: translate(-215px, 25px);}
+}
+
+
+
+
+
+
+#h2arm
+{
+    animation-name: ch2arm;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    transform-origin: right ;
+    transform-box: fill-box;
+}
+@keyframes ch2arm {
+    0%{transform: rotateZ(-10deg);}
+    
+    100%{transform: rotateZ(10deg);}
+}
+#box
+{
+    animation-name: box;
+    animation-duration:20s;
+   animation-fill-mode: forwards;
+   animation-timing-function: ease-out;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes box {
+    0%{ transform: scale(0) translate(0px, 0px);}
+    55%{ transform: scale(0) translate(0px, 0px);}
+    56%{ transform: scale(1) translate(0px, 0px);}
+    70%{ transform: translate(0px, 0px);}
+    75%{ transform: translate(6px, -70px);}
+    78%{ transform: translate(6px, -70px);}
+    85%{ transform: translate(-210px, -45px);}
+     85%{ transform: translate(-210px, -45px);}
+     87%{ transform: translate(-210px, -7px);}
+    90%{ transform: translate(-210px, -7px);}
+     100%{ transform: translate(-210px, 2px);}
+  
+}
+
+#ch14a
+{
+    animation-name: ch14a;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    transform-origin: 0% 90% ;
+    transform-box: fill-box;
+}
+@keyframes ch14a {
+    0%{transform: rotateZ(110deg);}
+     70%{transform: rotateZ(110deg);}
+     80%{transform: rotateZ(110deg);}
+     89%{transform: rotateZ(0deg);}
+      90%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(15deg);}
+}
+#ch14b
+{
+    animation-name: ch14b;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    transform-origin: 10% 90%;
+    transform-box: fill-box;
+}
+@keyframes ch14b {
+    0%{transform: rotateZ(110deg);}
+     70%{transform: rotateZ(110deg);}
+     80%{transform: rotateZ(110deg);}
+     89%{transform: rotateZ(0deg);}
+      90%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(15deg);}
+}
+#glow {
+    animation-name: glow;
+    animation-duration:  2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+}
+
+
+@keyframes glow {
+    0%   { opacity: 1; }
+    50%   { opacity: .5; }
+    100%   { opacity: 1; }
+
+}
+
+
+#k
+{
+    
+}
+@keyframes f {
+    0%   { transform: scale(0); }
+    1%   { transform: scale(0); }
+    
+    3% { transform: scale(01); }
+}
+
+
+
+
+
+
+
+
+
+
+
+#ch5arm
+{
+    animation-name: ch5a;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes ch5a {
+    0%{transform: rotateZ(0deg);}
+    40%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(8deg);}
+
+}
+#ch6arm
+{
+    animation-name: ch6a;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: right top;
+    transform-box: fill-box;
+}
+@keyframes ch6a {
+    0%{transform: rotateZ(0deg);}
+    40%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(-25deg);}
+
+}
+#ch10arm
+{
+    animation-name: ch10a;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: 90% 15%;
+    transform-box: fill-box;
+}
+@keyframes ch10a {
+    0%{transform: rotateZ(0deg);}
+    24%{transform: rotateZ(0deg);}
+40%{transform: rotateZ(85deg);}
+60%{transform: rotateZ(85deg);}
+70%{transform: rotateZ(0deg);}
+85%{transform: rotateZ(0deg);}
+    
+
+}
+#ch11arm
+{
+    animation-name: ch11a;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: 90% 15%;
+    transform-box: fill-box;
+}
+@keyframes ch11a {
+    0%{transform: rotateZ(45deg);}
+    24%{transform: rotateZ(45deg);}
+40%{transform: rotateZ(0deg);}
+60%{transform: rotateZ(0deg);}
+70%{transform: rotateZ(45deg);}
+100%{transform: rotateZ(45deg);}
+
+}
+#ch78arm
+{
+    animation-name: ch78a;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+@keyframes ch78a {
+    0%{transform: rotateZ(25deg);}
+    24%{transform: rotateZ(25deg);}
+40%{transform: rotateZ(0deg);}
+60%{transform: rotateZ(0deg);}
+70%{transform: rotateZ(25deg);}
+100%{transform: rotateZ(25deg);}
+
+}
+#ch111arm
+{
+    animation-name: ch111a;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+@keyframes ch111a {
+    0%{transform: rotateZ(0deg);}
+    24%{transform: rotateZ(0deg);}
+40%{transform: rotateZ(35deg);}
+60%{transform: rotateZ(35deg);}
+70%{transform: rotateZ(0deg);}
+100%{transform: rotateZ(0deg);}
+
+}
+#ch9arm
+{
+    animation-name: ch9a;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: right;
+    transform-box: fill-box;
+}
+@keyframes ch9a {
+    0%{transform: rotateZ(0deg);}
+    24%{transform: rotateZ(0deg);}
+40%{transform: rotateZ(-55deg);}
+60%{transform: rotateZ(-55deg);}
+70%{transform: rotateZ(0deg);}
+100%{transform: rotateZ(0deg);}
+
+}
+#pparm
+{
+    animation-name: ppa;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+@keyframes ppa {
+    0%{transform: rotateZ(35deg);}
+    24%{transform: rotateZ(35deg);}
+40%{transform: rotateZ(0deg);}
+60%{transform: rotateZ(0deg);}
+70%{transform: rotateZ(35deg);}
+100%{transform: rotateZ(35deg);}
+
+}
+#ch13arm
+{
+    animation-name: ch13a;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes ch13a {
+    0%{transform: rotateZ(-55deg);}
+    24%{transform: rotateZ(-55deg);}
+40%{transform: rotateZ(0deg);}
+60%{transform: rotateZ(0deg);}
+70%{transform: rotateZ(-55deg);}
+100%{transform: rotateZ(-55deg);}
+
+}
+#sssarm
+{
+    animation-name: ch;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: 15% 10%;
+    transform-box: fill-box;
+}
+@keyframes ch {
+    0%{transform: rotateZ(-55deg);}
+    24%{transform: rotateZ(-55deg);}
+40%{transform: rotateZ(0deg);}
+60%{transform: rotateZ(0deg);}
+70%{transform: rotateZ(-55deg);}
+100%{transform: rotateZ(-55deg);}
+
+}
+
+
+#kkkarm
+{
+    animation-name: kkka;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: 90% 10%;
+    transform-box: fill-box;
+}
+@keyframes kkka {
+    0%{transform: rotateZ(-25deg);}
+    24%{transform: rotateZ(-25deg);}
+40%{transform: rotateZ(0deg);}
+60%{transform: rotateZ(0deg);}
+70%{transform: rotateZ(-25deg);}
+100%{transform: rotateZ(-25deg);}
+
+}
+#sig1
+{
+    animation-name: sig1;
+    animation-duration:20s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes sig1 {
+    0%   { transform: scale(0); }
+    30%   { transform: scale(0); }
+    
+    31% { transform: scale(01); }
+}
+#sig2
+{
+    animation-name: sig2;
+    animation-duration:20s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes sig2 {
+    0%   { transform: scale(0); }
+    50%   { transform: scale(0); }
+    
+    51% { transform: scale(01); }
+}
+#sig3
+{
+    animation-name: sig3;
+    animation-duration:20s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes sig3 {
+    0%   { transform: scale(0); }
+    70%   { transform: scale(0); }
+    
+    71% { transform: scale(01); }
+}
+#sg1,#sg4,#sg7,#dt41,#wi,#wi4,#wi7,#wi10,#wi13 {
+    animation: dt1 1s infinite linear;
+}
+@keyframes dt1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#sg2,#sg5,#sg8,#dt42,#wi2,#wi5,#wi8,#wi11,#wi14 {
+    animation: dt2 1s infinite linear;
+}
+@keyframes dt2 {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#sg3,#sg6,#sg9,#dt43,#wi3,#wi6,#wi9,#wi12,#wi15 {
+    animation: dt3 1s infinite linear;
+}
+
+@keyframes dt3 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+#s
+{
+ 
+}
+@keyframes s {
+    0%   { transform: scale(0); }
+    25%   { transform: scale(0); }
+    
+    26% { transform: scale(01); }
+}
+
+
+#block2
+{
+    animation-name: bl2;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes bl2 {
+    0%   { transform: scale(0); }
+    22%   { transform: scale(0); }
+    
+    22.5% { transform: scale(01); }
+}
+
+
+
+#y
+{
+  
+}
+@keyframes y {
+    0%   { transform: scale(0); }
+    30%   { transform: scale(0); }
+    
+    31% { transform: scale(01); }
+}
+
+
+#dd
+{
+    
+}
+@keyframes dd {
+    0%   { transform: scale(0); }
+    2%   { transform: scale(0); }
+    
+    3% { transform: scale(01); }
+}
+#ee
+{
+   
+}
+@keyframes ee {
+    0%   { transform: scale(0); }
+    4%   { transform: scale(0); }
+    
+    5% { transform: scale(01); }
+}
+#ch10
+{
+   
+}
+@keyframes ch10 {
+    0%   { transform: scale(0); }
+    6%   { transform: scale(0); }
+    
+    7% { transform: scale(01); }
+}
+#ch11
+{
+  
+}
+@keyframes ch11 {
+    0%   { transform: scale(0); }
+    8%   { transform: scale(0); }
+    
+    9% { transform: scale(01); }
+}
+#ch12
+{
+  
+}
+@keyframes ch12 {
+    0%   { transform: scale(0); }
+    10%   { transform: scale(0); }
+    
+    11% { transform: scale(01); }
+}
+#ch111
+{
+    
+}
+@keyframes ch111 {
+    0%   { transform: scale(0); }
+    12%   { transform: scale(0); }
+    
+13% { transform: scale(01); }
+}
+#ch13
+{
+    
+}
+@keyframes ch13 {
+    0%   { transform: scale(0); }
+    14%   { transform: scale(0); }
+    
+    15% { transform: scale(01); }
+}
+#ch14
+{
+   
+}
+@keyframes ch14 {
+    0%   { transform: scale(0); }
+    16%   { transform: scale(0); }
+    
+    17% { transform: scale(01); }
+}
+
+#ff
+{
+   
+}
+@keyframes ff {
+    0%   { transform: scale(0); }
+    18%   { transform: scale(0); }
+    
+    19% { transform: scale(01); }
+}
+#gg
+{
+   
+}
+@keyframes gg{
+    0%   { transform: scale(0); }
+    20%   { transform: scale(0); }
+    
+    21% { transform: scale(01); }
+}
+#hh
+{
+    
+}
+@keyframes hh {
+    0%   { transform: scale(0); }
+    22%   { transform: scale(0); }
+    
+    23% { transform: scale(01); }
+}
+#ii
+{
+   
+}
+@keyframes ii {
+    0%   { transform: scale(0); }
+    24%   { transform: scale(0); }
+    
+    25% { transform: scale(01); }
+}
+#jj
+{
+   
+}
+@keyframes jj {
+    0%   { transform: scale(0); }
+    26%   { transform: scale(0); }
+    
+    27% { transform: scale(01); }
+}
+#wifi4
+{
+   
+}
+@keyframes wi4 {
+    0%   { transform: scale(0); }
+    26%   { transform: scale(0); }
+    
+    27% { transform: scale(01); }
+}
+#wifi5
+{
+   ;
+}
+@keyframes wi5 {
+    0%   { transform: scale(0); }
+    60%   { transform: scale(0); }
+    
+    61% { transform: scale(01); }
+}
+#jj1
+{
+    
+}
+@keyframes jj1 {
+    0%   { transform: scale(0); }
+    26%   { transform: scale(0); }
+    
+    27% { transform: scale(01); }
+}
+#kk
+{
+    
+}
+@keyframes kk {
+    0%   { transform: scale(0); }
+    26%   { transform: scale(0); }
+    
+    27% { transform: scale(01); }
+}
+#ll
+{
+    
+}
+@keyframes ll {
+    0%   { transform: scale(0); }
+    27%   { transform: scale(0); }
+    
+    28% { transform: scale(01); }
+}
+#mm
+{
+    
+}
+@keyframes mm {
+    0%   { transform: scale(0); }
+    28%   { transform: scale(0); }
+    
+    29% { transform: scale(01); }
+}
+
+#nn
+{
+  
+}
+@keyframes nn {
+    0%   { transform: scale(0); }
+    29%   { transform: scale(0); }
+    
+    30% { transform: scale(01); }
+}
+#oo
+{
+    
+}
+@keyframes oo {
+    0%   { transform: scale(0); }
+    30%   { transform: scale(0); }
+    
+    31% { transform: scale(01); }
+}
+#oo1
+{
+   
+}
+@keyframes oo1 {
+    0%   { transform: scale(0); }
+    31%   { transform: scale(0); }
+    
+    32% { transform: scale(01); }
+}
+#oo2
+{
+  
+}
+@keyframes oo2 {
+    0%   { transform: scale(0); }
+    32%   { transform: scale(0); }
+    
+    33% { transform: scale(01); }
+}
+#pp
+{
+    
+}
+@keyframes pp {
+    0%   { transform: scale(0); }
+    31%   { transform: scale(0); }
+    
+    32% { transform: scale(01); }
+}
+#qq
+{
+   
+}
+@keyframes qq {
+    0%   { transform: scale(0); }
+    32%   { transform: scale(0); }
+    
+    33% { transform: scale(01); }
+}
+#rr
+{
+   
+}
+@keyframes rr {
+    0%   { transform: scale(0); }
+    33%   { transform: scale(0); }
+    
+    34% { transform: scale(01); }
+}
+#ss
+{
+   
+}
+@keyframes ss {
+    0%   { transform: scale(0); }
+    34%   { transform: scale(0); }
+    
+    35% { transform: scale(01); }
+}
+#tt
+{
+    
+}
+@keyframes tt {
+    0%   { transform: scale(0); }
+    35%   { transform: scale(0); }
+    
+    36% { transform: scale(01); }
+}
+#uu,#uu1
+{
+   
+}
+@keyframes uu {
+    0%   { transform: scale(0); }
+    36%   { transform: scale(0); }
+    
+    37% { transform: scale(01); }
+}
+#vv
+{
+    
+}
+@keyframes vv{
+    0%   { transform: scale(0); }
+    37%   { transform: scale(0); }
+    
+    38% { transform: scale(01); }
+}
+#ww
+{
+    
+}
+@keyframes ww {
+    0%   { transform: scale(0); }
+    38%   { transform: scale(0); }
+    
+    39% { transform: scale(01); }
+}
+#xx
+{
+  
+}
+@keyframes xx {
+    0%   { transform: scale(0); }
+    39%   { transform: scale(0); }
+    
+    40% { transform: scale(01); }
+}
+#yy
+{
+   
+}
+@keyframes yy {
+    0%   { transform: scale(0); }
+    40%   { transform: scale(0); }
+    
+    41% { transform: scale(01); }
+}
+#zz
+{
+    
+}
+@keyframes zz {
+    0%   { transform: scale(0); }
+    41%   { transform: scale(0); }
+    
+    42% { transform: scale(01); }
+}
+#aaa
+{
+   
+}
+@keyframes aaa {
+    0%   { transform: scale(0); }
+    42%   { transform: scale(0); }
+    
+    43% { transform: scale(01); }
+}
+#text1
+{
+    
+}
+@keyframes txt {
+    0%   { transform: scale(0); }
+    42%   { transform: scale(0); }
+    
+    43% { transform: scale(01); }
+}
+#bbb
+{
+   
+}
+@keyframes bbb {
+    0%   { transform: scale(0); }
+    43%   { transform: scale(0); }
+    
+    44% { transform: scale(01); }
+}
+#lines
+{
+    
+}
+@keyframes ln {
+    0%   { transform: scale(0); }
+    5%   { transform: scale(0); }
+    
+    6% { transform: scale(01); }
+}
+#ccc
+{
+    
+}
+@keyframes ccc {
+    0%   { transform: scale(0); }
+    44%   { transform: scale(0); }
+    
+    44.5% { transform: scale(01); }
+}
+#ddd
+{
+    
+}
+@keyframes ddd {
+    0%   { transform: scale(0); }
+    20%   { transform: scale(0); }
+    
+    21% { transform: scale(01); }
+}
+#ddd1,#ddd2
+{
+   
+}
+@keyframes ddd {
+    0%   { transform: scale(0); }
+    22%   { transform: scale(0); }
+    
+    23% { transform: scale(01); }
+}
+#h1
+{
+   
+}
+@keyframes h1 {
+    0%   { transform: scale(0); }
+    46%   { transform: scale(0); }
+    
+    47% { transform: scale(01); }
+}
+#h2
+{
+    
+}
+@keyframes h2 {
+    0%   { transform: scale(0); }
+    46.5%   { transform: scale(0); }
+    
+    47.5% { transform: scale(01); }
+}
+#h3
+{
+   
+}
+@keyframes h3 {
+    0%   { transform: scale(0); }
+    47%   { transform: scale(0); }
+    
+    48% { transform: scale(01); }
+}
+#h4
+{
+   
+}
+@keyframes h4 {
+    0%   { transform: scale(0); }
+    48%   { transform: scale(0); }
+    
+    49% { transform: scale(01); }
+}
+#h5
+{
+   
+@keyframes h5 {
+    0%   { transform: scale(0); }
+    48.5%   { transform: scale(0); }
+    
+    49.5% { transform: scale(01); }
+}
+#h6
+{
+    animation-name:h6;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes h6 {
+    0%   { transform: scale(0); }
+    49.5%   { transform: scale(0); }
+    
+    50.5% { transform: scale(01); }
+}
+#h7
+{
+    animation-name:h7;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes h7 {
+    0%   { transform: scale(0); }
+    51.5%   { transform: scale(0); }
+    
+    52.5% { transform: scale(01); }
+}
+#h8
+{
+    animation-name:h8;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes h8 {
+    0%   { transform: scale(0); }
+    52.5%   { transform: scale(0); }
+    
+    53.5% { transform: scale(01); }
+}
+#crane1
+{
+    animation-name:crn1;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    aanimation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes crn1 {
+    0%   { transform: scale(0); }
+    47.5%   { transform: scale(0); }
+    
+    48.5% { transform: scale(01); }
+}
+#crane2
+{
+    animation-name:crn2;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    aanimation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes crn2 {
+    0%   { transform: scale(0); }
+    49.5%   { transform: scale(0); }
+    
+    50.5% { transform: scale(01); }
+}
+#eee
+{
+    animation-name:eee;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes eee {
+    0%   { transform: scale(0); }
+    25%   { transform: scale(0); }
+    
+    26% { transform: scale(01); }
+}
+#fff
+{
+    animation-name:fff;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes fff {
+    0%   { transform: scale(0); }
+    27%   { transform: scale(0); }
+    
+    28% { transform: scale(01); }
+}
+#ggg
+{
+    animation-name:ggg;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ggg {
+    0%   { transform: scale(0); }
+    29%   { transform: scale(0); }
+    
+    30% { transform: scale(01); }
+}
+
+#hhh
+{
+    animation-name:hhh;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes hhh {
+    0%   { transform: scale(0); }
+    31%   { transform: scale(0); }
+    
+    32% { transform: scale(01); }
+}
+#iii
+{
+    animation-name:iii;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes iii {
+    0%   { transform: scale(0); }
+    33%   { transform: scale(0); }
+    
+    34% { transform: scale(01); }
+}
+
+#jjj
+{
+    animation-name:jjj;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes jjj {
+    0%   { transform: scale(0); }
+    35%   { transform: scale(0); }
+    
+    36% { transform: scale(01); }
+}
+#kkk
+{
+    animation-name:kkk;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes kkk {
+    0%   { transform: scale(0); }
+    37%   { transform: scale(0); }
+    
+    38% { transform: scale(01); }
+}
+#lll
+{
+    animation-name:lll;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes lll {
+    0%   { transform: scale(0); }
+    39%   { transform: scale(0); }
+    
+    40% { transform: scale(01); }
+}
+
+#mmm
+{
+    animation-name:mmm;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes mmm {
+    0%   { transform: scale(0); }
+    41% { transform: scale(0); }
+    
+    42% { transform: scale(01); }
+}
+
+#nnn
+{
+    animation-name:nnn;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes nnn {
+    0%   { transform: scale(0); }
+    43%   { transform: scale(0); }
+    
+    44% { transform: scale(01); }
+}
+#ooo
+{
+    animation-name:ooo;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ooo {
+    0%   { transform: scale(0); }
+    45%   { transform: scale(0); }
+    
+    46% { transform: scale(01); }
+}
+
+#ppp
+{
+    animation-name:ppp;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ppp {
+    0%   { transform: scale(0); }
+    60%   { transform: scale(0); }
+    
+    61% { transform: scale(01); }
+}
+
+#qqq
+{
+    animation-name:qqq;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes qqq {
+    0%   { transform: scale(0); }
+    61%   { transform: scale(0); }
+    
+    62% { transform: scale(01); }
+}
+
+#rrr
+{
+    animation-name:rrr;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes rrr {
+    0%   { transform: scale(0); }
+    62%   { transform: scale(0); }
+    
+    63% { transform: scale(01); }
+}
+#sss
+{
+    animation-name:sss;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes sss {
+    0%   { transform: scale(0); }
+    63%   { transform: scale(0); }
+    
+    64% { transform: scale(01); }
+}
+
+#ttt
+{
+    animation-name:ttt;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ttt {
+    0%   { transform: scale(0); }
+    64%   { transform: scale(0); }
+    
+    65% { transform: scale(01); }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+#box
+{
+    animation-name: box;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+   animation-timing-function: ease-out;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes box {
+  0%{ transform: translate(0px, 0px);}
+  20%{ transform: translate(0px, 0px);}
+  30%{ transform: translate(9px, -70px);}
+  40%{ transform: translate(-193px, -29px);}
+   40%{ transform: translate(-193px, -29px);}
+   50%{ transform: translate(-193px, -13px);}
+  100%{ transform: translate(-193px, -13px);}
+  
+}*/
+#arm1
+{
+    animation-name: h;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+   animation-direction: alternate;
+    transform-origin:  right center ;
+    transform-box: fill-box;
+}
+@keyframes h {
+    0%{transform: rotateZ(0deg);}
+    
+    100%{transform: rotateZ(30deg);}
+}</style>
+ <defs style="vector-effect: non-scaling-stroke;" stroke="null">
+  <clipPath style="vector-effect: non-scaling-stroke;" stroke="null" id="clip-path">
+   <polygon style="vector-effect: non-scaling-stroke;" stroke="null" points="76.56321716308594,74.25263214111328 76.50321197509766,98.0426254272461 109.11319732666016,116.87262725830078 109.1731948852539,93.08263397216797 76.56321716308594,74.25263214111328 " fill="none" id="svg_1"/>
+  </clipPath>
+  <clipPath style="vector-effect: non-scaling-stroke;" stroke="null" id="clip-path-2">
+   <polygon style="vector-effect: non-scaling-stroke;" stroke="null" points="650.1300048828125,62.95000076293945 669.8300170898438,73.48999786376953 669.7899780273438,60.650001525878906 650.0900268554688,50.099998474121094 650.1300048828125,62.95000076293945 " fill="none" id="svg_2"/>
+  </clipPath>
+  <clipPath style="vector-effect: non-scaling-stroke;" stroke="null" id="clip-path-3">
+   <polygon style="vector-effect: non-scaling-stroke;" stroke="null" points="636.02001953125,55.119998931884766 650.6300048828125,63.220001220703125 651.010009765625,50.59000015258789 635.97998046875,42.2599983215332 636.02001953125,55.119998931884766 " fill="none" id="svg_3"/>
+  </clipPath>
+ </defs>
+ <title style="vector-effect: non-scaling-stroke;" stroke="null">10 Drone Delivery</title>
+ <g stroke="null">
+  <title stroke="null">Layer 1</title>
+  <g stroke="null" id="svg_7">
+   <g stroke="null" id="ppp">
+    <g stroke="null" id="svg_489">
+     <polygon stroke="null" points="62.84876251220703,256.5268859863281 210.32444763183594,341.3470153808594 210.45172119140625,293.7509765625 62.99725341796875,208.9308624267578 62.84876251220703,256.5268859863281 " fill="#7db7d7" id="svg_490"/>
+     <polygon stroke="null" points="210.32444763183594,341.3470153808594 264.580322265625,311.1647644042969 264.7077331542969,263.5899963378906 210.45172119140625,293.7509765625 210.32444763183594,341.3470153808594 " fill="#3182ad" id="svg_491"/>
+     <polygon stroke="null" points="62.99725341796875,208.9308624267578 210.45172119140625,293.7509765625 264.7077331542969,263.5899963378906 117.21092987060547,178.76968383789062 62.99725341796875,208.9308624267578 " fill="#293c5c" id="svg_492"/>
+    </g>
+   </g>
+   <g stroke="null" id="qqq" opacity="0.4">
+    <polygon stroke="null" points="124.95353698730469,192.02615356445312 271.58074951171875,276.3586730957031 271.9837341308594,169.543212890625 125.33544158935547,85.21082305908203 124.95353698730469,192.02615356445312 " fill="#fff" id="svg_493"/>
+   </g>
+   <g stroke="null" id="rrr">
+    <g stroke="null" id="svg_494">
+     <polygon stroke="null" points="217.82846069335938,223.19395446777344 229.45169067382812,229.91761779785156 229.45169067382812,224.5938262939453 217.82846069335938,217.87013244628906 217.82846069335938,223.19395446777344 " fill="#fff" id="svg_495"/>
+     <polygon stroke="null" points="217.78602600097656,231.74166870117188 229.43045043945312,238.42294311523438 229.45169067382812,233.09915161132812 217.82846069335938,226.3966522216797 217.78602600097656,231.74166870117188 " fill="#e85f66" id="svg_496"/>
+     <polygon stroke="null" points="203.34173583984375,223.3848114013672 214.98622131347656,230.1084747314453 215.0074462890625,224.7635040283203 203.3842010498047,218.0397491455078 203.34173583984375,223.3848114013672 " fill="#fff" id="svg_497"/>
+     <polygon stroke="null" points="203.3842010498047,214.87945556640625 215.0074462890625,221.60311889648438 215.0499267578125,216.2793426513672 203.40530395507812,209.5556182861328 203.3842010498047,214.87945556640625 " fill="#fff" id="svg_498"/>
+     <polygon stroke="null" points="203.40530395507812,206.35287475585938 215.0499267578125,213.07652282714844 215.0499267578125,207.7315216064453 203.4477996826172,201.0290985107422 203.40530395507812,206.35287475585938 " fill="#e85f66" id="svg_499"/>
+     <polygon stroke="null" points="217.8495635986328,214.70974731445312 229.49407958984375,221.43345642089844 229.49407958984375,216.06723022460938 217.8495635986328,209.36476135253906 217.8495635986328,214.70974731445312 " fill="#3182ad" id="svg_500"/>
+     <polygon stroke="null" points="232.230224609375,240.0561065673828 243.85342407226562,246.7798309326172 243.85342407226562,241.43479919433594 232.25143432617188,234.71112060546875 232.230224609375,240.0561065673828 " fill="#fff" id="svg_501"/>
+     <polygon stroke="null" points="232.25143432617188,231.55079650878906 243.8959503173828,238.2744903564453 243.8959503173828,232.90829467773438 232.29376220703125,226.2269744873047 232.25143432617188,231.55079650878906 " fill="#fff" id="svg_502"/>
+     <polygon stroke="null" points="232.29376220703125,223.0242156982422 243.8959503173828,229.7478790283203 243.91717529296875,224.40289306640625 232.31507873535156,217.67919921875 232.29376220703125,223.0242156982422 " fill="#e85f66" id="svg_503"/>
+     <polygon stroke="null" points="245.5290985107422,247.7130889892578 260.737060546875,256.5154113769531 260.737060546875,251.17042541503906 245.5290985107422,242.36801147460938 245.5290985107422,247.7130889892578 " fill="#3182ad" id="svg_504"/>
+     <polygon stroke="null" points="245.5290985107422,239.29258728027344 260.7793884277344,248.0948944091797 260.800537109375,234.13845825195312 245.57151794433594,225.3361053466797 245.5290985107422,239.29258728027344 " fill="#e85f66" id="svg_505"/>
+    </g>
+    <g stroke="null" id="svg_506">
+     <polygon stroke="null" points="122.27570343017578,133.02867126464844 268.9028625488281,217.31861877441406 269.305908203125,202.98045349121094 122.65751647949219,118.6480484008789 122.27570343017578,133.02867126464844 " fill="#293c5c" id="svg_507"/>
+     <g stroke="null" id="svg_508">
+      <polygon stroke="null" points="217.8495635986328,247.98887634277344 229.3243865966797,254.5852813720703 229.3243865966797,249.3251190185547 217.87078857421875,242.70741271972656 217.8495635986328,247.98887634277344 " fill="#3182ad" id="svg_509"/>
+      <polygon stroke="null" points="217.8495635986328,256.3669738769531 229.30323791503906,262.98455810546875 229.3243865966797,257.724365234375 217.8495635986328,251.0855255126953 217.8495635986328,256.3669738769531 " fill="#e85f66" id="svg_510"/>
+      <polygon stroke="null" points="203.61749267578125,248.15846252441406 215.07101440429688,254.7549591064453 215.11346435546875,249.51597595214844 203.61749267578125,242.8771209716797 203.61749267578125,248.15846252441406 " fill="#fff" id="svg_511"/>
+      <polygon stroke="null" points="203.6598358154297,239.7592315673828 215.11346435546875,246.37681579589844 215.11346435546875,241.11666870117188 203.6598358154297,234.49903869628906 203.6598358154297,239.7592315673828 " fill="#fff" id="svg_512"/>
+      <polygon stroke="null" points="203.6598358154297,231.381103515625 215.1346893310547,237.9775848388672 215.1346893310547,232.71737670898438 203.68104553222656,226.09974670410156 203.6598358154297,231.381103515625 " fill="#3182ad" id="svg_513"/>
+      <polygon stroke="null" points="217.87078857421875,239.5682830810547 229.3668975830078,246.20713806152344 229.3668975830078,240.9258270263672 217.9132537841797,234.3293914794922 217.87078857421875,239.5682830810547 " fill="#fff" id="svg_514"/>
+      <polygon stroke="null" points="232.08175659179688,264.5965576171875 243.535400390625,271.1929931640625 243.535400390625,265.9115905761719 232.10296630859375,259.315185546875 232.08175659179688,264.5965576171875 " fill="#fff" id="svg_515"/>
+      <polygon stroke="null" points="232.10296630859375,256.197265625 243.55654907226562,262.8148193359375 243.55654907226562,257.5335388183594 232.14540100097656,250.9370880126953 232.10296630859375,256.197265625 " fill="#fff" id="svg_516"/>
+      <polygon stroke="null" points="232.14540100097656,247.7978973388672 243.59893798828125,254.3943328857422 243.59893798828125,249.15538024902344 232.14540100097656,242.51654052734375 232.14540100097656,247.7978973388672 " fill="#e85f66" id="svg_517"/>
+      <polygon stroke="null" points="245.14730834960938,272.1262512207031 260.16424560546875,280.80126953125 260.16424560546875,275.5199279785156 245.14730834960938,266.8872375488281 245.14730834960938,272.1262512207031 " fill="#3182ad" id="svg_518"/>
+      <polygon stroke="null" points="245.18978881835938,263.8329772949219 260.206787109375,272.50799560546875 260.22796630859375,258.7425231933594 245.21096801757812,250.0886688232422 245.18978881835938,263.8329772949219 " fill="#fff" id="svg_519"/>
+     </g>
+     <g stroke="null" id="svg_520">
+      <polygon stroke="null" points="130.20851135253906,155.02383422851562 130.0812225341797,205.48329162597656 199.24815368652344,245.4224090576172 199.33297729492188,194.96292114257812 130.20851135253906,155.02383422851562 " fill="#fff" id="svg_521"/>
+      <g stroke="null" clip-path="url(#clip-path)" id="svg_522">
+       <g stroke="null" id="svg_523">
+        <g stroke="null" id="wave1">
+         <polygon stroke="null" points="257.70391845703125,237.99871826171875 252.7192840576172,256.5790710449219 246.63201904296875,237.10787963867188 241.11741638183594,246.1647491455078 233.9695587158203,242.04983520507812 230.99996948242188,232.84466552734375 226.01565551757812,241.92266845703125 217.82846069335938,218.4639892578125 210.8289031982422,227.81776428222656 202.47207641601562,222.9606170654297 202.45095825195312,224.9755859375 211.8258819580078,230.3842315673828 217.6587371826172,222.51515197753906 226.0580291748047,246.4192352294922 230.95770263671875,237.5109100341797 232.86651611328125,243.3649444580078 242.1779327392578,248.7523956298828 246.50466918945312,241.62571716308594 253.12245178222656,262.83612060546875 258.12811279296875,244.1285858154297 260.24920654296875,250.8734588623047 271.6603698730469,257.4486389160156 271.6603698730469,255.45489501953125 261.3732604980469,249.51597595214844 257.70391845703125,237.99871826171875 " fill="#e85f66" id="svg_524"/>
+        </g>
+        <g stroke="null" id="wave2">
+         <polygon stroke="null" points="257.70391845703125,237.99871826171875 252.7192840576172,256.5790710449219 246.63201904296875,237.10787963867188 241.11741638183594,246.1647491455078 233.9695587158203,242.04983520507812 230.99996948242188,232.84466552734375 226.01565551757812,241.92266845703125 217.82846069335938,218.4639892578125 210.8289031982422,227.81776428222656 202.47207641601562,222.9606170654297 202.45095825195312,224.9755859375 211.8258819580078,230.3842315673828 217.6587371826172,222.51515197753906 226.0580291748047,246.4192352294922 230.95770263671875,237.5109100341797 232.86651611328125,243.3649444580078 242.1779327392578,248.7523956298828 246.50466918945312,241.62571716308594 253.12245178222656,262.83612060546875 258.12811279296875,244.1285858154297 260.24920654296875,250.8734588623047 271.6603698730469,257.4486389160156 271.6603698730469,255.45489501953125 261.3732604980469,249.51597595214844 257.70391845703125,237.99871826171875 " fill="#e85f66" id="svg_525"/>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g stroke="null" id="sss">
+    <g stroke="null" id="svg_526">
+     <path stroke="null" d="m128.83506,266.25535s-4.24207,-2.31193 -5.00564,-1.29383s1.12415,4.94201 0.69994,5.38743a20.40436,20.40436 0 0 0 -2.79977,7.02063a35.69703,35.69703 0 0 0 1.52715,5.06928a3.73302,3.73302 0 0 0 1.42109,1.50594a13.48979,13.48979 0 0 1 0.48784,-4.00876c0.65752,-1.65441 3.71181,-1.95135 4.00876,-0.76357s-0.63631,4.24207 1.14536,4.24207a39.66337,39.66337 0 0 1 1.42109,-5.5359c0.76357,-1.95135 -1.33625,-6.21463 -1.33625,-6.21463l-1.56957,-5.40864z" fill="#002d42" id="svg_527"/>
+     <path stroke="null" d="m126.12013,277.43321l-4.0936,0.48784s2.37556,7.14789 3.01187,8.29325s1.56957,2.12104 1.69683,0.76357s-0.93326,-3.24518 -0.84841,-5.23896s0.23331,-4.3057 0.23331,-4.3057z" fill="#002d42" id="svg_528"/>
+    </g>
+    <g stroke="null" id="svg_529">
+     <path stroke="null" d="m139.71597,200.12146a7.02063,7.02063 0 0 0 -7.25394,5.28138l0,0l-6.66005,29.92782a4.98443,4.98443 0 0 0 4.0936,4.66628c2.56645,0.14847 4.56023,1.0181 5.28138,-1.35746l0,0l0,-0.14847l0,0l10.75365,-29.22787l0,0a10.60518,10.60518 0 0 0 0.33937,-1.6332a7.10547,7.10547 0 0 0 -6.554,-7.50847z" fill="#bfcbde" id="svg_530"/>
+     <path stroke="null" d="m139.71597,200.12146a6.80852,6.80852 0 0 0 -3.81786,0.86962a1.80288,1.80288 0 0 1 0.23331,1.86651c-4.87838,12.04748 -6.49037,23.81923 -8.48414,36.05761a3.96634,3.96634 0 0 0 2.12104,0.91205c2.56645,0.14847 4.56023,1.0181 5.28138,-1.35746l0,0l0,-0.14847l0,0l10.75365,-29.22787l0,0a10.60518,10.60518 0 0 0 0.33937,-1.6332a7.08426,7.08426 0 0 0 -6.42674,-7.33878z" fill="#243551" opacity="0.15" id="svg_531"/>
+     <path stroke="null" d="m130.70157,237.70621a9.05682,9.05682 0 0 0 -6.36311,1.20899a82.27498,82.27498 0 0 0 -0.99689,29.43998s2.43919,3.43608 6.17221,0a73.32421,73.32421 0 0 1 1.37867,-12.36564c1.2302,-6.23585 3.8815,-13.53221 3.52092,-14.08368s-0.72115,-3.41487 -3.71181,-4.19965z" fill="#bfcbde" id="svg_532"/>
+     <path stroke="null" d="m130.70157,237.70621a7.67815,7.67815 0 0 0 -3.79665,0a1.88772,1.88772 0 0 1 0,1.08173a119.75368,119.75368 0 0 0 -1.80288,19.662a57.84065,57.84065 0 0 0 1.14536,11.4748a4.62386,4.62386 0 0 0 3.43608,-1.48473a73.32421,73.32421 0 0 1 1.37867,-12.36564c1.2302,-6.23585 3.8815,-13.53221 3.52092,-14.08368s-0.89084,-3.49971 -3.8815,-4.28449z" fill="#243551" opacity="0.15" id="svg_533"/>
+    </g>
+    <path stroke="null" d="m129.89558,235.35186a4.62386,4.62386 0 1 0 4.24207,5.00564a4.68749,4.68749 0 0 0 -4.24207,-5.00564z" fill="#002d42" id="svg_534"/>
+    <path stroke="null" d="m150.78778,346.09114a95.57387,95.57387 0 0 1 -11.81417,-1.12415l-5.57832,0l-1.65441,8.5902c1.65441,4.00876 7.52968,2.35435 7.52968,2.35435l14.25336,-4.51781c2.88461,-1.29383 0.36058,-5.30259 -2.73614,-5.30259z" fill="#002d42" id="svg_535"/>
+    <path stroke="null" d="m148.39101,246.38125a10.81728,10.81728 0 0 0 -10.96576,9.96887l3.35124,43.75697c-0.29695,4.7087 9.75676,9.45982 13.55342,0l3.92392,-43.24792a10.01129,10.01129 0 0 0 -9.50224,-10.47792l-0.36058,0z" fill="#bfcbde" id="svg_536"/>
+    <path stroke="null" d="m143.449,287.08392a276.15886,276.15886 0 0 1 -3.8815,-36.41818a10.60518,10.60518 0 0 0 -2.12104,5.5359l3.35124,43.75697c-0.23331,3.64818 5.79043,7.29636 10.2446,4.34812c-5.81164,-3.92392 -6.66005,-10.90212 -7.59331,-17.22281z" fill="#243551" opacity="0.15" id="svg_537"/>
+    <path stroke="null" d="m146.20634,302.41901c-4.77233,-0.72115 -6.93579,3.52092 -7.82662,8.16599l-5.02685,35.69703c-0.78478,3.8815 7.50847,5.00564 8.29325,1.0181l11.72933,-34.86983a8.48414,8.48414 0 0 0 -6.57521,-9.90524l-0.59389,-0.10605z" fill="#bfcbde" id="svg_538"/>
+    <path stroke="null" d="m144.99735,302.41901c-4.00876,0 -6.02374,3.92392 -6.74489,8.16599l-5.02685,35.69703c-0.55147,2.71493 3.01187,4.58144 5.42985,4.0936c-1.2302,-15.39872 1.71804,-30.13992 4.81475,-44.54175a1.80288,1.80288 0 0 1 1.52715,-1.48473a2.29072,2.29072 0 0 1 0,-1.59078a0.69994,0.69994 0 0 1 0,-0.33937z" fill="#243551" opacity="0.15" id="svg_539"/>
+    <path stroke="null" d="m141.62491,302.75838l0,0.91205c0.69994,0 1.50594,1.35746 5.28138,4.96322a15.63203,15.63203 0 0 0 4.0936,2.31193a2.60887,2.60887 0 0 0 3.01187,-0.69994a9.45982,9.45982 0 0 0 0.42421,-10.30823c-3.98755,1.03931 -9.35377,3.24518 -12.81106,2.82098z" fill="#002d42" id="svg_540"/>
+    <path stroke="null" d="m142.98237,183.34406l5.17533,6.02374l-0.84841,7.80541a4.64507,4.64507 0 0 0 9.16287,1.4423l0,-0.55147l0.84841,-9.96887a11.58086,11.58086 0 0 0 -14.3382,-4.75112z" fill="#002d42" id="svg_541"/>
+    <path stroke="null" d="m164.27757,237.91831l-20.065,1.80288l-0.29695,6.23585c0,1.71804 -1.50594,2.79977 -2.31193,4.24207c-5.64196,10.60518 1.33625,16.39561 1.33625,16.39561s2.12104,3.28761 15.08056,2.77856c1.71804,0 7.29636,-4.96322 8.48414,-12.04748a13.42616,13.42616 0 0 0 -1.95135,-6.59642l-0.27573,-12.81106z" fill="#002d42" id="svg_542"/>
+    <path stroke="null" d="m165.21082,197.61863c-9.52345,-2.63008 -12.72621,-4.58144 -18.09244,-2.12104a53.76826,53.76826 0 0 0 -7.3812,3.77544a11.81417,11.81417 0 0 0 -4.43296,12.51411l1.95135,8.16599l3.49971,20.48921a31.24286,31.24286 0 0 0 8.5902,4.56023c3.77544,1.0181 9.92645,-0.59389 15.88656,-3.64818a9.37498,9.37498 0 0 0 4.56023,-8.48414c0,-3.20276 1.73925,-18.09244 1.69683,-25.32517c-0.08484,-6.08737 -2.73614,-8.95077 -6.27827,-9.92645z" fill="#bfcbde" id="svg_543"/>
+    <path stroke="null" d="m171.21335,204.68168s0,0.2121 -0.19089,0.19089c-24.83733,-10.60518 -4.56023,16.39561 -5.34501,36.05761a9.48103,9.48103 0 0 0 4.0936,-8.16599c0,-3.20276 1.73925,-18.09244 1.69683,-25.32517a14.14731,14.14731 0 0 0 -0.25452,-2.75735z" fill="#243551" opacity="0.15" id="svg_544"/>
+    <path stroke="null" d="m152.65429,163.91537a12.0899,12.0899 0 1 0 -1.97256,24.11618l2.50282,3.81786a22.99203,22.99203 0 0 0 7.74178,2.12104a4.02997,4.02997 0 0 0 3.92392,-3.43608a57.58612,57.58612 0 0 0 0,-14.55031a12.06869,12.06869 0 0 0 -11.96264,-12.15354l-0.23331,0.08484z" fill="#bfcbde" id="svg_545"/>
+    <path stroke="null" d="m151.82709,185.84688c-3.22397,-3.01187 -7.42363,-5.28138 -9.94766,-8.88714a11.41117,11.41117 0 0 1 -1.29383,-2.26951c0,0.44542 0,0.91205 0,1.35746a12.02627,12.02627 0 0 0 10.15976,12.04748l2.50282,3.81786a22.99203,22.99203 0 0 0 7.74178,2.12104a4.24207,4.24207 0 0 0 2.12104,-0.65752l-0.76357,0a36.99086,36.99086 0 0 1 -10.52034,-7.52968z" fill="#243551" opacity="0.15" id="svg_546"/>
+    <path stroke="null" d="m155.72979,184.91363c-3.52092,-2.12104 -9.03561,-4.77233 -11.43238,0l3.43608,8.48414l9.29014,1.80288l1.0181,-4.79354a5.30259,5.30259 0 0 0 -2.31193,-5.49348z" fill="#002d42" id="svg_547"/>
+    <g stroke="null" id="sssarm">
+     <path stroke="null" d="m191.76619,276.35148a35.59098,35.59098 0 0 0 -1.08173,-5.17533a19.98016,19.98016 0 0 0 -5.85406,-4.79354c-0.59389,-0.2121 -0.57268,-4.36933 -1.99377,-5.06928s-3.73302,3.52092 -3.73302,3.52092l1.20899,5.49348s0.38179,4.87838 1.8453,6.02374s3.81786,4.24207 3.92392,4.24207c1.52715,-0.86962 -0.69994,-3.01187 -1.0181,-4.24207s1.2302,-1.78167 2.58766,-1.69683c0.42421,0.69994 0.95447,1.6332 1.50594,2.48161c1.0181,1.69683 1.0181,3.8815 1.78167,4.96322s1.0181,-0.14847 1.08173,-1.48473a24.34949,24.34949 0 0 0 -0.36058,-3.28761c0.04242,-0.36058 0.08484,-0.67873 0.10605,-0.97568z" fill="#002d42" id="svg_548"/>
+     <g stroke="null" id="svg_549">
+      <path stroke="null" d="m173.33439,206.46335a7.14789,7.14789 0 0 0 -14.02005,2.4604l0,0l3.52092,30.9247a7.25394,7.25394 0 0 0 5.13291,1.6332c2.37556,0 5.00564,-3.01187 5.00564,-3.01187l0.59389,-30.37323l0,0a5.96011,5.96011 0 0 0 -0.23331,-1.6332z" fill="#bfcbde" id="svg_550"/>
+      <path stroke="null" d="m172.86776,241.07866c-1.29383,-0.42421 -4.45418,-4.24207 -9.71434,2.65129a78.03291,78.03291 0 0 0 15.61082,23.33139a3.92392,3.92392 0 0 0 5.5359,0a3.83907,3.83907 0 0 0 1.06052,-1.95135l0,-0.14847s-11.19907,-23.45866 -12.4929,-23.88286z" fill="#bfcbde" id="svg_551"/>
+      <path stroke="null" d="m168.0318,252.4262l-1.59078,-1.95135a78.32985,78.32985 0 0 0 12.36564,16.60771a3.92392,3.92392 0 0 0 5.51469,0a74.99983,74.99983 0 0 1 -16.28956,-14.65636z" fill="#243551" opacity="0.15" id="svg_552"/>
+     </g>
+     <path stroke="null" d="m170.00436,236.96385a4.62386,4.62386 0 1 0 2.12104,6.19342a0.53026,0.53026 0 0 1 0,-0.14847a4.62386,4.62386 0 0 0 -2.12104,-6.04495z" fill="#002d42" id="svg_553"/>
+    </g>
+    <path stroke="null" d="m178.65819,353.3875c-1.33625,-0.78478 -2.67251,-1.59078 -4.00876,-2.31193a8.97198,8.97198 0 0 0 -3.37245,-1.06052c-1.2302,0 -2.41798,-0.36058 -3.66939,-0.33937c-2.26951,0 -15.08056,-4.02997 -16.03503,-3.79665c-1.56957,0.38179 -3.22397,0.86962 -4.81475,1.42109a11.55965,11.55965 0 0 1 -2.12104,0.63631l-1.56957,0a20.10742,20.10742 0 0 0 -3.49971,0.86962a27.12805,27.12805 0 0 0 -3.64818,0.95447c-1.42109,0.69994 -2.12104,3.01187 -2.56645,4.4966a3.43608,3.43608 0 0 0 0.55147,2.71493a6.19342,6.19342 0 0 0 2.84219,1.6332a6.49037,6.49037 0 0 0 1.73925,0.59389a32.40943,32.40943 0 0 0 4.77233,0.36058c3.01187,0 17.54097,3.35124 21.61335,2.79977a69.99418,69.99418 0 0 0 9.35377,-1.52715a13.61705,13.61705 0 0 0 4.4966,-1.52715a4.0936,4.0936 0 0 0 2.12104,-3.24518a2.33314,2.33314 0 0 0 -0.19089,-1.42109a8.97198,8.97198 0 0 0 -1.99377,-1.25141z" fill="#6c90b1" opacity="0.1" id="svg_554"/>
+    <path stroke="null" d="m178.65819,356.73874a32.04885,32.04885 0 0 1 -9.96887,-1.99377l-7.25394,0.57268l-3.01187,7.50847c1.73925,4.24207 7.02063,2.77856 7.02063,2.77856l17.2016,-3.77544c2.92703,-2.43919 -0.72115,-5.09049 -3.98755,-5.09049z" fill="#002d42" id="svg_555"/>
+    <g stroke="null" id="svg_556">
+     <path stroke="null" d="m158.69924,249.13859a10.73244,10.73244 0 0 0 -8.61141,12.04748l12.72621,44.18118c0.69994,4.66628 11.51722,7.21152 13.23526,-2.84219l-5.45106,-45.22048a10.0325,10.0325 0 0 0 -11.51722,-8.29325l-0.38179,0.12726z" fill="#bfcbde" id="svg_557"/>
+     <path stroke="null" d="m153.58755,251.72626a10.60518,10.60518 0 0 0 -3.49971,9.43861l12.72621,44.18118c0.55147,3.71181 7.44484,6.02374 11.11423,1.80288c-8.29325,-7.46605 -12.30201,-17.6046 -16.1835,-28.35825c-2.8634,-8.29325 -6.49037,-18.32575 -4.15723,-27.06442z" fill="#243551" opacity="0.15" id="svg_558"/>
+     <path stroke="null" d="m168.6469,308.69728c-4.81475,0 -6.36311,4.34812 -6.80852,9.03561l-0.42421,38.17864c-0.29695,3.94513 6.74489,3.94513 7.06305,0l8.48414,-38.03017a8.48414,8.48414 0 0 0 -7.7842,-9.09924a2.41798,2.41798 0 0 0 -0.53026,-0.08484z" fill="#bfcbde" id="svg_559"/>
+     <path stroke="null" d="m163.40794,311.73036a15.29267,15.29267 0 0 0 -1.54836,6.00253l-0.42421,38.17864c-0.19089,2.41798 2.37556,3.35124 4.4966,2.77856a55.9105,55.9105 0 0 1 -1.99377,-14.50788c-0.44542,-10.79607 -0.29695,-21.63457 -0.53026,-32.45185z" fill="#243551" opacity="0.15" id="svg_560"/>
+    </g>
+    <path stroke="null" d="m164.27757,307.82765c-0.29695,1.06052 -0.93326,2.48161 -0.48784,3.01187c0.63631,-0.2121 3.77544,0.33937 7.52968,4.00876a4.98443,4.98443 0 0 0 5.38743,0.95447a9.03561,9.03561 0 0 0 -0.91205,-11.58086a34.74257,34.74257 0 0 1 -11.51722,3.60576z" fill="#002d42" id="svg_561"/>
+   </g>
+   <g stroke="null" id="sig2">
+    <g stroke="null" id="sg6">
+     <path stroke="null" d="m171.90795,96.94986c-3.86029,-2.22709 -6.99942,-0.44542 -6.99942,3.98755a15.27146,15.27146 0 0 0 6.957,12.04748c3.81786,2.12104 6.957,0.44542 6.957,-3.98755a15.01693,15.01693 0 0 0 -6.91458,-12.04748z" fill="#fff" opacity="0.4" id="svg_859"/>
+    </g>
+    <g stroke="null" id="sg5">
+     <path stroke="null" d="m195.81203,110.75781c-3.86029,-2.12104 -6.99942,-0.44542 -6.99942,4.00876a15.29267,15.29267 0 0 0 6.93579,12.04748c3.86029,2.12104 6.99942,0.42421 6.99942,-3.98755a15.27146,15.27146 0 0 0 -6.93579,-12.06869z" fill="#fff" opacity="0.7" id="svg_860"/>
+    </g>
+    <g stroke="null" id="sg4">
+     <path stroke="null" d="m219.75852,124.58696c-3.86029,-2.22709 -6.957,-0.44542 -6.99942,3.98755a15.27146,15.27146 0 0 0 6.957,12.04748c3.81786,2.12104 6.957,0.44542 6.99942,-3.98755a15.31388,15.31388 0 0 0 -6.957,-12.04748z" fill="#fff" id="svg_861"/>
+    </g>
+   </g>
+   <g stroke="null" id="wifi5" opacity="0.5">
+    <g stroke="null" id="wi9">
+     <path stroke="null" d="m248.1009,19.64252c-16.96829,-9.79919 -32.85484,-11.38996 -44.85991,-4.58144c-1.16657,0.69994 -1.16657,3.01187 0,4.9208a6.36311,6.36311 0 0 0 2.12104,2.26951a2.12104,2.12104 0 0 0 2.12104,0.2121c10.88091,-6.02374 25.28275,-4.7087 40.57542,4.24207s29.6945,24.11618 40.46936,42.67524a6.21463,6.21463 0 0 0 2.12104,2.12104a2.12104,2.12104 0 0 0 2.12104,0.2121c1.20899,-0.65752 1.20899,-3.01187 0,-4.9208c-11.83538,-20.55284 -27.72194,-37.41507 -44.66901,-47.15063z" fill="#fff" id="svg_862"/>
+    </g>
+    <g stroke="null" id="wi8">
+     <path stroke="null" d="m248.03727,39.13484c-11.8778,-6.87216 -23.7556,-8.48414 -32.83363,-3.37245c-1.16657,0.69994 -1.20899,3.01187 0,4.94201a5.55711,5.55711 0 0 0 2.12104,2.22709a1.99377,1.99377 0 0 0 2.12104,0.2121c7.89025,-4.4966 18.24091,-3.01187 28.57035,3.01187a82.7204,82.7204 0 0 1 28.48551,30.13992a6.17221,6.17221 0 0 0 2.12104,2.26951a2.12104,2.12104 0 0 0 2.12104,0.2121c1.20899,-0.65752 1.20899,-3.01187 0,-4.94201a93.70736,93.70736 0 0 0 -32.70637,-34.70015z" fill="#fff" id="svg_863"/>
+    </g>
+    <g stroke="null" id="wi7">
+     <path stroke="null" d="m247.99485,59.15742c-7.3812,-4.24207 -14.84725,-5.30259 -20.48921,-2.12104c-1.16657,0.65752 -1.16657,3.01187 0,4.9208a6.36311,6.36311 0 0 0 2.12104,2.26951a2.12104,2.12104 0 0 0 2.12104,0.2121c4.4966,-2.52403 10.32944,-1.71804 16.22592,1.65441a46.66279,46.66279 0 0 1 16.16229,16.96829a6.36311,6.36311 0 0 0 2.12104,2.26951a2.12104,2.12104 0 0 0 2.12104,0.2121c1.20899,-0.65752 1.20899,-3.01187 0,-4.9208a59.09206,59.09206 0 0 0 -20.38315,-21.46488z" fill="#fff" id="svg_864"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

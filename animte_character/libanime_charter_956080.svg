@@ -1,0 +1,145 @@
+<svg width="350" height="300" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+ 
+ </g>
+ <style>@-webkit-keyframes animRoket1{
+		0%{
+			-webkit-transform: translateY(0%);
+			        transform: translateY(0%);
+		}
+		100%{
+			-webkit-transform: translateY(-4%);
+			        transform: translateY(-4%);
+		}
+	}
+	@keyframes animRoket1{
+		0%{
+			-webkit-transform: translateY(0%);
+			        transform: translateY(0%);
+		}
+		100%{
+			-webkit-transform: translateY(-4%);
+			        transform: translateY(-4%);
+		}
+	}
+	@-webkit-keyframes animRoket2{
+		0%{
+			-webkit-transform: scaleX(1);
+			        transform: scaleX(1);
+		}
+		50%{
+			-webkit-transform: scaleX(-1);
+			        transform: scaleX(-1);
+		}
+	}
+	@keyframes animRoket2{
+		0%{
+			-webkit-transform: scaleX(1);
+			        transform: scaleX(1);
+		}
+		50%{
+			-webkit-transform: scaleX(-1);
+			        transform: scaleX(-1);
+		}
+	}
+	@-webkit-keyframes animRoket4{
+		0%{
+			-webkit-transform: scale(1);
+			        transform: scale(1);
+		}
+		100%{
+			-webkit-transform: scale(0.8);
+			        transform: scale(0.8);
+		}
+	}
+	@keyframes animRoket4{
+		0%{
+			-webkit-transform: scale(1);
+			        transform: scale(1);
+		}
+		100%{
+			-webkit-transform: scale(0.8);
+			        transform: scale(0.8);
+		}
+	}
+	
+	#gRoket{
+		-webkit-animation: animRoket1 2.1s infinite alternate linear -1.1s;
+		        animation: animRoket1 2.1s infinite alternate linear -1.1s;
+	}
+	#gRoketTini{
+		-webkit-transform-origin: center;
+		    -ms-transform-origin: center;
+		        transform-origin: center;
+		-webkit-animation: animRoket4 2.1s infinite alternate linear -1.1s;
+		        animation: animRoket4 2.1s infinite alternate linear -1.1s;
+	}
+	#roketFire{
+		-webkit-transform-origin: 172px 156px;
+		    -ms-transform-origin: 172px 156px;
+		        transform-origin: 172px 156px;
+		-webkit-animation: animRoket2 0.5s infinite alternate linear -1.1s;
+		        animation: animRoket2 0.5s infinite alternate linear -1.1s;
+	}</style>
+ <g>
+  <title>Layer 1</title>
+  <g style="vector-effect: non-scaling-stroke;" stroke="null" id="svg_2">
+   <g style="vector-effect: non-scaling-stroke;" stroke="null" id="svg_3">
+    <g style="vector-effect: non-scaling-stroke;" stroke="null" id="svg_4">
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#FFFFFF" d="m262.9,207.1l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,6 11.5,15.1 2.5,20.3z" id="svg_5"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#FDFDFF" d="m262.9,205.7l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,6 11.5,15.1 2.5,20.3z" id="svg_6"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#FAFCFF" d="m262.9,204.3l-75.8,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.4,6 11.6,15.1 2.6,20.3z" id="svg_7"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#F8FAFF" d="m262.9,202.9l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,6 11.5,15.1 2.5,20.3z" id="svg_8"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#F5F9FF" d="m262.9,201.5l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,6 11.5,15.1 2.5,20.3z" id="svg_9"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#F3F7FF" d="m262.9,200.1l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,6 11.5,15.1 2.5,20.3z" id="svg_10"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#F0F5FF" d="m262.9,198.7l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,6 11.5,15.1 2.5,20.3z" id="svg_11"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#EEF4FF" d="m262.9,197.3l-75.8,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.4,6 11.6,15.1 2.6,20.3z" id="svg_12"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#ECF2FF" d="m262.9,195.9l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,6 11.5,15.1 2.5,20.3z" id="svg_13"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#E9F0FF" d="m262.9,194.5l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,6 11.5,15.1 2.5,20.3z" id="svg_14"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#E7EFFF" d="m262.9,193.1l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,6 11.5,15 2.5,20.3z" id="svg_15"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#E4EDFF" d="m262.9,191.6l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,6 11.5,15.1 2.5,20.3z" id="svg_16"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#E2ECFF" d="m262.9,190.2l-75.8,43.8c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.4,5.9 11.6,15 2.6,20.2z" id="svg_17"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#DFEAFF" d="m262.9,188.8l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,6 11.5,15.1 2.5,20.3z" id="svg_18"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#DDE8FF" d="m262.9,187.4l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.6c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,5.9 11.5,15 2.5,20.2z" id="svg_19"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#DBE7FF" d="m262.9,186l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,6 11.5,15.1 2.5,20.3z" id="svg_20"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#D8E5FF" d="m262.9,184.6l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,6 11.5,15.1 2.5,20.3z" id="svg_21"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#D6E3FF" d="m262.9,183.2l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,6 11.5,15.1 2.5,20.3z" id="svg_22"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#D3E2FF" d="m262.9,181.8l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,6 11.5,15.1 2.5,20.3z" id="svg_23"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#D1E0FF" d="m262.9,180.4l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.6c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,5.9 11.5,15 2.5,20.2z" id="svg_24"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#CEDFFF" d="m262.9,179l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,6 11.5,15.1 2.5,20.3z" id="svg_25"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#CCDDFF" d="m262.9,177.6l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,6 11.5,15.1 2.5,20.3z" id="svg_26"/>
+    </g>
+    <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#FF3900" d="m262.9,177.6l-75.7,43.7c-9,5.2 -24.8,4.6 -35.2,-1.5l-68.7,-39.7c-10.4,-6 -11.5,-15.1 -2.5,-20.3l75.7,-43.7c9,-5.2 24.8,-4.6 35.2,1.5l68.7,39.7c10.3,6 11.5,15.1 2.5,20.3z" id="svg_27"/>
+   </g>
+  </g>
+  <path transform="translate(268.954 39.4585) scale(1.11835 1.11835) translate(-268.954 -39.4585) translate(240.492 35.2829) scale(1.11835 1.11835) translate(-240.492 -35.2829)" style="vector-effect: non-scaling-stroke;" stroke="null" id="gRoketTini" fill="url(#gRoketTini_1_)" d="m134.6,147.8c21,-12.1 55.4,-12.1 76.5,0c21,12.1 21,32 0,44.1c-21,12.1 -55.4,12.1 -76.5,0c-21,-12.1 -21,-32 0,-44.1z"/>
+  <g style="vector-effect: non-scaling-stroke;" stroke="null" id="gRoket">
+   <g style="vector-effect: non-scaling-stroke;" stroke="null" id="svg_104">
+    <g style="vector-effect: non-scaling-stroke;" stroke="null" id="svg_105">
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#666666" d="m204.7,116c0,0 -0.1,0 -0.1,0c0,0 0,0 0,0c0,0 -0.1,0 -0.1,0c-0.7,0.4 -1.5,3.7 -1.5,3.8l-0.5,3.8l-0.8,5.9l-0.7,4.5l2.1,-0.4l2.5,-14.1c-0.3,-2.3 -0.6,-3.3 -0.9,-3.5z" id="svg_106"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#999999" d="m198.7,121.6l0,0l0.5,-3.8l0,0c0.1,0 0.8,-3.4 1.5,-3.8c0.1,0 0.2,-0.1 0.2,0l3.6,2.1c0,0 0,0 0,0c0,0 -0.1,0 -0.1,0c0,0 0,0 0,0c0,0 -0.1,0 -0.1,0c-0.7,0.4 -1.5,3.7 -1.5,3.8l0,0l-2,14.2l-3.6,-2.1l1.5,-10.4z" id="svg_107"/>
+     <polygon style="vector-effect: non-scaling-stroke;" stroke="null" fill="#B3B3B3" points="202.4,123.7 187.9,116.9 187,116.5 185,134.4 185.6,134.2 197.4,130.8 201.5,129.6     " id="svg_108"/>
+    </g>
+    <path style="vector-effect: non-scaling-stroke;" stroke="null" id="roketFire" fill="#FFE600" d="m166,144.2c-2.5,1.5 -7.8,7.9 -7.8,13.3c0,5.4 4.2,6 4.2,11.9c0,0 2.3,-3.6 1,-7.7c0,0 3.4,2.5 3.4,8.8c0,6.3 4.8,10.4 7.7,11.8c0,0 -5.1,-4.3 0.4,-11.5c3.9,-5.1 7.9,-6.9 7.2,-14.2c0,0 2.8,5.5 0.7,9.3c0,0 5.9,-6.6 1.5,-16s-13.5,-8.6 -18.3,-5.7z"/>
+    <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#303030" d="m168.2,128.8c1.7,-0.3 3.6,-0.7 5.7,-1.4c0.7,-0.2 1.4,-0.5 2.2,-0.7c2.9,-1.1 6.2,-2.6 9.5,-4.7c1.1,-0.7 3.1,3.2 3.1,3.2c0,9.7 -5,19.3 -5.1,19.7c0,2.2 -4.8,4 -10.8,4c-6,0 -10.8,-1.8 -10.8,-4c0,0 -5,-11.1 -5,-19.3c-0.1,0 8.9,3.6 11.2,3.2z" id="svg_109"/>
+    <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#E6E6E6" d="m165,64.1c0,0 15.7,-0.1 16.1,-0.4c4.5,12.4 9.8,32.7 7.9,56l-0.3,5.3c0,3.3 -7.1,6 -15.9,6c-8.8,0 -15.9,-2.7 -15.9,-6c-2.4,-22.5 1.8,-44.8 8.1,-60.9z" id="svg_110"/>
+    <g style="vector-effect: non-scaling-stroke;" stroke="null" id="svg_111">
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#FF3900" d="m177.6,82.6c-1.6,3.5 -1.1,8.9 1.1,12c2.2,3.1 5.3,2.8 7,-0.7c1.6,-3.5 1.1,-8.9 -1.1,-12c-2.3,-3.1 -5.4,-2.8 -7,0.7zm4.8,-0.3l0,0c0.1,0 0.1,0.1 0.2,0.1c0.1,0 0.1,0.1 0.2,0.1c0.1,0 0.1,0.1 0.2,0.2c0,0 0.1,0.1 0.2,0.1c0.2,0.2 0.4,0.5 0.6,0.7c0.3,0.4 0.6,0.9 0.8,1.5c0.2,0.5 0.4,1.1 0.5,1.7c0.1,0.6 0.2,1.2 0.2,1.8c0.1,1.4 -0.2,2.8 -0.7,3.9c-0.2,0.4 -0.5,0.8 -0.7,1.1c0,0 0,0.1 -0.1,0.1c0,0 0,0 0,0c-0.6,0.6 -1.2,0.9 -1.9,0.8c-0.2,0 -0.5,-0.1 -0.7,-0.2c-0.6,-0.2 -1.2,-0.7 -1.7,-1.4l0,0l0,0c-0.2,-0.3 -0.4,-0.6 -0.6,-0.9c-0.2,-0.3 -0.3,-0.7 -0.4,-1.1c-0.1,-0.4 -0.2,-0.7 -0.3,-1.1c-0.1,-0.4 -0.1,-0.8 -0.2,-1.2c-0.1,-1.6 0.1,-3.2 0.6,-4.5c0.5,-1.1 1.3,-1.8 2,-2c0,0 0,0 0,0c0.1,0 0.1,0 0.2,0c0.1,0 0.1,0 0.2,0c0.1,0 0.1,0 0.2,0c0.1,0 0.1,0 0.2,0c0.1,0 0.1,0 0.2,0c0.1,0 0.1,0 0.2,0c0.2,0.1 0.4,0.2 0.6,0.3z" id="svg_112"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#FF3900" d="m179.7,102.7c-2,3.3 -2.1,8.7 -0.3,12c1.9,3.4 5,3.4 7,0.1c2,-3.3 2.1,-8.7 0.3,-12.1c-1.8,-3.3 -5,-3.3 -7,0zm4.9,0.3l0,0c0.1,0 0.1,0.1 0.2,0.1c0,0 0.1,0.1 0.1,0.1c0.1,0.1 0.1,0.1 0.2,0.2c0,0 0.1,0.1 0.1,0.1c0.2,0.2 0.4,0.5 0.6,0.8c0.3,0.5 0.5,1 0.6,1.5c0.2,0.6 0.3,1.1 0.3,1.7c0.1,0.6 0.1,1.2 0,1.8c-0.1,1.4 -0.5,2.8 -1.1,3.8c-0.3,0.4 -0.5,0.8 -0.8,1c0,0 0,0.1 -0.1,0.1c0,0 0,0 0,0c-0.6,0.5 -1.3,0.7 -2,0.6c-0.2,0 -0.5,-0.1 -0.7,-0.2c-0.6,-0.3 -1.1,-0.8 -1.5,-1.6l0,0l0,0c-0.2,-0.3 -0.3,-0.6 -0.4,-1c-0.1,-0.3 -0.2,-0.7 -0.3,-1.1c-0.1,-0.4 -0.1,-0.8 -0.2,-1.2c0,-0.4 0,-0.8 0,-1.2c0,-1.6 0.4,-3.2 1.2,-4.4c0.6,-1.1 1.4,-1.6 2.3,-1.8c0,0 0,0 0,0c0.1,0 0.1,0 0.2,0c0.1,0 0.1,0 0.2,0c0.1,0 0.1,0 0.2,0c0.1,0 0.1,0 0.2,0c0.1,0 0.1,0 0.2,0c0.1,0 0.1,0 0.2,0c-0.2,0.4 0.1,0.5 0.3,0.7z" id="svg_113"/>
+    </g>
+    <g style="vector-effect: non-scaling-stroke;" stroke="null" id="svg_114">
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#FFFFFF" d="m181.7,82.1c-0.1,0 -0.1,0 -0.2,0c-0.1,0 -0.1,0 -0.2,0c-0.1,0 -0.1,0 -0.2,0c-0.1,0 -0.1,0 -0.2,0c-0.1,0 -0.1,0 -0.2,0c-0.1,0 -0.1,0 -0.2,0c0,0 0,0 0,0c-0.8,0.2 -1.5,0.9 -2,2c-0.6,1.3 -0.8,2.9 -0.6,4.5c0,0.4 0.1,0.8 0.2,1.2c0.1,0.4 0.2,0.8 0.3,1.1c0.1,0.4 0.3,0.7 0.4,1.1c0.2,0.3 0.3,0.6 0.6,0.9l0,0c0.5,0.7 1.1,1.2 1.7,1.4c0.2,0.1 0.5,0.1 0.7,0.2c0.7,0 1.4,-0.2 1.9,-0.8c0,0 0,0 0,0c0,0 0,-0.1 0.1,-0.1c0.3,-0.3 0.5,-0.7 0.7,-1.1c0.5,-1.1 0.7,-2.5 0.7,-3.9c0,-0.6 -0.1,-1.2 -0.2,-1.8c-0.1,-0.6 -0.3,-1.1 -0.5,-1.7c-0.2,-0.5 -0.5,-1 -0.8,-1.5c-0.2,-0.3 -0.4,-0.5 -0.6,-0.7c0,0 -0.1,-0.1 -0.2,-0.1c-0.1,-0.1 -0.1,-0.1 -0.2,-0.2c-0.1,0 -0.1,-0.1 -0.2,-0.1c-0.1,0 -0.1,-0.1 -0.2,-0.1l0,0c-0.1,-0.2 -0.3,-0.3 -0.6,-0.3z" id="svg_115"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#FFFFFF" d="m183.9,102.6c-0.1,0 -0.1,0 -0.2,0c-0.1,0 -0.1,0 -0.2,0c-0.1,0 -0.1,0 -0.2,0c-0.1,0 -0.1,0 -0.2,0c-0.1,0 -0.1,0 -0.2,0c-0.1,0 -0.1,0 -0.2,0c0,0 0,0 0,0c-0.8,0.1 -1.6,0.7 -2.3,1.8c-0.7,1.2 -1.1,2.8 -1.2,4.4c0,0.4 0,0.8 0,1.2c0,0.4 0.1,0.8 0.2,1.2c0.1,0.4 0.2,0.7 0.3,1.1c0.1,0.4 0.3,0.7 0.4,1l0,0c0.4,0.8 0.9,1.3 1.5,1.6c0.2,0.1 0.5,0.2 0.7,0.2c0.7,0.1 1.4,-0.1 2,-0.6c0,0 0,0 0,0c0,0 0,0 0.1,-0.1c0.3,-0.3 0.6,-0.6 0.8,-1c0.6,-1.1 1,-2.4 1.1,-3.8c0,-0.6 0,-1.2 0,-1.8c-0.1,-0.6 -0.2,-1.2 -0.3,-1.7c-0.2,-0.6 -0.4,-1.1 -0.6,-1.5c-0.2,-0.3 -0.4,-0.6 -0.6,-0.8c0,-0.1 -0.1,-0.1 -0.1,-0.1c-0.1,-0.1 -0.1,-0.1 -0.2,-0.2c0,0 -0.1,-0.1 -0.1,-0.1c-0.1,-0.1 -0.1,-0.1 -0.2,-0.2l0,0c0.2,-0.4 -0.1,-0.5 -0.3,-0.6z" id="svg_116"/>
+    </g>
+    <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#303030" d="m172.8,49.7c0,0 5.4,6 8.3,14c-7.6,3.4 -16.1,0.4 -16.1,0.4c1.6,-5.7 7.8,-14.4 7.8,-14.4z" id="svg_117"/>
+    <g style="vector-effect: non-scaling-stroke;" stroke="null" id="svg_118">
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#999999" d="m146.5,149.8l0,0c0.6,0.3 1.1,2 1.2,2.1l0.6,3.2l14.4,-23.6l-3.6,-2.1l-12.6,20.4l0,0c0,0 0,0 0,0z" id="svg_119"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#666666" d="m147.6,151.8c0,-0.1 -0.6,-1.7 -1.2,-2.1c0,0 0,0 0,0c0,0 -0.1,0 -0.1,0c0,0 0,0 0,0c-0.1,0 -0.1,0 -0.2,0c-0.4,0.2 -0.8,1.5 -1,4.7l2.5,11.2l2.1,-2l-0.7,-3.8l-0.9,-4.9l-0.5,-3.1z" id="svg_120"/>
+     <path style="vector-effect: non-scaling-stroke;" stroke="null" fill="#999999" d="m142.4,147.6c0.1,-0.1 0.3,-0.1 0.4,0l3.6,2.1l0,0c0,0 0,0 0,0c0,0 0,0 0,0c0,0 -0.1,0 -0.1,0c0,0 0,0 0,0c-0.1,0 -0.1,0 -0.2,0c-0.4,0.2 -0.8,1.5 -1,4.7l2.5,11.2l-3.6,-2.1l-2.5,-11.2c0.1,-3.2 0.5,-4.4 0.9,-4.7z" id="svg_121"/>
+     <polygon style="vector-effect: non-scaling-stroke;" stroke="null" fill="#B3B3B3" points="165.6,145.6 162.6,131.4 148.2,155 149.1,159.9     " id="svg_122"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

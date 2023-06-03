@@ -1,0 +1,110 @@
+<svg width="800" height="450.0000000000001" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect fill="#ffffff" id="canvas_background" height="1024.72727" width="1820.18182" x="-1" y="-1"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    
+          @-webkit-keyframes rubberBand {
+            from {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1)
+            }
+
+            30% {
+                -webkit-transform: scale3d(1.25, .75, 1);
+                transform: scale3d(1.25, .75, 1)
+            }
+
+            40% {
+                -webkit-transform: scale3d(.75, 1.25, 1);
+                transform: scale3d(.75, 1.25, 1)
+            }
+
+            50% {
+                -webkit-transform: scale3d(1.15, .85, 1);
+                transform: scale3d(1.15, .85, 1)
+            }
+
+            65% {
+                -webkit-transform: scale3d(.95, 1.05, 1);
+                transform: scale3d(.95, 1.05, 1)
+            }
+
+            75% {
+                -webkit-transform: scale3d(1.05, .95, 1);
+                transform: scale3d(1.05, .95, 1)
+            }
+
+            to {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1)
+            }
+          }
+          @keyframes rubberBand {
+              from {
+                  -webkit-transform: scale3d(1, 1, 1);
+                  transform: scale3d(1, 1, 1)
+              }
+
+              30% {
+                  -webkit-transform: scale3d(1.25, .75, 1);
+                  transform: scale3d(1.25, .75, 1)
+              }
+
+              40% {
+                  -webkit-transform: scale3d(.75, 1.25, 1);
+                  transform: scale3d(.75, 1.25, 1)
+              }
+
+              50% {
+                  -webkit-transform: scale3d(1.15, .85, 1);
+                  transform: scale3d(1.15, .85, 1)
+              }
+
+              65% {
+                  -webkit-transform: scale3d(.95, 1.05, 1);
+                  transform: scale3d(.95, 1.05, 1)
+              }
+
+              75% {
+                  -webkit-transform: scale3d(1.05, .95, 1);
+                  transform: scale3d(1.05, .95, 1)
+              }
+
+              to {
+                  -webkit-transform: scale3d(1, 1, 1);
+                  transform: scale3d(1, 1, 1)
+              }
+          }
+
+          .animate__rubberBand {
+              -webkit-animation-name: rubberBand;
+              animation-name: rubberBand
+          }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }</style>
+  <g class="animate__animated animate__rubberBand animate__infinite" id="svg_1">
+   <text xml:space="preserve" text-anchor="middle" font-family="sans-serif" font-size="45" y="225" x="400" stroke-width="0" fill="#525252" id="svg_2">BBC - Homepage</text>
+  </g>
+ </g>
+</svg>

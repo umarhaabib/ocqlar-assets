@@ -1,0 +1,132 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g>
+  <title>background</title>
+  <rect y="-1" x="-1" width="1068.66667" height="602" id="canvas_background" fill="#ffffff"/>
+ </g>
+
+ <g>
+  <title>title1</title>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes rotateInDownRight {
+    from {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate3d(0, 0, 1, 45deg);
+        transform: rotate3d(0, 0, 1, 45deg);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1
+    }
+}
+
+@keyframes rotateInDownRight {
+    from {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate3d(0, 0, 1, 45deg);
+        transform: rotate3d(0, 0, 1, 45deg);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1
+    }
+}
+
+.animate__rotateInDownRight {
+    -webkit-animation-name: rotateInDownRight;
+    animation-name: rotateInDownRight
+}
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }</style>
+  <g class="animate__animated animate__rotateInDownRight animate__infinite">
+   <image stroke="null" xlink:href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMzAwcHgiIGhlaWdodD0iMjAwcHgiIHZpZXdCb3g9IjAgMCAzMDAgMjAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAzMDAgMjAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiMwMDAwNjYiIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTE0Ljc1LDE4LjUwNmM1Ljc0OS0wLjU1LDQ4LjY4NC0wLjU4LDU4LjYwMS0wLjY2NA0KCWMyNi45MTYtMC4yMzIsNDMuNjQyLDAuNjY0LDcyLjMyNywwLjY2NGMyMi4wMSwwLDQ3LjY5NS0wLjM1Myw2OS42ODgsMGMyMC4zMDUsMC4zMjUsNjEuMDQ0LTAuOTU2LDcyLjA4LTAuNjQzDQoJYzAsMi42MzctMC44NTMsMjEuMzgxLTAuNjM0LDMwLjAxOWMwLjUyNCwyMC42NTgtMC45MDEsNTQuMTc5LDAsNzEuNTMxYzAuMzI4LDYuMjg2LDAsNjMuNTYzLDAsNjkuNzAzDQoJYy0xOC4wNCwwLjkyLTExMC44OTQtMC45NjItMTQwLjI1NCwwYy0yOC4zNTcsMC45MzItNjIuMjk0LTAuNDg3LTkxLjY4NS0wLjEyOGMtMTIuOTY2LDAuMTU3LTI3LjQ4LDAuNzI0LTQwLjQ3NCwwLjEyOA0KCWMwLTEzLjk0LDAtNTEuODM3LDAtNjEuNDA2YzAtOS42MjUsMC4zNzktMTguNDI4LDAtMjguMjEzYy0wLjMwMy03Ljc5MywwLjE5NC0zMC40MTgsMC0zOC41MDQNCglDMTQuMjIyLDUzLjY5LDE0LjM5OCwyNC4zMTQsMTQuNzUsMTguNTA2eiIvPg0KPHBhdGggZmlsbD0iI0NDMDAwMCIgc3Ryb2tlPSIjMDAwMDAwIiBkPSJNMTMzLDM3Ljc5NmMtMTEuNjI1LTUuNTQ2LTE5LjYyNS03Ljk2OS0zMS44NzUtNy45MjFDODUuNzIyLDI5LjkzNSw2NywzNC41LDU1LjM3NSw0My42MjUNCgljLTE0LjI4MSwxMS4yMS0yMC45MTEsMjAuMTc1LTI2Ljc1LDM2Ljc1Yy0zLjg3NSwxMS02LjcxMSwzMy44ODcsMC44NzUsNTAuMTI1YzcuMTI1LDE1LjI1LDExLjM3NSwyMywzMC41LDM2LjEyNQ0KCWMyMy41NjYsMTYuMTczLDU5LjAxNiwxMy44MjcsODAuMzc1LTEuODc1YzIwLjk2My0xNS40MTIsMzMtMzguMzc1LDMzLTYwYzAtMTQuMzI3LTQuNDM5LTMwLjA0Ni0xMi42MjUtNDEuNQ0KCUMxNTMuNDksNTMuMDkyLDE0NC42NTIsNDMuMzU0LDEzMywzNy43OTZ6Ii8+DQo8cGF0aCBmaWxsPSIjRkY5OTAwIiBzdHJva2U9IiMwMDAwMDAiIGQ9Ik0xNDAuODMzLDU2LjVjOC41NDItOSwxOC42NjMtMTcuOTE2LDI5Ljc5Mi0yMS42MjVDMTg5LDI4Ljc1LDIwNi40MDQsMjcuNjExLDIyNSwzNC42MjUNCglDMjM5LjI1LDQwLDI1NC43NTIsNTQuNTIyLDI2Mi42MjUsNjcuMjVjOS4zMzcsMTUuMDk0LDExLjc2OCwzNi4xMjksNy44NzUsNTMuMjVjLTMuNzAyLDE2LjI4My0xNC42MjUsMzQuMTI1LTMwLjI1LDQ0LjEyNQ0KCWMtMTMuMjMzLDguNDctMjkuMTI1LDEzLjEyNS01MC4zNzUsMTIuNWMtOS4yMy0wLjI3MS0yMC41MTktNS4wMjYtMjguNzUtOS42MjVjLTQuMjcyLTIuMzg3LTguNjkzLTYuMDQ5LTEyLjIxNC05LjA0Mw0KCWMyLjY1MS0yLjEyOSw1LjQyOS00Ljc4NSw2LjcyOS03Ljc2NmMtNS4xMDIsMC4yODYtOS43NjYtMC4zMTYtMTUuMTQxLTAuNTY2Yy0yLjEwNy0xLjUxNi0zLjQ2NS0zLjQxMy01LTcuNQ0KCWM1LjY3NywwLjMwMyw5LjIzNS0wLjAzNiwxNS4xMjgsMC4xNTJjMS45NjIsMC4wNjMsNy44NTgsMC4zMDIsMTAuODcyLTAuMjc0YzAuMzcxLTAuMDcxLDQuMTE5LTcuMzYzLDQuMTA4LTcuMzQ0DQoJYy0xMS44NzItMC44NC0yMi45OCwwLjE1Ni0zNS43NS0wLjUxOGMtMC41MzItMy45MTktMS41MS01LjUwNC0xLjg2MS04LjI5MWM2Ljc1LDAuNDczLDEzLjYwOSwwLjEwNSwxOS43OTcsMC40ODQNCgljNC44NTgsMC4yOTcsMTMuOTUsMC45NzMsMjEuNDM2LDAuMjkzYzEuODk1LTkuMDAzLDQuNzEyLTI1LjI3OSwzLjMwNi0zMy4xNjVjLTAuMzk2LTIuMjIyLTEuMTI3LTMuODY2LTEuNTM2LTYuMDg4DQoJYy04LjEyNCwwLjQ5NS0xNi44NzcsMC4zNzMtMjMuNjI1LTAuMTI1Yy04LjEzNS0wLjYwMS0xMi43NTItMC41MjYtMjEuNjgzLDAuMDU5YzAuNDE1LTIuNTU2LDEuMzA3LTUuNjExLDIuODA4LTcuODA5DQoJYzQuMTI1LTAuMjUsMjEuOTY4LDAuMjQ5LDI3LjE1OSwwLjMzM2MyLjg1NCwwLjA0NywxMy4yNSwwLjEwNiwxMy43MDQsMC4xMjRjLTAuOTUyLTMuMTQ2LTIuMTUtNS4zMTItMy41NTktOC4wOTkNCglDMTUzLjUsNzIuMjUsMTQ0Ljc1LDcyLjUsMTMxLjUzNCw3MS45NjZjMS4wNTgtMy4yMzUsMi4zNDgtNC41NDcsMy4zNjktNy4zOTZjOS4zLDAuMjc5LDE2LjcyNS0wLjkwMiwyNS41NjQtMC4wOTUNCgljLTEuMjcxLTMuNjM3LTEuNzk5LTQuMzk5LTQuNDY3LTcuMzVDMTQ4LjM3NSw1Ni41LDE0MC44MzMsNTYuNSwxNDAuODMzLDU2LjV6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBzdHJva2U9IiMwMDAwMDAiIGQ9Ik0zOCw4NS43NWMtMC4yODUsMi4yLTEuOTczLDguMDc3LTIuMzc1LDEwLjg3NWMtMC44MTcsNS42ODgtMy42NDcsMjMuNzA3LTQuMTA5LDI2Ljg1NA0KCWMyLjkyNy0wLjEzOSw1LjQ3LDAuMTkxLDguMzY4LTAuMjQ3YzEuNjY5LTguOTYzLDIuNzM1LTE5LjIyNiw0LjExNi0yNy45ODFjLTAuMTI1LDUuNjI1LDAuMzc1LDE5LDAuNzUsMjcuNjI1DQoJYzAuODYxLTAuMDcsNC44OTYsMC41ODcsNS43NSwwLjVjMC4wNDEtMC4wNDIsOC4yNjgtMTguNCw5Ljc1Ni0yNy4yNjFjLTIuODkyLDguMDgyLTMuOTI5LDE4Ljc1LTQuMzYyLDI3LjI0Mg0KCWMzLjcwOCwwLjIyMiw1LjM1NiwwLjAyLDguMjEyLDAuMzY5YzAuNzczLTUuOTc2LDEuNTU0LTEyLjkyNywyLjk4NS0xOC44NzdjMC44NzItMy42MjUsMy45MjYtMTkuNDUzLDMuODkxLTE5LjcwNA0KCWMtNC4zMDksMC40MTItOC4yMDQtMC4yMjQtMTIuNzQxLTAuMjVjLTEuNTAzLDQuODcxLTMuMjMxLDkuNDk2LTQuOTkxLDE0LjIzMWMtMS4wODQsMi45MTktMS44MjYsNS42MTgtMy4wMDUsOC40NTYNCgljMC43NDgtNi41NDYtMC4yNDUtMTMuMDgxLTAuMzYtMjIuNTYzQzQ2Ljk2OCw4NS4zMTQsMzgsODUuNzUsMzgsODUuNzV6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBzdHJva2U9IiMwMDAwMDAiIGQ9Ik04OS42NDQsOTMuOTM5Yy00LjI1MS0yLjg2Ny0xMi41MTgtMi4xNzYtMTcuMDYxLTAuNDM5YzAsMC0wLjg0Myw1LjE2MS0xLjI4NSw2LjUNCgljNC4xMTgtMC45MTcsNy43MzYtMS4xNDIsOS42NDEtMC45OThjNC4xMSwwLjMxLDQuNTA5LDAuODc4LDQuMjUzLDQuNDQyYy0yLjY3MSwwLjU5LTYuODYyLDAuMTI3LTkuNjkzLDAuODY1DQoJYy02LjkzMywxLjgwOS05LjgwNSw4Ljg0Mi02Ljg0OSwxNS44MzZjMi44MjcsNi42OTEsMTAuMzY1LDIuODAyLDE0Ljc1MSwwLjAzMmMtMC4yMjMsMC44NTMtMC4zODQsMS43MTktMC4zOSwyLjY0Mw0KCWMyLjQwNCwwLjE4LDQuNDg3LDAuMjYzLDYuNzM3LDAuMThjMC42NjctNi43NSwwLjgxMy0xMC4yMDQsMi0xNC4yMUM5My4xNDMsMTA0LjA4Nyw5NC40MDMsOTcuMTQ5LDg5LjY0NCw5My45Mzl6IE03OC43NSwxMTYuNQ0KCWMtMy4wOSwwLjU2Mi00Ljk2MS0zLjE0NS0yLjg5Ni01LjY2NGMxLjcwMS0yLjA3Niw1Ljk0OC0yLjAyMSw3Ljk3OS0xLjE2OUM4My44MzMsMTA5LjY2Nyw4NC4yNSwxMTUuNSw3OC43NSwxMTYuNXoiLz4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTExNCw5Mi4zMzNjLTQuNjYzLTEuNC0xMi4zOTItMS42NTktMTYuMjUsMS44MzdjLTQuMTMyLDMuNzQ0LTQuNTM1LDExLjE5OS0wLjA4MywxNC42NjINCgljMS43NzcsMS4zODMsNS4xNDYsMi4yODcsNi4yNSw0LjI1YzEuODUyLDMuMjkxLTIuNjQzLDMuOTUyLTUuMDgzLDRjLTIuMjM1LDAuMDQ0LTMuOTUtMS4yNjItNi4wNy0xLjQ4OQ0KCWMtMC4xNTYsMi44NzUtMC42Miw0LjU1Ny0wLjgzMyw3LjMxMWM1LjkyMywxLjE3MiwxNC44NTcsMi4xNjMsMTguNjU0LTMuNTcxYzEuOTQ4LTIuOTQxLDIuMjg5LTcuNzg2LDAuNTgzLTEwLjkxNg0KCWMtMS42MzItMi45OTUtNC4yNDktMi44LTYuNzUtNC44NTZjLTEuOTk4LTEuNjQ1LTIuNi00LjIxNiwwLjgxOS00LjU2NGMyLjIyNC0wLjIyNyw1LjExOCwwLjM1OSw3LjM0OCwwLjY3DQoJQzExMy4yNiw5Ny41MzYsMTE0LDkyLjMzMywxMTQsOTIuMzMzeiIvPg0KPHBhdGggZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjMDAwMDAwIiBkPSJNMTE3LjY2Nyw4Ny44MzNjLTAuMjgyLDMuMjE0LTAuOTQ4LDYuNTk0LTEuNDE3LDkuMjUNCgljLTAuNTY1LDMuMTk4LTEuMzY5LDcuNjE0LTEuODMzLDEwLjgzNWMtMC42NTUsNC41NDUtMi4xNTgsMTEuMTg4LDEuMzQxLDE1LjAxN2MxLjk2NywyLjE1MSw2Ljk5MiwwLjg2OSw5LjY5OS0wLjM1NQ0KCWMtMC4xOS0yLjM3NiwwLjQzNS00LjUyNywwLjc5OS02LjY3MWMtNS42NzIsMS4wOTEtNC42MDEtMi41NDItNC4yNTYtNi4wOTljMC4zMTYtMy4yNiwxLjA4NC02LjM2NiwyLjMzNC05LjgxMQ0KCWMwLjg4LTAuMjE3LDIuNTMyLTAuMDQsMy4zMzMsMGMwLjI4MS0zLjA1OSwwLjg2MS01LjI4MiwxLjMyLTcuNTcxYy0xLjI1LDAuMDMyLTMuNzg0LTAuMzE0LTMuODI4LTAuMzQxDQoJYzAuMDA4LTEuNzU0LDAuNDY0LTIuNjM5LDAuNzQ1LTQuMzQ0QzEyNS4wNDIsODcuNDI3LDExNy42NjcsODcuODMzLDExNy42NjcsODcuODMzeiIvPg0KPHBhdGggZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjMDAwMDAwIiBkPSJNMTQ0LjgzMywxMTAuNTgzYzIuNDE4LDAuMDQ4LDcuMDgzLTAuMjUsNy4wODMtMC4yNWMxLTIuNzQ3LDEuNTgyLTcuNTEsMS4xNjctOS42NjYNCgljLTAuNzc0LTQuMDI2LTIuNDg3LTcuNTE4LTYuNTg0LTguNjc1Yy05LjQxNy0yLjY1OS0xNi4xMDYsNC41MTUtMTguMTg1LDEzLjQ0MWMtMi4xMDMsOS4wMjUsMC42MSwxNS44NzEsOS43OSwxOC4xNDkNCgljMi44MjQsMC43MDEsOS4xNDUsMC4wMTgsMTEuODk2LTEuMDgzYzAuNTg0LTIuMDgzLDEuNDUyLTcuODgsMS40ODUtOC4xNTZjLTQuMzI4LDIuNjMyLTE1LjI4OCwzLjkxNi0xNS41NS0zLjY1Nw0KCUMxMzYuMDA2LDExMC42OTIsMTQyLjA3MywxMTAuNTI4LDE0NC44MzMsMTEwLjU4M3ogTTEzNi41ODMsMTA0LjA4M2MwLDAsMS00LjU4Myw0LjU4NS01LjE1YzIuNTgxLTAuNDA4LDQuNDk2LDEuNjYxLDQuNjA5LDQuODE3DQoJQzE0Mi45MTcsMTAzLjgzMywxMzcuODA4LDEwNC4yNTMsMTM2LjU4MywxMDQuMDgzeiIvPg0KPHBhdGggZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjMDAwMDAwIiBkPSJNMTU3LjA4Myw5Mi41ODNjLTEuMDA2LDYuODEyLTEuODgzLDExLjI5OC0yLjc1LDE4LjI1DQoJYy0wLjQwNiwzLjI2LTEuMjkzLDkuMTM2LTEuNjcyLDEyLjM4NWMyLjUxNS0wLjEyMiw1LjcwNi0wLjAxMyw4LjI1Ni0wLjIxOWMwLjEwNC00Ljg0NiwwLjg2NC04LjE1NCwyLjAzNi0xMi44ODQNCgljMC4zOTktMS42MSwxLjE1Ni01LjI5MSwyLjEwNC02LjY5OWMxLjA0OC0xLjU1NiwzLjQ5MS0xLjc2NCwzLjY4Mi0xLjc2NWMwLjA5NC00LjMxOSwyLjQ5NC02LjY5NCwzLjQxNS05LjQ3Mw0KCWMtMy4zOTYsMC4yOTItNS43NTEsMS4xNzQtNy42NCw0LjI5NWMwLjQwNy0xLjI1NiwwLjUwNi0yLjY4MiwwLjg5Mi0zLjg5NmMtMS42MzYtMC42MDgtMy44NTEtMC40MzYtNS41NzMtMC4yNDZMMTU3LjA4Myw5Mi41ODN6Ig0KCS8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBzdHJva2U9IiMwMDAwMDAiIGQ9Ik0xOTcuNTg0LDg2LjY2N2MtNi4xMDItMy43ODctMTQuMzY0LTIuNTk4LTIwLjA4NCwyLjA4Mw0KCWMtNi43OTgsNS41NjMtOC40NjYsMTYuMTY5LTYuMTY2LDI0LjMzM2MxLjE0Niw0LjA3LDMuNTgzLDguNDE3LDcuODMzLDEwLjEzNmMzLjEyLDEuMjYyLDEyLjMyNi0wLjQ2NiwxMi4zNTMtMC40NjcNCgljMC4zMTQtMi42NjksMC4zNDUtNS4zODgsMC42OTEtOC4xMDNjLTUuMzQ5LDEuNTg3LTguMDcsMi4zMzItMTEuMzc3LTEuMzk5Yy0zLjUyNC0zLjk3Ny0yLjM0OC0xMi44MzgsMS4yNS0xNw0KCWM0LjE2Ni00LjgxOSw5LjU0Ny0zLjUyNSwxNC4wNTItMS42ODlDMTk2LjQxNSw5Mi4xNTYsMTk3LjU4NCw4Ni42NjcsMTk3LjU4NCw4Ni42Njd6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBzdHJva2U9IiMwMDAwMDAiIGQ9Ik0yMTYuMTEzLDkzLjkzOWMtNC4yNTItMi44NjctMTIuNTE4LTIuMTc2LTE3LjA2MS0wLjQzOWMwLDAtMC44NDQsNS4xNjEtMS4yODUsNi41DQoJYzQuMTE4LTAuOTE3LDcuNzM2LTEuMTQyLDkuNjQxLTAuOTk4YzQuMTEsMC4zMSw0LjUxLDAuODc4LDQuMjU0LDQuNDQyYy0yLjY3MiwwLjU5LTYuODYyLDAuMTI3LTkuNjkzLDAuODY1DQoJYy02LjkzNCwxLjgwOS05LjgwNSw4Ljg0Mi02Ljg1LDE1LjgzNmMyLjgyOCw2LjY5MSwxMC4zNjUsMi44MDIsMTQuNzUyLDAuMDMyYy0wLjIyMywwLjg1My0wLjM4NCwxLjcxOS0wLjM5LDIuNjQzDQoJYzIuNDA0LDAuMTgsNC40ODcsMC4yNjMsNi43MzcsMC4xOGMwLjY2Ny02Ljc1LDAuODEzLTEwLjIwNCwyLTE0LjIxQzIxOS42MTEsMTA0LjA4NywyMjAuODcxLDk3LjE0OSwyMTYuMTEzLDkzLjkzOXoNCgkgTTIwNS4yMTksMTE2LjVjLTMuMDksMC41NjItNC45NjEtMy4xNDUtMi44OTYtNS42NjRjMS43MDEtMi4wNzYsNS45NDgtMi4wMjEsNy45NzktMS4xNjkNCglDMjEwLjMwMywxMDkuNjY3LDIxMC43MTksMTE1LjUsMjA1LjIxOSwxMTYuNXoiLz4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTIyMy4yMzgsOTIuNTgzYy0xLjAwNiw2LjgxMi0xLjg4MywxMS4yOTgtMi43NSwxOC4yNQ0KCWMtMC40MDYsMy4yNi0xLjI5Myw5LjEzNi0xLjY3MiwxMi4zODVjMi41MTUtMC4xMjIsNS43MDYtMC4wMTMsOC4yNTYtMC4yMTljMC4xMDQtNC44NDYsMC44NjQtOC4xNTQsMi4wMzYtMTIuODg0DQoJYzAuMzk5LTEuNjEsMS4xNTYtNS4yOTEsMi4xMDQtNi42OTljMS4wNDgtMS41NTYsMy40OTEtMS43NjQsMy42ODItMS43NjVjMC4wOTQtNC4zMTksMi40OTQtNi42OTQsMy40MTUtOS40NzMNCgljLTMuMzk2LDAuMjkyLTUuNzUxLDEuMTc0LTcuNjQsNC4yOTVjMC40MDctMS4yNTYsMC41MDYtMi42ODIsMC44OTItMy44OTZjLTEuNjM2LTAuNjA4LTMuODUxLTAuNDM2LTUuNTczLTAuMjQ2TDIyMy4yMzgsOTIuNTgzeiINCgkvPg0KPHBhdGggZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjMDAwMDAwIiBkPSJNMjU2LjY2Nyw4NS43NWMtMC44NjQsMy43MjItMC44MzMsNS41LTEuODMzLDEwLjI1M2MtMC4wMSwwLjA0NSwwLDAuMDkyLDAsMC4xMzgNCgljLTEuMDQ2LTMuMjE4LTQuMTMtNC4xMDUtNy41LTMuOTg1Yy01LjIyOCwwLjE4NS04LjY4LDQuODM0LTEwLjc1LDkuMTc4Yy0zLjI4MSw2Ljg4OS0zLjMzMywxOS41LDUsMjEuODg1DQoJYzQuMiwxLjIwMiw1Ljk0LTAuNTg5LDkuMTkzLTIuNzcxYy0wLjE4OCwxLjAzNi0wLjIyMSwxLjY5NS0wLjQxOCwyLjc3MWMzLjQ4My0wLjA4NSw2LjAwMSwwLjI1NSw4LjQ2Mi0wLjA0Ng0KCWMwLjQ1NS03LjM0OSwyLjE5OS0xMy45NDgsMy4xNzgtMjAuMzM3YzAuOTI0LTYuMDMsMi4wMjctMTEuOTQxLDMuMzQxLTE3LjgwNUMyNjMuOTM3LDg1LjU0NywyNTYuNjY3LDg1Ljc1LDI1Ni42NjcsODUuNzV6DQoJIE0yNTEuNTIxLDExMi41ODhjLTEuNzk3LDIuNzU3LTYuMjcsNS4xMy04LjQ1OCwxLjY2NWMtMi4yMTItMy41MDMtMC43ODctOS44MjQsMS45MDgtMTIuNzQ0YzMuMDU4LTMuMzEyLDcuODUtMi4wNjEsOC4xOTUsMi44MDYNCglDMjUzLjM0OCwxMDYuODU0LDI1Mi45MTQsMTEwLjQ0OSwyNTEuNTIxLDExMi41ODh6Ii8+DQo8L3N2Zz4NCg==" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg_2" height="202" width="164.66666" y="195.33333" x="62.00001" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes rotateInDownRight {
+    from {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate3d(0, 0, 1, 45deg);
+        transform: rotate3d(0, 0, 1, 45deg);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1
+    }
+}
+
+@keyframes rotateInDownRight {
+    from {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate3d(0, 0, 1, 45deg);
+        transform: rotate3d(0, 0, 1, 45deg);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1
+    }
+}
+
+.animate__rotateInDownRight {
+    -webkit-animation-name: rotateInDownRight;
+    animation-name: rotateInDownRight
+}
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }</style>
+  <g class="animate__animated animate__rotateInDownRight animate__infinite">
+   <text stroke="#000" transform="matrix(0.43488168723257914,0,0,0.9337559938430786,509.70613988456375,16.238752387880595) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="100" id="svg_3" y="357.40593" x="-375.33171" stroke-width="0" fill="#000000" xmlns="http://www.w3.org/2000/svg">RotateinDownright</text>
+  </g>
+ </g>
+</svg>

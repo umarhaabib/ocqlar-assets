@@ -1,0 +1,404 @@
+<svg width="450" height="800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="1335.33333" width="752" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="1068.66667" height="602" id="canvas_background" fill="#fff"/>
+ </g>
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="602.00002" width="1068.66669" y="-1" x="-1"/>
+ </g>
+ <defs>
+  <radialGradient id="XMLID_10_" cx="316.719" cy="642.8906" r="300" gradientTransform="matrix(1 0 0 1 -16.7197 -342.8906)" gradientUnits="userSpaceOnUse">
+   <stop offset="0" stop-color="#FFFFFF"/>
+   <stop offset="1" stop-color="#E2E3E4"/>
+  </radialGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect id="canvas_background" x="-1" y="-1" fill="#0000FF" width="802" height="452"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect id="XMLID_1_" x="-180.83329" fill="url(#XMLID_10_)" width="806.66666" height="488.33333" transform="rotate(90 222.5000305175781,401.6666870117188) " y="157.50002" stroke="null"/>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes bounceInRight {
+
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1.000);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1.000)
+    }
+
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(3000px, 0, 0);
+        transform: translate3d(3000px, 0, 0)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(-25px, 0, 0);
+        transform: translate3d(-25px, 0, 0)
+    }
+
+    75% {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0)
+    }
+
+    90% {
+        -webkit-transform: translate3d(-5px, 0, 0);
+        transform: translate3d(-5px, 0, 0)
+    }
+
+    to {
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes bounceInRight {
+
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1.000);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1.000)
+    }
+
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(3000px, 0, 0);
+        transform: translate3d(3000px, 0, 0)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(-25px, 0, 0);
+        transform: translate3d(-25px, 0, 0)
+    }
+
+    75% {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0)
+    }
+
+    90% {
+        -webkit-transform: translate3d(-5px, 0, 0);
+        transform: translate3d(-5px, 0, 0)
+    }
+
+    to {
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.animate__bounceInRight {
+    -webkit-animation-name: bounceInRight;
+    animation-name: bounceInRight
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes bounceIn {
+
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1.000);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1.000)
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1)
+    }
+
+    40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03)
+    }
+
+    80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+@keyframes bounceIn {
+
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1.000);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1.000)
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1)
+    }
+
+    40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03)
+    }
+
+    80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+.animate__bounceIn {
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-2s {
+          -webkit-animation-delay: calc(1s * 2);
+          animation-delay: calc(1s * 2);
+          -webkit-animation-delay: calc(var(--animate-delay) * 2);
+          animation-delay: calc(var(--animate-delay) * 2);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <g id="svg_4" class="animate__animated animate__bounceIn animate__repeat-1 animate__delay-2s animate__faster" stroke="null">
+   <g id="svg_3" stroke="null">
+    <polygon id="XMLID_18_" fill="#D45D50" points="268.85075092315674,274.5914306640625 121.47559833526611,265.3585205078125 225.4119997024536,256.56524658203125 " stroke="null"/>
+    <polygon id="XMLID_17_" fill="#F37558" points="318.26716327667236,248.6513214111328 121.47559833526611,265.3585205078125 124.02564716339111,225.6121063232422 224.97233295440674,230.97775268554688 " stroke="null"/>
+    <polygon id="XMLID_16_" fill="#D45D50" points="343.065899848938,221.0404815673828 318.26716327667236,248.6513214111328 86.12668323516846,221.0404815673828 " stroke="null"/>
+    <g id="svg_2" stroke="null">
+     <polygon id="XMLID_13_" fill="#CCCCCC" points="37.411988258361816,162.76182556152344 48.491501808166504,110.1780776977539 64.4073076248169,162.76182556152344 " stroke="null"/>
+     <polygon id="XMLID_12_" fill="#F37558" points="362.58695697784424,221.9197998046875 432.5796022415161,147.52877807617188 7.514883995056152,128.97499084472656 78.56447315216064,221.9197998046875 " stroke="null"/>
+     <polygon id="XMLID_6_" fill="#F7F7F7" points="122.17905902862549,104.37452697753906 48.139771461486816,109.9142837524414 72.93677234649658,191.95457458496094 122.3549165725708,139.54759216308594 " stroke="null"/>
+     <polygon id="XMLID_5_" fill="#F7F7F7" points="411.38956928253174,152.8047332763672 318.26716327667236,150.07882690429688 336.55891132354736,175.05081176757812 429.06229877471924,177.60174560546875 " stroke="null"/>
+     <text id="XMLID_3_" transform="matrix(0.8834593570053577,0,0,0.8793265223503113,172.21979516705943,218.65609623449333) " fill="#FFFFFF" font-family="'HelveticaWorld-Bold'" font-size="60.4671" y="-20.19681" x="-48.14424" stroke="null">SALE !</text>
+     <text id="XMLID_4_" transform="matrix(0.8834593570053577,0,0,0.8793265223503113,107.82293283130001,155.7945380067576) " fill="#F37558" font-family="'HelveticaWorld-Bold'" font-size="26.4245" y="-21.37328" x="-48.14424" stroke="null">80%</text>
+     <text id="XMLID_8_" transform="matrix(0.8834593570053577,0,0,0.8793265223503113,381.85677785246446,185.98876419857032) " fill="#F37558" font-family="'HelveticaWorld-Bold'" font-size="16.4151" y="-20.19681" x="-48.14424" stroke="null">9th March</text>
+     <text id="XMLID_7_" transform="matrix(0.8834593570053577,0,0,0.8793265223503113,107.82293283130001,169.66107760096082) " fill="#F37558" font-family="'HelveticaWorld-Bold'" font-size="16.8273" y="-20.19681" x="-48.14424" stroke="null">off</text>
+    </g>
+   </g>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes bounceInRight {
+
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1.000);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1.000)
+    }
+
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(3000px, 0, 0);
+        transform: translate3d(3000px, 0, 0)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(-25px, 0, 0);
+        transform: translate3d(-25px, 0, 0)
+    }
+
+    75% {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0)
+    }
+
+    90% {
+        -webkit-transform: translate3d(-5px, 0, 0);
+        transform: translate3d(-5px, 0, 0)
+    }
+
+    to {
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes bounceInRight {
+
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1.000);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1.000)
+    }
+
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(3000px, 0, 0);
+        transform: translate3d(3000px, 0, 0)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(-25px, 0, 0);
+        transform: translate3d(-25px, 0, 0)
+    }
+
+    75% {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0)
+    }
+
+    90% {
+        -webkit-transform: translate3d(-5px, 0, 0);
+        transform: translate3d(-5px, 0, 0)
+    }
+
+    to {
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.animate__bounceInRight {
+    -webkit-animation-name: bounceInRight;
+    animation-name: bounceInRight
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 3);
+          animation-duration: calc(1s / 3);
+          -webkit-animation-duration: calc(var(--animate-duration) / 3);
+          animation-duration: calc(var(--animate-duration)/ 3);
+        }</style>
+  <g class="animate__animated animate__bounceInRight animate__repeat-1 animate__delay-1s animate__faster" id="svg_1">
+   <image x="41.13671" y="329.27518" width="441.99998" height="441.99998" id="svg_6" xlink:href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDUwIiBoZWlnaHQ9IjQ1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCiA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5zdDB7ZmlsbDojRkFBMjg0O30KCS5zdDF7ZmlsbDojRUY4RDcyO30KCS5zdDJ7ZmlsbDojM0IyMjFEO30KCS5zdDN7ZmlsbDojNTAyRjI2O30KCS5zdDR7ZmlsbDojNjc0NDM0O30KCS5zdDV7ZmlsbDojODIzMzIxO30KCS5zdDZ7ZmlsbDojRkZGRkZGO30KCS5zdDd7ZmlsbDojREI3QzY1O30KCS5zdDh7ZmlsbDojM0YzMzJCO30KCS5zdDl7ZmlsbDojMjYxRTE4O30KCS5zdDEwe2ZpbGw6IzVFNEY0NTt9Cgkuc3QxMXtmaWxsOiMzNTJCMjU7fQoJLnN0MTJ7ZmlsbDojMjUzMDJDO30KCS5zdDEze2ZpbGw6IzEzMTkxNzt9Cgkuc3QxNHtmaWxsOiNENEQ2RDU7fQoJLnN0MTV7ZmlsbDojQzk0OTQ5O30KCS5zdDE2e2ZpbGw6I0YwRjJGMTt9Cgkuc3QxN3tmaWxsOiMxQjIzMjA7fQoJLnN0MTh7ZmlsbDojRTVFQUU4O30KCiNmYWNlIHsKICBhbmltYXRpb246IHBpbmsyIDNzIGxpbmVhciBpbmZpbml0ZTsKICBhbmltYXRpb24tZGlyZWN0aW9uOiBpbml0aWFsOwogIHRyYW5zZm9ybS1vcmlnaW46IDkwJSAwJSAgOwogIHRyYW5zZm9ybS1ib3g6IGZpbGwtYm94Owp9CkBrZXlmcmFtZXMgcGluazIgewogMCV7IHRyYW5zZm9ybTogdHJhbnNsYXRlWCgwcHgpO30KIDEwJXsgdHJhbnNmb3JtOiB0cmFuc2xhdGVYKDBweCk7fQogMzAleyB0cmFuc2Zvcm06ICB0cmFuc2xhdGVYKC0yLjVweCk7fQogNjAleyB0cmFuc2Zvcm06ICB0cmFuc2xhdGVYKC0yLjVweCk7fQo3MCV7IHRyYW5zZm9ybTogIHRyYW5zbGF0ZVgoMHB4KTt9CgoKfQojZmFjZTIgewogIGFuaW1hdGlvbjogZjIgM3MgbGluZWFyIGluZmluaXRlOwogIGFuaW1hdGlvbi1kaXJlY3Rpb246IGluaXRpYWw7CiAgdHJhbnNmb3JtLW9yaWdpbjogYm90dG9tICA7CiAgdHJhbnNmb3JtLWJveDogZmlsbC1ib3g7Cn0KQGtleWZyYW1lcyBmMiB7CiAwJXsgdHJhbnNmb3JtOiByb3RhdGVaKDBkZWcpO30KIDMwJXsgdHJhbnNmb3JtOiByb3RhdGVaKDBkZWcpO30KIDQwJXsgdHJhbnNmb3JtOiByb3RhdGVaKDBkZWcpO30KCiA0OCV7IHRyYW5zZm9ybTogcm90YXRlWigtMmRlZyk7fQogNTUleyB0cmFuc2Zvcm06IHJvdGF0ZVooMGRlZyk7fQogMTAwJXsgdHJhbnNmb3JtOiByb3RhdGVaKDBkZWcpO30KfQojZXllcyB7CglhbmltYXRpb246IGV5IDNzIGxpbmVhciBpbmZpbml0ZTsKICBhbmltYXRpb24tZGlyZWN0aW9uOiBpbml0aWFsOwogIHRyYW5zZm9ybS1vcmlnaW46IDUwJSA1MCU7CiAgdHJhbnNmb3JtLWJveDogZmlsbC1ib3g7Cn0KQGtleWZyYW1lcyBleSB7CgkwJXt0cmFuc2Zvcm06IHJvdGF0ZVgoMGRlZyl9CgkyMCV7dHJhbnNmb3JtOiByb3RhdGVYKDBkZWcpfQoJMjMle3RyYW5zZm9ybTogcm90YXRlWCg4OGRlZyl9CjI2JXt0cmFuc2Zvcm06IHJvdGF0ZVgoMGRlZyl9Cn08L3N0eWxlPgogPGc+CiAgPHRpdGxlPkxheWVyIDE8L3RpdGxlPgogIDxnIGlkPSJmYWNlMiI+CiAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Im0xNzcuOSwxMDkuNTc2NjdsLTAuMzQsMTIuMjVsMjAuMjksMC41NmwwLjQ0LC0xNS45NGMtOC41MiwzLjg3IC0xNi45MywzLjU1IC0yMC4zOSwzLjEzIiBpZD0ic3ZnXzEiLz4KICAgPHBhdGggY2xhc3M9InN0MSIgZD0ibTE5OC4zLDEwNi40NDY2N2wwLjM0LC0xMi4yOGwtMjAuMjksLTAuNTZsLTAuNDQsMTUuOTZjMy40NSwwLjQyIDExLjg2LDAuNzUgMjAuMzksLTMuMTIiIGlkPSJzdmdfMiIvPgogICA8cGF0aCBjbGFzcz0ic3QyIiBkPSJtMjAzLjUxLDQ4LjA5NjY3YzAsMCAtMTkuNTUsOS4zMSAtMjQuMjYsOC43OWMtNC43MSwtMC41MSAtMTkuNzksLTcuNzMgLTE5Ljc5LC03LjczYy0xLjk0LDkuMDYgMi44MiwxNi45MSAyLjgyLDE2LjkxbDQyLjQ5LDkuODFsNy4xNiwxLjg5YzEuOTQsLTcuNjcgMy41OSwtMTUuNTMgMy41OCwtMjAuMDRjLTguNzYsLTEuOTkgLTEyLC05LjYzIC0xMiwtOS42MyIgaWQ9InN2Z18zIi8+CiAgIDxwYXRoIGNsYXNzPSJzdDMiIGQ9Im0yMTAuMTMsNDIuOTM2NjdjLTMuODIsLTE1LjM5IC0zMC4wOSwtMTYuNDQgLTMwLjA5LC0xNi40NGMtMTMuOCwtOC4zOSAtOC42MiwyLjM0IC04LjYyLDIuMzRjLTIzLjEsLTguMjYgLTEyLjEsMTIuNTQgLTEyLjEsMTIuNTRjLTguNTUsLTAuMyAwLjE0LDcuNzggMC4xNCw3Ljc4czE1LjA4LDcuMjIgMTkuNzksNy43M2M0LjcxLDAuNTEgMjQuMjYsLTguNzkgMjQuMjYsLTguNzlzMy4yNCw3LjYzIDEyLDkuNjJjLTAuMDUsLTEzLjY5IC01LjM4LC0xNC43OCAtNS4zOCwtMTQuNzgiIGlkPSJzdmdfNCIvPgogICA8cGF0aCBjbGFzcz0ic3QwIiBkPSJtMjEwLjEyLDcyLjE5NjY3bC0zLjE5LDIuNjljLTAuNjcsLTEuNTkgLTEuMjEsLTMuMjYgLTEuNjYsLTQuOTNjLTIuNTgsLTkuNyAtMS43NiwtMjEuODUgLTEuNzYsLTIxLjg1Yy0yMi4yOCw4LjY1IC00MS4zNCwyLjM5IC00MS4zNCwyLjM5YzEuMDcsMTEuMDUgLTIuNTksMzUuNDEgNS44OCw0Ny45MWMyLjUyLDMuNzIgNS43MSw2Ljg1IDExLjA2LDcuNjljMjMuMzEsMy42NSAyOS4zMSwtMTkuMTYgMjkuMzEsLTE5LjE2czcuMzEsMS45NSA4LjgsLTguODJjMS4yMywtOC45MyAtNy4xLC01LjkyIC03LjEsLTUuOTIiIGlkPSJzdmdfNSIvPgogICA8cGF0aCBjbGFzcz0ic3Q0IiBkPSJtMTYxLjI2LDI2Ljk3NjY3YzAsMCA5LjcyLDkuNTUgMzIuNDIsOS41M2MwLDAgLTE0LjgzLDEwLjM0IC0zNS4wMywzLjQ1YzAsMCAtNS4xNSwtMTIuMjYgMi42MSwtMTIuOTgiIGlkPSJzdmdfNiIvPgogICA8cGF0aCBjbGFzcz0ic3QxIiBkPSJtMjA2LjY1LDg0LjI0NjY3Yy0xLjk4LDUuNzggLTkuMzcsMjAuMDEgLTI1LjMsMTkuMTVjLTguNjIsLTAuNDcgLTEzLC02LjE2IC0xNS44NywtMTAuMTNjMC42OCwxLjg3IDEuNTIsMy42IDIuNTcsNS4xNGMyLjUyLDMuNzIgNS43MSw2Ljg1IDExLjA3LDcuNjljMjMuMzEsMy42NSAyOS4zMSwtMTkuMTYgMjkuMzEsLTE5LjE2czUuNTksMS41NiA4LjA3LC01LjU2Yy00LjM2LDcuMjIgLTkuODUsMi44NyAtOS44NSwyLjg3IiBpZD0ic3ZnXzciLz4KICAgPHBhdGggY2xhc3M9InN0MSIgZD0ibTIwMC4yMSw1Mi4wNTY2N2MwLDAgMS44NywxMC4yOSA0LjcxLDE2LjUxYy0yLjE1LC05LjI2IC0xLjQxLC0yMC40NyAtMS40MSwtMjAuNDdjLTIyLjI4LDguNjUgLTQxLjM0LDIuMzkgLTQxLjM0LDIuMzljMC4xMiwxLjIxIDAuMTYsMi41OCAwLjE3LDQuMDhjOC42NywxLjIxIDI0LjE5LDIuMjcgMzcuODcsLTIuNTEiIGlkPSJzdmdfOCIvPgogICA8ZyBpZD0iZmFjZSI+CiAgICA8ZyBpZD0iZXllcyI+CiAgICAgPHBhdGggY2xhc3M9InN0MyIgZD0ibTE3NS4wNyw3NS4wMDY2N2MtMC4wMiwyLjAxIC0xLjI0LDMuNTQgLTIuNzIsMy40MmMtMS40OCwtMC4xMiAtMi42NywtMS44NCAtMi42NSwtMy44NWMwLjAyLC0yLjAxIDEuMjQsLTMuNTQgMi43MiwtMy40MmMxLjQ4LDAuMTIgMi42NywxLjg0IDIuNjUsMy44NSIgaWQ9InN2Z185Ii8+CiAgICAgPHBhdGggY2xhc3M9InN0MyIgZD0ibTE5NS40NSw3NC40MTY2N2MtMC4wMiwyLjAxIC0xLjI0LDMuNTQgLTIuNzIsMy40MmMtMS40OCwtMC4xMiAtMi42NywtMS44NCAtMi42NSwtMy44NWMwLjAyLC0yLjAxIDEuMjQsLTMuNTQgMi43MiwtMy40MmMxLjQ4LDAuMTIgMi42NywxLjg0IDIuNjUsMy44NSIgaWQ9InN2Z18xMCIvPgogICAgPC9nPgogICAgPHBhdGggY2xhc3M9InN0NSIgZD0ibTE5MC4xMyw4OS41MjY2N2MwLDAgLTguNDgsMS43MyAtMTYuMzcsMGMwLDAgMS40LDcuMjYgOC4xOSw3LjI0YzYuMzksLTAuMDEgOC4xMSwtNS44NCA4LjE4LC03LjI0IiBpZD0ic3ZnXzExIi8+CiAgICA8cGF0aCBjbGFzcz0ic3Q2IiBkPSJtMTgxLjc2LDkyLjk5NjY3Yy01LjIyLDAgLTYuNzUsLTIuMTYgLTcuNDEsLTMuMzRjNi4xMiwxLjIxIDExLjA2LDAuNDkgMTUuMzYsLTAuMDVjLTAuNDYsMS4zMSAtMy4wMywzLjM5IC03Ljk1LDMuMzkiIGlkPSJzdmdfMTIiLz4KICAgIDxwYXRoIGNsYXNzPSJzdDciIGQ9Im0xODIuMjksODYuMzg2NjdjLTQuNTEsMS44MiAtNi45NCwtMC4zIC03LjEyLC0yLjQzYy0wLjEyLC0xLjM5IDAuNjcsLTIuNjIgMiwtMy4xNGMyLjc1LC0xLjA3IDQuNjgsLTUuMyA0LjcsLTUuMzRjMC4wMSwwLjk3IC0wLjk3LDQuNjIgLTQuNDUsNi42NWMtMC43NSwwLjQ0IC0xLjIyLDAuOSAtMS4xNywxLjU5YzAuMTEsMS4xOSAxLjg0LDIuOTcgNi4wNCwyLjY3IiBpZD0ic3ZnXzEzIi8+CiAgICA8cGF0aCBjbGFzcz0ic3QzIiBkPSJtMTY1LjkxLDY0LjY1NjY3bC0wLjIsLTEuMzZjMC4yOSwtMC4wMiA0Ljk1LC0xLjI5IDEwLjQxLC0wLjgzbDAuMDUsMi4xM2MtNC40OCwtMC42NiAtMTAuMTksMC4wNiAtMTAuMjYsMC4wNiIgaWQ9InN2Z18xNCIvPgogICAgPHBhdGggY2xhc3M9InN0MyIgZD0ibTE5OSw2NS4zNjY2N2MtMy42NSwtMS40MSAtMTAuNDEsLTEuNjggLTEwLjQ4LC0xLjY5bDAuNDUsLTEuOTRjMC4yNywwLjA1IDYuNCwwLjI3IDEwLjQ5LDIuNDVsLTAuNDYsMS4xOHoiIGlkPSJzdmdfMTUiLz4KICAgPC9nPgogIDwvZz4KICA8cGF0aCBjbGFzcz0ic3Q4IiBkPSJtMjAzLjM1LDQzNS42MzY2N2wyOC4yMiwwYzAsMCAxLjY2LC03LjYxIC00LjIzLC0xNy41MWwtMTkuMDIsMC4yOWMwLjAxLC0wLjAxIC01LjQ2LDcuODEgLTQuOTcsMTcuMjIiIGlkPSJzdmdfMTYiLz4KICA8cmVjdCB4PSIyMDMuNSIgeT0iNDM1LjYzNjY3IiBjbGFzcz0ic3Q5IiB3aWR0aD0iMjcuOTgiIGhlaWdodD0iNC40MSIgaWQ9InN2Z18xNyIvPgogIDxwYXRoIGNsYXNzPSJzdDEwIiBkPSJtMjI4LjExLDQyNy41NzY2N2MwLDEuOTMgLTQuNzcsMy41IC0xMC42NSwzLjVzLTEwLjY1LC0xLjU3IC0xMC42NSwtMy41YzAsLTEuOTMgNC43NywtMy41IDEwLjY1LC0zLjVzMTAuNjUsMS41NyAxMC42NSwzLjUiIGlkPSJzdmdfMTgiLz4KICA8cGF0aCBjbGFzcz0ic3Q4IiBkPSJtMTc1LjI1LDQxNi4zOTY2N2MwLDAgMi4xOSwxMS4zNSAwLjU0LDE5LjI0bC01My4xNSwwYzAsMCAtMS44MiwtMTEuNjMgMjEuMjksLTExLjYxbDE0LjgyLC0xMC4wMmwxNi41LDIuMzl6IiBpZD0ic3ZnXzE5Ii8+CiAgPHBhdGggY2xhc3M9InN0OSIgZD0ibTE3NS43NSw0NDAuMDQ2NjdsLTE3Ljg5LDBsLTAuMjIsLTMuMTZjMCwwIC03LjMsMi45NSAtMTcuMzgsMi45NWMtNC45LDAgLTE3LjY4LDAuMTUgLTE3LjY4LDAuMTVsMCwtNC4zNWw1My4xNywwbDAsNC40MXoiIGlkPSJzdmdfMjAiLz4KICA8cGF0aCBjbGFzcz0ic3QxMCIgZD0ibTE0Mi40NCw0MjMuOTg2NjdjMCwwIC0wLjc4LDguMTkgLTE5LjEyLDcuOGMwLDAgMi41MiwtNy40NSAxOS4xMiwtNy44IiBpZD0ic3ZnXzIxIi8+CiAgPHBhdGggY2xhc3M9InN0MTEiIGQ9Im0xNTguNjIsNDM1LjYzNjY3YzAsMCAwLjUxLC0xMy40NSAxNy40MiwtMTMuNTRjMCwwIDAuOSw5LjEyIC0wLjQyLDEzLjU0bC0xNywweiIgaWQ9InN2Z18yMiIvPgogIDxwYXRoIGNsYXNzPSJzdDEyIiBkPSJtMTQ4Ljg4LDIzMy42MTY2N2wtMC45OSwxODQuNTFjMCwwIDE0LjQ0LDcuMiAyOC4wNiwxLjU0bDUuMiwtMTUzLjY5bDQuMDIsLTAuMmwxOS42NiwxNTMuODdjMCwwIDEwLjQsNC43NyAyNS43NSwtMC44OWwtMTUuNTgsLTE4NS4xNGwtNjYuMTIsMHoiIGlkPSJzdmdfMjMiLz4KICA8cGF0aCBjbGFzcz0ic3QxMyIgZD0ibTE0OC4yNywzNDcuMTE2NjdsLTAuMzgsNzAuOTVjMCwwIDE0LjQ0LDcuMjMgMjguMDYsMS41N2wzLjIxLC05NC45MmMtNy42MiwzMC4zMiAtMjQuMTgsMjUuNzMgLTMwLjg5LDIyLjQiIGlkPSJzdmdfMjQiLz4KICA8cGF0aCBjbGFzcz0ic3QxMyIgZD0ibTIyMy42MiwzMzUuODg2NjdjLTEwLjIsMjcuNjYgLTIzLjY5LDkuOTEgLTI5LjQ4LDAuMDJsMTAuNyw4My43NGMwLDAgMTAuNCw0LjcxIDI1Ljc1LC0wLjk1bC02Ljk3LC04Mi44MXoiIGlkPSJzdmdfMjUiLz4KICA8cGF0aCBjbGFzcz0ic3QxMyIgZD0ibTIxNSwyMzMuNjE2NjdsLTY1LjYsMGwwLDI1LjU4YzUuNDYsMi4zOCAxNi4wOCw2LjIxIDMxLjksOC45OWwtMC4wMiwtMi4yMmwzLjk2LC0wLjJsMC40MSwzLjE3YzkuMjEsMS40MSAxOS45NiwyLjQ5IDMyLjI2LDIuNzFsLTIuOTEsLTM4LjAzeiIgaWQ9InN2Z18yNiIvPgogIDxwYXRoIGNsYXNzPSJzdDE0IiBkPSJtMjA0LjkzLDExNi45MTY2N2MtMTAuMDIsLTIuMTggLTIyLjMsLTMuNDcgLTM1LjAxLC0xLjQ3YzAuMDgsOC4yOSAwLjMyLDQ0LjEgOC40OCw3Mi41NmMwLDAgMjIuOSwtNTIgMjYuNTMsLTcxLjA5IiBpZD0ic3ZnXzI3Ii8+CiAgPHBvbHlnb24gY2xhc3M9InN0MTUiIHBvaW50cz0iMTc3LjQ0MDAwMjQ0MTQwNjI1LDEyNi45NDY2NjUyODcwMTc4MiAxODEuOTg5OTkwMjM0Mzc1LDEzNC45NzY2NjQwNjYzMTQ3IDE3MC44OTAwMTQ2NDg0Mzc1LDE4NC4xMTY2NjM0NTU5NjMxMyAxNzguNDIwMDEzNDI3NzM0MzgsMTkzLjg3NjY3MzIyMTU4ODEzIDE4Ni4yMjAwMDEyMjA3MDMxMiwxODYuNzk2NjcxMzkwNTMzNDUgMTg2Ljk3MDAwMTIyMDcwMzEyLDEzNS4zMzY2NjQ2NzY2NjYyNiAxOTAuOTIwMDEzNDI3NzM0MzgsMTI4Ljk5NjY2ODMzODc3NTYzIDE4NS4yOTk5ODc3OTI5Njg3NSwxMjAuODE2NjY4MDMzNTk5ODUgIiBpZD0ic3ZnXzI4Ii8+CiAgPHBhdGggY2xhc3M9InN0MTIiIGQ9Im0yMjguNiwxMjQuODI2NjdjMCwwIC0xMS41NiwtNi4zMSAtMjUuNjQsLTkuMzhjLTMuNjMsMTkuMDkgLTI0LjU3LDcyLjU2IC0yNC41Nyw3Mi41NmMtOC4xNiwtMjguNDYgLTYuNDYsLTY1IC02LjU0LC03My4zYy02LjQxLDEuMDEgLTE0LjMzLDIuMTEgLTIwLjcyLDUuMDljMCwwIC04LjYsMzguNjQgLTQuODEsMTI2LjYxYzAsMCAyOC41OSwxMC4yOCA3NC40OSwxLjUzYzAsMCAtNC4zMiwtNjEuNjIgMS42NCwtODUuNzFjMC4wMSwwLjAyIDQuMjcsLTIyLjI1IDYuMTUsLTM3LjQiIGlkPSJzdmdfMjkiLz4KICA8cGF0aCBjbGFzcz0ic3QxMyIgZD0ibTIyMi40NiwxNjIuMjQ2NjdjMCwwIDEuOSwtOS45NCAzLjczLC0yMS4wNWwtNy44NywyLjIxYy0yLjIxLDEyLjkzIC0xMC42NiwzMiAtMTAuNjYsMzJjLTUsNS42MyAtMTUuMzgsMi4wMiAtMjQuODQsMS4wN2MtMi42Myw2Ljk2IC00LjQyLDExLjU0IC00LjQyLDExLjU0Yy0xLjE2LC00LjA2IC0yLjEzLC04LjI5IC0yLjkzLC0xMi41OGMtNy4xMiwtMS4yOCAtMTQuNTQsLTIuOTIgLTE2LjUyLC0zLjQ4Yy01LjA4LC0xLjQ0IC01Ljg1LC0yMy40MiAtNS44NSwtMjMuNDJsLTQuNDksLTEyLjc5Yy0xLjQsMTMuNjMgLTIuOTMsMzcuNTcgLTIuMzIsNzQuNThjNi4yNCwxLjA0IDE4Ljk5LDIuMzEgMzEuMTEsLTEuNzhjMCwwIDE4LjM3LDYuMzggMjUuMTksNy4wM2M1LjExLDAuNDkgMTIuMTUsNC4zNyAxNi42MiwxMS4zOGMtMC41NCwtMTguODYgLTAuNjYsLTQ4LjkzIDMuMjUsLTY0LjcxIiBpZD0ic3ZnXzMwIi8+CiAgPHBhdGggY2xhc3M9InN0MTIiIGQ9Im0xNTEuMTQsMTE5LjgwNjY3YzAsMCAtOS44NSwtMC41NyAtMTcuMzYsMzMuMjNjLTUuNzksMjYuMDggLTQuMjMsNDMuMjYgLTEuMDMsNDQuMzJjMy4yLDEuMDYgMjMuNDYsOS43NyA1OC41NSwtNy4xNmwtNC4xNiwtNS44NmwtMzQuMzEsLTQuNjFsMC4zLC0zMy4yMmwtMS45OSwtMjYuN3oiIGlkPSJzdmdfMzEiLz4KICA8cGF0aCBjbGFzcz0ic3QxNiIgZD0ibTE3Ny44NiwxMTAuODU2NjdjMCwwIDAuOTQsNy4wOCA3LjQzLDkuOTZjMCwwIDEyLjA5LC0yLjA3IDEyLjk0LC05Ljk3bDYuMSw1Ljk1YzAsMCAtMy43NCwxMS4zMiAtMTMuMTEsMTQuODFsLTUuODYsLTguOTNsLTcuOTYsNy4zN2MwLDAgLTcuMzYsLTguODEgLTYuNzMsLTE0LjU3bDcuMTksLTQuNjJ6IiBpZD0ic3ZnXzMyIi8+CiAgPHBhdGggY2xhc3M9InN0MTciIGQ9Im0xNjUuNjEsMTQxLjcyNjY3bC0zLjU0LDMuMjJjMCwwIDkuNDcsMzcuMjYgMTYuMjgsNTAuNzdjMCwwIDE5LjY1LC0zMi45MSAyNS44NCwtNDcuM2wtMi45NiwtNC42OWw2LjQ5LC0xLjk5YzAsMCAyLjYsLTEzLjYxIDEuODcsLTI0LjU3Yy0yLjEyLC0wLjYzIC00LjMzLC0xLjIxIC02LjYyLC0xLjcxYy0zLjYzLDE5LjA5IC0yNC41Nyw3Mi41NiAtMjQuNTcsNzIuNTZjLTguMTYsLTI4LjQ2IC02LjQ2LC02NSAtNi41NCwtNzMuM2MtMS44OCwwLjMgLTMuOTQsMC43MyAtNi4wOCwxLjI3bC00LjUzLDIxLjUybDQuMzYsNC4yMnoiIGlkPSJzdmdfMzMiLz4KICA8cGF0aCBjbGFzcz0ic3QxNyIgZD0ibTE4Ny4xNCwxODQuMzI2NjdsLTM0LjMxLC00LjYxYzAsMCAxMy42MywxMS4yNCAxNC44OCwxOS4yNmM2LjU2LC0xLjYgMTQuMzcsLTQuMzQgMjMuNTksLTguNzlsLTQuMTYsLTUuODZ6IiBpZD0ic3ZnXzM0Ii8+CiAgPHBhdGggY2xhc3M9InN0MCIgZD0ibTE3NC4wNSwxNzcuNzk2NjdjLTE4LjIsLTguODEgLTIxLjIyLDEuOTIgLTIxLjIyLDEuOTJjNS41NiwzLjkgMTAuOCw3LjIzIDE1LjcxLDEwLjA3YzMuMzksLTYuMTQgNS41MSwtMTEuOTkgNS41MSwtMTEuOTkiIGlkPSJzdmdfMzUiLz4KICA8cGF0aCBjbGFzcz0ic3QxOCIgZD0ibTE3OS42NCwxNzcuNjY2NjdsLTQuOTYsLTAuNzZjMCwwIC02LjE0LDQuMTcgLTYuMTMsMTIuODhjMS43MiwwLjk5IDMuNCwxLjkyIDUuMDQsMi44YzIuMjIsLTcuMjQgNC41OSwtMTEuNTcgNi4wNSwtMTQuOTIiIGlkPSJzdmdfMzYiLz4KICA8cGF0aCBjbGFzcz0ic3QxMiIgZD0ibTIyOC42LDEyNC44MjY2N2MtOS41NCwtMi4wNCAtMTguMTUsNTcuNTYgLTE4LjE1LDU3LjU2bC0zMC42NSwtNS4zNmMtMi40OSwyLjU1IC03LjQ1LDkuNjIgLTcsMTYuNzFjMzAuNDEsMTYuMjYgNDcuNjYsMTEuOSA0Ny42NiwxMS45czExLjQyLDEuNTkgMTQuNzIsLTM3LjE5YzMuMzEsLTM4Ljc2IC02LjU4LC00My42MiAtNi41OCwtNDMuNjIiIGlkPSJzdmdfMzciLz4KICA8cGF0aCBjbGFzcz0ic3QwIiBkPSJtMTk4LjMsMTgwLjI2NjY3YzAsMCAxMS41NCwtNy41NyAxMy44MiwtOC4wN2MyLjI3LC0wLjUgMTAuNjcsLTMuNDMgMTAuNjcsLTMuNDNzMC45OSwxLjI0IC0wLjM3LDIuNmMtMS4zNiwxLjM2IC02LjQ4LDIuNiAtNi40OCwyLjZzNS45OCwwLjc0IDguMzQsMi4xYzAsMCAxLjAzLDIuMzkgLTEuNjksMi41NmMwLDAgMy4wNSwxLjk4IC0wLjY2LDIuNzNjMCwwIC0zLjY3LC0wLjg3IC01LjA4LC0wLjU5bDQuNywzLjUxYzAsMCAwLjI1LDEuMDcgLTEuODIsMC45OWMtMi4wNiwtMC4wOCAtNS4wNCwtNC4yNSAtOS4yNywtMi44N2wtMTIuMTYsLTIuMTN6IiBpZD0ic3ZnXzM4Ii8+CiA8L2c+Cjwvc3ZnPg==" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </g>
+ </g>
+</svg>

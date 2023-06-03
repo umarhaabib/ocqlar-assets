@@ -1,0 +1,222 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  
+ </g>
+
+ <style type="text/css">.st0{fill:none;stroke:#00F600;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#E50000;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#0D96F1;stroke-miterlimit:10;}
+	.st3{fill:#8C8C8C;}
+	.st4{fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st5{fill:#FDDC6B;}
+	.st6{fill:#D9BC5B;}
+	.st7{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st8{fill:#8B7A3B;}
+	.st9{fill:#FFFFFF;}
+	.st10{fill:#CE7D02;}
+	.st11{fill:none;stroke:#D58B1A;stroke-miterlimit:10;}
+	.st12{fill:#C7A315;}
+	.st13{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st14{font-family:'MyriadPro-Regular';}
+	.st15{font-size:18px;}
+	.st16{fill:#FAC169;}
+	.st17{fill:#384D3F;}
+	.st18{fill:#6A8D74;}
+	.st19{fill:#FAAF3C;}
+	.st20{fill:#E1A044;}
+	.st21{fill:#465F4E;}
+    #WING_2_GREEN ,#WING_1_GREEN{
+    animation : fly ease-in-out 3s infinite;
+    transform-origin : center ;
+    transform-box : fill-box
+    }
+    @keyframes fly{
+    0%{
+    transform : rotateY(0)
+    }
+    10%{
+    transform : rotateY(-80deg)
+    }
+    20%{
+    transform : rotateY(0)
+    }
+    30%{
+    transform : rotateY(-80deg)
+    }
+    40%,100%{
+    transform : rotateY(0)
+    }
+    }
+    #EYEBROWS_GREEN{
+    animation : up ease-in-out 3s infinite;
+    }
+    @keyframes up{
+    0%,30%{
+    transform : translateY(0)
+    }
+    40%,80%{
+    transform : translateY(-5px)
+    }
+    90%,100%{
+    transform : translateY(0)
+    }
+    }
+    #bubble-1{
+    animation : fade1 ease-in-out 3s infinite;
+    transform-origin : center ;
+    transform-box : fill-box;
+    visibility : hidden
+    }
+    @keyframes fade1{
+    0%,30%{
+    visibility : hidden;
+    transform : scale(1)
+    }
+    40%{
+    visibility : visible;
+    transform : scale(1.1)
+    }
+    60%,100%{
+    visibility : visible;
+    transform : scale(1)
+    }
+    }
+    #bubble-2{
+    animation : fade2 ease-in-out 3s infinite;
+    transform-origin : center ;
+    transform-box : fill-box;
+    visibility : hidden
+    }
+    @keyframes fade2{
+    0%,60%{
+    visibility : hidden;
+    transform : scale(1)
+    }
+    70%{
+    visibility : visible;
+    transform : scale(1.1)
+    }
+    80%,100%{
+    visibility : visible;
+    transform : scale(1)
+    }
+    }
+    #Eye-brow-mini{
+    animation : up ease-in-out 3s infinite;
+    }
+    @keyframes up{
+    0%,50%{
+    transform : translateY(0)
+    }
+    60%,85%{
+    transform : translateY(-5px)
+    }
+    90%,100%{
+    transform : translateY(0)
+    }
+    }
+    #WING_2_YELLOW ,#WING_1_YELLOW{
+    animation : fly1 ease-in-out 3s infinite;
+    transform-origin : center ;
+    transform-box : fill-box
+    }
+    @keyframes fly1{
+    0%{
+    transform : rotateY(0)
+    }
+    40%{
+    transform : rotateY(80deg)
+    }
+    50%{
+    transform : rotateY(0)
+    }
+    60%{
+    transform : rotateY(80deg)
+    }
+    70%,100%{
+    transform : rotateY(0)
+    }
+    }
+    #light1 ,#light2{
+    animation : lightining 3s ease-in-out infinite;
+    transform-origin : center;
+    transform-box  : fill-box
+    }
+    @keyframes lightining{
+    0%,40%{
+    visibility : hidden;
+    transform : scale(1)
+    }
+    40%{
+    visibility : visible;
+    transform : scale(1)
+    }
+    50%{
+     visibility : visible;
+    transform : scale(1.2)
+    }
+    60%{
+    visibility : visible;
+    transform : scale(1)
+    }
+    90%100%{
+    visibility : hidden;
+    transform : scale(1)
+    }
+    }</style>
+ <g>
+  <title>Layer 1</title>
+  <g id="Layer_1"/>
+  <g stroke="null" id="svg_2">
+   <g stroke="null" id="WING_2_YELLOW">
+    <polygon stroke="null" id="svg_11" points="241.26518154144287,299.1141347885132 255.48602199554443,334.6659231185913 233.26621913909912,314.5198965072632 " class="st5"/>
+   </g>
+   <g stroke="null" id="WING_1_YELLOW">
+    <polygon stroke="null" id="svg_12" points="119.50058650970459,285.7822561264038 90.46673488616943,315.1124258041382 121.57443904876709,302.96563625335693 " class="st5"/>
+   </g>
+   <g stroke="null" id="BODY_YELLOW">
+    <g stroke="null" id="svg_13">
+     <ellipse stroke="null" id="svg_14" ry="51.25374" rx="65.17816" cy="315.11245" cx="174.01323" class="st5"/>
+     <ellipse stroke="null" id="svg_15" ry="48.58736" rx="64.58563" cy="309.18716" cx="174.60576" class="st6"/>
+    </g>
+    <path stroke="null" id="svg_16" d="m222.30433,21.81072c0,0 -374.77443,179.83247 -79.99138,268.71179c0,0 168.27816,44.14339 212.71782,-23.99741c7.40661,-11.55431 14.51695,-32.58908 9.48046,-53.92012c-9.1842,-39.99569 -87.10173,-55.6977 -143.68822,-134.50403c-10.36925,-14.22069 7.40661,-34.36667 9.48046,-48.58736c1.48132,-10.96178 -5.92529,-7.99914 -7.99914,-7.70287z" class="st5"/>
+    <path stroke="null" id="svg_17" d="m288.96381,142.68658" class="st7"/>
+    <g stroke="null" id="svg_18">
+     <ellipse stroke="null" id="svg_19" ry="72.58477" rx="70.51092" cy="209.64233" cx="239.1914" class="st8"/>
+     <ellipse stroke="null" id="svg_20" ry="66.36322" rx="66.65948" cy="212.30871" cx="233.26611" class="st9"/>
+    </g>
+    <g stroke="null" id="svg_21">
+     <ellipse stroke="null" id="svg_22" ry="49.47615" rx="48.29109" cy="182.97854" cx="120.38938" class="st8"/>
+     <ellipse stroke="null" id="svg_23" ry="44.73592" rx="45.62471" cy="185.34865" cx="123.35203" class="st9"/>
+    </g>
+   </g>
+   <g stroke="null" id="YELLOW_PICO">
+    <polygon stroke="null" id="svg_24" points="127.79595851898193,235.12106227874756 157.12620449066162,226.82566738128662 168.97682094573975,255.26705837249756 127.79595851898193,280.4494924545288 " class="st10"/>
+    <polyline stroke="null" id="svg_25" points="128.6847219467163,240.45384120941162 148.23829555511475,238.08370876312256 161.27380275726318,259.71099758148193 " class="st11"/>
+   </g>
+   <g stroke="null" id="EYES_YELLOW">
+    <g stroke="null" id="svg_26">
+     <path stroke="null" id="svg_27" d="m194.60249,200.7544c-5.33276,5.33276 -5.92529,13.62816 -0.88879,18.66466c4.74023,4.74023 13.3319,4.44397 18.66466,-0.88879c2.07385,-2.07385 3.55517,-5.03649 4.1477,-7.70287c0.59253,6.22155 -1.77759,13.03563 -6.51782,17.77586c-8.88793,8.88793 -23.10862,8.88793 -31.99655,0c-8.88793,-8.88793 -8.88793,-23.10862 0,-31.99655c8.88793,-8.88793 23.10862,-8.88793 31.99655,0c0.59253,0.59253 1.18506,1.48132 1.77759,2.07385c-5.03649,-3.55517 -12.14684,-2.66638 -17.18333,2.07385z"/>
+     <path stroke="null" id="svg_28" d="m142.75622,192.459c4.1477,3.55517 9.77672,3.25891 13.03563,-0.29626c3.25891,-3.55517 2.37011,-9.48046 -1.48132,-12.73937c-1.77759,-1.48132 -3.55517,-2.37011 -5.62902,-2.37011c4.44397,-0.59253 9.1842,0.59253 12.73937,3.55517c6.51782,5.62902 7.40661,15.70201 1.48132,22.21983c-5.62902,6.51782 -15.70201,7.40661 -22.21983,1.48132c-6.51782,-5.62902 -7.40661,-15.70201 -1.48132,-22.21983c0.29626,-0.59253 0.88879,-0.88879 1.48132,-1.48132c-2.37011,3.85144 -1.48132,8.88793 2.07385,11.85057z"/>
+    </g>
+   </g>
+   <g stroke="null" id="Eye-brow-mini">
+    <path stroke="null" id="svg_29" d="m91.05921,114.83773l-10.66552,-18.96092c0,0 79.10259,-32.58908 100.72989,38.2181c0.29626,0 -34.66293,-71.39971 -90.06437,-19.25718z" class="st6"/>
+    <path stroke="null" id="svg_30" d="m211.34255,124.91072c0,0 39.69943,-24.29368 56.88276,-18.96092l25.775,18.96092l2.66638,-25.47874c0,0 -38.51437,-7.99914 -85.32414,25.47874z" class="st6"/>
+   </g>
+   <g stroke="null" id="LEG_2_YELLOW">
+    <g stroke="null" id="svg_57">
+     <path stroke="null" id="svg_58" d="m198.89944,382.06819l0,0c-1.77759,0 -3.25891,-1.48132 -3.25891,-3.25891l0,-18.66466c0,-1.77759 1.48132,-3.25891 3.25891,-3.25891l0,0c1.77759,0 3.25891,1.48132 3.25891,3.25891l0,18.66466c0.29626,1.77759 -1.48132,3.25891 -3.25891,3.25891z" class="st20"/>
+     <path stroke="null" id="svg_59" d="m191.19657,382.06819l0,0c-1.77759,0 -3.25891,-1.48132 -3.25891,-3.25891l0,-18.66466c0,-1.77759 1.48132,-3.25891 3.25891,-3.25891l0,0c1.77759,0 3.25891,1.48132 3.25891,3.25891l0,18.66466c0.29626,1.48132 -1.48132,3.25891 -3.25891,3.25891z" class="st20"/>
+    </g>
+   </g>
+   <g stroke="null" id="LEG_1_YELLOW">
+    <g stroke="null" id="svg_60">
+     <path stroke="null" id="svg_61" d="m137.86898,377.62423l0,0c-1.77759,-0.29626 -2.96264,-2.07385 -2.66638,-3.85144l3.25891,-18.36839c0.29626,-1.77759 2.07385,-2.96264 3.85144,-2.66638l0,0c1.77759,0.29626 2.96264,2.07385 2.66638,3.85144l-3.25891,18.36839c-0.29626,1.77759 -2.07385,2.96264 -3.85144,2.66638z" class="st20"/>
+     <path stroke="null" id="svg_62" d="m130.46237,376.14291l0,0c-1.77759,-0.29626 -2.96264,-2.07385 -2.66638,-3.85144l3.25891,-18.36839c0.29626,-1.77759 2.07385,-2.96264 3.85144,-2.66638l0,0c1.77759,0.29626 2.96264,2.07385 2.66638,3.85144l-3.25891,18.36839c-0.29626,1.77759 -2.07385,2.96264 -3.85144,2.66638z" class="st20"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

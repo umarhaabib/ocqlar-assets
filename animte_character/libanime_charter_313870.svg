@@ -1,0 +1,1202 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+ </g>
+ <style>#g4,#g2,#g3   { animation: g1 15s linear  forwards;}
+
+@keyframes g1 {
+	0%
+}
+#b { animation: b 15s linear  forwards;}
+
+@keyframes b  {
+	
+}
+
+#c { animation: c 15s linear  forwards;}
+
+@keyframes c  {
+
+}
+
+#h { animation: h 15s linear  forwards;}
+
+@keyframes h  {
+
+}
+
+
+@keyframes b5 {
+  0%{transform:scale(0);}
+  31%{transform:scale(0);}
+   32%{transform:scale(1.3);}
+   33%{transform:scale(.9);}
+  34%{transform:scale(1);}
+}
+  
+#i {
+    animation: i 10s ease-in-out forwards;
+    animation-direction: initial;
+    transform-origin:50% 50%;
+    transform-box: fill-box;
+}
+
+
+@keyframes i 
+ {
+  0%{transform:scale(0);}
+  34%{transform:scale(0);}
+   35%{transform:scale(1.3);}
+   36%{transform:scale(.9);}
+  37%{transform:scale(1);} 
+} 
+#g {
+    animation: g 10s ease-in-out forwards;
+    animation-direction: initial;
+    transform-origin:50% 50%;
+    transform-box: fill-box;
+}
+
+
+@keyframes g {
+  0%{transform:scale(0);}
+  38%{transform:scale(0);}
+   39%{transform:scale(1.3);}
+   40%{transform:scale(.9);}
+  341{transform:scale(1);} 
+} 
+
+#ar1{ animation: arm1 2s linear alternate infinite;
+
+    transform-origin:5% 90%;
+    transform-box: fill-box;}
+
+  @keyframes arm1{
+  0%{transform:rotateZ(-5deg);}
+  100%{transform: rotateZ(5deg);}
+
+  }
+  #ar2 { animation: arm2 2s linear alternate infinite;
+
+    transform-origin:5% 90%;
+    transform-box: fill-box;}
+
+  @keyframes arm2{
+  0%{transform:rotateZ(-5deg);}
+  100%{transform: rotateZ(7deg);}
+
+  }
+
+    #cr1 { animation: crm2 2s linear alternate infinite;
+   transform-origin:100% 85%;
+    transform-box: fill-box;}
+
+  @keyframes crm2{
+  0%{transform:rotateZ(-5deg);}
+  100%{transform: rotateZ(5deg);}
+
+  }
+   #k { animation: k 2s linear alternate infinite;
+   transform-origin:10% 95%;
+    transform-box: fill-box;}
+
+  @keyframes k{
+  0%{transform:rotateZ(-5deg);}
+  100%{transform: rotateZ(5deg);}
+
+  }
+  #wave1{animation: w1 .6s linear alternate infinite;}
+  @keyframes w1 {
+    0%{opacity:.2}
+    100%{opacity:.6}
+}
+  #wave2{animation: w1 .6s linear alternate infinite;}
+  @keyframes w1 {
+    0%{opacity:.2}
+    100%{opacity:.9}
+}
+  #wave3{animation: w1 .6s linear alternate infinite;}
+  @keyframes w1 {
+    0%{opacity:.2}
+    100%{opacity:.8}
+}
+  #wave4{animation: w1 .6s linear alternate infinite;}
+  @keyframes w1 {
+    0%{opacity:.2}
+    100%{opacity:.4}
+}
+  #p1,#p2,#p3 { animation: sd 10s linear infinite;}
+
+@keyframes sd {
+	0%{opacity:0; transform:translateY(60px);}
+  50%{opacity:1}
+  90%{opacity:1}
+	95%{opacity:0}
+  100%{opacity:0; transform:translateY(-150px);}
+}</style>
+ <defs>
+  <clipPath id="clip-path">
+   <rect id="svg_1" fill="none" height="277.48" width="619.46" y="164.47"/>
+  </clipPath>
+  <clipPath id="clip-path-3">
+   <rect id="svg_2" fill="none" height="55.82" width="106.97" y="249.68" x="155.06"/>
+  </clipPath>
+  <clipPath id="clip-path-4">
+   <rect id="svg_3" fill="none" height="40.23" width="77.08" y="401.72" x="126.2"/>
+  </clipPath>
+  <clipPath id="clip-path-5">
+   <rect id="svg_4" fill="none" height="24.02" width="46.03" y="333.88" x="399.61"/>
+  </clipPath>
+  <clipPath id="clip-path-6">
+   <rect id="svg_5" fill="none" height="24.02" width="46.03" y="229.74" x="541.96"/>
+  </clipPath>
+  <clipPath id="clip-path-7">
+   <rect id="svg_6" fill="none" height="24.02" width="46.03" y="387.06" x="94.68"/>
+  </clipPath>
+  <clipPath id="clip-path-8">
+   <rect id="svg_7" fill="none" height="69.83" width="133.81" y="258.86" x="403.67"/>
+  </clipPath>
+  <clipPath id="clip-path-9">
+   <rect id="svg_8" fill="none" height="56.87" width="108.97" y="164.47" x="317.22"/>
+  </clipPath>
+  <clipPath id="clip-path-10">
+   <rect id="svg_9" fill="none" height="56.86" width="108.97" y="328.37" x="510.5"/>
+  </clipPath>
+  <clipPath id="clip-path-11">
+   <rect id="svg_10" fill="none" height="26.16" width="50.09" y="260.71" x="318.35"/>
+  </clipPath>
+  <clipPath id="clip-path-12">
+   <rect id="svg_11" fill="none" height="22.84" width="43.73" y="383.2" x="391.05"/>
+  </clipPath>
+  <clipPath id="clip-path-13">
+   <rect id="svg_12" fill="none" height="19.26" width="36.88" y="390.41" x="257.03"/>
+  </clipPath>
+  <clipPath id="clip-path-14">
+   <rect id="svg_13" fill="none" height="14.76" width="28.26" y="414.41" x="249.94"/>
+  </clipPath>
+  <clipPath id="clip-path-15">
+   <rect id="svg_14" fill="none" height="14.76" width="28.26" y="330.27" x="440.4"/>
+  </clipPath>
+  <clipPath id="clip-path-16">
+   <rect id="svg_15" fill="none" height="14.76" width="28.26" y="324.3" x="373.71"/>
+  </clipPath>
+  <clipPath id="clip-path-17">
+   <rect id="svg_16" fill="none" height="14.76" width="28.26" y="409.67" x="297.61"/>
+  </clipPath>
+  <clipPath id="clip-path-18">
+   <rect id="svg_17" fill="none" height="44.95" width="86.06" y="388.64" x="2.65"/>
+  </clipPath>
+  <clipPath id="clip-path-19">
+   <rect id="svg_18" fill="none" height="22.84" width="43.73" y="240.91" x="393.93"/>
+  </clipPath>
+  <clipPath id="clip-path-20">
+   <rect id="svg_19" fill="none" height="22.84" width="43.73" y="210.04" x="187.45"/>
+  </clipPath>
+  <clipPath id="clip-path-21">
+   <rect id="svg_20" fill="none" height="30.04" width="57.52" y="218.56" x="320.32"/>
+  </clipPath>
+  <clipPath id="clip-path-22">
+   <rect id="svg_21" fill="none" height="22.84" width="43.73" y="266.46" x="108.51"/>
+  </clipPath>
+  <clipPath id="clip-path-23">
+   <rect id="svg_22" fill="none" height="25.4" width="46.06" y="216.08"/>
+  </clipPath>
+  <clipPath id="clip-path-24">
+   <rect id="svg_23" fill="none" height="43.99" width="95.08" y="283.97" x="67.84"/>
+  </clipPath>
+  <clipPath id="clip-path-25">
+   <rect id="svg_24" fill="none" height="3.42" width="6.17" y="267.78" x="332.46"/>
+  </clipPath>
+  <clipPath id="clip-path-26">
+   <rect id="svg_25" fill="none" height="10.92" width="15.51" y="269.38" x="331.61"/>
+  </clipPath>
+  <clipPath id="clip-path-27">
+   <rect id="svg_26" fill="none" height="3.45" width="6.12" y="275.48" x="349.63"/>
+  </clipPath>
+  <clipPath id="clip-path-28">
+   <rect id="svg_27" fill="none" height="10.92" width="15.19" y="266.39" x="341.41"/>
+  </clipPath>
+  <clipPath id="clip-path-29">
+   <rect id="svg_28" fill="none" height="11.89" width="19.86" y="352.39" x="3.97"/>
+  </clipPath>
+  <clipPath id="clip-path-30">
+   <rect id="svg_29" fill="none" height="12.43" width="24.34" y="373.85" x="224.3"/>
+  </clipPath>
+  <clipPath id="clip-path-31">
+   <rect id="svg_30" fill="none" height="3.78" width="11.64" y="377.06" x="230.45"/>
+  </clipPath>
+  <clipPath id="clip-path-32">
+   <rect id="svg_31" fill="none" height="26.91" width="53.81" y="278.73" x="443.66"/>
+  </clipPath>
+  <clipPath id="clip-path-34">
+   <rect id="svg_32" fill="none" height="304.58" width="559.12" y="145.19"/>
+  </clipPath>
+  <clipPath id="clip-path-35">
+   <rect id="svg_33" fill="none" height="188.03" width="376.01" y="224.7" x="24.15"/>
+  </clipPath>
+  <clipPath id="clip-path-36">
+   <rect id="svg_34" fill="none" height="105.2" width="98.81" y="266.31" x="106.14"/>
+  </clipPath>
+  <clipPath id="clip-path-37">
+   <rect id="svg_35" fill="none" height="40.62" width="76.17" y="328.94" x="239.34"/>
+  </clipPath>
+  <clipPath id="clip-path-38">
+   <rect id="svg_36" fill="none" height="83.49" width="166.94" y="276.97" x="128.69"/>
+  </clipPath>
+  <clipPath id="clip-path-39">
+   <rect id="svg_37" fill="none" height="0.01" width="0.02" y="332.87" x="201.81"/>
+  </clipPath>
+  <clipPath id="clip-path-40">
+   <rect id="svg_38" fill="none" height="0.01" width="0.02" y="305.51" x="140.19"/>
+  </clipPath>
+  <clipPath id="clip-path-41">
+   <rect id="svg_39" fill="none" height="0.02" width="0.06" y="345.18" x="356.47"/>
+  </clipPath>
+  <clipPath id="clip-path-42">
+   <rect id="svg_40" fill="none" height="0.01" width="0.05" y="336.98" x="311.72"/>
+  </clipPath>
+  <clipPath id="clip-path-44">
+   <rect id="svg_41" fill="none" height="7.19" width="19.15" y="279.57" x="99.71"/>
+  </clipPath>
+  <clipPath id="clip-path-45">
+   <rect id="svg_42" fill="none" height="7.85" width="18.27" y="274.83" x="106.71"/>
+  </clipPath>
+  <clipPath id="clip-path-46">
+   <rect id="svg_43" fill="none" height="5.73" width="20.44" y="289.9" x="88.36"/>
+  </clipPath>
+  <clipPath id="clip-path-47">
+   <rect id="svg_44" fill="none" height="6.49" width="19.88" y="284.61" x="93.58"/>
+  </clipPath>
+  <clipPath id="clip-path-48">
+   <rect id="svg_45" fill="none" height="9.43" width="14.84" y="262.75" x="132.35"/>
+  </clipPath>
+  <clipPath id="clip-path-49">
+   <rect id="svg_46" fill="none" height="8.97" width="16.11" y="266.39" x="123.1"/>
+  </clipPath>
+  <clipPath id="clip-path-50">
+   <rect id="svg_47" fill="none" height="8.44" width="17.26" y="270.43" x="114.52"/>
+  </clipPath>
+  <clipPath id="clip-path-51">
+   <rect id="svg_48" fill="none" height="10.14" width="11.97" y="256.76" x="152.64"/>
+  </clipPath>
+  <clipPath id="clip-path-52">
+   <rect id="svg_49" fill="none" height="9.82" width="13.46" y="259.53" x="142.22"/>
+  </clipPath>
+  <clipPath id="clip-path-53">
+   <rect id="svg_50" fill="none" height="10.37" width="10.4" y="254.47" x="163.52"/>
+  </clipPath>
+  <clipPath id="clip-path-55">
+   <rect id="svg_51" fill="none" height="112.45" width="224.85" y="262.2" x="100.31"/>
+  </clipPath>
+  <clipPath id="clip-path-56">
+   <rect id="svg_52" fill="none" height="257.56" width="470.25" y="189.64"/>
+  </clipPath>
+  <clipPath id="clip-path-57">
+   <rect id="svg_53" fill="none" height="1.53" width="4.44" y="427.21" x="147.87"/>
+  </clipPath>
+  <clipPath id="clip-path-58">
+   <rect id="svg_54" fill="none" height="1.34" width="4.33" y="430.01" x="171.54"/>
+  </clipPath>
+  <clipPath id="clip-path-59">
+   <rect id="svg_55" fill="none" height="1.52" width="4.45" y="207.57" x="149.66"/>
+  </clipPath>
+  <clipPath id="clip-path-60">
+   <rect id="svg_56" fill="none" height="1.59" width="4.46" y="426.01" x="140.13"/>
+  </clipPath>
+  <clipPath id="clip-path-61">
+   <rect id="svg_57" fill="none" height="1.64" width="4.5" y="209.95" x="134.16"/>
+  </clipPath>
+  <clipPath id="clip-path-62">
+   <rect id="svg_58" fill="none" height="1.39" width="4.37" y="205.75" x="165.47"/>
+  </clipPath>
+  <clipPath id="clip-path-63">
+   <rect id="svg_59" fill="none" height="1.47" width="4.41" y="428.29" x="155.69"/>
+  </clipPath>
+  <clipPath id="clip-path-64">
+   <rect id="svg_60" fill="none" height="1.41" width="4.37" y="429.22" x="163.58"/>
+  </clipPath>
+  <clipPath id="clip-path-65">
+   <rect id="svg_61" fill="none" height="1.31" width="4.31" y="204.88" x="246.05"/>
+  </clipPath>
+  <clipPath id="clip-path-66">
+   <rect id="svg_62" fill="none" height="1.58" width="4.48" y="208.69" x="141.86"/>
+  </clipPath>
+  <clipPath id="clip-path-67">
+   <rect id="svg_63" fill="none" height="1.84" width="4.54" y="216.37" x="104.4"/>
+  </clipPath>
+  <clipPath id="clip-path-68">
+   <rect id="svg_64" fill="none" height="1.8" width="4.53" y="419.83" x="110.16"/>
+  </clipPath>
+  <clipPath id="clip-path-69">
+   <rect id="svg_65" fill="none" height="1.79" width="4.54" y="214.57" x="111.66"/>
+  </clipPath>
+  <clipPath id="clip-path-70">
+   <rect id="svg_66" fill="none" height="1.85" width="4.52" y="417.96" x="102.96"/>
+  </clipPath>
+  <clipPath id="clip-path-71">
+   <rect id="svg_67" fill="none" height="1.75" width="4.52" y="421.57" x="117.5"/>
+  </clipPath>
+  <clipPath id="clip-path-72">
+   <rect id="svg_68" fill="none" height="1.69" width="4.52" y="211.36" x="126.55"/>
+  </clipPath>
+  <clipPath id="clip-path-73">
+   <rect id="svg_69" fill="none" height="1.64" width="4.48" y="424.66" x="132.49"/>
+  </clipPath>
+  <clipPath id="clip-path-74">
+   <rect id="svg_70" fill="none" height="1.7" width="4.5" y="423.19" x="124.95"/>
+  </clipPath>
+  <clipPath id="clip-path-75">
+   <rect id="svg_71" fill="none" height="1.74" width="4.53" y="212.89" x="119.04"/>
+  </clipPath>
+  <clipPath id="clip-path-76">
+   <rect id="svg_72" fill="none" height="1.29" width="4.31" y="430.52" x="244.12"/>
+  </clipPath>
+  <clipPath id="clip-path-77">
+   <rect id="svg_73" fill="none" height="1.09" width="4.13" y="431.75" x="220.02"/>
+  </clipPath>
+  <clipPath id="clip-path-78">
+   <rect id="svg_74" fill="none" height="1.33" width="4.33" y="205.05" x="173.47"/>
+  </clipPath>
+  <clipPath id="clip-path-79">
+   <rect id="svg_75" fill="none" height="1.16" width="4.19" y="431.48" x="228.07"/>
+  </clipPath>
+  <clipPath id="clip-path-80">
+   <rect id="svg_76" fill="none" height="1.02" width="4.07" y="431.87" x="211.95"/>
+  </clipPath>
+  <clipPath id="clip-path-81">
+   <rect id="svg_77" fill="none" height="1.04" width="4.07" y="203.67" x="213.95"/>
+  </clipPath>
+  <clipPath id="clip-path-82">
+   <rect id="svg_78" fill="none" height="1.24" width="4.26" y="204.36" x="238.07"/>
+  </clipPath>
+  <clipPath id="clip-path-83">
+   <rect id="svg_79" fill="none" height="1.89" width="4.52" y="218.31" x="97.31"/>
+  </clipPath>
+  <clipPath id="clip-path-84">
+   <rect id="svg_80" fill="none" height="1.18" width="4.2" y="203.99" x="230.05"/>
+  </clipPath>
+  <clipPath id="clip-path-85">
+   <rect id="svg_81" fill="none" height="1.23" width="4.25" y="431.07" x="236.11"/>
+  </clipPath>
+  <clipPath id="clip-path-86">
+   <rect id="svg_82" fill="none" height="1.11" width="4.14" y="203.76" x="222"/>
+  </clipPath>
+  <clipPath id="clip-path-87">
+   <rect id="svg_83" fill="none" height="1.2" width="4.22" y="204.08" x="189.59"/>
+  </clipPath>
+  <clipPath id="clip-path-88">
+   <rect id="svg_84" fill="none" height="1.21" width="4.23" y="431.18" x="187.61"/>
+  </clipPath>
+  <clipPath id="clip-path-89">
+   <rect id="svg_85" fill="none" height="1.26" width="4.28" y="204.49" x="181.51"/>
+  </clipPath>
+  <clipPath id="clip-path-90">
+   <rect id="svg_86" fill="none" height="1.28" width="4.28" y="430.67" x="179.56"/>
+  </clipPath>
+  <clipPath id="clip-path-91">
+   <rect id="svg_87" fill="none" height="1.07" width="4.11" y="431.79" x="203.82"/>
+  </clipPath>
+  <clipPath id="clip-path-92">
+   <rect id="svg_88" fill="none" height="1.06" width="4.09" y="203.68" x="205.82"/>
+  </clipPath>
+  <clipPath id="clip-path-93">
+   <rect id="svg_89" fill="none" height="1.13" width="4.16" y="203.81" x="197.7"/>
+  </clipPath>
+  <clipPath id="clip-path-94">
+   <rect id="svg_90" fill="none" height="1.14" width="4.17" y="431.56" x="195.71"/>
+  </clipPath>
+  <clipPath id="clip-path-95">
+   <rect id="svg_91" fill="none" height="1.46" width="4.42" y="206.59" x="157.53"/>
+  </clipPath>
+  <clipPath id="clip-path-96">
+   <rect id="svg_92" fill="none" height="2.26" width="3.84" y="376.47" x="16.14"/>
+  </clipPath>
+  <clipPath id="clip-path-97">
+   <rect id="svg_93" fill="none" height="1.89" width="4.52" y="415.95" x="95.9"/>
+  </clipPath>
+  <clipPath id="clip-path-98">
+   <rect id="svg_94" fill="none" height="2.26" width="3.67" y="264.17" x="9.04"/>
+  </clipPath>
+  <clipPath id="clip-path-99">
+   <rect id="svg_95" fill="none" height="2.26" width="3.76" y="260.62" x="12.89"/>
+  </clipPath>
+  <clipPath id="clip-path-100">
+   <rect id="svg_96" fill="none" height="2.27" width="3.66" y="369.4" x="8.3"/>
+  </clipPath>
+  <clipPath id="clip-path-101">
+   <rect id="svg_97" fill="none" height="2.27" width="3.56" y="365.75" x="4.76"/>
+  </clipPath>
+  <clipPath id="clip-path-102">
+   <rect id="svg_98" fill="none" height="2.26" width="3.47" y="271.47" x="2.14"/>
+  </clipPath>
+  <clipPath id="clip-path-103">
+   <rect id="svg_99" fill="none" height="2.25" width="2.46" y="275.21"/>
+  </clipPath>
+  <clipPath id="clip-path-104">
+   <rect id="svg_100" fill="none" height="2.26" width="3.58" y="267.79" x="5.46"/>
+  </clipPath>
+  <clipPath id="clip-path-105">
+   <rect id="svg_101" fill="none" height="2.26" width="3.75" y="372.97" x="12.1"/>
+  </clipPath>
+  <clipPath id="clip-path-106">
+   <rect id="svg_102" fill="none" height="2.2" width="4.15" y="244.05" x="35.79"/>
+  </clipPath>
+  <clipPath id="clip-path-107">
+   <rect id="svg_103" fill="none" height="2.22" width="4.09" y="247.19" x="30.74"/>
+  </clipPath>
+  <clipPath id="clip-path-108">
+   <rect id="svg_104" fill="none" height="2.22" width="4.07" y="386.51" x="29.75"/>
+  </clipPath>
+  <clipPath id="clip-path-109">
+   <rect id="svg_105" fill="none" height="2.21" width="4.14" y="389.68" x="34.76"/>
+  </clipPath>
+  <clipPath id="clip-path-110">
+   <rect id="svg_106" fill="none" height="2.25" width="3.85" y="257.14" x="16.98"/>
+  </clipPath>
+  <clipPath id="clip-path-111">
+   <rect id="svg_107" fill="none" height="2.25" width="3.94" y="253.74" x="21.33"/>
+  </clipPath>
+  <clipPath id="clip-path-112">
+   <rect id="svg_108" fill="none" height="2.25" width="3.92" y="379.9" x="20.43"/>
+  </clipPath>
+  <clipPath id="clip-path-113">
+   <rect id="svg_109" fill="none" height="2.24" width="4" y="383.24" x="24.98"/>
+  </clipPath>
+  <clipPath id="clip-path-114">
+   <rect id="svg_110" fill="none" height="2.23" width="4.01" y="250.42" x="25.91"/>
+  </clipPath>
+  <clipPath id="clip-path-115">
+   <rect id="svg_111" fill="none" height="2.25" width="1.83" y="358.29"/>
+  </clipPath>
+  <clipPath id="clip-path-116">
+   <rect id="svg_112" fill="none" height="2.04" width="4.44" y="227.26" x="70.5"/>
+  </clipPath>
+  <clipPath id="clip-path-117">
+   <rect id="svg_113" fill="none" height="2.01" width="4.46" y="224.84" x="76.95"/>
+  </clipPath>
+  <clipPath id="clip-path-118">
+   <rect id="svg_114" fill="none" height="2.02" width="4.46" y="409.22" x="75.64"/>
+  </clipPath>
+  <clipPath id="clip-path-119">
+   <rect id="svg_115" fill="none" height="2.05" width="4.43" y="406.74" x="69.23"/>
+  </clipPath>
+  <clipPath id="clip-path-120">
+   <rect id="svg_116" fill="none" height="2.08" width="4.4" y="229.8" x="64.23"/>
+  </clipPath>
+  <clipPath id="clip-path-121">
+   <rect id="svg_117" fill="none" height="1.93" width="4.51" y="220.36" x="90.36"/>
+  </clipPath>
+  <clipPath id="clip-path-122">
+   <rect id="svg_118" fill="none" height="1.94" width="4.5" y="413.83" x="88.99"/>
+  </clipPath>
+  <clipPath id="clip-path-123">
+   <rect id="svg_119" fill="none" height="1.97" width="4.49" y="222.54" x="83.57"/>
+  </clipPath>
+  <clipPath id="clip-path-124">
+   <rect id="svg_120" fill="none" height="1.98" width="4.48" y="411.59" x="82.23"/>
+  </clipPath>
+  <clipPath id="clip-path-125">
+   <rect id="svg_121" fill="none" height="2.19" width="4.2" y="392.77" x="39.99"/>
+  </clipPath>
+  <clipPath id="clip-path-126">
+   <rect id="svg_122" fill="none" height="2.08" width="4.39" y="404.16" x="62.99"/>
+  </clipPath>
+  <clipPath id="clip-path-127">
+   <rect id="svg_123" fill="none" height="2.17" width="4.26" y="395.77" x="45.44"/>
+  </clipPath>
+  <clipPath id="clip-path-128">
+   <rect id="svg_124" fill="none" height="2.27" width="3.46" y="362.05" x="1.48"/>
+  </clipPath>
+  <clipPath id="clip-path-129">
+   <rect id="svg_125" fill="none" height="2.16" width="4.26" y="238.05" x="46.55"/>
+  </clipPath>
+  <clipPath id="clip-path-130">
+   <rect id="svg_126" fill="none" height="2.18" width="4.21" y="241" x="41.06"/>
+  </clipPath>
+  <clipPath id="clip-path-131">
+   <rect id="svg_127" fill="none" height="2.11" width="4.35" y="401.46" x="56.94"/>
+  </clipPath>
+  <clipPath id="clip-path-132">
+   <rect id="svg_128" fill="none" height="2.11" width="4.36" y="232.44" x="58.14"/>
+  </clipPath>
+  <clipPath id="clip-path-133">
+   <rect id="svg_129" fill="none" height="2.14" width="4.31" y="398.66" x="51.09"/>
+  </clipPath>
+  <clipPath id="clip-path-134">
+   <rect id="svg_130" fill="none" height="2.14" width="4.32" y="235.19" x="52.25"/>
+  </clipPath>
+  <clipPath id="clip-path-135">
+   <rect id="svg_131" fill="none" height="1.38" width="4.35" y="205.54" x="254"/>
+  </clipPath>
+  <clipPath id="clip-path-136">
+   <rect id="svg_132" fill="none" height="1.36" width="4.35" y="429.83" x="252.1"/>
+  </clipPath>
+  <clipPath id="clip-path-137">
+   <rect id="svg_133" fill="none" height="2.17" width="2.68" y="297.61" x="436.47"/>
+  </clipPath>
+  <clipPath id="clip-path-138">
+   <rect id="svg_134" fill="none" height="2.14" width="2.56" y="301.62" x="437.78"/>
+  </clipPath>
+  <clipPath id="clip-path-139">
+   <rect id="svg_135" fill="none" height="2.12" width="2.42" y="305.66" x="438.8"/>
+  </clipPath>
+  <clipPath id="clip-path-140">
+   <rect id="svg_136" fill="none" height="2.21" width="2.94" y="289.65" x="433.01"/>
+  </clipPath>
+  <clipPath id="clip-path-141">
+   <rect id="svg_137" fill="none" height="2.26" width="3.4" y="274.2" x="422.77"/>
+  </clipPath>
+  <clipPath id="clip-path-142">
+   <rect id="svg_138" fill="none" height="2.23" width="3.06" y="285.72" x="430.86"/>
+  </clipPath>
+  <clipPath id="clip-path-143">
+   <rect id="svg_139" fill="none" height="2.25" width="3.29" y="277.99" x="425.74"/>
+  </clipPath>
+  <clipPath id="clip-path-144">
+   <rect id="svg_140" fill="none" height="2.24" width="3.18" y="281.83" x="428.44"/>
+  </clipPath>
+  <clipPath id="clip-path-145">
+   <rect id="svg_141" fill="none" height="2.09" width="2.32" y="325.9" x="439.36"/>
+  </clipPath>
+  <clipPath id="clip-path-146">
+   <rect id="svg_142" fill="none" height="2.15" width="2.59" y="333.92" x="437.44"/>
+  </clipPath>
+  <clipPath id="clip-path-147">
+   <rect id="svg_143" fill="none" height="2.17" width="2.72" y="337.89" x="436.06"/>
+  </clipPath>
+  <clipPath id="clip-path-148">
+   <rect id="svg_144" fill="none" height="2.19" width="2.85" y="341.85" x="434.4"/>
+  </clipPath>
+  <clipPath id="clip-path-149">
+   <rect id="svg_145" fill="none" height="2.21" width="2.96" y="345.77" x="432.46"/>
+  </clipPath>
+  <clipPath id="clip-path-150">
+   <rect id="svg_146" fill="none" height="2.06" width="2.18" y="321.88" x="439.9"/>
+  </clipPath>
+  <clipPath id="clip-path-151">
+   <rect id="svg_147" fill="none" height="2.06" width="2.15" y="313.78" x="440"/>
+  </clipPath>
+  <clipPath id="clip-path-152">
+   <rect id="svg_148" fill="none" height="2.12" width="2.46" y="329.92" x="438.54"/>
+  </clipPath>
+  <clipPath id="clip-path-153">
+   <rect id="svg_149" fill="none" height="2.22" width="3.09" y="349.65" x="430.25"/>
+  </clipPath>
+  <clipPath id="clip-path-154">
+   <rect id="svg_150" fill="none" height="2.27" width="3.51" y="270.46" x="419.52"/>
+  </clipPath>
+  <clipPath id="clip-path-155">
+   <rect id="svg_151" fill="none" height="2.09" width="2.28" y="309.72" x="439.55"/>
+  </clipPath>
+  <clipPath id="clip-path-156">
+   <rect id="svg_152" fill="none" height="2.2" width="4.17" y="243.19" x="384.64"/>
+  </clipPath>
+  <clipPath id="clip-path-157">
+   <rect id="svg_153" fill="none" height="2.27" width="3.61" y="266.78" x="416.02"/>
+  </clipPath>
+  <clipPath id="clip-path-158">
+   <rect id="svg_154" fill="none" height="2.21" width="4.1" y="246.3" x="389.82"/>
+  </clipPath>
+  <clipPath id="clip-path-159">
+   <rect id="svg_155" fill="none" height="2.23" width="4.05" y="385.6" x="393.61"/>
+  </clipPath>
+  <clipPath id="clip-path-160">
+   <rect id="svg_156" fill="none" height="2.18" width="4.23" y="240.16" x="379.24"/>
+  </clipPath>
+  <clipPath id="clip-path-161">
+   <rect id="svg_157" fill="none" height="2.17" width="4.23" y="394.94" x="377.93"/>
+  </clipPath>
+  <clipPath id="clip-path-162">
+   <rect id="svg_158" fill="none" height="2.19" width="4.18" y="391.92" x="383.37"/>
+  </clipPath>
+  <clipPath id="clip-path-163">
+   <rect id="svg_159" fill="none" height="2.03" width="2.05" y="317.84" x="440.15"/>
+  </clipPath>
+  <clipPath id="clip-path-164">
+   <rect id="svg_160" fill="none" height="2.23" width="4.03" y="249.51" x="394.78"/>
+  </clipPath>
+  <clipPath id="clip-path-165">
+   <rect id="svg_161" fill="none" height="2.21" width="4.12" y="388.8" x="388.6"/>
+  </clipPath>
+  <clipPath id="clip-path-166">
+   <rect id="svg_162" fill="none" height="2.26" width="3.7" y="263.17" x="412.26"/>
+  </clipPath>
+  <clipPath id="clip-path-167">
+   <rect id="svg_163" fill="none" height="2.26" width="3.72" y="371.98" x="411.32"/>
+  </clipPath>
+  <clipPath id="clip-path-168">
+   <rect id="svg_164" fill="none" height="2.26" width="3.79" y="259.64" x="408.26"/>
+  </clipPath>
+  <clipPath id="clip-path-169">
+   <rect id="svg_165" fill="none" height="2.26" width="3.63" y="368.4" x="415.13"/>
+  </clipPath>
+  <clipPath id="clip-path-170">
+   <rect id="svg_166" fill="none" height="2.26" width="3.81" y="375.5" x="407.26"/>
+  </clipPath>
+  <clipPath id="clip-path-171">
+   <rect id="svg_167" fill="none" height="2.24" width="3.98" y="382.31" x="398.4"/>
+  </clipPath>
+  <clipPath id="clip-path-172">
+   <rect id="svg_168" fill="none" height="2.25" width="3.89" y="378.95" x="402.94"/>
+  </clipPath>
+  <clipPath id="clip-path-173">
+   <rect id="svg_169" fill="none" height="2.24" width="3.96" y="252.8" x="399.51"/>
+  </clipPath>
+  <clipPath id="clip-path-174">
+   <rect id="svg_170" fill="none" height="2.25" width="3.88" y="256.18" x="404"/>
+  </clipPath>
+  <clipPath id="clip-path-175">
+   <rect id="svg_171" fill="none" height="2.19" width="2.81" y="293.61" x="434.88"/>
+  </clipPath>
+  <clipPath id="clip-path-176">
+   <rect id="svg_172" fill="none" height="1.77" width="4.54" y="421.11" x="306.04"/>
+  </clipPath>
+  <clipPath id="clip-path-177">
+   <rect id="svg_173" fill="none" height="1.72" width="4.52" y="212.41" x="300.19"/>
+  </clipPath>
+  <clipPath id="clip-path-178">
+   <rect id="svg_174" fill="none" height="1.78" width="4.53" y="214.04" x="307.57"/>
+  </clipPath>
+  <clipPath id="clip-path-179">
+   <rect id="svg_175" fill="none" height="1.67" width="4.49" y="210.92" x="292.71"/>
+  </clipPath>
+  <clipPath id="clip-path-180">
+   <rect id="svg_176" fill="none" height="1.72" width="4.53" y="422.76" x="298.6"/>
+  </clipPath>
+  <clipPath id="clip-path-181">
+   <rect id="svg_177" fill="none" height="1.86" width="4.52" y="417.41" x="320.56"/>
+  </clipPath>
+  <clipPath id="clip-path-182">
+   <rect id="svg_178" fill="none" height="1.87" width="4.52" y="217.68" x="321.99"/>
+  </clipPath>
+  <clipPath id="clip-path-183">
+   <rect id="svg_179" fill="none" height="1.83" width="4.53" y="215.79" x="314.85"/>
+  </clipPath>
+  <clipPath id="clip-path-184">
+   <rect id="svg_180" fill="none" height="1.82" width="4.54" y="419.32" x="313.37"/>
+  </clipPath>
+  <clipPath id="clip-path-185">
+   <rect id="svg_181" fill="none" height="1.61" width="4.47" y="209.57" x="285.14"/>
+  </clipPath>
+  <clipPath id="clip-path-186">
+   <rect id="svg_182" fill="none" height="1.44" width="4.39" y="206.34" x="261.89"/>
+  </clipPath>
+  <clipPath id="clip-path-187">
+   <rect id="svg_183" fill="none" height="1.49" width="4.43" y="428.03" x="267.89"/>
+  </clipPath>
+  <clipPath id="clip-path-188">
+   <rect id="svg_184" fill="none" height="1.66" width="4.51" y="424.28" x="291.06"/>
+  </clipPath>
+  <clipPath id="clip-path-189">
+   <rect id="svg_185" fill="none" height="1.5" width="4.42" y="207.27" x="269.72"/>
+  </clipPath>
+  <clipPath id="clip-path-190">
+   <rect id="svg_186" fill="none" height="1.42" width="4.4" y="429" x="260.02"/>
+  </clipPath>
+  <clipPath id="clip-path-191">
+   <rect id="svg_187" fill="none" height="1.55" width="4.46" y="426.92" x="275.7"/>
+  </clipPath>
+  <clipPath id="clip-path-192">
+   <rect id="svg_188" fill="none" height="2.24" width="3.2" y="353.5" x="427.76"/>
+  </clipPath>
+  <clipPath id="clip-path-193">
+   <rect id="svg_189" fill="none" height="1.6" width="4.49" y="425.67" x="283.42"/>
+  </clipPath>
+  <clipPath id="clip-path-194">
+   <rect id="svg_190" fill="none" height="1.56" width="4.45" y="208.35" x="277.47"/>
+  </clipPath>
+  <clipPath id="clip-path-195">
+   <rect id="svg_191" fill="none" height="1.91" width="4.51" y="415.37" x="327.59"/>
+  </clipPath>
+  <clipPath id="clip-path-196">
+   <rect id="svg_192" fill="none" height="2.15" width="4.29" y="397.86" x="372.28"/>
+  </clipPath>
+  <clipPath id="clip-path-197">
+   <rect id="svg_193" fill="none" height="2.12" width="4.34" y="400.69" x="366.44"/>
+  </clipPath>
+  <clipPath id="clip-path-198">
+   <rect id="svg_194" fill="none" height="2.12" width="4.33" y="234.31" x="367.63"/>
+  </clipPath>
+  <clipPath id="clip-path-199">
+   <rect id="svg_195" fill="none" height="2.1" width="4.37" y="231.59" x="361.63"/>
+  </clipPath>
+  <clipPath id="clip-path-200">
+   <rect id="svg_196" fill="none" height="2.26" width="3.53" y="364.75" x="418.69"/>
+  </clipPath>
+  <clipPath id="clip-path-201">
+   <rect id="svg_197" fill="none" height="2.24" width="3.31" y="357.3" x="425"/>
+  </clipPath>
+  <clipPath id="clip-path-202">
+   <rect id="svg_198" fill="none" height="2.09" width="4.38" y="403.41" x="360.4"/>
+  </clipPath>
+  <clipPath id="clip-path-203">
+   <rect id="svg_199" fill="none" height="2.25" width="3.42" y="361.05" x="421.99"/>
+  </clipPath>
+  <clipPath id="clip-path-204">
+   <rect id="svg_200" fill="none" height="2.26" width="4.5" y="237.13" x="373.42"/>
+  </clipPath>
+  <clipPath id="clip-path-205">
+   <rect id="svg_201" fill="none" height="1.92" width="4.51" y="219.7" x="328.99"/>
+  </clipPath>
+  <clipPath id="clip-path-206">
+   <rect id="svg_202" fill="none" height="1.99" width="4.48" y="410.93" x="341.21"/>
+  </clipPath>
+  <clipPath id="clip-path-207">
+   <rect id="svg_203" fill="none" height="1.96" width="4.5" y="221.84" x="335.84"/>
+  </clipPath>
+  <clipPath id="clip-path-208">
+   <rect id="svg_204" fill="none" height="1.95" width="4.5" y="413.21" x="334.48"/>
+  </clipPath>
+  <clipPath id="clip-path-209">
+   <rect id="svg_205" fill="none" height="2" width="4.47" y="224.1" x="342.54"/>
+  </clipPath>
+  <clipPath id="clip-path-210">
+   <rect id="svg_206" fill="none" height="2.03" width="4.45" y="226.48" x="349.08"/>
+  </clipPath>
+  <clipPath id="clip-path-211">
+   <rect id="svg_207" fill="none" height="2.06" width="4.42" y="406.03" x="354.18"/>
+  </clipPath>
+  <clipPath id="clip-path-212">
+   <rect id="svg_208" fill="none" height="2.03" width="4.45" y="408.54" x="347.78"/>
+  </clipPath>
+  <clipPath id="clip-path-213">
+   <rect id="svg_209" fill="none" height="2.07" width="4.41" y="228.98" x="355.44"/>
+  </clipPath>
+  <clipPath id="clip-path-214">
+   <rect id="svg_210" fill="none" height="88.57" width="177.09" y="274.43" x="123.62"/>
+  </clipPath>
+  <clipPath id="clip-path-215">
+   <rect id="svg_211" fill="none" height="19.55" width="55.64" y="267.06" x="232.03"/>
+  </clipPath>
+  <clipPath id="clip-path-216">
+   <rect id="svg_212" fill="none" height="100.69" width="51.99" y="161.07" x="83"/>
+  </clipPath>
+  <clipPath id="clip-path-217">
+   <rect id="svg_213" fill="none" height="38.85" width="45.93" y="167.7" x="85.56"/>
+  </clipPath>
+  <clipPath id="clip-path-218">
+   <rect id="svg_214" fill="none" height="38.68" width="45.93" y="186.35" x="85.56"/>
+  </clipPath>
+  <clipPath id="clip-path-219">
+   <rect id="svg_215" fill="none" height="74.91" width="2.32" y="186.85" x="80.82"/>
+  </clipPath>
+  <clipPath id="clip-path-220">
+   <rect id="svg_216" fill="none" height="82.83" width="43.58" y="173.9" x="85.56"/>
+  </clipPath>
+  <clipPath id="clip-path-221">
+   <rect id="svg_217" fill="none" height="106.8" width="87.44" y="53.33" x="239.31"/>
+  </clipPath>
+  <clipPath id="clip-path-222">
+   <rect id="svg_218" fill="none" height="106.14" width="87.44" y="52.88" x="237.36"/>
+  </clipPath>
+  <clipPath id="clip-path-223">
+   <rect id="svg_219" fill="none" height="19.44" width="22.71" y="75.22" x="297.89"/>
+  </clipPath>
+  <clipPath id="clip-path-224">
+   <rect id="svg_220" fill="none" height="19.44" width="22.71" y="85.18" x="297.89"/>
+  </clipPath>
+  <clipPath id="clip-path-225">
+   <rect id="svg_221" fill="none" height="19.43" width="22.71" y="95.32" x="297.89"/>
+  </clipPath>
+  <clipPath id="clip-path-226">
+   <rect id="svg_222" fill="none" height="30.62" width="25.95" y="89.43" x="244.92"/>
+  </clipPath>
+  <clipPath id="clip-path-227">
+   <rect id="svg_223" fill="none" height="53.4" width="15.26" y="78.53" x="277.46"/>
+  </clipPath>
+  <clipPath id="clip-path-228">
+   <rect id="svg_224" fill="none" height="23.85" width="6.86" y="124.9" x="245.04"/>
+  </clipPath>
+  <clipPath id="clip-path-229">
+   <rect id="svg_225" fill="none" height="23.85" width="6.86" y="120.39" x="254.46"/>
+  </clipPath>
+  <clipPath id="clip-path-230">
+   <rect id="svg_226" fill="none" height="23.85" width="6.86" y="115.54" x="264.01"/>
+  </clipPath>
+  <clipPath id="clip-path-231">
+   <rect id="svg_227" fill="none" height="16.99" width="25.83" y="109.8" x="245.04"/>
+  </clipPath>
+  <clipPath id="clip-path-232">
+   <rect id="svg_228" fill="none" height="19.44" width="22.71" y="65.15" x="297.89"/>
+  </clipPath>
+  <clipPath id="clip-path-233">
+   <rect id="svg_229" fill="none" height="16.52" width="22.65" y="105.54" x="297.89"/>
+  </clipPath>
+  <clipPath id="clip-path-234">
+   <rect id="svg_230" fill="none" height="8.46" width="5.34" y="100.46" x="246.66"/>
+  </clipPath>
+  <clipPath id="clip-path-235">
+   <rect id="svg_231" fill="none" height="61.78" width="65.68" y="66.46" x="254.47"/>
+  </clipPath>
+  <clipPath id="clip-path-236">
+   <rect id="svg_232" fill="none" height="10.32" width="14.5" y="66.46" x="305.23"/>
+  </clipPath>
+  <clipPath id="clip-path-237">
+   <rect id="svg_233" fill="none" height="10.32" width="14.5" y="76.65" x="305.59"/>
+  </clipPath>
+  <clipPath id="clip-path-238">
+   <rect id="svg_234" fill="none" height="10.32" width="14.5" y="96.49" x="305.65"/>
+  </clipPath>
+  <clipPath id="clip-path-239">
+   <rect id="svg_235" fill="none" height="8.46" width="5.34" y="74.3" x="299.2"/>
+  </clipPath>
+  <clipPath id="clip-path-240">
+   <rect id="svg_236" fill="none" height="15.83" width="3.01" y="91.41" x="279.55"/>
+  </clipPath>
+  <clipPath id="clip-path-241">
+   <rect id="svg_237" fill="none" height="15.83" width="3.01" y="89.52" x="283.5"/>
+  </clipPath>
+  <clipPath id="clip-path-242">
+   <rect id="svg_238" fill="none" height="9.03" width="12.26" y="82.11" x="278.9"/>
+  </clipPath>
+  <clipPath id="clip-path-243">
+   <rect id="svg_239" fill="none" height="9.86" width="14.26" y="92.7" x="254.47"/>
+  </clipPath>
+  <clipPath id="clip-path-244">
+   <rect id="svg_240" fill="none" height="8.46" width="5.34" y="84.65" x="299.2"/>
+  </clipPath>
+  <clipPath id="clip-path-245">
+   <rect id="svg_241" fill="none" height="8.46" width="5.34" y="94.41" x="299.2"/>
+  </clipPath>
+  <clipPath id="clip-path-246">
+   <rect id="svg_242" fill="none" height="8.46" width="5.34" y="104.8" x="299.2"/>
+  </clipPath>
+  <clipPath id="clip-path-247">
+   <rect id="svg_243" fill="none" height="62.43" width="1.95" y="97.7" x="237.36"/>
+  </clipPath>
+  <clipPath id="clip-path-248">
+   <rect id="svg_244" fill="none" height="64.56" width="47.82" y="79.68" x="101.02"/>
+  </clipPath>
+  <clipPath id="clip-path-249">
+   <rect id="svg_245" fill="none" height="34.94" width="40.85" y="86.56" x="104.51"/>
+  </clipPath>
+  <clipPath id="clip-path-250">
+   <rect id="svg_246" fill="none" height="34.94" width="40.85" y="104.03" x="104.51"/>
+  </clipPath>
+  <clipPath id="clip-path-251">
+   <rect id="svg_247" fill="none" height="40.84" width="2.13" y="103.46" x="99.01"/>
+  </clipPath>
+  <clipPath id="clip-path-252">
+   <rect id="svg_248" fill="none" height="43.5" width="36.15" y="92.1" x="106.97"/>
+  </clipPath>
+  <clipPath id="clip-path-253">
+   <rect id="svg_249" fill="none" height="146.08" width="120.21" y="209.31" x="89.51"/>
+  </clipPath>
+  <clipPath id="clip-path-254">
+   <rect id="svg_250" fill="none" height="131.44" width="68.44" y="209.31" x="106.73"/>
+  </clipPath>
+  <clipPath id="clip-path-255">
+   <rect id="svg_251" fill="none" height="49.77" width="60.09" y="242.93" x="110.92"/>
+  </clipPath>
+  <clipPath id="clip-path-256">
+   <rect id="svg_252" fill="none" height="32.1" width="37.32" y="256.55" x="172.4"/>
+  </clipPath>
+  <clipPath id="clip-path-257">
+   <rect id="svg_253" fill="none" height="32.1" width="37.32" y="273" x="172.4"/>
+  </clipPath>
+  <clipPath id="clip-path-258">
+   <rect id="svg_254" fill="none" height="31.74" width="36.9" y="289.2" x="172.61"/>
+  </clipPath>
+  <clipPath id="clip-path-259">
+   <rect id="svg_255" fill="none" height="50.01" width="42.18" y="258.52" x="124.34"/>
+  </clipPath>
+  <clipPath id="clip-path-260">
+   <rect id="svg_256" fill="none" height="38.96" width="11.15" y="316.44" x="124.54"/>
+  </clipPath>
+  <clipPath id="clip-path-261">
+   <rect id="svg_257" fill="none" height="38.96" width="11.15" y="309.08" x="139.86"/>
+  </clipPath>
+  <clipPath id="clip-path-262">
+   <rect id="svg_258" fill="none" height="38.96" width="11.15" y="301.16" x="155.38"/>
+  </clipPath>
+  <clipPath id="clip-path-263">
+   <rect id="svg_259" fill="none" height="27.75" width="41.99" y="291.79" x="124.54"/>
+  </clipPath>
+  <clipPath id="clip-path-264">
+   <rect id="svg_260" fill="none" height="32.1" width="37.32" y="239.93" x="172.4"/>
+  </clipPath>
+  <clipPath id="clip-path-265">
+   <rect id="svg_261" fill="none" height="26.98" width="36.8" y="305.89" x="172.61"/>
+  </clipPath>
+  <clipPath id="clip-path-266">
+   <rect id="svg_262" fill="none" height="77.29" width="34.44" y="242.09" x="174.55"/>
+  </clipPath>
+  <clipPath id="clip-path-267">
+   <rect id="svg_263" fill="none" height="96.6" width="42.81" y="213.74" x="89.51"/>
+  </clipPath>
+  <clipPath id="clip-path-268">
+   <rect id="svg_264" fill="none" height="146.08" width="102.98" y="136.45" x="199.31"/>
+  </clipPath>
+  <clipPath id="clip-path-269">
+   <rect id="svg_265" fill="none" height="131.44" width="68.44" y="136.45" x="199.31"/>
+  </clipPath>
+  <clipPath id="clip-path-270">
+   <rect id="svg_266" fill="none" height="49.77" width="60.09" y="170.06" x="203.5"/>
+  </clipPath>
+  <clipPath id="clip-path-271">
+   <rect id="svg_267" fill="none" height="32.1" width="37.32" y="183.69" x="264.98"/>
+  </clipPath>
+  <clipPath id="clip-path-272">
+   <rect id="svg_268" fill="none" height="32.1" width="37.32" y="200.13" x="264.98"/>
+  </clipPath>
+  <clipPath id="clip-path-273">
+   <rect id="svg_269" fill="none" height="31.74" width="36.9" y="216.34" x="265.19"/>
+  </clipPath>
+  <clipPath id="clip-path-274">
+   <rect id="svg_270" fill="none" height="50.01" width="42.18" y="185.65" x="216.93"/>
+  </clipPath>
+  <clipPath id="clip-path-275">
+   <rect id="svg_271" fill="none" height="38.96" width="11.15" y="243.57" x="217.12"/>
+  </clipPath>
+  <clipPath id="clip-path-276">
+   <rect id="svg_272" fill="none" height="38.96" width="11.15" y="236.22" x="232.44"/>
+  </clipPath>
+  <clipPath id="clip-path-277">
+   <rect id="svg_273" fill="none" height="38.96" width="11.15" y="228.3" x="247.96"/>
+  </clipPath>
+  <clipPath id="clip-path-278">
+   <rect id="svg_274" fill="none" height="27.75" width="41.99" y="218.92" x="217.12"/>
+  </clipPath>
+  <clipPath id="clip-path-279">
+   <rect id="svg_275" fill="none" height="32.1" width="37.32" y="167.06" x="264.98"/>
+  </clipPath>
+  <clipPath id="clip-path-280">
+   <rect id="svg_276" fill="none" height="26.98" width="36.8" y="233.03" x="265.19"/>
+  </clipPath>
+  <clipPath id="clip-path-281">
+   <rect id="svg_277" fill="none" height="77.29" width="34.44" y="169.23" x="267.13"/>
+  </clipPath>
+  <clipPath id="clip-path-282">
+   <rect id="svg_278" fill="none" height="165.75" width="167.73" y="239.88" x="130.13"/>
+  </clipPath>
+  <clipPath id="clip-path-283">
+   <rect id="svg_279" fill="none" height="89.24" width="48.77" y="259.61" x="249.1"/>
+  </clipPath>
+  <clipPath id="clip-path-284">
+   <rect id="svg_280" fill="none" height="89.24" width="48.77" y="293.83" x="130.13"/>
+  </clipPath>
+  <clipPath id="clip-path-285">
+   <rect id="svg_281" fill="none" height="33.79" width="42.81" y="300.28" x="133.12"/>
+  </clipPath>
+  <clipPath id="clip-path-286">
+   <rect id="svg_282" fill="none" height="67.91" width="42.81" y="260.05" x="213.48"/>
+  </clipPath>
+  <clipPath id="clip-path-287">
+   <rect id="svg_283" fill="none" height="33.79" width="42.81" y="316.65" x="133.12"/>
+  </clipPath>
+  <clipPath id="clip-path-288">
+   <rect id="svg_284" fill="none" height="67.91" width="42.81" y="239.88" x="208.92"/>
+  </clipPath>
+  <clipPath id="clip-path-289">
+   <rect id="svg_285" fill="none" height="68.52" width="76.06" y="301.76" x="153.74"/>
+  </clipPath>
+  <clipPath id="clip-path-290">
+   <rect id="svg_286" fill="none" height="63.57" width="78.44" y="82.08" x="167.35"/>
+  </clipPath>
+  <clipPath id="clip-path-291">
+   <rect id="svg_287" fill="none" height="53.26" width="69.24" y="85.34" x="171.21"/>
+  </clipPath>
+  <clipPath id="clip-path-292">
+   <rect id="svg_288" fill="none" height="38.45" width="69.24" y="85.34" x="171.21"/>
+  </clipPath>
+  <clipPath id="clip-path-293">
+   <rect id="svg_289" fill="none" height="19.74" width="21.09" y="94.19" x="219.84"/>
+  </clipPath>
+  <clipPath id="clip-path-294">
+   <rect id="svg_290" fill="none" height="83.79" width="66.04" y="78.52" x="180.58"/>
+  </clipPath>
+  <clipPath id="clip-path-295">
+   <path id="svg_291" fill="none" d="m167.35,145.64l0,134l79.18,-37.64c-1,-20.88 3.26,-28.24 8,-30.66c6.65,-3.37 13.44,3.3 23.1,0c5.92,-2 9.77,-6.68 16,-17.84c14.56,-26.12 21.84,-39.18 18.17,-46.63c-8.08,-16.39 -44.72,-4.58 -60.69,-27.77a35.05,35.05 0 0 1 -5.33,-12.66l-78.43,39.2z"/>
+  </clipPath>
+  <clipPath id="clip-path-296">
+   <rect id="svg_292" fill="none" height="108.37" width="67.95" y="137.58" x="167.35"/>
+  </clipPath>
+  <clipPath id="clip-path-297">
+   <rect id="svg_293" fill="none" height="26.94" width="6.56" y="164.46" x="216.83"/>
+  </clipPath>
+  <clipPath id="clip-path-298">
+   <rect id="svg_294" fill="none" height="47.14" width="46.06" y="213.04" x="183.54"/>
+  </clipPath>
+  <clipPath id="clip-path-299">
+   <rect id="svg_295" fill="none" height="37.35" width="46.06" y="222.82" x="183.54"/>
+  </clipPath>
+  <clipPath id="clip-path-300">
+   <rect id="svg_296" fill="none" height="37.12" width="45.62" y="222.57" x="183.9"/>
+  </clipPath>
+  <clipPath id="clip-path-301">
+   <rect id="svg_297" fill="none" height="36.89" width="45.18" y="222.31" x="184.27"/>
+  </clipPath>
+  <clipPath id="clip-path-302">
+   <rect id="svg_298" fill="none" height="36.66" width="44.75" y="222.06" x="184.63"/>
+  </clipPath>
+  <clipPath id="clip-path-303">
+   <rect id="svg_299" fill="none" height="36.44" width="44.32" y="221.81" x="184.98"/>
+  </clipPath>
+  <clipPath id="clip-path-304">
+   <rect id="svg_300" fill="none" height="36.22" width="43.9" y="221.55" x="185.33"/>
+  </clipPath>
+  <clipPath id="clip-path-305">
+   <rect id="svg_301" fill="none" height="36.01" width="43.48" y="221.29" x="185.68"/>
+  </clipPath>
+  <clipPath id="clip-path-306">
+   <rect id="svg_302" fill="none" height="35.8" width="43.07" y="221.03" x="186.02"/>
+  </clipPath>
+  <clipPath id="clip-path-307">
+   <rect id="svg_303" fill="none" height="35.6" width="42.66" y="220.76" x="186.35"/>
+  </clipPath>
+  <clipPath id="clip-path-308">
+   <rect id="svg_304" fill="none" height="35.4" width="42.27" y="220.5" x="186.68"/>
+  </clipPath>
+  <clipPath id="clip-path-309">
+   <rect id="svg_305" fill="none" height="35.21" width="41.88" y="220.23" x="186.99"/>
+  </clipPath>
+  <clipPath id="clip-path-310">
+   <rect id="svg_306" fill="none" height="35.02" width="41.49" y="219.95" x="187.3"/>
+  </clipPath>
+  <clipPath id="clip-path-311">
+   <rect id="svg_307" fill="none" height="34.83" width="41.12" y="219.67" x="187.6"/>
+  </clipPath>
+  <clipPath id="clip-path-312">
+   <rect id="svg_308" fill="none" height="34.65" width="40.76" y="219.39" x="187.89"/>
+  </clipPath>
+  <clipPath id="clip-path-313">
+   <rect id="svg_309" fill="none" height="34.48" width="40.41" y="219.1" x="188.17"/>
+  </clipPath>
+  <clipPath id="clip-path-314">
+   <rect id="svg_310" fill="none" height="34.32" width="40.07" y="218.81" x="188.44"/>
+  </clipPath>
+  <clipPath id="clip-path-315">
+   <rect id="svg_311" fill="none" height="34.16" width="39.75" y="218.51" x="188.69"/>
+  </clipPath>
+  <clipPath id="clip-path-316">
+   <rect id="svg_312" fill="none" height="34.01" width="39.44" y="218.2" x="188.92"/>
+  </clipPath>
+  <clipPath id="clip-path-317">
+   <rect id="svg_313" fill="none" height="33.86" width="39.15" y="217.89" x="189.14"/>
+  </clipPath>
+  <clipPath id="clip-path-318">
+   <rect id="svg_314" fill="none" height="33.73" width="38.87" y="217.57" x="189.34"/>
+  </clipPath>
+  <clipPath id="clip-path-319">
+   <rect id="svg_315" fill="none" height="33.6" width="38.62" y="217.24" x="189.53"/>
+  </clipPath>
+  <clipPath id="clip-path-320">
+   <rect id="svg_316" fill="none" height="33.48" width="38.38" y="216.91" x="189.69"/>
+  </clipPath>
+  <clipPath id="clip-path-321">
+   <rect id="svg_317" fill="none" height="33.38" width="38.17" y="216.56" x="189.83"/>
+  </clipPath>
+  <clipPath id="clip-path-322">
+   <rect id="svg_318" fill="none" height="33.28" width="37.97" y="216.21" x="189.96"/>
+  </clipPath>
+  <clipPath id="clip-path-323">
+   <rect id="svg_319" fill="none" height="33.19" width="37.79" y="215.84" x="190.07"/>
+  </clipPath>
+  <clipPath id="clip-path-324">
+   <rect id="svg_320" fill="none" height="33.12" width="37.62" y="215.47" x="190.16"/>
+  </clipPath>
+  <clipPath id="clip-path-325">
+   <rect id="svg_321" fill="none" height="33.05" width="37.47" y="215.09" x="190.24"/>
+  </clipPath>
+  <clipPath id="clip-path-326">
+   <rect id="svg_322" fill="none" height="33" width="37.33" y="214.7" x="190.31"/>
+  </clipPath>
+  <clipPath id="clip-path-327">
+   <rect id="svg_323" fill="none" height="32.95" width="37.2" y="214.29" x="190.36"/>
+  </clipPath>
+  <clipPath id="clip-path-328">
+   <rect id="svg_324" fill="none" height="32.91" width="37.08" y="213.89" x="190.41"/>
+  </clipPath>
+  <clipPath id="clip-path-329">
+   <rect id="svg_325" fill="none" height="32.89" width="36.97" y="213.46" x="190.45"/>
+  </clipPath>
+  <clipPath id="clip-path-330">
+   <rect id="svg_326" fill="none" height="32.87" width="36.87" y="213.04" x="190.48"/>
+  </clipPath>
+  <clipPath id="clip-path-331">
+   <rect id="svg_327" fill="none" height="21.43" width="30.67" y="140.11552" x="98.73881"/>
+  </clipPath>
+  <clipPath id="clip-path-332">
+   <path id="svg_328" clip-rule="evenodd" fill="none" d="m110.44881,150.17552c-1.67,-1.89 5.79,-10.06 5.79,-10.06l-8.62,1l-5.38,2.45s-4,0.74 -3.46,6.79s14.27,11 17.77,11.16s12.86,-4.8 12.86,-4.8s-17.29,-4.67 -19,-6.56"/>
+  </clipPath>
+  <clipPath id="clip-path-333">
+   <rect id="svg_329" fill="none" height="12.7" width="21.85" y="323.01" x="356.34"/>
+  </clipPath>
+  <clipPath id="clip-path-334">
+   <path id="svg_330" clip-rule="evenodd" fill="none" d="m365.88,325.68c-1.82,-0.38 2.85,1.72 1.44,3.25c-2.36,2.55 -5.79,2.5 -10.71,5.61c0,0 -3.32,2.79 13.2,-0.24c6,-1.1 8.59,-3.84 8.37,-5.75c-1.21,-10.48 -12.3,-2.87 -12.3,-2.87"/>
+  </clipPath>
+  <clipPath id="clip-path-335">
+   <rect id="svg_331" fill="none" height="10.58" width="35.87" y="411.83" x="333.59"/>
+  </clipPath>
+  <clipPath id="clip-path-336">
+   <path id="svg_332" clip-rule="evenodd" fill="none" d="m363.57,412.58l-7.81,-0.75s0.11,1.52 -2.42,2.63c-4,1.78 -6.79,-2.29 -8.45,-0.41s-11.3,-0.45 -11.3,-0.45a34.51,34.51 0 0 0 10.92,7.4c3.19,1.26 24.43,3.31 24.92,-2.74s-5.86,-5.72 -5.86,-5.72"/>
+  </clipPath>
+  <clipPath id="clip-path-337">
+   <rect id="svg_333" fill="none" height="19.57" width="28.01" y="345.09" x="257.43"/>
+  </clipPath>
+  <clipPath id="clip-path-338">
+   <path id="svg_334" clip-rule="evenodd" fill="none" d="m282.24,348.26l-4.91,-2.26l-7.87,-0.93s6.81,7.46 5.28,9.19s-17.31,6 -17.31,6s8.54,4.5 11.74,4.38s15.83,-4.64 16.23,-10.18s-3.16,-6.2 -3.16,-6.2"/>
+  </clipPath>
+  <clipPath id="clip-path-339">
+   <rect id="svg_335" fill="none" height="7.14" width="25.82" y="408.43" x="236.67"/>
+  </clipPath>
+  <clipPath id="clip-path-340">
+   <path id="svg_336" clip-rule="evenodd" fill="none" d="m259.05,409.25c-10.88,-2.24 -16.56,0.59 -22.38,2.6c0,0 6.23,6 22.71,2.75c7.19,-1.43 -0.33,-5.35 -0.33,-5.35"/>
+  </clipPath>
+  <clipPath id="clip-path-341">
+   <rect id="svg_337" fill="none" height="21.01" width="23.79" y="296.25" x="298.3"/>
+  </clipPath>
+  <clipPath id="clip-path-342">
+   <path id="svg_338" fill="none" d="m320.6,298l-3.71,-1.76l-10.56,6l-3.26,-2.24l0.78,5.07l1.71,0.86l-7.26,8.44l1.27,2.18l1.88,0.67l5.81,-1.28s9.11,-6 8.63,-6.4c0.54,-1.59 -0.28,-4.19 0.5,-4.84c0,0 4.81,-2.28 5.54,-3.86s-1.33,-2.84 -1.33,-2.84"/>
+  </clipPath>
+  <clipPath id="clip-path-343">
+   <rect id="svg_339" fill="none" height="31.64" width="115.33" y="63.24" x="565.28"/>
+  </clipPath>
+  <clipPath id="clip-path-344">
+   <rect id="svg_340" fill="none" height="66.06" width="66.06" y="48.08" x="685.48"/>
+  </clipPath>
+  <linearGradient y2="0.74366" x2="1.16778" y1="0.74366" x1="0.18074" id="linear-gradient-3">
+   <stop stop-color="#2375a1" offset="0"/>
+   <stop stop-color="#1d6997" offset="0.42"/>
+   <stop stop-color="#105385" offset="0.99"/>
+   <stop stop-color="#105385" offset="1"/>
+  </linearGradient>
+ </defs>
+ <title>ONLINE SUPPORT</title>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="a">
+   <g stroke="null" id="ar2">
+    <polygon stroke="null" id="svg_1464" fill-rule="evenodd" fill="#fff" points="146.79510593414307,60.99418640136719 146.048996925354,62.699615478515625 153.20828342437744,69.64575958251953 154.66502475738525,67.60279083251953 153.97230625152588,65.4354476928711 146.79510593414307,60.99418640136719 "/>
+    <polygon stroke="null" id="svg_1465" fill-rule="evenodd" fill="#157696" points="145.5693826675415,62.20219421386719 137.71719455718994,83.520263671875 111.88689517974854,102.28013610839844 119.59689426422119,111.44694519042969 146.8663034439087,94.0194320678711 153.8655710220337,70.58731079101562 152.85304355621338,66.62572479248047 145.5693826675415,62.20219421386719 "/>
+    <polygon stroke="null" id="svg_1466" fill-rule="evenodd" fill="#ffc799" points="151.2897653579712,48.57643508911133 150.2593240737915,46.888729095458984 147.22151279449463,53.47954559326172 147.61233615875244,61.491607666015625 151.21870517730713,64.3162612915039 152.81749057769775,60.354671478271484 151.11201572418213,54.50995635986328 151.2897653579712,48.57643508911133 "/>
+   </g>
+   <g stroke="null" id="svg_1467" opacity="0.45">
+    <g stroke="null" id="svg_1468" clip-path="url(#clip-path-331)">
+     <g stroke="null" id="svg_1469" clip-path="url(#clip-path-332)">
+      <rect stroke="null" id="svg_1470" fill="url(#linear-gradient-3)" height="38.28369" width="55.28485" y="242.35761" x="98.27881"/>
+     </g>
+    </g>
+   </g>
+   <polygon stroke="null" id="svg_1471" fill-rule="evenodd" fill="#002b6a" points="105.31381320953369,248.5220489501953 105.31381320953369,252.43043518066406 111.33619785308838,255.80581665039062 127.32473850250244,248.5220489501953 128.33721256256104,237.86302185058594 115.47529697418213,240.22579956054688 105.31381320953369,248.5220489501953 "/>
+   <path stroke="null" id="svg_1472" fill-rule="evenodd" fill="#002b6a" d="m139.35162,262.07682l-13.6258,-1.35014l-2.71805,9.00688l2.11404,1.97192l2.84241,2.73582l25.70603,-2.5404l1.68768,-2.16734l-4.40573,-5.79141s-10.99657,-1.77651 -11.51175,-1.77651"/>
+   <path stroke="null" id="svg_1473" fill-rule="evenodd" fill="#002b6a" d="m115.47539,161.15356l-2.02522,15.13583l-3.39313,30.07624l-5.93353,27.44701l0,16.41491l6.27106,2.20287l8.88253,-6.09341l10.00172,-51.64301l-12.70201,-37.51979a25.84815,25.84815 0 0 1 -1.19026,3.97937"/>
+   <path stroke="null" id="svg_1474" fill-rule="evenodd" fill="#003d75" d="m113.73441,174.06875s10.21491,9.43324 12.75531,12.1513c0.3553,0.39083 2.70029,37.92839 2.70029,37.92839l-6.6086,41.19716s10.33926,3.89055 10.83668,4.38797s7.10602,-5.08081 7.10602,-5.08081s8.7937,-53.1708 9.149,-53.66823s1.17249,-42.33412 1.17249,-42.33412l-35.38799,-7.46132l-1.72321,12.87966z"/>
+   <polygon stroke="null" id="svg_1475" fill-rule="evenodd" fill="#005377" points="150.20596408843994,143.76156616210938 152.01805210113525,127.06241607666016 147.50575351715088,118.03775787353516 118.15786838531494,102.22687530517578 111.83355808258057,102.22687530517578 108.20953464508057,118.03775787353516 117.25181674957275,147.3856658935547 113.18371677398682,161.38453674316406 139.36932468414307,176.27163696289062 152.14247226715088,172.23895263671875 151.76939487457275,166.69625854492188 150.20596408843994,143.76156616210938 "/>
+   <path stroke="null" id="svg_1476" fill-rule="evenodd" fill="#ffc799" d="m127.83986,101.39192c-0.51519,0.49742 -4.92092,6.09341 -4.92092,6.09341l6.94614,6.09341l8.88253,0.67507l0,-9.82407s-10.33926,-3.55301 -10.83668,-3.03782"/>
+   <polygon stroke="null" id="svg_1477" fill-rule="evenodd" fill="#ffc799" points="135.74534702301025,110.736328125 143.70401096343994,104.5718765258789 143.70401096343994,86.57585144042969 138.44561862945557,92.5093765258789 135.74534702301025,110.736328125 "/>
+   <polygon stroke="null" id="svg_1478" fill-rule="evenodd" fill="#754829" points="138.67646884918213,76.91165924072266 135.123459815979,78.8658218383789 125.54822635650635,80.180419921875 123.73611545562744,84.49736785888672 121.35554599761963,88.40564727783203 123.73611545562744,100.94779205322266 123.0610818862915,104.78504180908203 133.18711948394775,109.08421325683594 139.65351963043213,102.22687530517578 140.9327096939087,91.81656646728516 145.78250217437744,84.08876037597656 145.2495584487915,81.21082305908203 138.67646884918213,76.91165924072266 "/>
+   <path stroke="null" id="svg_1479" fill-rule="evenodd" fill="#fff" d="m131.30405,111.55353s-7.76333,-4.88539 -7.7278,-4.92092l0.62178,-0.78166l-2.5404,0.78166l-0.30201,1.90086l8.88253,5.91576l8.97135,0c0.21318,0 -0.55072,-1.77651 -0.55072,-1.77651l-7.35473,-1.1192z"/>
+   <g stroke="null" id="ar1">
+    <polygon stroke="null" id="svg_1480" fill="#ffee2e" points="151.11201572418213,17.114484786987305 203.14590549468994,85.93633270263672 203.14590549468994,38.521400451660156 155.7488260269165,14.805048942565918 151.11201572418213,17.114484786987305 "/>
+    <polygon stroke="null" id="svg_1481" fill="#ffcd00" points="198.50915622711182,94.80109405517578 203.14590549468994,92.5093765258789 203.14590549468994,38.521400451660156 198.50915622711182,40.83084487915039 198.50915622711182,94.80109405517578 "/>
+    <polygon stroke="null" id="svg_1482" fill="#ffaf00" points="151.11201572418213,71.1025161743164 198.50915622711182,94.80109405517578 198.50915622711182,40.83084487915039 151.11201572418213,17.132265090942383 151.11201572418213,71.1025161743164 "/>
+    <path stroke="null" id="svg_1483" fill="#fff" d="m172.39462,63.09046a3.67737,3.67737 0 0 0 -3.39313,-0.33754a3.00229,3.00229 0 0 0 -1.29685,2.91347a7.63897,7.63897 0 0 0 1.33238,4.21032a8.54499,8.54499 0 0 0 3.3576,3.07335a3.55301,3.55301 0 0 0 3.42866,0.28424a2.91347,2.91347 0 0 0 1.35014,-2.82464a7.51462,7.51462 0 0 0 -1.35014,-4.24585a8.63382,8.63382 0 0 0 -3.42866,-3.07335"/>
+    <path stroke="null" id="svg_1484" fill="#fff" d="m173.49605,33.06752a13.18167,13.18167 0 0 0 -6.39542,-1.66992a5.56046,5.56046 0 0 0 -4.33467,2.11404a8.88253,8.88253 0 0 0 -1.52779,5.5427l0,0.15989a1.36791,1.36791 0 0 0 0.65731,1.08367l7.76333,4.22808c0.44413,0.21318 0.65731,0.10659 0.65731,-0.30201l0,-0.62178a2.55817,2.55817 0 0 1 0.79943,-2.1851a2.04298,2.04298 0 0 1 2.16734,0.08883a4.44126,4.44126 0 0 1 1.8831,1.77651a5.41834,5.41834 0 0 1 0.69284,2.75358a2.45158,2.45158 0 0 1 -0.7639,2.00745a8.20745,8.20745 0 0 1 -2.46934,1.17249a16.39714,16.39714 0 0 0 -2.46934,1.0659a4.17479,4.17479 0 0 0 -1.58109,1.77651a7.10602,7.10602 0 0 0 -0.65731,3.37536l0,1.36791a1.0659,1.0659 0 0 0 0.17765,0.56848a1.20802,1.20802 0 0 0 0.47966,0.42636l7.71003,3.87278a0.47966,0.47966 0 0 0 0.46189,0c0.14212,0 0.19542,-0.19542 0.19542,-0.37307l0,-0.79943a2.48711,2.48711 0 0 1 0.7639,-2.04298a6.82178,6.82178 0 0 1 2.36275,-1.10143a13.1639,13.1639 0 0 0 2.57593,-1.17249a4.70774,4.70774 0 0 0 1.77651,-2.06075a9.06018,9.06018 0 0 0 0.7106,-3.94384a17.40975,17.40975 0 0 0 -3.14441,-9.84184a21.54901,21.54901 0 0 0 -8.40287,-7.3192"/>
+    <path stroke="null" id="svg_1485" fill-rule="evenodd" fill="#ffc799" d="m201.12071,78.26182l-2.22063,0.46189l-1.45673,-1.77651l-1.33238,1.04814l-1.08367,3.83725l-2.52264,7.10602l3.83725,3.99714c0.14212,-0.47966 8.47393,-9.48654 8.47393,-9.48654l0.33754,-11.42293l-1.8831,0.55072l-2.14957,5.68482z"/>
+    <polygon stroke="null" id="svg_1486" fill-rule="evenodd" fill="#fff" points="189.67996311187744,86.64692687988281 187.42378330230713,89.91568756103516 192.75329685211182,100.04177856445312 197.1058053970337,93.84176635742188 196.62622165679932,90.7684326171875 189.67996311187744,86.64692687988281 "/>
+    <path stroke="null" id="svg_1487" fill-rule="evenodd" fill="#157696" d="m187.77915,88.40566l-20.51864,21.21147l-28.77939,12.43554a13.55474,13.55474 0 0 0 -0.85272,17.2854l7.63897,0l30.64472,-18.79543l20.87394,-24.51577l-1.10143,-2.73582l-7.90545,-4.88539z"/>
+   </g>
+  </g>
+ </g>
+</svg>

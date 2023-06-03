@@ -1,0 +1,2320 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  
+ </g>
+ <g>
+  <title>background</title>
+ </g>
+ <style>#drone
+{
+    animation-name: drone;
+    animation-duration:20s;
+    animation-fill-mode: forwards;
+   animation-timing-function: ease-out;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes drone {
+  0%{ transform: scale(0) translate(0px, 0px);}
+  55%   { transform: scale(0); }
+  60%   { transform: scale(1); }
+  
+  60% { transform: scale(01); }
+  64%{ transform: translate(-6px, 70px);}
+  70%{ transform: translate(-6px, 70px);}
+  75%{ transform: translate(0px, 0px);}
+  78%{ transform: translate(0px, 0px);}
+  85%{ transform: translate(-215px, 25px);}
+
+  100%{ transform: translate(-215px, 25px);}
+}
+
+
+
+
+
+
+#h2arm
+{
+    animation-name: ch2arm;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    transform-origin: right ;
+    transform-box: fill-box;
+}
+@keyframes ch2arm {
+    0%{transform: rotateZ(-10deg);}
+    
+    100%{transform: rotateZ(10deg);}
+}
+#box
+{
+    animation-name: box;
+    animation-duration:20s;
+   animation-fill-mode: forwards;
+   animation-timing-function: ease-out;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes box {
+    0%{ transform: scale(0) translate(0px, 0px);}
+    55%{ transform: scale(0) translate(0px, 0px);}
+    56%{ transform: scale(1) translate(0px, 0px);}
+    70%{ transform: translate(0px, 0px);}
+    75%{ transform: translate(6px, -70px);}
+    78%{ transform: translate(6px, -70px);}
+    85%{ transform: translate(-210px, -45px);}
+     85%{ transform: translate(-210px, -45px);}
+     87%{ transform: translate(-210px, -7px);}
+    90%{ transform: translate(-210px, -7px);}
+     100%{ transform: translate(-210px, 2px);}
+  
+}
+
+#ch14a
+{
+    animation-name: ch14a;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    transform-origin: 0% 90% ;
+    transform-box: fill-box;
+}
+@keyframes ch14a {
+    0%{transform: rotateZ(110deg);}
+     70%{transform: rotateZ(110deg);}
+     80%{transform: rotateZ(110deg);}
+     89%{transform: rotateZ(0deg);}
+      90%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(15deg);}
+}
+#ch14b
+{
+    animation-name: ch14b;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    transform-origin: 10% 90%;
+    transform-box: fill-box;
+}
+@keyframes ch14b {
+    0%{transform: rotateZ(110deg);}
+     70%{transform: rotateZ(110deg);}
+     80%{transform: rotateZ(110deg);}
+     89%{transform: rotateZ(0deg);}
+      90%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(15deg);}
+}
+#glow {
+    animation-name: glow;
+    animation-duration:  2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+}
+
+
+@keyframes glow {
+    0%   { opacity: 1; }
+    50%   { opacity: .5; }
+    100%   { opacity: 1; }
+
+}
+
+
+#k
+{
+    
+}
+@keyframes f {
+    0%   { transform: scale(0); }
+    1%   { transform: scale(0); }
+    
+    3% { transform: scale(01); }
+}
+
+
+
+
+
+
+
+
+
+
+
+#ch5arm
+{
+    animation-name: ch5a;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes ch5a {
+    0%{transform: rotateZ(0deg);}
+    40%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(8deg);}
+
+}
+#ch6arm
+{
+    animation-name: ch6a;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: right top;
+    transform-box: fill-box;
+}
+@keyframes ch6a {
+    0%{transform: rotateZ(0deg);}
+    40%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(-25deg);}
+
+}
+#ch10arm
+{
+    animation-name: ch10a;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: 90% 15%;
+    transform-box: fill-box;
+}
+@keyframes ch10a {
+    0%{transform: rotateZ(0deg);}
+    24%{transform: rotateZ(0deg);}
+40%{transform: rotateZ(85deg);}
+60%{transform: rotateZ(85deg);}
+70%{transform: rotateZ(0deg);}
+85%{transform: rotateZ(0deg);}
+    
+
+}
+#ch11arm
+{
+    animation-name: ch11a;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: 90% 15%;
+    transform-box: fill-box;
+}
+@keyframes ch11a {
+    0%{transform: rotateZ(45deg);}
+    24%{transform: rotateZ(45deg);}
+40%{transform: rotateZ(0deg);}
+60%{transform: rotateZ(0deg);}
+70%{transform: rotateZ(45deg);}
+100%{transform: rotateZ(45deg);}
+
+}
+#ch78arm
+{
+    animation-name: ch78a;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+@keyframes ch78a {
+    0%{transform: rotateZ(25deg);}
+    24%{transform: rotateZ(25deg);}
+40%{transform: rotateZ(0deg);}
+60%{transform: rotateZ(0deg);}
+70%{transform: rotateZ(25deg);}
+100%{transform: rotateZ(25deg);}
+
+}
+#ch111arm
+{
+    animation-name: ch111a;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+@keyframes ch111a {
+    0%{transform: rotateZ(0deg);}
+    24%{transform: rotateZ(0deg);}
+40%{transform: rotateZ(35deg);}
+60%{transform: rotateZ(35deg);}
+70%{transform: rotateZ(0deg);}
+100%{transform: rotateZ(0deg);}
+
+}
+#ch9arm
+{
+    animation-name: ch9a;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: right;
+    transform-box: fill-box;
+}
+@keyframes ch9a {
+    0%{transform: rotateZ(0deg);}
+    24%{transform: rotateZ(0deg);}
+40%{transform: rotateZ(-55deg);}
+60%{transform: rotateZ(-55deg);}
+70%{transform: rotateZ(0deg);}
+100%{transform: rotateZ(0deg);}
+
+}
+#pparm
+{
+    animation-name: ppa;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+@keyframes ppa {
+    0%{transform: rotateZ(35deg);}
+    24%{transform: rotateZ(35deg);}
+40%{transform: rotateZ(0deg);}
+60%{transform: rotateZ(0deg);}
+70%{transform: rotateZ(35deg);}
+100%{transform: rotateZ(35deg);}
+
+}
+#ch13arm
+{
+    animation-name: ch13a;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes ch13a {
+    0%{transform: rotateZ(-55deg);}
+    24%{transform: rotateZ(-55deg);}
+40%{transform: rotateZ(0deg);}
+60%{transform: rotateZ(0deg);}
+70%{transform: rotateZ(-55deg);}
+100%{transform: rotateZ(-55deg);}
+
+}
+#sssarm
+{
+    animation-name: ch;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: 15% 10%;
+    transform-box: fill-box;
+}
+@keyframes ch {
+    0%{transform: rotateZ(-55deg);}
+    24%{transform: rotateZ(-55deg);}
+40%{transform: rotateZ(0deg);}
+60%{transform: rotateZ(0deg);}
+70%{transform: rotateZ(-55deg);}
+100%{transform: rotateZ(-55deg);}
+
+}
+
+
+#kkkarm
+{
+    animation-name: kkka;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: 90% 10%;
+    transform-box: fill-box;
+}
+@keyframes kkka {
+    0%{transform: rotateZ(-25deg);}
+    24%{transform: rotateZ(-25deg);}
+40%{transform: rotateZ(0deg);}
+60%{transform: rotateZ(0deg);}
+70%{transform: rotateZ(-25deg);}
+100%{transform: rotateZ(-25deg);}
+
+}
+#sig1
+{
+    animation-name: sig1;
+    animation-duration:20s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes sig1 {
+    0%   { transform: scale(0); }
+    30%   { transform: scale(0); }
+    
+    31% { transform: scale(01); }
+}
+#sig2
+{
+    animation-name: sig2;
+    animation-duration:20s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes sig2 {
+    0%   { transform: scale(0); }
+    50%   { transform: scale(0); }
+    
+    51% { transform: scale(01); }
+}
+#sig3
+{
+    animation-name: sig3;
+    animation-duration:20s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes sig3 {
+    0%   { transform: scale(0); }
+    70%   { transform: scale(0); }
+    
+    71% { transform: scale(01); }
+}
+#sg1,#sg4,#sg7,#dt41,#wi,#wi4,#wi7,#wi10,#wi13 {
+    animation: dt1 1s infinite linear;
+}
+@keyframes dt1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#sg2,#sg5,#sg8,#dt42,#wi2,#wi5,#wi8,#wi11,#wi14 {
+    animation: dt2 1s infinite linear;
+}
+@keyframes dt2 {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#sg3,#sg6,#sg9,#dt43,#wi3,#wi6,#wi9,#wi12,#wi15 {
+    animation: dt3 1s infinite linear;
+}
+
+@keyframes dt3 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+#s
+{
+ 
+}
+@keyframes s {
+    0%   { transform: scale(0); }
+    25%   { transform: scale(0); }
+    
+    26% { transform: scale(01); }
+}
+
+
+#block2
+{
+    animation-name: bl2;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes bl2 {
+    0%   { transform: scale(0); }
+    22%   { transform: scale(0); }
+    
+    22.5% { transform: scale(01); }
+}
+
+
+
+#y
+{
+  
+}
+@keyframes y {
+    0%   { transform: scale(0); }
+    30%   { transform: scale(0); }
+    
+    31% { transform: scale(01); }
+}
+
+
+#dd
+{
+    
+}
+@keyframes dd {
+    0%   { transform: scale(0); }
+    2%   { transform: scale(0); }
+    
+    3% { transform: scale(01); }
+}
+#ee
+{
+   
+}
+@keyframes ee {
+    0%   { transform: scale(0); }
+    4%   { transform: scale(0); }
+    
+    5% { transform: scale(01); }
+}
+#ch10
+{
+   
+}
+@keyframes ch10 {
+    0%   { transform: scale(0); }
+    6%   { transform: scale(0); }
+    
+    7% { transform: scale(01); }
+}
+#ch11
+{
+  
+}
+@keyframes ch11 {
+    0%   { transform: scale(0); }
+    8%   { transform: scale(0); }
+    
+    9% { transform: scale(01); }
+}
+#ch12
+{
+  
+}
+@keyframes ch12 {
+    0%   { transform: scale(0); }
+    10%   { transform: scale(0); }
+    
+    11% { transform: scale(01); }
+}
+#ch111
+{
+    
+}
+@keyframes ch111 {
+    0%   { transform: scale(0); }
+    12%   { transform: scale(0); }
+    
+13% { transform: scale(01); }
+}
+#ch13
+{
+    
+}
+@keyframes ch13 {
+    0%   { transform: scale(0); }
+    14%   { transform: scale(0); }
+    
+    15% { transform: scale(01); }
+}
+#ch14
+{
+   
+}
+@keyframes ch14 {
+    0%   { transform: scale(0); }
+    16%   { transform: scale(0); }
+    
+    17% { transform: scale(01); }
+}
+
+#ff
+{
+   
+}
+@keyframes ff {
+    0%   { transform: scale(0); }
+    18%   { transform: scale(0); }
+    
+    19% { transform: scale(01); }
+}
+#gg
+{
+   
+}
+@keyframes gg{
+    0%   { transform: scale(0); }
+    20%   { transform: scale(0); }
+    
+    21% { transform: scale(01); }
+}
+#hh
+{
+    
+}
+@keyframes hh {
+    0%   { transform: scale(0); }
+    22%   { transform: scale(0); }
+    
+    23% { transform: scale(01); }
+}
+#ii
+{
+   
+}
+@keyframes ii {
+    0%   { transform: scale(0); }
+    24%   { transform: scale(0); }
+    
+    25% { transform: scale(01); }
+}
+#jj
+{
+   
+}
+@keyframes jj {
+    0%   { transform: scale(0); }
+    26%   { transform: scale(0); }
+    
+    27% { transform: scale(01); }
+}
+#wifi4
+{
+   
+}
+@keyframes wi4 {
+    0%   { transform: scale(0); }
+    26%   { transform: scale(0); }
+    
+    27% { transform: scale(01); }
+}
+#wifi5
+{
+   ;
+}
+@keyframes wi5 {
+    0%   { transform: scale(0); }
+    60%   { transform: scale(0); }
+    
+    61% { transform: scale(01); }
+}
+#jj1
+{
+    
+}
+@keyframes jj1 {
+    0%   { transform: scale(0); }
+    26%   { transform: scale(0); }
+    
+    27% { transform: scale(01); }
+}
+#kk
+{
+    
+}
+@keyframes kk {
+    0%   { transform: scale(0); }
+    26%   { transform: scale(0); }
+    
+    27% { transform: scale(01); }
+}
+#ll
+{
+    
+}
+@keyframes ll {
+    0%   { transform: scale(0); }
+    27%   { transform: scale(0); }
+    
+    28% { transform: scale(01); }
+}
+#mm
+{
+    
+}
+@keyframes mm {
+    0%   { transform: scale(0); }
+    28%   { transform: scale(0); }
+    
+    29% { transform: scale(01); }
+}
+
+#nn
+{
+  
+}
+@keyframes nn {
+    0%   { transform: scale(0); }
+    29%   { transform: scale(0); }
+    
+    30% { transform: scale(01); }
+}
+#oo
+{
+    
+}
+@keyframes oo {
+    0%   { transform: scale(0); }
+    30%   { transform: scale(0); }
+    
+    31% { transform: scale(01); }
+}
+#oo1
+{
+   
+}
+@keyframes oo1 {
+    0%   { transform: scale(0); }
+    31%   { transform: scale(0); }
+    
+    32% { transform: scale(01); }
+}
+#oo2
+{
+  
+}
+@keyframes oo2 {
+    0%   { transform: scale(0); }
+    32%   { transform: scale(0); }
+    
+    33% { transform: scale(01); }
+}
+#pp
+{
+    
+}
+@keyframes pp {
+    0%   { transform: scale(0); }
+    31%   { transform: scale(0); }
+    
+    32% { transform: scale(01); }
+}
+#qq
+{
+   
+}
+@keyframes qq {
+    0%   { transform: scale(0); }
+    32%   { transform: scale(0); }
+    
+    33% { transform: scale(01); }
+}
+#rr
+{
+   
+}
+@keyframes rr {
+    0%   { transform: scale(0); }
+    33%   { transform: scale(0); }
+    
+    34% { transform: scale(01); }
+}
+#ss
+{
+   
+}
+@keyframes ss {
+    0%   { transform: scale(0); }
+    34%   { transform: scale(0); }
+    
+    35% { transform: scale(01); }
+}
+#tt
+{
+    
+}
+@keyframes tt {
+    0%   { transform: scale(0); }
+    35%   { transform: scale(0); }
+    
+    36% { transform: scale(01); }
+}
+#uu,#uu1
+{
+   
+}
+@keyframes uu {
+    0%   { transform: scale(0); }
+    36%   { transform: scale(0); }
+    
+    37% { transform: scale(01); }
+}
+#vv
+{
+    
+}
+@keyframes vv{
+    0%   { transform: scale(0); }
+    37%   { transform: scale(0); }
+    
+    38% { transform: scale(01); }
+}
+#ww
+{
+    
+}
+@keyframes ww {
+    0%   { transform: scale(0); }
+    38%   { transform: scale(0); }
+    
+    39% { transform: scale(01); }
+}
+#xx
+{
+  
+}
+@keyframes xx {
+    0%   { transform: scale(0); }
+    39%   { transform: scale(0); }
+    
+    40% { transform: scale(01); }
+}
+#yy
+{
+   
+}
+@keyframes yy {
+    0%   { transform: scale(0); }
+    40%   { transform: scale(0); }
+    
+    41% { transform: scale(01); }
+}
+#zz
+{
+    
+}
+@keyframes zz {
+    0%   { transform: scale(0); }
+    41%   { transform: scale(0); }
+    
+    42% { transform: scale(01); }
+}
+#aaa
+{
+   
+}
+@keyframes aaa {
+    0%   { transform: scale(0); }
+    42%   { transform: scale(0); }
+    
+    43% { transform: scale(01); }
+}
+#text1
+{
+    
+}
+@keyframes txt {
+    0%   { transform: scale(0); }
+    42%   { transform: scale(0); }
+    
+    43% { transform: scale(01); }
+}
+#bbb
+{
+   
+}
+@keyframes bbb {
+    0%   { transform: scale(0); }
+    43%   { transform: scale(0); }
+    
+    44% { transform: scale(01); }
+}
+#lines
+{
+    
+}
+@keyframes ln {
+    0%   { transform: scale(0); }
+    5%   { transform: scale(0); }
+    
+    6% { transform: scale(01); }
+}
+#ccc
+{
+    
+}
+@keyframes ccc {
+    0%   { transform: scale(0); }
+    44%   { transform: scale(0); }
+    
+    44.5% { transform: scale(01); }
+}
+#ddd
+{
+    
+}
+@keyframes ddd {
+    0%   { transform: scale(0); }
+    20%   { transform: scale(0); }
+    
+    21% { transform: scale(01); }
+}
+#ddd1,#ddd2
+{
+   
+}
+@keyframes ddd {
+    0%   { transform: scale(0); }
+    22%   { transform: scale(0); }
+    
+    23% { transform: scale(01); }
+}
+#h1
+{
+   
+}
+@keyframes h1 {
+    0%   { transform: scale(0); }
+    46%   { transform: scale(0); }
+    
+    47% { transform: scale(01); }
+}
+#h2
+{
+    
+}
+@keyframes h2 {
+    0%   { transform: scale(0); }
+    46.5%   { transform: scale(0); }
+    
+    47.5% { transform: scale(01); }
+}
+#h3
+{
+   
+}
+@keyframes h3 {
+    0%   { transform: scale(0); }
+    47%   { transform: scale(0); }
+    
+    48% { transform: scale(01); }
+}
+#h4
+{
+   
+}
+@keyframes h4 {
+    0%   { transform: scale(0); }
+    48%   { transform: scale(0); }
+    
+    49% { transform: scale(01); }
+}
+#h5
+{
+   
+@keyframes h5 {
+    0%   { transform: scale(0); }
+    48.5%   { transform: scale(0); }
+    
+    49.5% { transform: scale(01); }
+}
+#h6
+{
+    animation-name:h6;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes h6 {
+    0%   { transform: scale(0); }
+    49.5%   { transform: scale(0); }
+    
+    50.5% { transform: scale(01); }
+}
+#h7
+{
+    animation-name:h7;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes h7 {
+    0%   { transform: scale(0); }
+    51.5%   { transform: scale(0); }
+    
+    52.5% { transform: scale(01); }
+}
+#h8
+{
+    animation-name:h8;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes h8 {
+    0%   { transform: scale(0); }
+    52.5%   { transform: scale(0); }
+    
+    53.5% { transform: scale(01); }
+}
+#crane1
+{
+    animation-name:crn1;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    aanimation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes crn1 {
+    0%   { transform: scale(0); }
+    47.5%   { transform: scale(0); }
+    
+    48.5% { transform: scale(01); }
+}
+#crane2
+{
+    animation-name:crn2;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    aanimation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes crn2 {
+    0%   { transform: scale(0); }
+    49.5%   { transform: scale(0); }
+    
+    50.5% { transform: scale(01); }
+}
+#eee
+{
+    animation-name:eee;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes eee {
+    0%   { transform: scale(0); }
+    25%   { transform: scale(0); }
+    
+    26% { transform: scale(01); }
+}
+#fff
+{
+    animation-name:fff;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes fff {
+    0%   { transform: scale(0); }
+    27%   { transform: scale(0); }
+    
+    28% { transform: scale(01); }
+}
+#ggg
+{
+    animation-name:ggg;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ggg {
+    0%   { transform: scale(0); }
+    29%   { transform: scale(0); }
+    
+    30% { transform: scale(01); }
+}
+
+#hhh
+{
+    animation-name:hhh;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes hhh {
+    0%   { transform: scale(0); }
+    31%   { transform: scale(0); }
+    
+    32% { transform: scale(01); }
+}
+#iii
+{
+    animation-name:iii;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes iii {
+    0%   { transform: scale(0); }
+    33%   { transform: scale(0); }
+    
+    34% { transform: scale(01); }
+}
+
+#jjj
+{
+    animation-name:jjj;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes jjj {
+    0%   { transform: scale(0); }
+    35%   { transform: scale(0); }
+    
+    36% { transform: scale(01); }
+}
+#kkk
+{
+    animation-name:kkk;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes kkk {
+    0%   { transform: scale(0); }
+    37%   { transform: scale(0); }
+    
+    38% { transform: scale(01); }
+}
+#lll
+{
+    animation-name:lll;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes lll {
+    0%   { transform: scale(0); }
+    39%   { transform: scale(0); }
+    
+    40% { transform: scale(01); }
+}
+
+#mmm
+{
+    animation-name:mmm;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes mmm {
+    0%   { transform: scale(0); }
+    41% { transform: scale(0); }
+    
+    42% { transform: scale(01); }
+}
+
+#nnn
+{
+    animation-name:nnn;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes nnn {
+    0%   { transform: scale(0); }
+    43%   { transform: scale(0); }
+    
+    44% { transform: scale(01); }
+}
+#ooo
+{
+    animation-name:ooo;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ooo {
+    0%   { transform: scale(0); }
+    45%   { transform: scale(0); }
+    
+    46% { transform: scale(01); }
+}
+
+#ppp
+{
+    animation-name:ppp;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ppp {
+    0%   { transform: scale(0); }
+    60%   { transform: scale(0); }
+    
+    61% { transform: scale(01); }
+}
+
+#qqq
+{
+    animation-name:qqq;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes qqq {
+    0%   { transform: scale(0); }
+    61%   { transform: scale(0); }
+    
+    62% { transform: scale(01); }
+}
+
+#rrr
+{
+    animation-name:rrr;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes rrr {
+    0%   { transform: scale(0); }
+    62%   { transform: scale(0); }
+    
+    63% { transform: scale(01); }
+}
+#sss
+{
+    animation-name:sss;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes sss {
+    0%   { transform: scale(0); }
+    63%   { transform: scale(0); }
+    
+    64% { transform: scale(01); }
+}
+
+#ttt
+{
+    animation-name:ttt;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ttt {
+    0%   { transform: scale(0); }
+    64%   { transform: scale(0); }
+    
+    65% { transform: scale(01); }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+#box
+{
+    animation-name: box;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+   animation-timing-function: ease-out;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes box {
+  0%{ transform: translate(0px, 0px);}
+  20%{ transform: translate(0px, 0px);}
+  30%{ transform: translate(9px, -70px);}
+  40%{ transform: translate(-193px, -29px);}
+   40%{ transform: translate(-193px, -29px);}
+   50%{ transform: translate(-193px, -13px);}
+  100%{ transform: translate(-193px, -13px);}
+  
+}*/
+#arm1
+{
+    animation-name: h;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+   animation-direction: alternate;
+    transform-origin:  right center ;
+    transform-box: fill-box;
+}
+@keyframes h {
+    0%{transform: rotateZ(0deg);}
+    
+    100%{transform: rotateZ(30deg);}
+}</style>
+ <defs>
+  <clipPath id="clip-path">
+   <polygon id="svg_1" fill="none" points="644.34 180.19 644.28 203.98 676.89 222.81 676.95 199.02 644.34 180.19"/>
+  </clipPath>
+  <clipPath id="clip-path-2">
+   <polygon id="svg_2" fill="none" points="651.1300048828125,63.95000076293945 670.8300170898438,74.48999786376953 670.7899780273438,61.650001525878906 651.0900268554688,51.099998474121094 651.1300048828125,63.95000076293945 "/>
+  </clipPath>
+  <clipPath id="clip-path-3">
+   <polygon id="svg_3" fill="none" points="637.02001953125,56.119998931884766 651.6300048828125,64.22000122070312 652.010009765625,51.59000015258789 636.97998046875,43.2599983215332 637.02001953125,56.119998931884766 "/>
+  </clipPath>
+ </defs>
+ <title>10 Drone Delivery</title>
+ <g>
+  <title>Layer 1</title>
+  <g id="kkk" stroke="null">
+   <path id="svg_132" opacity="0.1" fill="#00586c" d="m232.58755,346.77892a75.97768,75.97768 0 0 0 -24.99266,-7.14076c-8.4618,-1.78519 -17.45916,-5.06994 -22.17206,-12.38922l-1.46386,5.74831a57.12608,57.12608 0 0 0 -23.17176,4.10594a19.49427,19.49427 0 0 0 -11.81796,18.7802a19.24435,19.24435 0 0 0 11.56803,13.88878a55.94785,55.94785 0 0 0 18.35175,3.96312l34.95402,3.57038c10.13988,1.07111 22.81473,0.74978 27.38481,-8.31898c3.99883,-7.92624 -1.21393,-17.70908 -8.64032,-22.20776l0.00001,-0.00001z" stroke="null"/>
+   <g id="svg_133" stroke="null">
+    <path id="svg_134" fill="#3182ad" d="m190.13574,323.50004l-12.49633,6.03394l-16.70938,9.3901a10.28269,10.28269 0 0 0 -5.06994,6.17676c-0.32133,1.21393 -0.32133,2.32075 0.57126,2.89201a22.17206,22.17206 0 0 0 16.49515,-0.57126c5.06994,-2.57067 17.35205,-6.42668 20.27976,-7.92624s0,-12.03218 0,-12.03218l-3.07053,-3.96312l0.00001,-0.00001z" stroke="null"/>
+    <g id="svg_135" stroke="null">
+     <g id="kkkarm" stroke="null">
+      <path id="svg_136" fill="#f6ccb3" d="m108.23123,132.55614l-13.28181,1.60667l-10.13988,4.57009s0,1.71378 2.57067,1.42815s4.39157,-1.21393 6.53379,-1.96371l4.17734,-0.60696l0.9283,3.7489a7.14076,7.14076 0 0 0 6.71231,5.31987l4.35586,0.24993l0.82119,-1.71378a25.3497,25.3497 0 0 1 5.06994,-1.60667a6.31957,6.31957 0 0 0 4.24875,-7.14076l-11.99648,-3.89171l0.00002,-0.00002z" stroke="null"/>
+      <path id="svg_137" fill="#af3e40" d="m173.85481,79.42889c-8.78313,6.10535 -19.99413,50.7351 -19.99413,50.7351l-36.73921,5.06994a10.71114,10.71114 0 0 1 0.39274,8.4261s32.81179,7.60491 43.273,4.42727c12.42492,-3.7489 27.63474,-43.87997 27.63474,-43.87997a24.06436,24.06436 0 0 1 -5.06994,-0.32133c-5.74831,-0.99971 5.78402,-26.95637 5.78402,-26.95637a18.13753,18.13753 0 0 0 -15.28123,2.49927l0.00001,-0.00001z" stroke="null"/>
+     </g>
+     <path id="svg_138" fill="#3182ad" d="m217.52055,343.20854l-13.46033,10.71114c-2.53497,2.07082 -9.67573,5.06994 -10.71114,8.4618l0,0.39274c0,8.03335 13.35322,5.6412 13.35322,5.6412l21.85072,-8.92595a9.24728,9.24728 0 0 0 4.49868,-5.89113l-2.42786,-8.67602l-13.10329,-1.71378z" stroke="null"/>
+     <path id="svg_139" fill="#243551" d="m190.6713,176.22188l0,12.56774l-24.99266,-0.964l3.96312,65.94491l1.35674,25.88525l5.06994,49.8068s10.13988,5.6769 18.10183,1.32104c0,0 3.57038,-60.33942 4.60579,-81.19043l3.24905,18.35175l10.96107,78.33413a19.10153,19.10153 0 0 0 17.8519,-0.74978l1.53526,-73.04997l-0.35704,-91.33031l-41.345,-4.92712l0,-0.00001z" stroke="null"/>
+     <path id="svg_140" opacity="0.1" d="m206.52378,178.22129c11.96077,22.17206 12.63914,47.80738 15.20982,73.04997c3.14193,30.45534 10.13988,64.94521 5.89113,96.40025a12.46063,12.46063 0 0 0 3.57038,-1.60667l1.53526,-73.04997l-0.35704,-91.33031l-25.84955,-3.46327z" stroke="null"/>
+     <path id="svg_141" opacity="0.1" d="m197.06228,217.67399c-2.8563,10.13988 -15.78108,99.97063 -20.74391,111.96711l0,0s10.13988,5.6769 18.10183,1.32104c0,0 2.42786,-39.55981 3.82031,-65.65928a3.99883,3.99883 0 0 1 -0.39274,-1.67808c-0.0357,-15.49545 -0.0357,-30.70527 -0.78548,-45.95079l-0.00001,0z" stroke="null"/>
+     <path id="svg_142" fill="#af3e40" d="m235.12252,87.85498c-15.67397,-14.28152 -25.3854,-12.53203 -25.3854,-12.53203l-9.53291,-2.67778l-8.53321,0c-13.99589,0 -18.95872,5.31987 -23.38599,17.8519c-2.49927,7.14076 -1.60667,33.16883 -1.60667,33.16883s-2.67778,25.3854 -2.67778,32.13342a304.33917,304.33917 0 0 0 1.60667,32.13342a87.29578,87.29578 0 0 0 33.38305,9.60432c27.02777,2.8563 33.16883,-15.9953 33.16883,-15.9953l-3.57038,-26.63503s13.03189,-61.23201 6.53379,-67.05173l0,-0.00002z" stroke="null"/>
+     <path id="svg_143" opacity="0.1" d="m236.08653,89.17602a19.60138,19.60138 0 0 1 -6.78372,8.06906a15.63826,15.63826 0 0 0 -4.57009,10.46121a18.10183,18.10183 0 0 1 1.8923,8.53321a143.95771,143.95771 0 0 1 -3.57038,36.6678a56.76904,56.76904 0 0 1 -19.03012,44.80827c22.42198,0.57126 28.56304,-16.24523 28.56304,-16.24523l-3.57038,-26.63503s11.2467,-54.69822 7.06935,-65.65928l0,-0.00001z" stroke="null"/>
+     <path id="svg_144" fill="#f6ccb3" d="m190.42137,56.50705l-1.35674,17.56627a10.71114,10.71114 0 0 0 9.85425,11.56803a13.42463,13.42463 0 0 0 13.35322,-10.71114l-3.57038,-17.45916l-18.28034,-0.964l-0.00001,0z" stroke="null"/>
+     <path id="svg_145" opacity="0.1" d="m189.06463,74.03761a10.03277,10.03277 0 0 0 0.64267,4.57009l0.71408,0.57126c9.64003,1.17823 16.031,-10.92536 16.28093,-20.27976a11.53233,11.53233 0 0 1 0,-1.57097l-16.49515,-0.74978l-1.14252,17.45916l-0.00001,0z" stroke="null"/>
+     <path id="svg_146" fill="#f6ccb3" d="m179.71023,63.64781a12.85337,12.85337 0 0 0 14.28152,11.2467a14.03159,14.03159 0 0 0 2.42786,-0.53556c0.964,-0.24993 15.63826,-6.28387 14.85278,-15.20982l0.49985,-16.78078l-31.56216,-3.03482a153.52633,153.52633 0 0 0 -0.49985,24.31429l0,-0.00001z" stroke="null"/>
+     <path id="svg_147" fill="#906357" d="m183.53054,29.97913c-12.78196,9.53291 -2.89201,13.1747 -2.89201,13.1747s21.85072,-1.21393 22.38628,2.42786c0,1.07111 -0.49985,7.67632 -0.49985,7.67632l2.74919,1.67808l1.57097,-3.21334l2.17793,15.20982a32.70468,32.70468 0 0 0 6.78372,-15.56686c0.71408,-4.32016 2.42786,-13.63885 -1.53526,-17.8519c-8.17617,-8.64032 -19.17294,-12.49633 -30.74097,-3.53468z" stroke="null"/>
+     <path id="svg_148" fill="#f6ccb3" d="m206.7023,51.50852l0.60696,7.60491c3.28475,1.21393 5.53409,-3.35616 4.7129,-7.14076c-1.03541,-5.35557 -5.31987,-0.46415 -5.31987,-0.46415l0.00001,0z" stroke="null"/>
+     <path id="svg_149" fill="#f6ccb3" d="m235.72949,195.252l-2.57067,11.35381l2.14223,14.67426s3.14193,0 2.67778,-4.46297l-0.64267,-5.06994l0,0.60696l0,0l2.07082,5.78402l-0.39274,5.31987a1.67808,1.67808 0 0 0 1.46386,1.78519a1.64237,1.64237 0 0 0 1.53526,-0.74978a22.35058,22.35058 0 0 1 2.7849,-2.39215l3.99883,-3.57038l1.46386,-6.10535l-0.9283,-17.20923l-13.60315,0.0357l-0.00001,-0.00001z" stroke="null"/>
+     <path id="svg_150" fill="#af3e40" d="m224.5899,84.2846c-12.06788,2.49927 -6.24816,26.74214 -6.24816,26.74214l12.13929,38.70292l5.06994,45.66516c9.49721,3.89171 14.103,0.57126 14.103,0.57126l0.9283,-51.6991l-7.5692,-42.38041s-5.92683,-20.38687 -18.42316,-17.60197l-0.00001,0z" stroke="null"/>
+     <path id="svg_151" opacity="0.1" d="m216.77077,100.99398a48.45005,48.45005 0 0 0 1.57097,9.85425l12.13929,38.70292l5.06994,45.66516a24.99266,24.99266 0 0 0 7.14076,2.07082c-2.17793,-23.17176 -6.6052,-51.7348 -16.85219,-72.33589a80.58347,80.58347 0 0 1 -9.06876,-23.95725l-0.00001,-0.00001z" stroke="null"/>
+    </g>
+    <g id="svg_152" stroke="null">
+     <path id="svg_153" fill="#243551" d="m193.27767,52.47252l-22.31487,-7.81913c-0.85689,-0.24993 -1.35674,0 -1.21393,0.99971l1.92801,10.13988a2.96342,2.96342 0 0 0 1.78519,2.07082l8.67602,3.03482a0.9283,0.9283 0 0 0 0.964,0s0.71408,-0.64267 1.21393,-0.46415a5.17705,5.17705 0 0 1 1.35674,1.28534a2.49927,2.49927 0 0 0 1.21393,0.964l8.89025,3.10623c0.82119,0.32133 1.32104,0 1.17823,-0.99971l-1.8923,-10.13988a3.57038,3.57038 0 0 0 -1.78519,-2.17793l-0.00001,0z" stroke="null"/>
+     <path id="svg_154" fill="#fff" d="m201.81088,45.18894l-22.31487,-7.81913a0.99971,0.99971 0 0 0 -0.99971,0l-8.31898,7.39069a0.99971,0.99971 0 0 1 0.99971,0l22.31487,7.81913a3.03482,3.03482 0 0 1 1.71378,2.07082l1.92801,10.13988a0.85689,0.85689 0 0 1 0,0.9283l6.78372,-6.85513a0.85689,0.85689 0 0 0 0,-0.9283l0,-10.71114a3.03482,3.03482 0 0 0 -2.10652,-2.03512l-0.00001,0z" stroke="null"/>
+     <path id="svg_155" fill="#243551" d="m194.77723,49.5091c-7.14076,-2.28504 -14.103,-5.53409 -21.42228,-7.74772l-3.57038,3.03482a0.99971,0.99971 0 0 1 0.99971,0l22.31487,7.81913a3.03482,3.03482 0 0 1 1.71378,2.07082l1.92801,10.13988a0.85689,0.85689 0 0 1 0,0.9283l2.42786,-2.42786s-1.07111,-6.35528 -1.82089,-9.28299c-0.53556,-2.10652 0.0357,-3.03482 -2.57067,-4.53438l-0.00001,0z" stroke="null"/>
+    </g>
+    <polygon id="svg_156" fill="#fff" points="203.20343017578125,55.293190002441406 216.27090454101562,49.29487228393555 216.91355895996094,45.22469711303711 201.4897003173828,51.50859832763672 203.20343017578125,55.293190002441406 " stroke="null"/>
+   </g>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes pulse {
+            from {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1)
+            }
+
+            50% {
+                -webkit-transform: scale3d(1.05, 1.05, 1.05);
+                transform: scale3d(1.05, 1.05, 1.05)
+            }
+
+            to {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1)
+            }
+        }
+        @keyframes pulse {
+          from {
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1)
+          }
+
+          50% {
+              -webkit-transform: scale3d(1.05, 1.05, 1.05);
+              transform: scale3d(1.05, 1.05, 1.05)
+          }
+
+          to {
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1)
+          }
+        }
+        .animate__pulse {
+            -webkit-animation-name: pulse;
+            animation-name: pulse
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    .animate__animated.animate__delay-5s {
+          -webkit-animation-delay: calc(1s * 5);
+          animation-delay: calc(1s * 5);
+          -webkit-animation-delay: calc(var(--animate-delay) * 5);
+          animation-delay: calc(var(--animate-delay) * 5);
+        }
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g class="animate__animated animate__pulse animate__infinite animate__delay-5s animate__slower">
+   <path id="svg_157" opacity="0.5" fill="#3182ad" d="m22.86345,257.55513c71.40759,59.1969 164.23747,63.16002 164.23747,63.16002l0,-143.24363a305.87443,305.87443 0 0 1 -164.23747,-68.19425l0,148.17076l0,0.10711l0,-0.00001z" stroke="null" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    
+         @-webkit-keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        @keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        .animate__flash {
+          -webkit-animation-name: flash;
+          animation-name: flash;
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g class="animate__animated animate__flash animate__infinite animate__slower">
+   <path id="svg_158" opacity="0.3" fill="#fff" d="m68.17157,171.15194l0,0c-18.92301,-10.96107 -34.38276,-2.17793 -34.45416,19.60138a75.40642,75.40642 0 0 0 34.20424,59.1969c18.92301,10.92536 34.38276,2.14223 34.45416,-19.60138a75.44212,75.44212 0 0 0 -34.20424,-59.1969zm-9.60432,68.51559a75.29931,75.29931 0 0 1 -17.8519,-27.13489l9.74714,5.6412l2.7849,1.60667l13.53174,8.06906l0,18.31605c-5.81972,-4.35586 -10.71114,-14.28152 -13.60315,-26.17088l-2.7849,-1.60667a74.97797,74.97797 0 0 0 8.21187,21.42228a31.74068,31.74068 0 0 0 8.21187,9.49721a32.34764,32.34764 0 0 1 -8.24758,-9.64003l0.00001,0zm8.21187,-15.24552l0,0l-14.28152,-8.31898l-2.7849,-1.57097l-10.3898,-6.03394a54.73392,54.73392 0 0 1 -2.67778,-16.28093a29.06289,29.06289 0 0 1 3.10623,-13.74596l10.13988,5.92683a58.41141,58.41141 0 0 0 -1.60667,14.49574a85.15356,85.15356 0 0 0 1.35674,15.63826l2.7849,1.57097a84.97504,84.97504 0 0 1 -1.46386,-15.63826a58.3043,58.3043 0 0 1 1.67808,-14.49574l14.28152,8.21187l0,30.24112l-0.14282,0l0,-0.00001zm5.06994,26.92066a12.78196,12.78196 0 0 1 -2.49927,-0.82119a12.78196,12.78196 0 0 0 2.49927,0.82119a8.96165,8.96165 0 0 0 2.39215,0a9.71143,9.71143 0 0 1 -2.49927,0l0.10711,0l0.00001,0zm11.2467,-14.28152l0,0c-2.7849,8.64032 -7.85484,12.85337 -13.71026,10.46121l0,-18.31605l13.71026,7.85484zm-13.60315,-10.96107l0,-30.45534l14.28152,8.21187a84.15385,84.15385 0 0 1 1.60667,16.38804a58.55423,58.55423 0 0 1 -1.53526,13.88878l-14.35293,-8.03335zm8.06906,24.56421a19.10153,19.10153 0 0 0 8.31898,-11.96077l9.74714,5.6412a16.56656,16.56656 0 0 1 -18.17323,6.42668l0.10711,-0.10711zm22.24347,-21.85072a28.88437,28.88437 0 0 1 -2.7849,13.1747l-10.13988,-6.03394a58.66134,58.66134 0 0 0 1.46386,-13.88878a81.08332,81.08332 0 0 0 -1.53526,-16.35234l10.13988,5.89113a55.76933,55.76933 0 0 1 2.74919,17.31634l0.10711,-0.10711zm-13.92448,-26.81355l-2.7849,-1.60667l-13.46033,-7.74772l-2.67778,-1.57097l-13.38892,-7.67632l-2.7849,-1.60667l-9.60432,-5.53409a16.53086,16.53086 0 0 1 17.8519,-5.81972a18.53027,18.53027 0 0 0 -8.10476,11.35381l2.7849,1.60667c2.8563,-8.21187 7.74772,-12.2107 13.49604,-9.85425l0,17.8519l2.67778,1.57097l0,-17.60197c5.74831,4.21305 10.71114,13.88878 13.38892,25.3854l2.7849,1.60667a72.12167,72.12167 0 0 0 -8.03335,-20.7082a74.40671,74.40671 0 0 1 17.60197,26.24229l-9.74714,-5.89113l-0.00001,0z" stroke="null" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes pulse {
+            from {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1)
+            }
+
+            50% {
+                -webkit-transform: scale3d(1.05, 1.05, 1.05);
+                transform: scale3d(1.05, 1.05, 1.05)
+            }
+
+            to {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1)
+            }
+        }
+        @keyframes pulse {
+          from {
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1)
+          }
+
+          50% {
+              -webkit-transform: scale3d(1.05, 1.05, 1.05);
+              transform: scale3d(1.05, 1.05, 1.05)
+          }
+
+          to {
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1)
+          }
+        }
+        .animate__pulse {
+            -webkit-animation-name: pulse;
+            animation-name: pulse
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    .animate__animated.animate__delay-5s {
+          -webkit-animation-delay: calc(1s * 5);
+          animation-delay: calc(1s * 5);
+          -webkit-animation-delay: calc(var(--animate-delay) * 5);
+          animation-delay: calc(var(--animate-delay) * 5);
+        }
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g class="animate__animated animate__pulse animate__infinite animate__delay-5s animate__slower">
+   <g id="svg_159" opacity="0.5" stroke="null" xmlns="http://www.w3.org/2000/svg">
+    <path id="svg_160" fill="#3182ad" d="m326.34573,99.38731c-55.80503,32.41905 -151.95536,34.13283 -211.5807,5.06994l0,144.06482c59.62534,28.92008 155.77567,27.20629 211.5807,-5.06994a105.2905,105.2905 0 0 0 31.20512,-26.42081l0,-144.06482a105.2905,105.2905 0 0 1 -31.20512,26.42081z" stroke="null"/>
+   </g>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes pulse {
+            from {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1)
+            }
+
+            50% {
+                -webkit-transform: scale3d(1.05, 1.05, 1.05);
+                transform: scale3d(1.05, 1.05, 1.05)
+            }
+
+            to {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1)
+            }
+        }
+        @keyframes pulse {
+          from {
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1)
+          }
+
+          50% {
+              -webkit-transform: scale3d(1.05, 1.05, 1.05);
+              transform: scale3d(1.05, 1.05, 1.05)
+          }
+
+          to {
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1)
+          }
+        }
+        .animate__pulse {
+            -webkit-animation-name: pulse;
+            animation-name: pulse
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    .animate__animated.animate__delay-5s {
+          -webkit-animation-delay: calc(1s * 5);
+          animation-delay: calc(1s * 5);
+          -webkit-animation-delay: calc(var(--animate-delay) * 5);
+          animation-delay: calc(var(--animate-delay) * 5);
+        }
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g class="animate__animated animate__pulse animate__infinite animate__delay-5s animate__slower">
+   <path id="svg_161" opacity="0.5" fill="#3182ad" d="m300.88892,87.28372l0.99971,98.64959s59.1969,-23.4931 71.01485,-51.19924l0,-109.57495s-10.56832,30.16971 -72.01456,62.12461l0,-0.00001z" stroke="null" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    
+         @-webkit-keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        @keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        .animate__flash {
+          -webkit-animation-name: flash;
+          animation-name: flash;
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    .animate__animated.animate__delay-5s {
+          -webkit-animation-delay: calc(1s * 5);
+          animation-delay: calc(1s * 5);
+          -webkit-animation-delay: calc(var(--animate-delay) * 5);
+          animation-delay: calc(var(--animate-delay) * 5);
+        }
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g class="animate__animated animate__flash animate__infinite animate__delay-5s animate__slower">
+   <path opacity="0.4" id="svg_163" fill="#fff" d="m213.05758,161.82096l0,7.39069a165.55851,165.55851 0 0 0 17.35205,0.82119a177.76921,177.76921 0 0 0 84.01103,-20.27976l0,-8.4261c-40.73803,23.74302 -85.61771,21.99354 -101.36308,20.49398z" stroke="null" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    
+         @-webkit-keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        @keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        .animate__flash {
+          -webkit-animation-name: flash;
+          animation-name: flash;
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    .animate__animated.animate__delay-4s {
+          -webkit-animation-delay: calc(1s * 4);
+          animation-delay: calc(1s * 4);
+          -webkit-animation-delay: calc(var(--animate-delay) * 4);
+          animation-delay: calc(var(--animate-delay) * 4);
+        }
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g class="animate__animated animate__flash animate__infinite animate__delay-4s animate__slower">
+   <path opacity="0.4" id="svg_164" fill="#fff" d="m213.05758,179.81567l0,7.39069c4.24875,0.39274 10.13988,0.82119 17.35205,0.82119a177.87632,177.87632 0 0 0 84.01103,-20.27976l0,-8.4261c-40.73803,23.60021 -85.61771,21.95784 -101.36308,20.49398z" stroke="null" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    
+         @-webkit-keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        @keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        .animate__flash {
+          -webkit-animation-name: flash;
+          animation-name: flash;
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    .animate__animated.animate__delay-3s {
+          -webkit-animation-delay: calc(1s * 3);
+          animation-delay: calc(1s * 3);
+          -webkit-animation-delay: calc(var(--animate-delay) * 3);
+          animation-delay: calc(var(--animate-delay) * 3);
+        }
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g class="animate__animated animate__flash animate__infinite animate__delay-3s animate__slower">
+   <path opacity="0.4" id="svg_165" fill="#fff" d="m213.05758,197.77468l0,7.39069c4.24875,0.39274 10.13988,0.82119 17.35205,0.82119a177.76921,177.76921 0 0 0 84.01103,-20.27976l0,-8.4261c-40.73803,23.85014 -85.61771,21.99354 -101.36308,20.49398z" stroke="null" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    
+         @-webkit-keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        @keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        .animate__flash {
+          -webkit-animation-name: flash;
+          animation-name: flash;
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    .animate__animated.animate__delay-2s {
+          -webkit-animation-delay: calc(1s * 2);
+          animation-delay: calc(1s * 2);
+          -webkit-animation-delay: calc(var(--animate-delay) * 2);
+          animation-delay: calc(var(--animate-delay) * 2);
+        }
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g class="animate__animated animate__flash animate__infinite animate__delay-2s animate__slower">
+   <path opacity="0.4" id="svg_166" fill="#fff" d="m213.05758,215.73369l0,7.39069c4.24875,0.39274 10.13988,0.82119 17.35205,0.82119a177.76921,177.76921 0 0 0 84.01103,-20.27976l0,-8.35469c-40.73803,23.56451 -85.61771,21.95784 -101.36308,20.42257z" stroke="null" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    
+         @-webkit-keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        @keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        .animate__flash {
+          -webkit-animation-name: flash;
+          animation-name: flash;
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g class="animate__animated animate__flash animate__infinite animate__delay-1s animate__slower">
+   <path opacity="0.4" id="svg_167" fill="#fff" d="m213.05758,233.6927l0,7.39069a165.55851,165.55851 0 0 0 17.35205,0.82119a177.76921,177.76921 0 0 0 84.01103,-20.27976l0,-8.4261c-40.73803,23.45739 -85.61771,22.02924 -101.36308,20.49398z" stroke="null" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    
+         @-webkit-keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        @keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        .animate__flash {
+          -webkit-animation-name: flash;
+          animation-name: flash;
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    .animate__animated.animate__delay-3s {
+          -webkit-animation-delay: calc(1s * 3);
+          animation-delay: calc(1s * 3);
+          -webkit-animation-delay: calc(var(--animate-delay) * 3);
+          animation-delay: calc(var(--animate-delay) * 3);
+        }
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g class="animate__animated animate__flash animate__infinite animate__delay-3s animate__slower">
+   <path id="svg_169" opacity="0.3" fill="#fff" d="m331.13003,133.87718l0,21.81502a32.13342,32.13342 0 0 0 16.74508,-9.78284l0,-23.27888a41.95196,41.95196 0 0 1 -16.74508,11.2467z" stroke="null" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    
+         @-webkit-keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        @keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        .animate__flash {
+          -webkit-animation-name: flash;
+          animation-name: flash;
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    .animate__animated.animate__delay-2s {
+          -webkit-animation-delay: calc(1s * 2);
+          animation-delay: calc(1s * 2);
+          -webkit-animation-delay: calc(var(--animate-delay) * 2);
+          animation-delay: calc(var(--animate-delay) * 2);
+        }
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g class="animate__animated animate__flash animate__infinite animate__delay-2s animate__slower">
+   <path id="svg_170" opacity="0.3" fill="#fff" d="m331.13003,164.40392l0,21.77932a35.48957,35.48957 0 0 0 16.63797,-9.78284l0,-23.27888a40.88085,40.88085 0 0 1 -16.63797,11.2824z" stroke="null" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    
+         @-webkit-keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        @keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        .animate__flash {
+          -webkit-animation-name: flash;
+          animation-name: flash;
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g class="animate__animated animate__flash animate__infinite animate__delay-1s animate__slower">
+   <path id="svg_171" opacity="0.3" fill="#fff" d="m331.13003,193.85956l0,22.02924a37.6318,37.6318 0 0 0 16.74508,-8.92595l0,-23.24317a55.05525,55.05525 0 0 1 -16.74508,10.13988z" stroke="null" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    
+         @-webkit-keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        @keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        .animate__flash {
+          -webkit-animation-name: flash;
+          animation-name: flash;
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    .animate__animated.animate__delay-3s {
+          -webkit-animation-delay: calc(1s * 3);
+          animation-delay: calc(1s * 3);
+          -webkit-animation-delay: calc(var(--animate-delay) * 3);
+          animation-delay: calc(var(--animate-delay) * 3);
+        }
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g class="animate__animated animate__flash animate__infinite animate__delay-3s animate__slower">
+   <path id="svg_173" opacity="0.3" fill="#fff" d="m132.4864,169.54527a222.04191,222.04191 0 0 0 24.06436,6.14105l0,-21.70791a114.82341,114.82341 0 0 1 -24.06436,-6.28387l0,21.85072l0,0.00001z" stroke="null" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    
+         @-webkit-keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        @keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        .animate__flash {
+          -webkit-animation-name: flash;
+          animation-name: flash;
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    .animate__animated.animate__delay-2s {
+          -webkit-animation-delay: calc(1s * 2);
+          animation-delay: calc(1s * 2);
+          -webkit-animation-delay: calc(var(--animate-delay) * 2);
+          animation-delay: calc(var(--animate-delay) * 2);
+        }
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g class="animate__animated animate__flash animate__infinite animate__delay-2s animate__slower">
+   <path id="svg_174" opacity="0.3" fill="#fff" d="m132.4864,200.14342a206.65358,206.65358 0 0 0 24.06436,6.14105l0,-21.77932a77.0845,77.0845 0 0 1 -24.06436,-6.14105l0,21.77932z" stroke="null" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    
+         @-webkit-keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        @keyframes flash {
+          from,
+          50%,
+          to {
+            opacity: 1;
+          }
+        
+          25%,
+          75% {
+            opacity: 0;
+          }
+        }
+        .animate__flash {
+          -webkit-animation-name: flash;
+          animation-name: flash;
+        }
+        
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g class="animate__animated animate__flash animate__infinite animate__delay-1s animate__slower">
+   <path id="svg_175" opacity="0.3" fill="#fff" d="m132.4864,230.67017a240.7507,240.7507 0 0 0 24.06436,5.06994l0,-22.02924a59.41112,59.41112 0 0 1 -24.06436,-5.99824l0,22.95754z" stroke="null" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+ </g>
+</svg>

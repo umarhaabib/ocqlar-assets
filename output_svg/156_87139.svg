@@ -1,0 +1,132 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g>
+  <title>background</title>
+  <rect y="-1" x="-1" width="1068.66667" height="602" id="canvas_background" fill="#ffffff"/>
+ </g>
+
+ <g>
+  <title>title1</title>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes rotateInUpRight {
+    from {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate3d(0, 0, 1, -90deg);
+        transform: rotate3d(0, 0, 1, -90deg);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1
+    }
+}
+
+@keyframes rotateInUpRight {
+    from {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate3d(0, 0, 1, -90deg);
+        transform: rotate3d(0, 0, 1, -90deg);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1
+    }
+}
+
+.animate__rotateInUpRight {
+    -webkit-animation-name: rotateInUpRight;
+    animation-name: rotateInUpRight
+}
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }</style>
+  <g class="animate__animated animate__rotateInUpRight animate__infinite">
+   <text stroke="#000" transform="matrix(0.41683900356292725,0,0,1.3332868814468384,458.20052916929126,-33.417217472568154) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="100" id="svg_2" y="129.93538" x="125.8521" stroke-width="0" fill="#000000" xmlns="http://www.w3.org/2000/svg">RotateinUpright</text>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes rotateInUpRight {
+    from {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate3d(0, 0, 1, -90deg);
+        transform: rotate3d(0, 0, 1, -90deg);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1
+    }
+}
+
+@keyframes rotateInUpRight {
+    from {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate3d(0, 0, 1, -90deg);
+        transform: rotate3d(0, 0, 1, -90deg);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1
+    }
+}
+
+.animate__rotateInUpRight {
+    -webkit-animation-name: rotateInUpRight;
+    animation-name: rotateInUpRight
+}
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }</style>
+  <g class="animate__animated animate__rotateInUpRight animate__infinite">
+   <image xlink:href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTAwcHgiIGhlaWdodD0iMTAwcHgiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAgMTAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiMxNzgwQzIiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZD0iDQoJTTk0LjE5Myw5MC43MDdjMCwyLjA2MS0xLjI4NSwzLjczMS0yLjg2OSwzLjczMWMwLDAtMi45NTYtMC4wNzUtMTIuOTE0LDBjLTEzLjk2NSwwLjEwNC0yNy4wMiwwLTI3LjAyLDBzLTIzLjE4NS0wLjE5OC0zMS40NDMsMA0KCWMtOC40MzEsMC4yMDItMTAuNTgxLDAtMTAuNTgxLDBjLTEuNTg1LDAtMi44Ny0xLjY3MS0yLjg3LTMuNzMxYzAsMC0wLjMxNC0xOC40MjgsMC0yMy41NmMwLjE2Ni0yLjcwNC0wLjEyNi0xMy44MTMtMC4xNC0yNC42NjgNCgljLTAuMDEyLTkuNzQ4LDAuMjY2LTE5LjI2NiwwLjE0LTIyLjY4NGMtMC4yNy03LjI4OSwwLTEwLjAzLDAtMTAuMDNjMC0yLjA2MSwxLjI4NC0zLjczMiwyLjg3LTMuNzMyYzAsMCw3LjQ4Mi0wLjQxMSwxNC43MDYsMA0KCWM0LjM3OSwwLjI0OSwxNC4xODItMC4xNDEsMjQuMzQ1LTAuMTgyYzguMzU2LTAuMDM0LDE2LjkyOCwwLjMxNCwyMy4xOCwwLjE4MmMxMy44NTQtMC4yOTEsMTkuNzI4LDAsMTkuNzI4LDANCgljMS41ODQsMCwyLjg2OSwxLjY3MSwyLjg2OSwzLjczMmMwLDAsMC4xMDEsMS4yMzksMCw4Ljg2NGMtMC4xMDQsNy43OCwwLjEzMiwyOS43ODYsMC4xMzIsMzEuMTAzYzAsMS4zMTgtMC4yMzksMTAuOTYxLDAsMjAuMjkzDQoJQzk0LjU2NSw3OS4zNTcsOTQuMTkzLDkwLjcwNyw5NC4xOTMsOTAuNzA3eiIvPg0KPHBhdGggZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSINCglNMzIuNTMzLDgwLjMyOGMwLDAuOTQxLTAuMTk4LDEuNzA1LTAuNDQxLDEuNzA1YzAsMC0wLjQ1NC0wLjAzNS0xLjk4MywwYy0yLjE0NSwwLjA0OC00LjE1LDAtNC4xNSwwcy0zLjU2MS0wLjA5MS00LjgzLDANCgljLTEuMjk0LDAuMDkyLTEuNjI1LDAtMS42MjUsMGMtMC4yNDQsMC0wLjQ0LTAuNzY0LTAuNDQtMS43MDVjMCwwLTAuMDQ4LTguNDEyLDAtMTAuNzU2YzAuMDI0LTEuMjMzLTAuMDItNi4zMDYtMC4wMjItMTEuMjYxDQoJYy0wLjAwMi00LjQ1LDAuMDQxLTguNzk2LDAuMDIyLTEwLjM1N2MtMC4wNDItMy4zMjcsMC00LjU3OSwwLTQuNTc5YzAtMC45NCwwLjE5Ny0xLjcwNCwwLjQ0LTEuNzA0YzAsMCwxLjE0OS0wLjE4OCwyLjI1OCwwDQoJYzAuNjczLDAuMTEzLDIuMTc5LTAuMDY0LDMuNzQtMC4wODNjMS4yODMtMC4wMTYsMi41OTksMC4xNDQsMy41NiwwLjA4M2MyLjEyOC0wLjEzMywzLjAzLDAsMy4wMywwDQoJYzAuMjQzLDAsMC40NDEsMC43NjMsMC40NDEsMS43MDRjMCwwLDAuMDE1LDAuNTY1LDAsNC4wNDZjLTAuMDE3LDMuNTUzLDAuMDE5LDEzLjU5OSwwLjAxOSwxNC4yMDFjMCwwLjYwMS0wLjAzNiw1LjAwNCwwLDkuMjY0DQoJQzMyLjU5LDc1LjE0NywzMi41MzMsODAuMzI4LDMyLjUzMyw4MC4zMjh6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGQ9Ig0KCU01My45MDQsNDUuMzMzYzUuODIyLTMuODE2LDExLjg2NS01LjA0NSwyMC4zMDUtMy43MTdjOC44NTIsMS4zOTQsOC4zMTgsMTYuNjcyLDguNTIyLDI1LjU5NGMwLjExNCw0Ljk4OC0wLjM5OSw5Ljk2OC0wLjUyMiwxNC45NTYNCgloLTAuMTY4Yy00LjM4OSwwLTguNzc3LDAtMTMuMTY2LDB2LTAuMDkzYy0wLjIxNS02LjEyMS0wLjI1Ni0xMC45MzktMC4yOTEtMTcuMTAxYy0wLjAzLTUuMDkzLDAuMjQyLTEyLjcyNi02LjYzMy0xMi45MzUNCgljLTIuNjctMC4wODItNi4wOTIsMC41NjYtOC4wNDcsMi4yOTVsLTAuMDMyLDAuODM0YzAuMDA3LDMuNTg4LDAuMDE5LDYuMTA1LDAuMDE5LDYuNDU1YzAsMC42MDEtMC4wMzUsNS4wMDQsMCw5LjI2NA0KCWMwLjAzOCw0LjI2MS0wLjAxOSw5LjQ0MS0wLjAxOSw5LjQ0MWMwLDAuOTQxLTAuMTk4LDEuNzA1LTAuNDQxLDEuNzA1YzAsMC0wLjQ1NC0wLjAzNS0xLjk4MywwYy0yLjE0NSwwLjA0OC00LjE0OSwwLTQuMTQ5LDANCglzLTMuNTYxLTAuMDkxLTQuODMsMGMtMS4yOTQsMC4wOTItMS42MjUsMC0xLjYyNSwwYy0wLjI0NCwwLTAuNDQtMC43NjQtMC40NC0xLjcwNWMwLDAtMC4wNDgtOC40MTIsMC0xMC43NTYNCgljMC4wMjQtMS4yMzMtMC4wMi02LjMwNi0wLjAyMi0xMS4yNjFjLTAuMDAyLTQuNDUsMC4wNDEtOC43OTYsMC4wMjItMTAuMzU3Yy0wLjA0Mi0zLjMyNywwLTQuNTc5LDAtNC41NzkNCgljMC0wLjk0LDAuMTk3LTEuNzA0LDAuNDQtMS43MDRjMCwwLDEuMTQ5LTAuMTg4LDIuMjU4LDBjMC42NzMsMC4xMTMsMi4xNzktMC4wNjQsMy43NC0wLjA4M2MxLjI4My0wLjAxNiwyLjU5OSwwLjE0NCwzLjU2LDAuMDgzDQoJYzIuMTI4LTAuMTMzLDMuMDMsMCwzLjAzLDBjMC4yNDMsMCwwLjQ0MSwyLjc2MywwLjQ0MSwzLjcwNGMwLDAsMC4wMDctMy43NDgsMC4wMDctMi41NDIiLz4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZD0iDQoJTTI1LjYxNCwyMS4wNDJjLTMuMDU3LDAtNi40ODksMi42NDItNi42OTcsNi4yMzdjLTAuMTc5LDMuMTAxLDIuMTE5LDYuNDE4LDUuNDA5LDcuMTgxYzIuNTYxLDAuNTkzLDUuNDgyLTAuNDU4LDYuOTYzLTIuNTQ2DQoJYzEuNDY4LTIuMDcsMS45MDctNC43MjMsMC43NjYtNy4wNThDMzAuOTM4LDIyLjU3NCwyOS4xMTksMjEuMDQyLDI1LjYxNCwyMS4wNDIiLz4NCjwvc3ZnPg0K" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg_1" height="150" width="150" y="34.00001" x="54" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+ </g>
+</svg>

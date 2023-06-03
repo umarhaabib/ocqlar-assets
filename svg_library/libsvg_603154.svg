@@ -1,0 +1,810 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="602" width="1068.66667" y="-1" x="-1"/>
+ </g>
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="1068.66667" height="602" id="canvas_background" fill="#fff"/>
+ </g>
+ <g>
+  <title>background</title>
+  <rect height="452" width="802" fill="none" y="-1" x="-1" id="canvas_background"/>
+  <rect height="450" width="800" fill="#F1C40F" y="1.053" x="-2.105" id="XMLID_11_"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <polygon points="326.913,341.652 378.215,363.753 372.913,320.354  " fill="#428E42" id="XMLID_364_"/>
+  <polygon points="439.816,329.652 326.913,341.652 314.516,287.152  " fill="#44B649" id="XMLID_7_"/>
+  <polygon points="278.716,293.152 439.816,329.652 425.913,266.053  " fill="#428E42" id="XMLID_362_"/>
+  <polygon points="646.913,134.053 687.016,306.753 278.716,293.953 250.816,124.353  " fill="#44B649" id="XMLID_361_"/>
+  <polygon points="714.715,247.553 727.615,302.553 531.715,295.152 522.816,241.053  " fill="#428E42" id="XMLID_9_"/>
+  <polygon points="348.816,191.453 314.516,215.553 275.615,194.053 264.916,123.853 338.615,125.953     " fill="#428E42" id="XMLID_1_"/>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes rotateIn {
+    from {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, -200deg);
+        transform: rotate3d(0, 0, 1, -200deg);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1
+    }
+}
+
+@keyframes rotateIn {
+    from {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, -200deg);
+        transform: rotate3d(0, 0, 1, -200deg);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1
+    }
+}
+
+.animate__rotateIn {
+    -webkit-animation-name: rotateIn;
+    animation-name: rotateIn
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes flipInY {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        opacity: 1
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg)
+    }
+
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px)
+    }
+}
+
+@keyframes flipInY {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        opacity: 1
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg)
+    }
+
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px)
+    }
+}
+
+.animate__flipInY {
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: flipInY;
+    animation-name: flipInY
+}
+
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-2s {
+          -webkit-animation-delay: calc(1s * 2);
+          animation-delay: calc(1s * 2);
+          -webkit-animation-delay: calc(var(--animate-delay) * 2);
+          animation-delay: calc(var(--animate-delay) * 2);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <g class="animate__animated animate__flipInY animate__repeat-1 animate__delay-2s animate__faster" id="svg_4">
+   <text font-size="20" font-family="'HelveticaWorld-Bold'" fill="#FFFFFF" transform="matrix(1,0.00039,-0.00039,1,275.7415,162.2495) " id="XMLID_6_">SHOP</text>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes flipInY {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        opacity: 1
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg)
+    }
+
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px)
+    }
+}
+
+@keyframes flipInY {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        opacity: 1
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg)
+    }
+
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px)
+    }
+}
+
+.animate__flipInY {
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: flipInY;
+    animation-name: flipInY
+}
+
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-2s {
+          -webkit-animation-delay: calc(1s * 2);
+          animation-delay: calc(1s * 2);
+          -webkit-animation-delay: calc(var(--animate-delay) * 2);
+          animation-delay: calc(var(--animate-delay) * 2);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <g class="animate__animated animate__flipInY animate__repeat-1 animate__delay-2s animate__faster" id="svg_5">
+   <text font-size="20" font-family="'HelveticaWorld-Bold'" fill="#FFFFFF" transform="matrix(1,0,0,1,289.9382,183.4492) " id="XMLID_10_">NOW</text>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes flipInY {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        opacity: 1
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg)
+    }
+
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px)
+    }
+}
+
+@keyframes flipInY {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        opacity: 1
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg)
+    }
+
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px)
+    }
+}
+
+.animate__flipInY {
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: flipInY;
+    animation-name: flipInY
+}
+
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-2s {
+          -webkit-animation-delay: calc(1s * 2);
+          animation-delay: calc(1s * 2);
+          -webkit-animation-delay: calc(var(--animate-delay) * 2);
+          animation-delay: calc(var(--animate-delay) * 2);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <g class="animate__animated animate__flipInY animate__repeat-1 animate__delay-2s animate__faster" id="svg_6">
+   <text font-size="96.9641" font-family="'HelveticaWorld-Bold'" fill="#FFFFFF" transform="matrix(1.1067,0.0172,-0.0156,0.9999,358.8337,217.5635) " id="XMLID_2_">SALE</text>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes flipInY {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        opacity: 1
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg)
+    }
+
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px)
+    }
+}
+
+@keyframes flipInY {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        opacity: 1
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg)
+    }
+
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px)
+    }
+}
+
+.animate__flipInY {
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: flipInY;
+    animation-name: flipInY
+}
+
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-3s {
+          -webkit-animation-delay: calc(1s * 3);
+          animation-delay: calc(1s * 3);
+          -webkit-animation-delay: calc(var(--animate-delay) * 3);
+          animation-delay: calc(var(--animate-delay) * 3);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <g class="animate__animated animate__flipInY animate__repeat-1 animate__delay-3s animate__faster" id="svg_7">
+   <text font-size="28.7197" font-family="'HelveticaWorld-Bold'" fill="#FFFFFF" transform="matrix(1.0217,0.0654,-0.0639,0.998,292.0447,272.2773) " id="XMLID_28_">LIMITED OFFER</text>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes flipInY {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        opacity: 1
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg)
+    }
+
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px)
+    }
+}
+
+@keyframes flipInY {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        opacity: 1
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg)
+    }
+
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px)
+    }
+}
+
+.animate__flipInY {
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: flipInY;
+    animation-name: flipInY
+}
+
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-4s {
+          -webkit-animation-delay: calc(1s * 4);
+          animation-delay: calc(1s * 4);
+          -webkit-animation-delay: calc(var(--animate-delay) * 4);
+          animation-delay: calc(var(--animate-delay) * 4);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <g class="animate__animated animate__flipInY animate__repeat-1 animate__delay-4s animate__faster" id="svg_8">
+   <text font-size="24.8092" font-family="'HelveticaWorld-Bold'" fill="#FFFFFF" transform="matrix(1,-0.0056,0.0056,1,536.4856,281.3896) " id="XMLID_29_">UPTO 50%</text>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes flipInY {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        opacity: 1
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg)
+    }
+
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px)
+    }
+}
+
+@keyframes flipInY {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        opacity: 1
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg)
+    }
+
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px)
+    }
+}
+
+.animate__flipInY {
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: flipInY;
+    animation-name: flipInY
+}
+
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-4s {
+          -webkit-animation-delay: calc(1s * 4);
+          animation-delay: calc(1s * 4);
+          -webkit-animation-delay: calc(var(--animate-delay) * 4);
+          animation-delay: calc(var(--animate-delay) * 4);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 2);
+          animation-duration: calc(1s / 2);
+          -webkit-animation-duration: calc(var(--animate-duration) / 2);
+          animation-duration: calc(var(--animate-duration) / 2);
+        }</style>
+  <g id="svg_9" class="animate__animated animate__flipInY animate__repeat-1 animate__delay-4s animate__faster">
+   <text font-size="19.4912" font-family="'HelveticaWorld-Regular'" fill="#FFFFFF" transform="matrix(1,0,0,1,669.0081,279.2871) " id="XMLID_27_">OFF</text>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+.animate__slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft
+}
+    .animate__animated.animate__repeat-1 {
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          -webkit-animation-iteration-count: var(--animate-repeat);
+          animation-iteration-count: var(--animate-repeat);
+        }
+    .animate__animated.animate__delay-1s {
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+          -webkit-animation-delay: var(--animate-delay);
+          animation-delay: var(--animate-delay);
+        }
+    .animate__animated.animate__faster {
+          -webkit-animation-duration: calc(1s / 3);
+          animation-duration: calc(1s / 3);
+          -webkit-animation-duration: calc(var(--animate-duration) / 3);
+          animation-duration: calc(var(--animate-duration)/ 3);
+        }</style>
+  <g class="animate__animated animate__slideInLeft animate__repeat-1 animate__delay-1s animate__faster" id="svg_1">
+   <image x="-90.14765" y="19.51243" width="431.33333" height="431.33333" id="svg_13" xlink:href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KIDxnPgogIDx0aXRsZT5iYWNrZ3JvdW5kPC90aXRsZT4KIAogPC9nPgoKIDxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+LnN0MCB7CgkJCWZpbGw6ICNGRkZGRkY7CgkJfQoKCQkuc3QxIHsKCQkJZmlsbDogI0U0RjBGRjsKCQl9CgoJCS5zdDIgewoJCQlvcGFjaXR5OiAwLjU7CgkJfQoKCQkuc3QzIHsKCQkJZmlsbDogI0ZGQzBCQjsKCQl9CgoJCS5zdDQgewoJCQlmaWxsOiAjNzY4M0M0OwoJCX0KCgkJLnN0NSB7CgkJCWZpbGw6ICMzQzIzNDA7CgkJfQoKCQkuc3Q2IHsKCQkJZmlsbDogIzA3MDg1QjsKCQl9CgoJCS5zdDcgewoJCQlmaWxsOiAjRjk5ODkzOwoJCX0KCgkJLnN0OCB7CgkJCWZpbGw6ICMzMzMzMzM7CgkJfQoKCQkuc3Q5IHsKCQkJZmlsbDogIzJDMzc3QTsKCQl9CgoJCS5zdDEwIHsKCQkJZmlsbDogIzQwNDk5NjsKCQl9CgoJCS5zdDExIHsKCQkJZmlsbDogIzgzOENDRjsKCQl9CgoJCS5zdDEyIHsKCQkJZmlsbDogI0ZGNUI3RTsKCQl9CgoJCS5zdDEzIHsKCQkJZmlsbDogI0U1NDI2RTsKCQl9CgoJCS5zdDE0IHsKCQkJZmlsbDogIzRDMjgxNjsKCQl9CgoJCS5zdDE1IHsKCQkJb3BhY2l0eTogMC41OwoJCQlmaWxsOiAjNEMyODE2OwoJCQllbmFibGUtYmFja2dyb3VuZDogbmV3OwoJCX0KCgkJLnN0MTYgewoJCQlmaWxsOiAjRjQ4NEEyOwoJCX0KCgkJLnN0MTcgewoJCQlmaWxsOiAjRkNCN0I0OwoJCX0KCgkJLnN0MTggewoJCQlmaWxsOiAjRjI0Qzc4OwoJCX0KCgkJLnN0MTkgewoJCQlmaWxsOiAjRkVFNENCOwoJCX0KCgkJLnN0MjAgewoJCQlvcGFjaXR5OiAwLjU7CgkJCWZpbGw6ICNGRUU0Q0I7CgkJCWVuYWJsZS1iYWNrZ3JvdW5kOiBuZXc7CgkJfQoKCQkuc3QyMSB7CgkJCWZpbGw6ICNFOEI4OTE7CgkJfQoKCQkuc3QyMiB7CgkJCWZpbGw6ICM4OEM3RkY7CgkJfQoKCQkuc3QyMyB7CgkJCWZpbGw6ICNCMEQ2RkY7CgkJfQoKCQkuc3QyNCB7CgkJCW9wYWNpdHk6IDAuMzsKCQkJZmlsbDogI0M5RUFGRDsKCQkJZW5hYmxlLWJhY2tncm91bmQ6IG5ldzsKCQl9CgoJCS5zdDI1IHsKCQkJZmlsbDogIzE0MjY2NjsKCQl9CgoJCS5zdDI2IHsKCQkJZmlsbDogI0ZFQjU0NjsKCQl9CgoJCS5zdDI3IHsKCQkJZmlsbDogI0U4N0I1MDsKCQl9CgoJCS5zdDI4IHsKCQkJZmlsbDogI0YzRkRGRjsKCQl9CgoJCS5zdDI5IHsKCQkJZmlsbDogIzI5NTg5QjsKCQl9CgoJCS5zdDMwIHsKCQkJZmlsbDogI0VBNDI2RTsKCQl9CgoJCS5zdDMxIHsKCQkJb3BhY2l0eTogMC4zOwoJCQlmaWxsOiAjRTg3QjUwOwoJCQllbmFibGUtYmFja2dyb3VuZDogbmV3OwoJCX0KCgkJLnN0MzIgewoJCQlmaWxsOiAjRjc2MzkwOwoJCX0KCgkJLnN0MzMgewoJCQlmaWxsOiAjMDYwNjJEOwoJCX0KCgkJLnN0MzQgewoJCQlmaWxsOiAjMDkwODNDOwoJCX0KCgkJLnN0MzUgewoJCQlmaWxsOiAjMzY2MEFDOwoJCX0KCgkJLnN0MzYgewoJCQlmaWxsOiAjRjlBNDM1OwoJCX0KCgkJLnN0MzcgewoJCQlmaWxsOiAjRUY5NzJFOwoJCX0KCgkJLnN0MzggewoJCQlvcGFjaXR5OiAwLjM7CgkJCWZpbGw6ICNGOTk4OTM7CgkJCWVuYWJsZS1iYWNrZ3JvdW5kOiBuZXc7CgkJfQoKCQkuc3QzOSB7CgkJCWZpbGw6ICM3MEMwRkQ7CgkJfQoKCQkuc3Q0MCB7CgkJCW9wYWNpdHk6IDAuMzsKCQkJZmlsbDogIzQxODhFNDsKCQkJZW5hYmxlLWJhY2tncm91bmQ6IG5ldzsKCQl9CgoJCS5zdDQxIHsKCQkJZmlsbDogI0U2RjdGRjsKCQl9CgoJCS5zdDQyIHsKCQkJb3BhY2l0eTogMC4yOwoJCQlmaWxsOiAjRkZGRkZGOwoJCQllbmFibGUtYmFja2dyb3VuZDogbmV3OwoJCX0KCgkJLnN0NDMgewoJCQlmaWxsOiAjMTgzNjU4OwoJCX0KCgkJLnN0NDQgewoJCQlvcGFjaXR5OiAwLjI7CgkJCWZpbGw6ICNFMEE2ODk7CgkJCWVuYWJsZS1iYWNrZ3JvdW5kOiBuZXc7CgkJfQoKCQkuc3Q0NSB7CgkJCWZpbGw6ICNEQUVFRjc7CgkJfQoKCQkuc3Q0NiB7CgkJCW9wYWNpdHk6IDAuMzsKCQkJZmlsbDogI0RBRUVGNzsKCQkJZW5hYmxlLWJhY2tncm91bmQ6IG5ldzsKCQl9CgoJCS5zdDQ3IHsKCQkJb3BhY2l0eTogMC41OwoJCQlmaWxsOiAjODhDN0ZGOwoJCQllbmFibGUtYmFja2dyb3VuZDogbmV3OwoJCX0KCgkJLnN0NDggewoJCQlmaWxsOiAjNDE4OEU0OwoJCX0KCgkJLnN0NDkgewoJCQlmaWxsOiAjMTgxOTZCOwoJCX0KCgkJLnN0NTAgewoJCQlmaWxsOiAjRkY3QjhDOwoJCX0KCgkJLnN0NTEgewoJCQlmaWxsOiAjQUZEQkZFOwoJCX0KCgkJLnN0NTIgewoJCQlvcGFjaXR5OiAwLjU7CgkJCWZpbGw6ICM3MEMwRkQ7CgkJCWVuYWJsZS1iYWNrZ3JvdW5kOiBuZXc7CgkJfQoKCQkuc3Q1MyB7CgkJCWZpbGw6ICM5N0NFRjc7CgkJfQoKCQkjZ2lybHR3byB7fQoKCQkjYm95b25lJmd0OyNib3lvbmVoYW5kIHsKCQkJYW5pbWF0aW9uOiBib3llZWFlIDRzIGVhc2UtaW4tb3V0IGluZmluaXRlIHJldmVyc2U7CgkJCXRyYW5zZm9ybS1ib3g6IGZpbGwtYm94OwoJCQl0cmFuc2Zvcm0tb3JpZ2luOiB0b3A7CgkJfQoKCQlAa2V5ZnJhbWVzIGJveWVlYWUgewoJCQkwJSB7fQoKCQkJNTAlIHsKCQkJCXRyYW5zZm9ybTogcm90YXRlWigtMTBkZWcpOwoJCQl9CgkJfQoKCQkjYm95dHdvJmd0OyNib3l0d29oYW5kIHsKCQkJYW5pbWF0aW9uOiBib2VyeSA5cyBlYXNlLWluLW91dCBpbmZpbml0ZSByZXZlcnNlOwoJCQl0cmFuc2Zvcm0tYm94OiBmaWxsLWJveDsKCQkJdHJhbnNmb3JtLW9yaWdpbjogcmlnaHQ7CgkJfQoKCQlAa2V5ZnJhbWVzIGJvZXJ5IHsKCQkJMCUge30KCgkJCTUwJSB7CgkJCQl0cmFuc2Zvcm06IHJvdGF0ZVooNTNkZWcpOwoJCQl9CgkJfQoKCQkuaG95dHdvYXJtIHsKCQkJYW5pbWF0aW9uOiBib2VyZmR5IDlzIGVhc2UtaW4tb3V0IGluZmluaXRlOwoJCQl0cmFuc2Zvcm0tYm94OiBmaWxsLWJveDsKCQkJdHJhbnNmb3JtLW9yaWdpbjogcmlnaHQ7CgkJfQoKCQlAa2V5ZnJhbWVzIGJvZXJmZHkgewoJCQkwJSB7fQoKCgkJCTUwJSB7CgkJCQl0cmFuc2Zvcm06IHJvdGF0ZVooMzBkZWcpOwoJCQl9CgoJCQkxMDAlIHt9CgoJCX0KCgoJCS5ib3l0d29oZWFkIHsKCQkJYW5pbWF0aW9uOiBnb2FhYW5lZSA5cyBlYXNlLWluLW91dCBpbmZpbml0ZSByZXZlcnNlOwoJCQl0cmFuc2Zvcm0tYm94OiBmaWxsLWJveDsKCQkJdHJhbnNmb3JtLW9yaWdpbjogYm90dG9tOwoJCX0KCgkJQGtleWZyYW1lcyBnb2FhYW5lZSB7CgkJCTAlIHt9CgoJCQk1MCUgewoJCQkJdHJhbnNmb3JtOiByb3RhdGVaKC0xNWRlZyk7CgkJCX0KCQl9CgoJCS5nb25laGVhZCB7CgkJCWFuaW1hdGlvbjogZ29uZSA3cyBlYXNlLWluLW91dCBpbmZpbml0ZSByZXZlcnNlOwoJCQl0cmFuc2Zvcm0tYm94OiBmaWxsLWJveDsKCQkJdHJhbnNmb3JtLW9yaWdpbjogYm90dG9tOwoJCX0KCgkJQGtleWZyYW1lcyBnb25lIHsKCQkJMCUge30KCgkJCTUwJSB7CgkJCQl0cmFuc2Zvcm06IHJvdGF0ZVooLTEwZGVnKTsKCQkJfQoJCX0KCgkJLmdvbmVoYW5kdXAsCgkJLmdvbmVoYW5kZG93biwKCQkuZ29uZWN1cCB7CgkJCWFuaW1hdGlvbjogZ29uZWUgN3MgZWFzZS1pbi1vdXQgaW5maW5pdGU7CgkJCXRyYW5zZm9ybS1ib3g6IGZpbGwtYm94OwoJCQl0cmFuc2Zvcm0tb3JpZ2luOiBsZWZ0OwoJCX0KCgkJQGtleWZyYW1lcyBnb25lZSB7CgkJCTAlIHt9CgoJCQk1MCUgewoJCQkJdHJhbnNmb3JtOiByb3RhdGVaKC0yMmRlZyk7CgkJCX0KCQl9CgoJCS5nbXR3byB7CgkJCWFuaW1hdGlvbjogZ29lbmVlZSAyLjVzIGVhc2UtaW4tb3V0IGluZmluaXRlOwoJCX0KCgkJQGtleWZyYW1lcyBnb2VuZWVlIHsKCQkJMCUge30KCgkJCTEwJSwKCQkJOTAlIHsKCQkJCW9wYWNpdHk6IDA7CgkJCX0KCgkJCTglLAoJCQkyMCUsCgkJCTUwJSB7CgkJCQlvcGFjaXR5OiAxOwoJCQl9CgkJfQoKCQkuYm95b25lbW91dGggewoJCQlhbmltYXRpb246IGdvbmVlZSAycyBlYXNlLWluLW91dCBpbmZpbml0ZTsKCQl9CgoJCUBrZXlmcmFtZXMgZ29uZWVlIHsKCQkJMCUge30KCgkJCTEwJSwKCQkJOTAlIHsKCQkJCW9wYWNpdHk6IDA7CgkJCX0KCgkJCTUlLAoJCQkxNSUsCgkJCTg1JSB7CgkJCQlvcGFjaXR5OiAxOwoJCQl9CgkJfQoKCQkuYm95dHdvbXV0aCB7CgkJCWFuaW1hdGlvbjogZ29uZWVlIDJzIGVhc2UtaW4tb3V0IGluZmluaXRlIHJldmVyc2U7CgkJfQoKCQkuY2xvY2ttaW4gewoJCQlhbmltYXRpb246IGdvbmVlZWUgMjBzIGN1YmljLWJlemllcigwLjUxLCAwLjU1LCAxLCAxKSBpbmZpbml0ZTsKCQkJdHJhbnNmb3JtLWJveDogZmlsbC1ib3g7CgkJCXRyYW5zZm9ybS1ib3g6IGZpbGwtYm94OwoKCQl9CgoJCUBrZXlmcmFtZXMgZ29uZWVlZSB7CgkJCTAlIHt9CgoJCQkxMDAlIHsKCQkJCXRyYW5zZm9ybTogcm90YXRlKDF0dXJuKTsKCQkJfQoJCX0KCgkJLmNsb2NraG91ciB7CgkJCWFuaW1hdGlvbjogZ29uZWVlZSAxMjBzIGN1YmljLWJlemllcigwLjUxLCAwLjU1LCAxLCAxKSBpbmZpbml0ZTsKCQkJdHJhbnNmb3JtLWJveDogZmlsbC1ib3g7CgkJCXRyYW5zZm9ybS1ib3g6IGZpbGwtYm94OwoKCQl9CgoJCS5ndHdvaGFuZCB7CgkJCWFuaW1hdGlvbjogZ2FvbmVlIDdzIGVhc2UtaW4tb3V0IGluZmluaXRlOwoJCQl0cmFuc2Zvcm0tYm94OiBmaWxsLWJveDsKCQkJdHJhbnNmb3JtLW9yaWdpbjogcmlnaHQ7CgkJfQoKCQlAa2V5ZnJhbWVzIGdhb25lZSB7CgkJCTAlIHt9CgoJCQk1MCUgewoJCQkJdHJhbnNmb3JtOiByb3RhdGVaKDhkZWcpOwoJCQl9CgkJfTwvc3R5bGU+CiA8Zz4KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+CiAgPGcgc3Ryb2tlPSJudWxsIiBpZD0iYm95b25lIj4KICAgPGcgc3Ryb2tlPSJudWxsIiBpZD0iYm95b25laGFuZCI+CiAgICA8cGF0aCBzdHJva2U9Im51bGwiIGNsYXNzPSJzdDMiIGQ9Im0yODUuOTAzOTksMTU1LjQ3NzEyYy0wLjQ2MjIzLDAuNDYyMjMgMCwwLjc3MDM5IDAuNDYyMjMsMC43NzAzOWMzLjA4MTU2LDAuNzcwMzkgMTMuNDA0NzksMi43NzM0IDEzLjQwNDc5LDMuNTQzNzljMCwxLjIzMjYyIC05LjA5MDYsLTAuNzcwMzkgLTkuMzk4NzYsMGMtMC40NjIyMywwLjc3MDM5IDguNjI4MzcsMi4zMTExNyA4LjE2NjE0LDMuMjM1NjRjMCwxLjIzMjYyIC04LjE2NjE0LC0wLjQ2MjIzIC04LjYyODM3LDBjLTAuNDYyMjMsMC40NjIyMyA3LjM5NTc1LDIuNzczNCA3Ljg1Nzk4LDMuNTQzNzljMC40NjIyMywwLjc3MDM5IC04LjE2NjE0LC0wLjc3MDM5IC04LjYyODM3LC0wLjQ2MjIzYy0wLjQ2MjIzLDAuNDYyMjMgNS4wODQ1OCwzLjU0Mzc5IDQuNzc2NDIsNC4wMDYwM2MtMC40NjIyMywwLjQ2MjIzIC0wLjQ2MjIzLDAuNzcwMzkgLTE0LjQ4MzMzLC0yLjMxMTE3bC01LjU0NjgxLC0xLjU0MDc4bC0zLjg1MTk1LC0zLjU0Mzc5bDIuMzExMTcsLTYuMDA5MDRjMCwwIDE3LjI1Njc0LC03LjU0OTgyIDE3LjcxODk3LC03LjA4NzU5YzAuNjE2MzEsMC42MTYzMSAwLjYxNjMxLDEuMzg2NyAtNC4xNjAxMSw1Ljg1NDk3eiIgaWQ9InN2Z184Ii8+CiAgICA8cGF0aCBzdHJva2U9Im51bGwiIGNsYXNzPSJzdDQiIGQ9Im0yMTUuMzM2MjUsODAuOTAzMzVsMTUuNzE1OTYsNjEuMzIzMDZsNDMuMTQxODUsMTMuNDA0NzlsLTAuNzcwMzksMTIuMzI2MjRjMCwwIC01Ny42MjUxOCwwLjQ2MjIzIC02My45NDIzOCwtNC4zMTQxOGMtNi4zMTcyLC00Ljc3NjQyIC04LjE2NjE0LC03MS4zMzgxMyAtOC4xNjYxNCwtNzEuMzM4MTNsMTQuMDIxMSwtMTEuNDAxNzd6IiBpZD0ic3ZnXzkiLz4KICAgPC9nPgogICA8ZyBzdHJva2U9Im51bGwiIGlkPSJzdmdfMTAiPgogICAgPGcgc3Ryb2tlPSJudWxsIiBpZD0ic3ZnXzExIj4KICAgICA8ZyBzdHJva2U9Im51bGwiIGlkPSJzdmdfMTIiPgogICAgICA8cGF0aCBzdHJva2U9Im51bGwiIGNsYXNzPSJzdDUiIGQ9Im0xNDEuMjI0NzEsMzU1LjMxNjMybDkuMDkwNiwwYzAuNzcwMzksMCAxLjIzMjYyLC0wLjQ2MjIzIDEuNTQwNzgsLTEuMjMyNjJsMCwwYzAsLTAuNDYyMjMgMC40NjIyMywtMC43NzAzOSAxLjIzMjYyLC0wLjc3MDM5bDAsMGMwLjc3MDM5LDAgMCwwLjQ2MjIzIDAsMS41NDA3OGwyLjc3MzQsMy4yMzU2NGwyLjAwMzAxLDEuNTQwNzhjMi4wMDMwMSwxLjU0MDc4IDQuMzE0MTgsMi43NzM0IDcuMDg3NTksMi43NzM0bDIuNzczNCwwYzAuNzcwMzksMCAxLjU0MDc4LDAuNDYyMjMgMi4wMDMwMSwxLjIzMjYybDAuNDYyMjMsMC40NjIyM2MxLjIzMjYyLDEuMjMyNjIgMS41NDA3OCwyLjc3MzQgMS41NDA3OCw0Ljc3NjQybDAsMGwtMjAuODAwNTMsMC40NjIyM2MtMC43NzAzOSwwIC0xLjU0MDc4LC0wLjQ2MjIzIC0yLjAwMzAxLC0wLjc3MDM5bC0yLjc3MzQsLTIuMDAzMDFsMCwyLjc3MzRsLTUuODU0OTcsMGwwLC0xMC42MzEzOGMtMC43NzAzOSwtMi4xNTcwOSAtMC4zMDgxNiwtMy4zODk3MiAwLjkyNDQ3LC0zLjM4OTcyeiIgaWQ9InN2Z18xMyIvPgogICAgIDwvZz4KICAgIDwvZz4KICAgIDxyZWN0IHN0cm9rZT0ibnVsbCIgeD0iMTI2LjE5NzMyIiB5PSIyMzEuNzE0MjQiIHRyYW5zZm9ybT0ibWF0cml4KDEuNTQwNzggLTAuMDEzMzU5NiAwLjAxMzM1OTYgMS41NDA3OCAtNTcuOTg5OCAxMy41OTIyKSIgY2xhc3M9InN0NiIgd2lkdGg9IjMuOCIgaGVpZ2h0PSIwLjUiIGlkPSJzdmdfMTQiLz4KICAgIDxwYXRoIHN0cm9rZT0ibnVsbCIgY2xhc3M9InN0NiIgZD0ibTE3MC45NjE3NywzNjkuMTgzMzVsLTIxLjI2Mjc3LDBjLTAuNDYyMjMsMCAtMC43NzAzOSwtMC40NjIyMyAtMC43NzAzOSwtMC43NzAzOWwwLDBsMjEuNTcwOTIsMGwwLjQ2MjIzLDAuNzcwMzl6IiBpZD0ic3ZnXzE1Ii8+CiAgIDwvZz4KICAgPGcgc3Ryb2tlPSJudWxsIiBpZD0ic3ZnXzE2Ij4KICAgIDxnIHN0cm9rZT0ibnVsbCIgaWQ9InN2Z18xNyI+CiAgICAgPGcgc3Ryb2tlPSJudWxsIiBpZD0ic3ZnXzE4Ij4KICAgICAgPHBhdGggc3Ryb2tlPSJudWxsIiBjbGFzcz0ic3Q1IiBkPSJtMjAwLjg1MjkxLDM1NS4zMTYzMmw5LjA5MDYsMGMwLjc3MDM5LDAgMS4yMzI2MiwtMC40NjIyMyAxLjU0MDc4LC0xLjIzMjYybDAsMGMwLC0wLjQ2MjIzIDAuNDYyMjMsLTAuNzcwMzkgMS4yMzI2MiwtMC43NzAzOWwwLDBjMC43NzAzOSwwIDAsMC40NjIyMyAwLDEuNTQwNzhsMi43NzM0LDMuMjM1NjRsMi4wMDMwMSwxLjU0MDc4YzIuMDAzMDEsMS41NDA3OCA0LjMxNDE4LDIuNzczNCA3LjA4NzU5LDIuNzczNGwyLjc3MzQsMGMwLjc3MDM5LDAgMS41NDA3OCwwLjQ2MjIzIDIuMDAzMDEsMS4yMzI2MmwwLjQ2MjIzLDAuNDYyMjNjMS4yMzI2MiwxLjIzMjYyIDEuNTQwNzgsMi43NzM0IDEuNTQwNzgsNC43NzY0MmwwLDBsLTIwLjgwMDUzLDAuNDYyMjNjLTAuNzcwMzksMCAtMS41NDA3OCwtMC40NjIyMyAtMi4wMDMwMSwtMC43NzAzOWwtMi43NzM0LC0yLjAwMzAxbDAsMi43NzM0bC01Ljg1NDk3LDBsMCwtMTAuNjMxMzhjLTAuNzcwMzksLTIuMTU3MDkgLTAuMzA4MTYsLTMuMzg5NzIgMC45MjQ0NywtMy4zODk3MnoiIGlkPSJzdmdfMTkiLz4KICAgICA8L2c+CiAgICA8L2c+CiAgICA8cmVjdCBzdHJva2U9Im51bGwiIHg9IjE2NC45OTcyMiIgeT0iMjMxLjcxNDM2IiB0cmFuc2Zvcm09Im1hdHJpeCgxLjU0MDc4IC0wLjAxMzM1ODkgMC4wMTMzNTg5IDEuNTQwNzggLTU3Ljk4NzIgMTQuMTA5KSIgY2xhc3M9InN0NiIgd2lkdGg9IjMuOCIgaGVpZ2h0PSIwLjUiIGlkPSJzdmdfMjAiLz4KICAgIDxwYXRoIHN0cm9rZT0ibnVsbCIgY2xhc3M9InN0NiIgZD0ibTIzMC41ODk5NywzNjkuMTgzMzVsLTIxLjI2Mjc3LDBjLTAuNDYyMjMsMCAtMC43NzAzOSwtMC40NjIyMyAtMC43NzAzOSwtMC43NzAzOWwwLDBsMjEuNTcwOTIsMGwwLjQ2MjIzLDAuNzcwMzl6IiBpZD0ic3ZnXzIxIi8+CiAgIDwvZz4KICAgPGcgc3Ryb2tlPSJudWxsIiBpZD0ic3ZnXzIyIj4KICAgIDxwYXRoIHN0cm9rZT0ibnVsbCIgY2xhc3M9InN0NiIgZD0ibTE2OS40MjA5OSw0Ni4wODE3MmMwLDAgLTQuMzE0MTgsLTE3LjEwMjY2IDUuNTQ2ODEsLTIzLjcyODAyYzkuODYwOTksLTYuMzE3MiAyMC4wMzAxNCwtNi4wMDkwNCAyNy4xMTc3MywtMi4wMDMwMWM3LjA4NzU5LDQuMDA2MDMgMTEuNDAxNzcsMTcuNDEwODIgOC4xNjYxNCwyNC45NjA2NGwtMjMuNTczOTQsLTcuMDg3NTlsLTE3LjI1Njc0LDcuODU3OTh6IiBpZD0ic3ZnXzIzIi8+CiAgICA8cG9seWdvbiBzdHJva2U9Im51bGwiIGNsYXNzPSJzdDMiIHBvaW50cz0iMTgwLjgyMjc2MTUzNTY0NDUzLDYxLjQ4OTUzNDM3ODA1MTc2IDE4MC4wNTIzNzU3OTM0NTcwMyw4MC45MDMzNzc1MzI5NTg5OCAxOTcuMzA5MTIwMTc4MjIyNjYsNzkuMzYyNTk0NjA0NDkyMTkgMTk0LjUzNTc0MzcxMzM3ODksNjIuMjU5OTIzOTM0OTM2NTIgIiBpZD0ic3ZnXzI0Ii8+CiAgICA8cGF0aCBzdHJva2U9Im51bGwiIGNsYXNzPSJzdDciIGQ9Im0xOTUuNzY4MzQsNzAuMjcxOTdsLTEuMjMyNjIsLTcuODU3OThsLTEzLjcxMjk0LC0wLjc3MDM5bC0wLjQ2MjIzLDYuNzc5NDNjMi43NzM0LDIuMTU3MDkgNy44NTc5OCw0LjkzMDUgMTUuNDA3OCwxLjg0ODk0eiIgaWQ9InN2Z18yNSIvPgogICAgPHBhdGggc3Ryb2tlPSJudWxsIiBjbGFzcz0ic3Q3IiBkPSJtMjA1LjQ3NTI1LDQ3LjMxNDM0Yy0wLjc3MDM5LDIuMDAzMDEgLTAuNDYyMjMsNC4zMTQxOCAxLjU0MDc4LDUuMDg0NThjMi4wMDMwMSwwLjc3MDM5IDMuODUxOTUsLTAuNDYyMjMgNS4wODQ1OCwtMi4zMTExN2MwLjc3MDM5LC0yLjAwMzAxIDAuNDYyMjMsLTQuMzE0MTggLTEuNTQwNzgsLTUuMDg0NThjLTEuODQ4OTQsLTAuOTI0NDcgLTQuMzE0MTgsMC4zMDgxNiAtNS4wODQ1OCwyLjMxMTE3eiIgaWQ9InN2Z18yNiIvPgogICAgPHBhdGggc3Ryb2tlPSJudWxsIiBjbGFzcz0ic3QzIiBkPSJtMjA0LjcwNDg2LDU5Ljk0ODc0YzAuNDYyMjMsLTAuNzcwMzkgMS4yMzI2MiwtMi4wMDMwMSAxLjU0MDc4LC0yLjc3MzRjMS4yMzI2MiwtMi43NzM0IDEuNTQwNzgsLTYuMDA5MDQgMi4wMDMwMSwtOC4zMjAyMWMwLC0wLjQ2MjIzIDAsLTEuMjMyNjIgMC40NjIyMywtMS41NDA3OGMwLjQ2MjIzLC0yLjMxMTE3IDAuNDYyMjMsLTQuNzc2NDIgMCwtNy4wODc1OWMtMS41NDA3OCwtNy44NTc5OCAtOC4xNjYxNCwtMTMuODY3MDIgLTE2LjQ4NjM1LC0xNC42Mzc0MWMtMTAuOTM5NTQsLTEuMjMyNjIgLTIwLjMzODMsNy4wODc1OSAtMjAuMzM4MywxNy44NzMwNWMtMS4yMzI2MiwtMC43NzAzOSAtMi4zMTExNywtMC43NzAzOSAtMy41NDM3OSwtMC40NjIyM2MtMi4zMTExNywwLjc3MDM5IC0zLjA4MTU2LDQuMDA2MDMgLTIuMDAzMDEsNi43Nzk0M2MxLjIzMjYyLDIuNzczNCAzLjg1MTk1LDQuMzE0MTggNi4zMTcyLDMuMjM1NjRjMC40NjIyMywwIDAuNzcwMzksLTAuNDYyMjMgMC43NzAzOSwtMC40NjIyM2MwLjc3MDM5LDkuMDkwNiA4LjE2NjE0LDE1Ljg3MDA0IDE2Ljk0ODU4LDE1Ljg3MDA0YzQuMzE0MTgsMCA4LjE2NjE0LC0xLjU0MDc4IDExLjQwMTc3LC00LjMxNDE4YzAuNDYyMjMsMCAwLjQ2MjIzLC0wLjQ2MjIzIDAuNzcwMzksLTAuNDYyMjNjMC42MTYzMSwtMS4zODY3IDEuMzg2NywtMi40NjUyNSAyLjE1NzA5LC0zLjY5Nzg3eiIgaWQ9InN2Z18yNyIvPgogICAgPHBhdGggc3Ryb2tlPSJudWxsIiBjbGFzcz0ic3Q3IiBkPSJtMTk0LjA3MzQ4LDQzLjMwODMxYzAsMS4yMzI2MiAwLDIuMDAzMDEgMC40NjIyMywzLjIzNTY0YzAsMC43NzAzOSAwLjQ2MjIzLDIuMDAzMDEgMC43NzAzOSwyLjc3MzRsMCwwbDAsMGwwLjQ2MjIzLDAuNDYyMjNjMCwwLjQ2MjIzIDAuNDYyMjMsMC43NzAzOSAwLjQ2MjIzLDAuNzcwMzljMCwwLjc3MDM5IC0wLjQ2MjIzLDEuMjMyNjIgLTAuNzcwMzksMS41NDA3OGMtMC43NzAzOSwwLjc3MDM5IC0yLjAwMzAxLDAuNzcwMzkgLTMuMDgxNTYsMC43NzAzOWMxLjIzMjYyLC0wLjQ2MjIzIDIuMDAzMDEsLTAuNzcwMzkgMi43NzM0LC0xLjIzMjYyYzAuNDYyMjMsLTAuNDYyMjMgMC40NjIyMywtMC43NzAzOSAwLjQ2MjIzLC0xLjIzMjYyYzAsMCAwLC0wLjQ2MjIzIC0wLjQ2MjIzLC0wLjQ2MjIzYzAsMCAwLDAgMCwtMC40NjIyM2wwLDBsMCwwYy0wLjQ2MjIzLC0wLjQ2MjIzIC0wLjQ2MjIzLC0xLjIzMjYyIC0wLjQ2MjIzLC0xLjU0MDc4czAsLTEuMjMyNjIgMCwtMS41NDA3OGMtMC45MjQ0NywtMS4wNzg1NSAtMC45MjQ0NywtMS44NDg5NCAtMC42MTYzMSwtMy4wODE1NnoiIGlkPSJzdmdfMjgiLz4KICAgIDxwYXRoIHN0cm9rZT0ibnVsbCIgY2xhc3M9InN0OCIgZD0ibTE4OC4yMTg1MSw0NC44NDkwOWMwLDAuNzcwMzkgLTAuNzcwMzksMS41NDA3OCAtMS41NDA3OCwxLjU0MDc4Yy0wLjc3MDM5LDAgLTEuNTQwNzgsLTAuNzcwMzkgLTEuNTQwNzgsLTEuNTQwNzhjMCwtMC43NzAzOSAwLjc3MDM5LC0xLjU0MDc4IDEuNTQwNzgsLTEuNTQwNzhjMC43NzAzOSwwIDEuNTQwNzgsMC43NzAzOSAxLjU0MDc4LDEuNTQwNzh6IiBpZD0ic3ZnXzI5Ii8+CiAgICA8cGF0aCBzdHJva2U9Im51bGwiIGNsYXNzPSJzdDgiIGQ9Im0yMDEuOTMxNDYsNDYuMDgxNzJjMCwwLjc3MDM5IC0wLjc3MDM5LDEuNTQwNzggLTEuNTQwNzgsMS41NDA3OGMtMC43NzAzOSwwIC0xLjU0MDc4LC0wLjc3MDM5IC0xLjU0MDc4LC0xLjU0MDc4YzAsLTAuNzcwMzkgMC43NzAzOSwtMS41NDA3OCAxLjU0MDc4LC0xLjU0MDc4YzAuNzcwMzksMCAxLjU0MDc4LDAuNzcwMzkgMS41NDA3OCwxLjU0MDc4eiIgaWQ9InN2Z18zMCIvPgogICAgPHBhdGggc3Ryb2tlPSJudWxsIiBjbGFzcz0ic3Q2IiBkPSJtMTg5Ljc1OTI5LDQxLjMwNTNjLTAuNzcwMzksLTAuNDYyMjMgLTEuNTQwNzgsLTAuNDYyMjMgLTIuMzExMTcsLTAuNDYyMjNjLTAuNzcwMzksMCAtMS41NDA3OCwwIC0yLjMxMTE3LDBjLTAuNzcwMzksMCAtMS41NDA3OCwwLjQ2MjIzIC0yLjAwMzAxLDAuNzcwMzljLTAuNDYyMjMsMCAtMC43NzAzOSwwLjQ2MjIzIC0xLjIzMjYyLDAuNDYyMjNzLTAuNzcwMzksMC40NjIyMyAtMS4yMzI2MiwwLjc3MDM5YzAsLTAuNDYyMjMgMC40NjIyMywtMC43NzAzOSAwLjc3MDM5LC0xLjIzMjYyYzAuNDYyMjMsLTAuNDYyMjMgMC40NjIyMywtMC43NzAzOSAwLjc3MDM5LC0wLjc3MDM5YzAuNzcwMzksLTAuNDYyMjMgMS41NDA3OCwtMC43NzAzOSAyLjMxMTE3LC0xLjIzMjYyYzAuNzcwMzksMCAyLjAwMzAxLDAgMi43NzM0LDAuNDYyMjNjMS4zODY3LDAuMTU0MDggMi4xNTcwOSwwLjkyNDQ3IDIuNDY1MjUsMS4yMzI2MnoiIGlkPSJzdmdfMzEiLz4KICAgIDxwYXRoIHN0cm9rZT0ibnVsbCIgY2xhc3M9InN0NiIgZD0ibTE5Ny4zMDkxMiw0MS43Njc1M2MwLjc3MDM5LC0wLjc3MDM5IDEuNTQwNzgsLTAuNzcwMzkgMi4zMTExNywtMS4yMzI2MmMwLjc3MDM5LC0wLjQ2MjIzIDIuMDAzMDEsMCAyLjc3MzQsMGMwLjc3MDM5LDAuNDYyMjMgMS41NDA3OCwwLjc3MDM5IDIuMzExMTcsMS4yMzI2MmMwLjQ2MjIzLDAuNDYyMjMgMC40NjIyMywwLjc3MDM5IDAuNzcwMzksMS4yMzI2MmMwLjQ2MjIzLDAuNDYyMjMgMC40NjIyMywwLjc3MDM5IDAuNDYyMjMsMS4yMzI2MmMtMC40NjIyMywtMC40NjIyMyAtMC43NzAzOSwtMC40NjIyMyAtMS4yMzI2MiwtMC43NzAzOWMtMC40NjIyMywtMC40NjIyMyAtMC43NzAzOSwtMC40NjIyMyAtMS4yMzI2MiwtMC43NzAzOWMtMC43NzAzOSwtMC40NjIyMyAtMS4yMzI2MiwtMC43NzAzOSAtMi4wMDMwMSwtMC43NzAzOXMtMS41NDA3OCwtMC40NjIyMyAtMi4zMTExNywtMC40NjIyM2MtMC4zMDgxNiwwLjMwODE2IC0xLjA3ODU1LDAuMzA4MTYgLTEuODQ4OTQsMC4zMDgxNnoiIGlkPSJzdmdfMzIiLz4KICAgIDxwYXRoIHN0cm9rZT0ibnVsbCIgY2xhc3M9InN0NiIgZD0ibTE3MS43MzIxNiw0My4zMDgzMWMtMS4yMzI2MiwtMC43NzAzOSAtMi4wMDMwMSwtMC43NzAzOSAtMi4wMDMwMSwtMC43NzAzOWwwLjQ2MjIzLC01LjU0NjgxbDEuNTQwNzgsLTMuMjM1NjRsNy4wODc1OSwtOS4wOTA2YzAuNDYyMjMsLTAuNDYyMjMgNS41NDY4MSwtMy4yMzU2NCA1Ljg1NDk3LC0zLjIzNTY0czcuODU3OTgsMC43NzAzOSA3Ljg1Nzk4LDAuNzcwMzlzMTIuOTQyNTUsLTIuNzczNCAxMC45Mzk1NCw0LjAwNjAzYy0yLjMxMTE3LDYuNzc5NDMgLTExLjcwOTkzLDEwLjMyMzIzIC0xMi4xNzIxNiw5Ljg2MDk5YzEuNTQwNzgsLTEuNTQwNzggMS41NDA3OCwtNS41NDY4MSAxLjU0MDc4LC01LjU0NjgxYy02LjYyNTM2LDYuOTMzNTEgLTE5LjEwNTY4LDEyLjAxODA5IC0yMS4xMDg2OSwxMi43ODg0OHoiIGlkPSJzdmdfMzMiLz4KICAgIDxwYXRoIHN0cm9rZT0ibnVsbCIgY2xhc3M9InN0MCBib3lvbmVtb3V0aCIgZD0ibTE5OC4zODc2Niw1NS42MzQ1NWMtMC40NjIyMywyLjAwMzAxIC0yLjMxMTE3LDMuNTQzNzkgLTQuNzc2NDIsMy41NDM3OWMtMi4zMTExNywwIC00LjMxNDE4LC0xLjU0MDc4IC00Ljc3NjQyLC0zLjU0Mzc5bDkuNTUyODQsMHoiIGlkPSJzdmdfMzQiLz4KICAgPC9nPgogICA8cGF0aCBzdHJva2U9Im51bGwiIGNsYXNzPSJzdDMiIGQ9Im0xNzUuMjc1OTYsNzYuMTI2OTNsMjQuMzQ0MzMsMGwzLjA4MTU2LDE0LjMyOTI2bC0xMy40MDQ3OSwzNC41MTM0OGMwLDAgLTEzLjQwNDc5LC0xNC4zMjkyNiAtMTMuNDA0NzksLTE2LjE3ODE5YzAsLTIuMDAzMDEgLTYuMzE3MiwtMTcuMTAyNjYgLTUuMDg0NTgsLTE5LjQxMzgzYzEuMzg2NywtMi4xNTcwOSA0LjQ2ODI2LC0xMy4yNTA3MSA0LjQ2ODI2LC0xMy4yNTA3MXoiIGlkPSJzdmdfMzUiLz4KICAgPHBhdGggc3Ryb2tlPSJudWxsIiBjbGFzcz0ic3Q5IiBkPSJtMjE5Ljk1ODU5LDE3My45NjY0OGMtMTAuMTY5MTUsMTUuNDA3OCAtMzAuOTY5NjgsMzcuMjg2ODggLTMwLjk2OTY4LDM3LjI4Njg4bDAsMGw5LjM5ODc2LDE0OC4wNjg5OWMwLDAgMTMuNzEyOTQsMS41NDA3OCAxOC40ODkzNiwtMi4wMDMwMWMwLDAgMy44NTE5NSwtMTQwLjIxMTAxIDMuMDgxNTYsLTE4My4zNTI4NnoiIGlkPSJzdmdfMzYiLz4KICAgPHBhdGggc3Ryb2tlPSJudWxsIiBjbGFzcz0ic3QxMCIgZD0ibTIxNi4xMDY2NCwxNzkuOTc1NTJjMCwtMi4wMDMwMSAzLjg1MTk1LDQuMzE0MTggMy44NTE5NSwyLjMxMTE3Yy0xLjU0MDc4LC0zNi4wNTQyNiAtNTEuNzcwMjIsLTYuMDA5MDQgLTUxLjc3MDIyLC02LjAwOTA0bC0xMC42MzEzOCwtMi4wMDMwMWwtMTkuMjU5NzUsMTg0LjU4NTQ4YzAsMCAxMi40ODAzMiwyLjc3MzQgMjAuMDMwMTQsMGwzMC45Njk2OCwtMTQ1Ljc1NzgyYy0wLjMwODE2LDAuMTU0MDggMTAuNzg1NDYsLTQuNjIyMzQgMjYuODA5NTgsLTMzLjEyNjc4eiIgaWQ9InN2Z18zNyIvPgogICA8cGF0aCBzdHJva2U9Im51bGwiIGNsYXNzPSJzdDMiIGQ9Im0xNTEuNzAyMDIsMjA1LjcwNjU2Yy0wLjQ2MjIzLC0wLjQ2MjIzIC0wLjc3MDM5LC0wLjQ2MjIzIC0wLjc3MDM5LDAuNDYyMjNjLTAuNzcwMzksMy4yMzU2NCAtMy41NDM3OSwxMy4wOTY2MyAtNC43NzY0MiwxMi42MzQ0Yy0xLjIzMjYyLDAgMS4yMzI2MiwtOC43ODI0NSAwLjQ2MjIzLC05LjU1Mjg0Yy0wLjc3MDM5LC0wLjQ2MjIzIC0yLjc3MzQsNy44NTc5OCAtMy44NTE5NSw3Ljg1Nzk4Yy0xLjIzMjYyLC0wLjQ2MjIzIDEuMjMyNjIsLTcuODU3OTggMC43NzAzOSwtOC4zMjAyMWMtMC40NjIyMywtMC40NjIyMyAtMy4wODE1Niw3LjA4NzU5IC0zLjg1MTk1LDcuMDg3NTljLTAuNzcwMzksMC40NjIyMyAxLjIzMjYyLC03Ljg1Nzk4IDAuNzcwMzksLTguMzIwMjFzLTMuODUxOTUsNC43NzY0MiAtNC4zMTQxOCw0LjMxNDE4Yy0wLjQ2MjIzLC0wLjQ2MjIzIC0wLjc3MDM5LC0wLjQ2MjIzIDMuMDgxNTYsLTEzLjg2NzAybDIuMDAzMDEsLTUuMDg0NThsMy44NTE5NSwtMy41NDM3OWw1Ljg1NDk3LDIuNzczNGMwLDAgNi42MjUzNiwxNy4xMDI2NiA2LjMxNzIsMTcuODczMDVjLTAuNDYyMjMsMC43NzAzOSAtMS4yMzI2MiwwLjQ2MjIzIC01LjU0NjgxLC00LjMxNDE4eiIgaWQ9InN2Z18zOCIvPgogICA8cGF0aCBzdHJva2U9Im51bGwiIGNsYXNzPSJzdDUiIGQ9Im0xNzcuNTg3MTMsNzguNTkyMThjMCwwIDEyLjE3MjE2LDcuMDg3NTkgMjIuMDMzMTYsMGMwLDAgNS41NDY4MSwxNC4zMjkyNiA1LjA4NDU4LDE0LjYzNzQxYy0wLjQ2MjIzLDAuNDYyMjMgLTYuMzE3MiwxNS44NzAwNCAtNi4zMTcyLDE2LjE3ODE5cy02LjYyNTM2LDYuNzc5NDMgLTkuODYwOTksMi4wMDMwMXMtNS4wODQ1OCwtNC4wMDYwMyAtOS4zOTg3NiwtMTMuODY3MDJjLTQuMzE0MTgsLTkuODYwOTkgLTcuMzk1NzUsLTEyLjYzNDQgLTYuMzE3MiwtMTMuODY3MDJjMC45MjQ0NywtMC43NzAzOSA0Ljc3NjQyLC01LjA4NDU4IDQuNzc2NDIsLTUuMDg0NTh6IiBpZD0ic3ZnXzM5Ii8+CiAgIDxnIHN0cm9rZT0ibnVsbCIgaWQ9InN2Z180MCI+CiAgICA8cGF0aCBzdHJva2U9Im51bGwiIGNsYXNzPSJzdDExIiBkPSJtMTc2LjA0NjM1LDc2LjEyNjkzYzAsMCAtMjQuNjUyNDgsMi4wMDMwMSAtMjkuODkxMTQsMTAuMzIzMjNjLTUuMDg0NTgsNy44NTc5OCAtMTcuNzE4OTcsNTQuNjk3NyAtMTYuNDg2MzUsNjguODcyODhjMS4yMzI2MiwxNC4zMjkyNiAxMC4xNjkxNSw0MS42MDEwNyAxMC4xNjkxNSw0MS42MDEwN3M4LjE2NjE0LDEuMjMyNjIgMTEuNDAxNzcsLTQuMDA2MDNjMCwwIC02LjMxNzIsLTM4LjM2NTQzIC01LjA4NDU4LC00MS42MDEwN2MxLjIzMjYyLC0zLjIzNTY0IDEyLjQ4MDMyLC0zNC41MTM0OCAxMi40ODAzMiwtMzQuNTEzNDhsLTIuMDAzMDEsNjEuNzg1MjljMCwwIDI0LjY1MjQ4LDE1LjA5OTY1IDYzLjk0MjM4LDMuMjM1NjRjMCwwIDUuMDg0NTgsLTEwMC4xNTA3MiAtOC4xNjYxNCwtMTAzLjM4NjM2bC0xMi40ODAzMiwtMi4wMDMwMWwtNS4wODQ1OCwyOS4yNzQ4M2wtMTguNzk3NTIsLTI5LjU4Mjk4eiIgaWQ9InN2Z180MSIvPgogICA8L2c+CiAgPC9nPgogPC9nPgo8L3N2Zz4=" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </g>
+ </g>
+</svg>

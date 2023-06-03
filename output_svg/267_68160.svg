@@ -1,0 +1,283 @@
+<svg width="800.0000000000001" height="449.99999999999994" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="602" width="1068.66667" y="-1" x="-1"/>
+ </g>
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="890.88889" height="502" id="canvas_background" fill="#fff"/>
+ </g>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="802" height="452" id="canvas_background" fill="#fff"/>
+ </g>
+ <style>#ribbon {
+    animation-name: m1h;
+    animation-duration: .4s;
+	animation-direction: alternate;
+	
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: right;
+    
+    transform-box: fill-box;
+
+  }
+
+@keyframes  m1h {
+  0%{transform: rotateZ(1deg) skew(-1deg)}
+  100%{transform: rotateZ(-1deg) skew(5deg)}
+}
+   
+   
+ #fan {
+    animation-name: fm1h;
+    animation-duration: .15s;
+       animation-direction: inherit;
+	
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    
+    transform-box: fill-box;
+
+  }
+
+@keyframes  fm1h {
+  0%{transform: rotateX(0deg) }
+  100%{transform: rotateX(360deg) }
+}
+
+#clouds {
+    animation: map1 20s  linear infinite;
+   animation-direction: inherit;
+  }
+  @keyframes map1 {
+    0%{ transform: translateX(650px)}
+   
+    100%{ transform: translateX(-650px)}
+  }
+
+
+  #clouds2 {
+    animation: map2 40s   linear infinite;
+   animation-direction: inherit;
+    
+  }
+  @keyframes map2 {
+    0%{ transform: translateX(1300px)}
+    
+   
+    100%{ transform: translateX(-1300px)}
+  }</style>
+ <title>plan3</title>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="null" width="822.22223" height="448.88889" fill="#0a9bc2" id="svg_2" y="-5.33334" x="-14.55557"/>
+  <g id="clouds">
+   <g id="c6">
+    <path d="m703.86,315a4.91,4.91 0 0 0 -0.55,0a6.76,6.76 0 0 0 -9.41,-7.59a9.57,9.57 0 0 0 -17.2,2.69a6.79,6.79 0 0 0 0.35,13.58l26.81,0a4.36,4.36 0 1 0 0,-8.72l0,0.04z" fill="#9d9d9c" id="svg_3"/>
+    <path d="m703.19,314.37a4.91,4.91 0 0 0 -0.55,0a6.78,6.78 0 0 0 -6.61,-8.2a6.9,6.9 0 0 0 -2.8,0.61a9.57,9.57 0 0 0 -17.2,2.69a6.79,6.79 0 0 0 0.35,13.58l26.81,0a4.36,4.36 0 0 0 0,-8.72l0,0.04z" fill="#fff" id="svg_4"/>
+   </g>
+   <g id="c5">
+    <path d="m661.22,24.8a5.49,5.49 0 0 0 -0.7,0.05a8.46,8.46 0 0 0 0.2,-1.82a8.6,8.6 0 0 0 -8.61,-8.61a8.5,8.5 0 0 0 -3.56,0.78a12.18,12.18 0 0 0 -21.89,3.41a8.65,8.65 0 0 0 0.46,17.29l34.1,0a5.55,5.55 0 0 0 0,-11.1z" fill="#9d9d9c" id="svg_5"/>
+    <path d="m660.37,24c-0.24,0 -0.47,0 -0.7,0a8.32,8.32 0 0 0 0.2,-1.82a8.61,8.61 0 0 0 -12.17,-7.83a12.19,12.19 0 0 0 -21.89,3.42a8.65,8.65 0 0 0 0.46,17.28l34.1,0a5.55,5.55 0 1 0 0,-11.09l0,0.04z" fill="#fff" id="svg_6"/>
+   </g>
+   <g id="c4">
+    <path d="m95.44,362.16a6.69,6.69 0 0 1 0.9,0.07a11.43,11.43 0 0 1 -0.25,-2.35a11.06,11.06 0 0 1 15.66,-10.08a15.68,15.68 0 0 1 28.17,4.39a11.13,11.13 0 0 1 -0.58,22.25l-43.9,0a7.14,7.14 0 0 1 0,-14.28z" fill="#9d9d9c" id="svg_7"/>
+    <path d="m94.13,361a6.84,6.84 0 0 1 0.87,0a10.71,10.71 0 0 1 -0.26,-2.35a11.06,11.06 0 0 1 15.66,-10.08a15.69,15.69 0 0 1 28.18,4.4a11.13,11.13 0 0 1 -0.59,22.25l-43.86,0a7.15,7.15 0 0 1 0,-14.29l0,0.07z" fill="#fff" id="svg_8"/>
+   </g>
+   <g id="c3">
+    <path d="m605.66,145.61a20.78,20.78 0 0 0 -40.28,-6.78a16.44,16.44 0 1 0 -6.23,31.65l45.43,0a12.46,12.46 0 0 0 1.08,-24.87z" fill="#9d9d9c" id="svg_9"/>
+    <path d="m604.35,144.42a20.78,20.78 0 0 0 -40.28,-6.78a16.44,16.44 0 1 0 -6.22,31.65l45.42,0a12.46,12.46 0 0 0 1.08,-24.87z" fill="#fff" id="svg_10"/>
+   </g>
+   <g id="c3-2">
+    <path d="m526.48,421.47a11,11 0 0 1 21.34,-3.59a8.71,8.71 0 1 1 3.3,16.76l-24.07,0a6.6,6.6 0 0 1 -0.57,-13.17z" fill="#9d9d9c" id="svg_11"/>
+    <path d="m525.64,420.7a11,11 0 0 1 21.36,-3.59a8.86,8.86 0 0 1 3.3,-0.65a8.71,8.71 0 1 1 0,17.42l-24.09,0a6.6,6.6 0 0 1 -0.57,-13.18z" fill="#fff" id="svg_12"/>
+   </g>
+   <g id="c2">
+    <path d="m214.57,146.6a17.14,17.14 0 0 1 33.23,-5.6a13.56,13.56 0 1 1 5.14,26.1l-37.48,0a10.27,10.27 0 0 1 -0.89,-20.51l0,0.01z" fill="#9d9d9c" id="svg_13"/>
+    <path d="m213.26,145.41a17.14,17.14 0 0 1 33.23,-5.59a13.56,13.56 0 1 1 5.14,26.11l-37.48,0a10.28,10.28 0 0 1 -0.89,-20.52z" fill="#fff" id="svg_14"/>
+   </g>
+   <g id="c1">
+    <path d="m320.89,295.69a22.57,22.57 0 0 1 43.75,-7.37a17.86,17.86 0 1 1 6.76,34.38l-49.34,0a13.53,13.53 0 0 1 -1.17,-27l0,-0.01z" fill="#9d9d9c" id="svg_15"/>
+    <path d="m319.58,294.5a22.57,22.57 0 0 1 43.76,-7.37a17.85,17.85 0 1 1 6.76,34.38l-49.35,0a13.53,13.53 0 0 1 -1.17,-27l0,-0.01z" fill="#fff" id="svg_16"/>
+   </g>
+  </g>
+  <g id="clouds2">
+   <g id="c6-2">
+    <path d="m703.86,315a4.91,4.91 0 0 0 -0.55,0a6.76,6.76 0 0 0 -9.41,-7.59a9.57,9.57 0 0 0 -17.2,2.69a6.79,6.79 0 0 0 0.35,13.58l26.81,0a4.36,4.36 0 1 0 0,-8.72l0,0.04z" fill="#9d9d9c" id="svg_17"/>
+    <path d="m703.19,314.37a4.91,4.91 0 0 0 -0.55,0a6.78,6.78 0 0 0 -6.61,-8.2a6.9,6.9 0 0 0 -2.8,0.61a9.57,9.57 0 0 0 -17.2,2.69a6.79,6.79 0 0 0 0.35,13.58l26.81,0a4.36,4.36 0 0 0 0,-8.72l0,0.04z" fill="#fff" id="svg_18"/>
+   </g>
+   <g id="c5-2">
+    <path d="m661.22,24.8a5.49,5.49 0 0 0 -0.7,0.05a8.46,8.46 0 0 0 0.2,-1.82a8.6,8.6 0 0 0 -8.61,-8.61a8.5,8.5 0 0 0 -3.56,0.78a12.18,12.18 0 0 0 -21.89,3.41a8.65,8.65 0 0 0 0.46,17.29l34.1,0a5.55,5.55 0 0 0 0,-11.1z" fill="#9d9d9c" id="svg_19"/>
+    <path d="m660.37,24c-0.24,0 -0.47,0 -0.7,0a8.32,8.32 0 0 0 0.2,-1.82a8.61,8.61 0 0 0 -12.17,-7.83a12.19,12.19 0 0 0 -21.89,3.42a8.65,8.65 0 0 0 0.46,17.28l34.1,0a5.55,5.55 0 1 0 0,-11.09l0,0.04z" fill="#fff" id="svg_20"/>
+   </g>
+   <g id="c4-2">
+    <path d="m95.44,362.16a6.69,6.69 0 0 1 0.9,0.07a11.43,11.43 0 0 1 -0.25,-2.35a11.06,11.06 0 0 1 15.66,-10.08a15.68,15.68 0 0 1 28.17,4.39a11.13,11.13 0 0 1 -0.58,22.25l-43.9,0a7.14,7.14 0 0 1 0,-14.28z" fill="#9d9d9c" id="svg_21"/>
+    <path d="m94.13,361a6.84,6.84 0 0 1 0.87,0a10.71,10.71 0 0 1 -0.26,-2.35a11.06,11.06 0 0 1 15.66,-10.08a15.69,15.69 0 0 1 28.18,4.4a11.13,11.13 0 0 1 -0.59,22.25l-43.86,0a7.15,7.15 0 0 1 0,-14.29l0,0.07z" fill="#fff" id="svg_22"/>
+   </g>
+   <g id="c3-3">
+    <path d="m605.66,145.61a20.78,20.78 0 0 0 -40.28,-6.78a16.44,16.44 0 1 0 -6.23,31.65l45.43,0a12.46,12.46 0 0 0 1.08,-24.87z" fill="#9d9d9c" id="svg_23"/>
+    <path d="m604.35,144.42a20.78,20.78 0 0 0 -40.28,-6.78a16.44,16.44 0 1 0 -6.22,31.65l45.42,0a12.46,12.46 0 0 0 1.08,-24.87z" fill="#fff" id="svg_24"/>
+   </g>
+   <g id="c3-4">
+    <path d="m526.48,421.47a11,11 0 0 1 21.34,-3.59a8.71,8.71 0 1 1 3.3,16.76l-24.07,0a6.6,6.6 0 0 1 -0.57,-13.17z" fill="#9d9d9c" id="svg_25"/>
+    <path d="m525.64,420.7a11,11 0 0 1 21.36,-3.59a8.86,8.86 0 0 1 3.3,-0.65a8.71,8.71 0 1 1 0,17.42l-24.09,0a6.6,6.6 0 0 1 -0.57,-13.18z" fill="#fff" id="svg_26"/>
+   </g>
+   <g id="c2-2">
+    <path d="m214.57,146.6a17.14,17.14 0 0 1 33.23,-5.6a13.56,13.56 0 1 1 5.14,26.1l-37.48,0a10.27,10.27 0 0 1 -0.89,-20.51l0,0.01z" fill="#9d9d9c" id="svg_27"/>
+    <path d="m213.26,145.41a17.14,17.14 0 0 1 33.23,-5.59a13.56,13.56 0 1 1 5.14,26.11l-37.48,0a10.28,10.28 0 0 1 -0.89,-20.52z" fill="#fff" id="svg_28"/>
+   </g>
+   <g id="c1-2">
+    <path d="m320.89,295.69a22.57,22.57 0 0 1 43.75,-7.37a17.86,17.86 0 1 1 6.76,34.38l-49.34,0a13.53,13.53 0 0 1 -1.17,-27l0,-0.01z" fill="#9d9d9c" id="svg_29"/>
+    <path d="m319.58,294.5a22.57,22.57 0 0 1 43.76,-7.37a17.85,17.85 0 1 1 6.76,34.38l-49.35,0a13.53,13.53 0 0 1 -1.17,-27l0,-0.01z" fill="#fff" id="svg_30"/>
+   </g>
+  </g>
+  <g id="svg_31">
+   <g id="ribbon">
+    <path d="m530.88889,249.95111l31.26,-17.7l26.1,0l0,-1l-26,0l-31.36,-18.26l0,36.96zm1,-35.22l29.16,17l-29.16,16.5l0,-33.5z" fill="#f42900" id="svg_32"/>
+    <polygon points="304.99888610839844,249.95111274719238 530.85888671875,249.95111274719238 530.85888671875,212.99112129211426 304.99888610839844,212.99112129211426 326.0588836669922,231.47111701965332 304.99888610839844,249.95111274719238 " fill="#f6f6f6" id="svg_33"/>
+   </g>
+   <g id="svg_34">
+    <g id="fan">
+     <path d="m-890.30241,243.7014c1.91489,0.01713 3.4939,2.35856 4.27099,5.85648l-9.05691,-0.08101c1.05863,-3.44659 2.84515,-5.79283 4.78592,-5.77547z" fill="#1d1d1b" id="svg_35"/>
+     <path d="m989.56567,88.26406c6.51471,15.44803 5.91504,13.86525 6.70535,15.0333c-0.16357,-1.32002 0.50325,0.37572 -4.22744,-15.2147c-0.07073,-0.19521 -0.30363,-0.3314 -0.53354,-0.31457l-1.686,0.12343c-0.20436,0.01496 -0.3291,0.17733 -0.25837,0.37254z" fill="#1d1d1b" id="svg_36"/>
+     <path d="m972.38624,174.46189c-9.63716,-15.06519 -8.58247,-13.5254 -9.04576,-14.72373c1.16469,1.196 0.07247,-0.4357 11.43079,14.38517c0.12423,0.17684 0.06082,0.35601 -0.16047,0.38742l-1.6228,0.23036c-0.1967,0.02792 -0.47752,-0.10238 -0.60176,-0.27922z" fill="#1d1d1b" id="svg_37"/>
+    </g>
+    <path d="m-778.27038,65.60719l-7.32268,16.23688l-21.62052,7.36032l-1.99689,24.74695s7.95781,20.24096 6.17775,26.94013c-4.72342,17.91013 -55.97244,14.90187 -61.70614,27.61544c-4.11387,9.12184 35.1289,8.94672 53.86099,11.21166c6.25922,0.76032 9.68481,5.2273 9.68481,5.2273s38.70231,-52.02904 46.93518,-70.28413c3.41965,-7.58253 9.55393,-31.54884 9.55393,-31.54884l-7.80241,-15.54965l-11.91563,-5.66801l-13.84837,3.71195l-0.00002,0z" fill="#ededed" id="svg_38"/>
+    <rect x="657.98889" y="237.14111" width="1.69" height="5.34" fill="#fff" id="svg_39"/>
+    <rect x="589.58889" y="233.06111" width="1.12" height="5.23" fill="#fff" id="svg_40"/>
+    <rect x="548.84889" y="613.39111" width="7.21" height="1.12" fill="#fff" id="svg_41" transform="rotate(-41.18000030517578 69.47888183593736,371.14111328124994) "/>
+    <g id="svg_42">
+     <circle cx="590.14889" cy="239.68111" r="1.94" fill="#1d1d1b" id="svg_43"/>
+     <path d="m588.74889,239.68111a1.41,1.41 0 1 0 1.4,-1.4a1.4,1.4 0 0 0 -1.4,1.4z" fill="#fff" id="svg_44"/>
+     <path d="m589.64889,239.68111a0.5,0.5 0 0 0 0.5,0.5a0.5,0.5 0 0 0 0,-1a0.5,0.5 0 0 0 -0.5,0.5z" id="svg_45"/>
+    </g>
+    <path d="m585.17889,227.96111c0.07,-1.18 0.06,-2.55 0,-4l28.48,0a14.82,14.82 0 0 0 4.8,0.35a17.79,17.79 0 0 0 2.22,-0.35l66,0l1.35,1.48l-3.86,5.48l-3.38,1.51l-99.11,0c0.68,-0.44 3.36,-2.32 3.5,-4.47z" fill="#e69600" id="svg_46"/>
+    <path d="m684.99889,229.69111l-100.44,0a3.7,3.7 0 0 0 0.62,-1.73l0,-0.83c0.07,-0.15 0.13,-0.29 0.19,-0.45l101.75,0l-2.12,3.01z" fill="#c72d00" id="svg_47"/>
+    <g id="svg_48">
+     <path d="m668.99889,220.97111l-20.2,5.48a0.29,0.29 0 0 1 -0.3,-0.1l-7.46,-8.59a0.29,0.29 0 0 1 0.17,-0.49c0.23,0 20.08,-3.33 20.46,-3.38l7.45,6.57a0.3,0.3 0 0 1 -0.12,0.51z" fill="#007ca3" id="svg_49"/>
+     <path d="m639.88889,219.83111l-7.23,3.4a0.63,0.63 0 0 0 -0.34,0.72l0.82,3.24a0.63,0.63 0 0 0 0.67,0.47l10.7,-1.05a0.63,0.63 0 0 0 0.44,-1l-4.3,-5.59a0.62,0.62 0 0 0 -0.76,-0.19z" fill="#007ca3" id="svg_50"/>
+    </g>
+    <path d="m644.32889,238.29111c-3.2,0 -7.62,-0.23 -12.65,-0.59l0,-17c4.86,-1.68 9,-3.31 9,-3.31l21,-3.47l0,23.43c-6.27,0.44 -13.79,0.95 -17.35,0.94z" fill="#444443" opacity="0.3" id="svg_51"/>
+    <g id="svg_52">
+     <path d="m645.00889,225.73111l0,0zm0,0l0,0z" fill="#3c3c3b" id="svg_53"/>
+     <path d="m644.88889,226.57111l0,10a0.44,0.44 0 0 1 -0.43,0.44l-10.69,0a0.44,0.44 0 0 1 -0.44,-0.44l0,-8.88a0.73,0.73 0 0 0 0.41,0.12l0.08,0l10.7,-1.05a0.76,0.76 0 0 0 0.37,-0.19zm-2.83,2.32a0.14,0.14 0 0 0 0.14,-0.14a0.14,0.14 0 1 0 -0.28,0a0.14,0.14 0 0 0 0.18,0.14l-0.04,0zm3,-2.94zm0,0a0.64,0.64 0 0 1 -0.57,0.66l-10.7,1.05l-0.06,0a0.62,0.62 0 0 1 -0.55,-0.34l0,9.24a0.58,0.58 0 0 0 0.58,0.58l10.73,0a0.58,0.58 0 0 0 0.57,-0.58l0,-10.61z" fill="#3c3c3b" id="svg_54"/>
+    </g>
+    <g id="svg_55">
+     <path d="m654.73889,246.17111a4.09,4.09 0 1 0 4.09,-4.09a4.09,4.09 0 0 0 -4.09,4.09z" fill="#1d1d1b" id="svg_56"/>
+     <path d="m655.88889,246.17111a3,3 0 1 0 3,-3a3,3 0 0 0 -3,3z" fill="#fff" id="svg_57"/>
+     <circle cx="658.82889" cy="246.17111" r="1.06" id="svg_58"/>
+    </g>
+    <polygon points="585.1788940429688,224.70111274719238 593.0888977050781,224.70111274719238 592.3088989257812,209.7511157989502 598.1688842773438,209.7511157989502 598.1688842773438,209.33111763000488 591.868896484375,209.33111763000488 592.6388854980469,224.28111457824707 585.1788940429688,224.28111457824707 585.1788940429688,224.70111274719238 " fill="#878787" id="svg_59"/>
+    <g id="svg_60">
+     <rect x="1740.49887" y="533.71112" width="31.43" height="2.33" rx="0.75" fill="#ededed" id="svg_61"/>
+     <path d="m550.93543,222.87954a0.23001,0.1558 0 0 0 0.22194,-0.12573l1.61408,-5.94228a0.22597,0.15307 0 0 0 -0.44387,-0.05467l-1.61408,5.94228a0.22194,0.15033 0 0 0 0.18158,0.17767l0.04035,0.00273z" fill="#ededed" id="svg_62"/>
+     <path d="m845.7374,243.88484a1.3456,0.60486 0 0 0 0.96459,-0.15436a1.47499,0.66302 0 0 0 0.04032,-0.91893l-40.24043,-20.96506a1.47499,0.66302 0 0 0 -2.21246,0.86476l40.24094,20.95343a1.44911,0.65139 0 0 0 1.20703,0.22016l0.00001,0z" fill="#ededed" id="svg_63"/>
+    </g>
+    <path d="m605.69889,235.28111c-13.17,-1.4 -24.18,-2.76 -24.18,-2.76s3.5,-2.06 3.66,-4.56c0,-0.1 0,-0.2 0,-0.3l20.51,0l0.01,7.62z" fill="#d1d1cf" id="svg_64"/>
+    <path d="m585.17889,228.52111l0,0l20.52,-0.3a0.57,0.57 0 0 0 0.56,-0.57a0.56,0.56 0 0 0 -0.57,-0.55l-20.52,0.29a0.57,0.57 0 0 0 0,1.13l0.01,0z" fill="#ededed" id="svg_65"/>
+   </g>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes headShake {
+            0% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+
+            6.5% {
+                -webkit-transform: translateX(-6px) rotateY(-9deg);
+                transform: translateX(-6px) rotateY(-9deg)
+            }
+
+            18.5% {
+                -webkit-transform: translateX(5px) rotateY(7deg);
+                transform: translateX(5px) rotateY(7deg)
+            }
+
+            31.5% {
+                -webkit-transform: translateX(-3px) rotateY(-5deg);
+                transform: translateX(-3px) rotateY(-5deg)
+            }
+
+            43.5% {
+                -webkit-transform: translateX(2px) rotateY(3deg);
+                transform: translateX(2px) rotateY(3deg)
+            }
+
+            50% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+        }
+
+        @keyframes headShake {
+            0% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+
+            6.5% {
+                -webkit-transform: translateX(-6px) rotateY(-9deg);
+                transform: translateX(-6px) rotateY(-9deg)
+            }
+
+            18.5% {
+                -webkit-transform: translateX(5px) rotateY(7deg);
+                transform: translateX(5px) rotateY(7deg)
+            }
+
+            31.5% {
+                -webkit-transform: translateX(-3px) rotateY(-5deg);
+                transform: translateX(-3px) rotateY(-5deg)
+            }
+
+            43.5% {
+                -webkit-transform: translateX(2px) rotateY(3deg);
+                transform: translateX(2px) rotateY(3deg)
+            }
+
+            50% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+        }
+
+        .animate__headShake {
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+            -webkit-animation-name: headShake;
+            animation-name: headShake
+        }
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g class="animate__animated animate__headShake animate__infinite animate__slower" id="svg_66" stroke="null">
+   <text font-style="italic" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Cursive" font-size="75" id="svg_1" y="227.46546" x="603.59297" stroke-width="0" fill="#ff2600" transform="matrix(0.28167251491039375,0,0,0.3024990964285799,179.9853094190545,167.97270621471435) " stroke="#000">Your Text here</text>
+  </g>
+ </g>
+</svg>

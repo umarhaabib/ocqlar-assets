@@ -1,0 +1,307 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+ 
+ </g>
+
+ <style>#ba { animation: arm1 20s linear alternate infinite;
+
+    transform-origin:10% 10%;
+    transform-box: fill-box;}
+
+  @keyframes arm1{
+  0%{transform:rotateZ(0deg);}
+  10%{transform:rotateZ(0deg);}
+  12%{transform: rotateZ(-25deg);}
+  15%{transform: rotateZ(-25deg);}
+  17%{transform: rotateZ(0deg);}
+  60%{transform:rotateZ(0deg);}
+  62%{transform: rotateZ(-25deg);}
+  65%{transform: rotateZ(-25deg);}
+  67%{transform: rotateZ(0deg);}
+
+  
+
+
+  100%{transform: rotateZ(0deg);}
+
+}
+#bb { animation: bb 20s linear alternate infinite;
+
+    transform-origin:90% 10%;
+    transform-box: fill-box;}
+
+  @keyframes bb{
+  0%{transform:rotateZ(0deg);}
+  30%{transform:rotateZ(0deg);}
+  32%{transform: rotateZ(25deg);}
+  35%{transform: rotateZ(25deg);}
+  37%{transform: rotateZ(0deg);}
+  80%{transform:rotateZ(0deg);}
+  82%{transform: rotateZ(25deg);}
+  85%{transform: rotateZ(25deg);}
+  87%{transform: rotateZ(0deg);}
+
+  
+
+
+  100%{transform: rotateZ(0deg);}
+
+  }
+  #body{ animation: body .4s ease-in-out alternate infinite;
+
+    transform-origin:bottom;
+    transform-box: fill-box;
+
+  }
+@keyframes body {
+  0%{transform: scale(1,1);}
+   100%{transform: scale(1,1.02);}
+}
+#amouth { animation: arm1 .3s linear alternate infinite;
+
+    transform-origin:40% 40%;
+    transform-box: fill-box;}
+
+  @keyframes arm1{
+   0%{transform: scale(1,1);}
+   100%{transform: scale(1,1.3);}
+
+  }
+#ctail { animation: ct .7s cubic-bezier(0.455, 0.03, 0.515, 0.955) alternate infinite;
+
+    transform-origin:90% 90%;
+    transform-box: fill-box;}
+
+  @keyframes ct {
+  0%{transform:rotateZ(-8deg);}
+  100%{transform: rotateZ(8deg);}
+
+  }
+  #d { animation: d 10s linear  infinite;
+  transform-origin:90% 90%;
+    transform-box: fill-box;}
+  @keyframes d {
+    0%{transform: translate(0px,0px);}
+    30%{transform: translate(-30px, 30px);}
+    50%{transform: translate(-30px, 30px);}
+  }
+  #da { animation: da .7s cubic-bezier(0.455, 0.03, 0.515, 0.955) alternate infinite;
+
+    transform-origin:0% 100%;
+    transform-box: fill-box;}
+
+  @keyframes da {
+  0%{transform:rotateZ(0deg);}
+  100%{transform: rotateZ(8deg);}
+
+  }
+   #db { animation: db .7s cubic-bezier(0.455, 0.03, 0.515, 0.955) alternate infinite;
+
+    transform-origin:90% 90%;
+    transform-box: fill-box;}
+
+  @keyframes db {
+  0%{transform:rotateZ(0deg);}
+  100%{transform: rotateZ(-8deg);}
+
+  }
+   #ea { animation: ea .7s cubic-bezier(0.455, 0.03, 0.515, 0.955) alternate infinite;
+
+    transform-origin:10% 95%;
+    transform-box: fill-box;}
+
+  @keyframes ea {
+  0%{transform:rotateZ(0deg);}
+  100%{transform: rotateZ(-10deg);}
+
+  }
+
+  #f { animation: f 50s linear  infinite;
+  transform-origin:center;
+    transform-box: fill-box;}
+  @keyframes f {
+    0%{transform: translate(-490px,0px) rotateY(0deg);}
+
+    50%{transform: translate(430px, 0px) rotateY(0deg);}
+    55%{transform: translate(430px, 0px) rotateY(0deg);}
+     52%{transform: translate(430px, 0px) rotateY(180deg);}
+
+     54%{transform: translate(430px, 0px) rotateY(180deg);}
+
+     55%{transform: translate(430px, 0px) rotateY(180deg);}
+    
+    100%{transform: translate(-490px, 0px) rotateY(180deg);}
+    
+  }
+  #g { animation: g 25s linear  infinite;
+  transform-origin:center;
+    transform-box: fill-box;}
+  @keyframes g {
+    0%{transform: translate(-490px,0px) rotateY(0deg);}
+
+    50%{transform: translate(490px, 0px) rotateY(0deg);}
+    55%{transform: translate(490px, 0px) rotateY(0deg);}
+     52%{transform: translate(490px, 0px) rotateY(180deg);}
+
+     54%{transform: translate(490px, 0px) rotateY(180deg);}
+
+     55%{transform: translate(490px, 0px) rotateY(180deg);}
+    
+    100%{transform: translate(-490px, 0px) rotateY(180deg);}
+    
+  }
+    #h { animation: h 20s linear  infinite;
+  transform-origin:center;
+    transform-box: fill-box;}
+  @keyframes h {
+    0%{transform: translate(690px,0px) rotateY(0deg);}
+
+    50%{transform: translate(-750px, 0px) rotateY(0deg);}
+    55%{transform: translate(-750px, 0px) rotateY(0deg);}
+     52%{transform: translate(-750px, 0px) rotateY(180deg);}
+
+     54%{transform: translate(-750px, 0px) rotateY(180deg);}
+
+     55%{transform: translate(-750px, 0px) rotateY(180deg);}
+    
+    100%{transform: translate(690px, 0px) rotateY(180deg);}
+    
+  }
+      #j { animation: j 15s linear  infinite;
+  transform-origin:30% 50%;
+    transform-box: fill-box;}
+  @keyframes j {
+    0%{transform: translate(150px,-70px)}
+    20%{transform: translate(150px,-70px)}
+    50%{transform: translate(-40px,70px) rotateY(0deg)}
+    53%{transform: translate(-40px,70px) rotateY(160deg)}
+     53%{transform: translate(-40px,70px) rotateY(160deg)}
+      100%{transform: translate(190px,120px) rotateY(160deg)}
+  }
+
+#km { animation: km .3s linear alternate infinite;
+
+    transform-origin:40% 40%;
+    transform-box: fill-box;}
+
+  @keyframes km {
+   0%{transform: scale(1,1);}
+100%{transform: scale(1,1.2);} 
+
+}
+#lha { animation: lh1 2s linear alternate infinite;
+
+    transform-origin:10% 60%;
+    transform-box: fill-box;}
+
+  @keyframes lh1 {
+  0%{transform:rotateZ(-8deg);}
+  100%{transform: rotateZ(8deg);}
+
+  }
+   #clouds { animation: cld 45s linear  infinite;
+  transform-origin:center;
+    transform-box: fill-box;}
+  @keyframes cld {
+    0%{transform: translate(470px,0px) rotateY(0deg);}
+
+    100%{transform: translate(-490px, 0px) rotateY(0deg);}
+  }
+ #iha { animation: i1 1s linear alternate infinite;
+
+    transform-origin:10% 60%;
+    transform-box: fill-box;}
+
+  @keyframes i1 {
+  0%{transform:rotateZ(-8deg);}
+  100%{transform: rotateZ(8deg);}
+
+  }
+   #ihb { animation: i2 1s linear alternate infinite;
+
+    transform-origin:10% 60%;
+    transform-box: fill-box;}
+
+  @keyframes i2 {
+  0%{transform:rotateZ(8deg);}
+  100%{transform: rotateZ(-8deg);}
+
+  }
+   #ihd { animation: i3 1s linear alternate infinite;
+
+    transform-origin:100% 100%;
+    transform-box: fill-box;}
+
+  @keyframes i3 {
+  0%{transform:rotateZ(8deg);}
+  100%{transform: rotateZ(-8deg);}
+
+  }
+      #i { animation: i 20s linear  infinite;
+  transform-origin:center;
+    transform-box: fill-box;}
+  @keyframes i {
+    0%{transform: translate(170px,0px) rotateY(0deg);}
+
+    50%{transform: translate(-150px, 0px) rotateY(0deg);}
+    55%{transform: translate(-150px, 0px) rotateY(0deg);}
+     52%{transform: translate(-150px, 0px) rotateY(180deg);}
+
+     54%{transform: translate(-150px, 0px) rotateY(180deg);}
+
+     55%{transform: translate(-150px, 0px) rotateY(180deg);}
+    
+    100%{transform: translate(170px, 0px) rotateY(180deg);}
+    
+  }
+    #hh { animation: hh 1s linear alternate infinite;
+
+    transform-origin:20% 80%;
+    transform-box: fill-box;}
+
+  @keyframes hh {
+  0%{transform:rotateZ(20deg);}
+  100%{transform: rotateZ(-20deg);}
+
+  }</style>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1032" fill-rule="evenodd" fill="#fffde9" d="m26.7,360.92l3.53,6.18a10.45,10.45 0 0 1 -0.68,2.25l-2.45,-4.62l2,5.51a6.49,6.49 0 0 1 -1.72,2l-1.63,-7l0.61,7.56a5.56,5.56 0 0 1 -2.58,0.5l0.39,-8.16l-1.59,8a6.1,6.1 0 0 1 -2.36,-1.21l2.48,-7.15l-3.22,6.41a6.69,6.69 0 0 1 -1.34,-2.5l3.3,-4.37l-3.5,3.38a8.55,8.55 0 0 1 0.05,-2.66c0.95,-0.94 4.68,-4.44 5,-4.85c0.94,0.14 2.36,0.37 3.71,0.73z"/>
+  <g stroke="null" id="e">
+   <path stroke="null" id="svg_1068" fill-rule="evenodd" fill="#d0aa8b" d="m156.47378,272.06294c42.81917,0 77.66046,4.8904 77.66046,10.93016s-34.77368,10.93016 -77.66046,10.93016s-77.66046,-4.8904 -77.66046,-10.93016s34.77368,-10.93016 77.66046,-10.93016z"/>
+   <g stroke="null" id="svg_1069">
+    <path stroke="null" id="svg_1070" fill-rule="evenodd" fill="#b8292f" d="m33.87572,205.19742a358.01336,358.01336 0 0 1 54.40289,8.69905c13.79228,3.17763 56.54385,21.27437 54.76347,32.40735s-47.95747,15.12193 -62.15541,13.85989a326.64268,326.64268 0 0 1 -54.40289,-8.69905c-13.70214,-3.60583 -15.45998,-14.24301 -13.52184,-25.98448s6.96375,-21.31944 20.95886,-20.28277l-0.04507,0zm-14.01765,14.58106l-2.25364,13.52184c-0.81131,5.02562 7.32433,6.33273 8.13564,1.30711l2.25364,-13.52184c0.78877,-5.02562 -7.32433,-6.33273 -8.13564,-1.30711zm67.60922,-1.2395l-40.13734,-6.42288c-5.04816,-0.81131 -6.33273,7.32433 -1.30711,8.11311l40.13734,6.44541c5.04816,0.78877 6.35527,-7.32433 1.30711,-8.13564zm-4.50728,28.93675l-40.15988,-6.42288c-5.02562,-0.81131 -6.33273,7.32433 -1.30711,8.11311l40.15988,6.44541c4.95801,0.78877 6.26512,-7.25672 1.2395,-8.13564l0.06761,0z"/>
+    <path stroke="null" id="svg_1071" fill-rule="evenodd" fill="#f47a55" d="m156.20334,7.21508c33.9849,0 62.17795,23.93366 70.76432,55.16912a8.11311,8.11311 0 0 1 2.88466,-1.26204c5.27352,-1.19443 10.68226,2.92973 12.07951,9.19485s-1.71277,12.28234 -6.98629,13.52184a8.51876,8.51876 0 0 1 -3.98894,0a206.0053,206.0053 0 0 1 -4.50728,76.89422c-14.26555,53.95216 -130.53087,50.61677 -140.31167,-1.9832c-4.50728,-24.09142 -7.14404,-50.16604 -4.50728,-74.88848a8.42862,8.42862 0 0 1 -3.8988,0c-5.25098,-1.19443 -8.38354,-7.21165 -6.96375,-13.52184s6.76092,-10.38928 12.05698,-9.19485a7.95535,7.95535 0 0 1 2.59169,1.05921a73.98702,73.98702 0 0 1 70.78685,-54.98883z"/>
+    <g stroke="null" id="svg_1072">
+     <path stroke="null" id="svg_1073" fill-rule="evenodd" fill="#f47a55" d="m150.36641,194.26726l-12.1922,0c-0.13522,19.5616 0,51.29286 0.18029,71.26012c0,4.93547 -1.4874,5.09323 -5.43127,4.50728a119.44296,119.44296 0 0 0 -58.39183,4.95801c-0.51834,2.83959 0.60848,7.00882 6.44541,7.16658a24.24917,24.24917 0 0 0 9.33007,-1.84799c12.21473,5.31859 30.64951,-2.25364 37.02732,0.2479c5.29606,1.9832 17.46572,2.50154 18.99819,0.20283c2.25364,-3.35792 -0.96907,-5.83693 -1.01414,-9.96109c-0.11268,-21.27437 0.47326,-58.14393 5.04816,-76.53364z"/>
+     <path stroke="null" id="svg_1074" fill-rule="evenodd" fill="#b8292f" d="m135.51492,193.41088l0,28.41841l13.52184,0s1.82545,-21.973 6.6257,-25.62389l-20.14755,-2.79451z"/>
+    </g>
+    <g stroke="null" id="svg_1075">
+     <path stroke="null" id="svg_1076" fill-rule="evenodd" fill="#f47a55" d="m161.27403,194.26726l12.14712,0c0.13522,19.5616 0,51.29286 -0.15775,71.26012c0,4.93547 1.4874,5.09323 5.40874,4.50728a119.57818,119.57818 0 0 1 58.41437,4.95801c0.51834,2.83959 -0.60848,7.00882 -6.44541,7.16658a24.24917,24.24917 0 0 1 -9.33007,-1.84799c-12.21473,5.31859 -30.67205,-2.25364 -37.04985,0.2479c-5.27352,1.9832 -17.46572,2.50154 -18.97565,0.20283c-2.25364,-3.35792 0.96907,-5.83693 0.9916,-9.96109c0.18029,-21.27437 -0.42819,-58.14393 -5.00308,-76.53364z"/>
+     <path stroke="null" id="svg_1077" fill-rule="evenodd" fill="#b8292f" d="m176.12552,193.41088l0,28.41841l-13.52184,0s-1.82545,-21.973 -6.60317,-25.62389l20.12501,-2.79451z"/>
+    </g>
+    <path stroke="null" id="svg_1078" fill-rule="evenodd" fill="#b8292f" d="m225.20982,164.69949c-18.25449,47.9124 -121.6966,45.41086 -137.47208,-0.81131c20.3053,5.40874 69.75018,14.60359 137.47208,0.81131z"/>
+    <path stroke="null" id="svg_1079" fill-rule="evenodd" fill="#3c3838" d="m85.41649,62.3166c26.57042,57.58052 124.28828,52.8028 141.55117,0c-8.60891,-31.19039 -36.77942,-55.10152 -70.76432,-55.10152s-62.17795,23.43786 -70.78685,55.10152z"/>
+    <polygon stroke="null" id="svg_1080" fill-rule="evenodd" fill="#3c3838" points="111.13050842285156,25.7625789642334 98.80308532714844,21.570770263671875 108.56138610839844,21.120079040527344 102.52164459228516,11.339288711547852 114.3757553100586,19.02420997619629 116.6969985961914,7.620729446411133 118.56755065917969,19.722837448120117 111.13050842285156,25.7625789642334 "/>
+    <g stroke="null" id="ea">
+     <path stroke="null" id="svg_1081" fill-rule="evenodd" fill="#f47a55" d="m223.0914,136.57406a271.3158,271.3158 0 0 0 26.27745,-30.98756c8.45115,-11.87669 12.23727,-18.84044 20.48559,-36.57659a7.18911,7.18911 0 0 1 5.70171,2.79451a223.85413,223.85413 0 0 1 -20.28277,38.44711a226.46835,226.46835 0 0 1 -25.80419,32.4975l-6.3778,-6.17498z"/>
+     <path stroke="null" id="svg_1082" fill-rule="evenodd" fill="#f47a55" d="m275.6463,74.19328c7.93282,-0.83385 16.24875,-12.25981 12.64292,-12.62039s-8.06803,4.05655 -8.06803,4.05655c4.05655,-4.16924 6.76092,-12.95843 2.88466,-11.764s-7.77506,8.7892 -7.77506,8.7892c2.50154,-5.1383 3.44807,-12.80068 0.15775,-11.85415s-4.50728,7.14404 -5.72425,10.7724c-1.87052,-6.03976 -6.44541,-9.21739 -6.8736,-4.21431s3.20017,11.15552 4.01148,12.30488a9.42022,9.42022 0 0 0 8.74413,4.52982z"/>
+    </g>
+    <g stroke="null" id="svg_1083">
+     <path stroke="null" id="svg_1084" fill-rule="evenodd" fill="#f47a55" d="m92.58306,124.76498a272.14965,272.14965 0 0 0 -16.63187,37.04985c-4.82279,13.76974 -6.51302,21.49973 -9.51036,40.83597a7.18911,7.18911 0 0 1 -6.26512,-1.10428a228.87975,228.87975 0 0 1 24.58722,-80.95077l7.82013,4.16924z"/>
+     <path stroke="null" id="svg_1085" fill-rule="evenodd" fill="#f47a55" d="m59.29679,199.29288a17.21781,17.21781 0 0 0 -7.68491,7.77506c6.24258,0.90146 12.34995,1.89306 16.85723,2.70437c6.35527,9.01456 8.5413,4.25938 7.59477,1.4874a27.6071,27.6071 0 0 0 -7.09897,-10.0287a9.39768,9.39768 0 0 0 -9.66812,-1.93813z"/>
+    </g>
+    <path stroke="null" id="svg_1086" fill-rule="evenodd" fill="#fff" d="m81.45008,123.45787c55.25927,14.44584 96.20792,13.99511 150.99393,0.29297l-0.20283,3.17763c-57.6932,17.19528 -111.39746,13.52184 -150.43052,-0.42819l-0.36058,-3.04241z"/>
+    <path stroke="null" id="svg_1087" fill-rule="evenodd" fill="#f47a55" d="m50.28223,210.58362a3.78612,3.78612 0 1 0 7.1215,1.14936a3.6509,3.6509 0 0 0 -7.1215,-1.14936z"/>
+    <path stroke="null" id="svg_1088" fill-rule="evenodd" fill="#f47a55" d="m56.79525,212.70204a3.78612,3.78612 0 1 0 7.1215,1.14936a3.62836,3.62836 0 0 0 -7.1215,-1.14936z"/>
+    <path stroke="null" id="svg_1089" fill-rule="evenodd" fill="#f47a55" d="m63.35334,213.71618a3.78612,3.78612 0 1 0 7.1215,1.14936a3.62836,3.62836 0 0 0 -7.1215,-1.14936z"/>
+    <g stroke="null" id="svg_1090">
+     <polygon stroke="null" id="svg_1091" fill-rule="evenodd" fill="#fff" points="99.81725311279297,229.85227966308594 97.00020599365234,249.9547119140625 103.8963394165039,250.3604278564453 106.84859466552734,231.24951171875 99.81725311279297,229.85227966308594 "/>
+     <polygon stroke="null" id="svg_1092" fill-rule="evenodd" fill="#fff" points="92.4253158569336,235.50888061523438 111.69390869140625,238.2132568359375 110.25161743164062,245.53759765625 91.72669219970703,241.4134521484375 92.4253158569336,235.50888061523438 "/>
+    </g>
+   </g>
+  </g>
+  <path id="svg_1167" fill-rule="evenodd" fill="#fffde9" d="m286.98,271.07l-5.1,4.42a10,10 0 0 1 -2.21,-0.23l3.84,-3.12l-4.74,2.86a6.23,6.23 0 0 1 -2.13,-1.24l6.13,-2.76l-6.92,1.95a5.18,5.18 0 0 1 -0.94,-2.31l7.66,-1.13l-7.7,0a5.8,5.8 0 0 1 0.69,-2.41l7.1,1l-6.55,-1.82a6.39,6.39 0 0 1 2.08,-1.7l4.67,2.26l-3.79,-2.63a8.29,8.29 0 0 1 2.48,-0.44c1.06,0.72 5,3.54 5.43,3.74c0.04,0.88 0.08,2.24 0,3.56z"/>
+ </g>
+</svg>

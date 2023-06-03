@@ -1,0 +1,396 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+
+ <style>#a {
+    animation-name: m1h;
+    animation-duration: .4s;
+	animation-direction: alternate;
+	
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: left;
+    
+    transform-box: fill-box;
+
+  }
+
+@keyframes  m1h {
+  0%{transform: rotateZ(1deg) skew(-1deg)}
+  100%{transform: rotateZ(-1deg) skew(5deg)}
+}
+   
+   
+ #fan {
+    animation-name: fm1h;
+    animation-duration: .15s;
+       animation-direction: inherit;
+	
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    
+    transform-box: fill-box;
+
+  }
+
+@keyframes  fm1h {
+  0%{transform: rotateX(0deg) }
+  100%{transform: rotateX(360deg) }
+}
+
+#clouds {
+    animation: map1 20s  linear infinite;
+   animation-direction: inherit;
+  }
+  @keyframes map1 {
+    0%{ transform: translateX(-600px)}
+   
+    100%{ transform: translateX(550px)}
+  }
+
+  #clouds2 {
+    animation: map2 30s   linear infinite;
+   animation-direction: inherit;
+    
+  }
+  @keyframes map2 {
+    0%{ transform: translateX(-1200px)}
+    
+   
+    100%{ transform: translateX(550px)}
+  }</style>
+ <title>plan1</title>
+ <g>
+  <title>Layer 1</title>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes headShake {
+            0% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+
+            6.5% {
+                -webkit-transform: translateX(-6px) rotateY(-9deg);
+                transform: translateX(-6px) rotateY(-9deg)
+            }
+
+            18.5% {
+                -webkit-transform: translateX(5px) rotateY(7deg);
+                transform: translateX(5px) rotateY(7deg)
+            }
+
+            31.5% {
+                -webkit-transform: translateX(-3px) rotateY(-5deg);
+                transform: translateX(-3px) rotateY(-5deg)
+            }
+
+            43.5% {
+                -webkit-transform: translateX(2px) rotateY(3deg);
+                transform: translateX(2px) rotateY(3deg)
+            }
+
+            50% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+        }
+
+        @keyframes headShake {
+            0% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+
+            6.5% {
+                -webkit-transform: translateX(-6px) rotateY(-9deg);
+                transform: translateX(-6px) rotateY(-9deg)
+            }
+
+            18.5% {
+                -webkit-transform: translateX(5px) rotateY(7deg);
+                transform: translateX(5px) rotateY(7deg)
+            }
+
+            31.5% {
+                -webkit-transform: translateX(-3px) rotateY(-5deg);
+                transform: translateX(-3px) rotateY(-5deg)
+            }
+
+            43.5% {
+                -webkit-transform: translateX(2px) rotateY(3deg);
+                transform: translateX(2px) rotateY(3deg)
+            }
+
+            50% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+        }
+
+        .animate__headShake {
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+            -webkit-animation-name: headShake;
+            animation-name: headShake
+        }
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+  <g stroke="null" id="Layer_20-2">
+   <g stroke="null" id="Layer_21">
+    <g stroke="null" id="Layer_22">
+     <g stroke="null" id="svg_30">
+      <g stroke="null" id="fan">
+       <path stroke="null" d="m16.66667,225.86154l-1.69575,-0.04032a1.22967,0.99991 0 0 0 -0.73384,0.1774l-1.47759,0.85476a1.20984,0.98378 0 0 0 -0.33717,1.33858l0.64459,0.80638a1.19992,0.97571 0 0 0 0.82309,0.45157l2.57834,0.36287a1.21975,0.99184 0 0 0 1.38834,-0.80638s0,-0.04838 0,-0.07257l0,-2.00788a1.19992,0.97571 0 0 0 -1.14042,-1.0241l-0.04958,-0.04032l-0.00001,0.00001z" id="svg_31"/>
+       <path stroke="null" d="m12.90824,236.27991c-0.50575,-9.08785 -0.49583,-8.15246 -0.70409,-8.87013c-0.16858,0.74993 -0.18842,-0.23385 -0.69417,8.87013a0.21817,0.1774 0 0 0 0.18842,0.20159l0.99167,0a0.22808,0.18547 0 0 0 0.21817,-0.20159z" id="svg_32"/>
+       <path stroke="null" d="m12.90824,218.78962c-0.50575,9.08785 -0.49583,8.15246 -0.70409,8.87013c-0.16858,-0.75799 -0.18842,0.23385 -0.69417,-8.87013a0.22808,0.18547 0 0 1 0.19833,-0.20966l0.99167,0a0.24792,0.20159 0 0 1 0.20825,0.20966l0.00001,0z" id="svg_33"/>
+      </g>
+      <path stroke="null" d="m21.63493,220.99103l14.47837,-0.30642l9.91669,-2.35462s44.92262,7.16062 60.11499,7.30576c4.70051,0.04838 12.97103,-2.41913 14.19079,-3.9593c1.7255,-2.21753 3.78818,-8.87013 9.25227,-8.37018c12.61403,1.05635 10.60094,15.99849 10.60094,15.99849c-3.46093,2.68523 -5.8211,3.65288 -10.76953,3.83835l-88.90315,4.83825l-19.29788,-2.34655l-4.56168,-3.05616l0.37683,-9.06366l4.60135,-2.52396l0.00001,0z" fill="#ededed" id="svg_34"/>
+      <polygon stroke="null" points="42.20216369628906,235.1106719970703 43.570648193359375,243.44052124023438 45.068084716796875,243.2792510986328 45.196990966796875,234.78811645507812 42.20216369628906,235.1106719970703 " fill="#ededed" id="svg_35"/>
+      <rect stroke="null" x="96.37697" y="639.957" width="0.47" height="6.01" fill="#ededed" id="svg_36"/>
+      <g stroke="null" id="svg_37">
+       <path stroke="null" d="m48.68767,244.02918a4.18484,3.40291 0 1 1 -4.71043,-2.91908l0,0a4.20468,3.41903 0 0 1 4.71043,2.91908z" id="svg_38"/>
+       <path stroke="null" d="m47.28942,244.21464a2.77667,2.25785 0 1 1 -3.12376,-1.9353a2.77667,2.25785 0 0 1 3.12376,1.9353z" fill="#fff" id="svg_39"/>
+       <path stroke="null" d="m45.81183,244.34366a1.27925,1.04022 0 1 1 -1.44784,-0.89508a1.28917,1.04829 0 0 1 1.44784,0.89508z" id="svg_40"/>
+      </g>
+      <path stroke="null" d="m103.12039,228.78062l1.61642,-3.16906c-16.38238,-0.53221 -58.6969,-7.25738 -58.6969,-7.25738l-9.91669,2.35462l-14.47837,0.30642l-4.59143,2.53202l-0.09917,2.34655l84.29189,4.16896a2.25109,1.83047 0 0 0 1.87425,-1.28214l0,0.00001z" fill="#fe6333" id="svg_41"/>
+      <path stroke="null" d="m120.34569,221.67645c-0.52558,0.69348 -2.40976,1.54018 -4.76001,2.28204l2.97501,3.68514l21.0928,2.05626l0.54542,-0.41125s0.15867,0.10483 0.10908,-1.61275l-16.61046,-3.00778l-3.35184,-2.99165l0,-0.00001z" fill="#fe6333" id="svg_42"/>
+      <g stroke="null" id="svg_43">
+       <path stroke="null" d="m134.61581,234.67522a1.86434,1.51599 0 1 1 -2.10234,-1.29826l0,0a1.87425,1.52405 0 0 1 2.10234,1.29826z" id="svg_44"/>
+       <path stroke="null" d="m133.97122,234.74779a1.22967,0.99991 0 1 1 -1.38834,-0.86282a1.22967,0.99991 0 0 1 1.38834,0.86282z" fill="#fff" id="svg_45"/>
+       <path stroke="null" d="m133.33656,234.8123a0.57517,0.4677 0 0 1 -1.14042,0.13708a0.57517,0.4677 0 0 1 0.48592,-0.53221l0,0a0.58508,0.47576 0 0 1 0.6545,0.39512l0,0.00001z" id="svg_46"/>
+      </g>
+      <path stroke="null" d="m41.65673,223.92623l1.22967,-0.13708a1.14042,0.92733 0 0 0 0.78342,-0.379l3.44109,-3.1368c0.66442,-0.74187 0.99167,-0.22579 0,-1.61275a1.15034,0.9354 0 0 0 -0.64459,-0.43544l-8.59777,2.024a1.17017,0.95152 0 0 0 -0.2975,1.32246a1.08092,0.87895 0 0 0 0.22808,0.20159l2.97501,1.9353a1.19,0.96765 0 0 0 0.88259,0.21772z" fill="#007ca3" id="svg_47"/>
+      <path stroke="null" d="m49.67934,219.217l2.69734,0.06451c0.91234,0 0.99167,0.52414 0.61483,1.16924l-2.22134,3.6045a1.31892,1.07248 0 0 1 -1.20984,0.58865l-3.39151,-0.05645a1.2495,1.01603 0 0 1 -0.99167,-0.41125a1.18009,0.95959 0 0 1 0.0595,-1.19344l3.40143,-3.37871a1.33875,1.08861 0 0 1 1.04125,-0.38706l0.00001,0.00001z" fill="#007ca3" id="svg_48"/>
+      <path stroke="null" d="m54.95502,221.82159l3.64934,0.24191a1.10075,0.89508 0 0 1 1.12059,0.56446l1.17017,1.81435c0.21817,0.62091 -0.94209,1.16118 -1.73542,1.1128l-5.2261,-0.30642a1.14042,0.92733 0 0 1 -1.09084,-0.97571a0.99167,0.80638 0 0 1 0.09917,-0.34674l0.69417,-1.61275a1.38834,1.12893 0 0 1 1.31892,-0.49189l0,-0.00001z" fill="#007ca3" id="svg_49"/>
+      <path stroke="null" d="m62.77929,220.8862l2.72709,0.23385c0.43633,0 0.61483,0.18547 0.60492,0.54834l-0.30742,3.86254c0,0.41932 -0.32725,0.54834 -0.90242,0.53221l-1.75525,-0.09677a0.84292,0.68542 0 0 1 -0.6545,-0.43544l-2.90559,-4.83825c-0.22808,-0.45157 2.56842,0.13708 3.19317,0.19353l0,-0.00001z" fill="#007ca3" id="svg_50"/>
+      <path stroke="null" d="m66.75588,221.56355l-0.26775,3.92705c-0.08925,0.45157 0.28758,0.71767 0.93217,0.80638l3.55018,0.15321c1.58667,-0.1774 0,-1.9353 -2.70726,-5.31402c-0.50575,-0.25804 -1.41809,-0.04032 -1.50734,0.42738z" fill="#007ca3" id="svg_51"/>
+      <g stroke="null" id="a">
+       <path stroke="null" d="m210.54792,209.01635l-38.36768,18.18377l-31.87225,0l0,0.99991l31.9615,0l38.27843,17.62737l0,-36.81105zm-1.20984,35.10153l-35.70009,-16.442l35.70009,-16.93389l0,33.37589z" fill="#fff" id="svg_52"/>
+       <path stroke="null" d="m487.13439,245.8274l-276.58647,0l0,-36.81105l276.58647,0l-25.7834,18.40956l25.7834,18.40149z" fill="#f42900" id="svg_53"/>
+      </g>
+      <polygon stroke="null" points="140.28814697265625,228.91770935058594 108.94149780273438,225.78895568847656 121.1885986328125,224.99066162109375 125.8197021484375,218.69287109375 124.33218383789062,215.5238037109375 124.55035400390625,215.45123291015625 126.07754516601562,218.71705627441406 121.32745361328125,225.16806030273438 111.24215698242188,225.82928466796875 140.31790161132812,228.7241668701172 140.28814697265625,228.91770935058594 " fill="#575756" id="svg_54"/>
+      <path stroke="null" d="m92.40045,232.92539l-75.61478,-3.08842l-0.119,2.74168l4.56168,3.05616l9.05394,1.10473s3.16342,-2.55621 4.55176,-2.8707c6.76318,-1.53211 57.41765,-0.20159 57.41765,-0.20159l0.14875,-0.74187l0,0.00001z" fill="#fe6333" id="svg_55"/>
+      <path stroke="null" d="m57.84078,236.52988l-0.12892,0l-9.55969,-0.69348a1.428,1.16118 0 0 1 -1.23959,-0.80638l-0.238,-0.58059a1.41809,1.15312 0 0 1 0,-0.80638l6.07893,-11.70051a1.43792,1.16924 0 0 1 1.45775,-0.70961l4.64101,0.33061a1.428,1.16118 0 0 1 1.15034,0.62091l2.10234,3.2255a1.43792,1.16924 0 0 1 0.12892,0.80638l-3.03451,9.44266a1.44784,1.17731 0 0 1 -1.35859,0.87089l0.00001,0zm-3.71876,-15.13567a1.20984,0.98378 0 0 0 -1.11067,0.60478l-6.07893,11.73277a1.15034,0.9354 0 0 0 0,0.69348l0.22808,0.58059a1.22967,0.99991 0 0 0 1.05117,0.67736l9.54977,0.69348a1.21975,0.99184 0 0 0 1.27925,-0.7338l3.03451,-9.43459a1.19,0.96765 0 0 0 -0.10908,-0.71767l-2.09242,-3.2255a1.19992,0.97571 0 0 0 -0.99167,-0.51608l-4.64101,-0.33868l-0.119,-0.01613l0,-0.00001z" fill="#706f6f" id="svg_56"/>
+      <rect stroke="null" x="126.78231" y="685.26678" width="1.2" height="0.47" fill="#ededed" id="svg_57"/>
+      <path stroke="null" d="m45.90108,218.36224l0,19.35301l33.58784,-1.83047l0,-12.74073c-16.56088,-2.12077 -33.449,-4.83825 -33.449,-4.83825l-0.13883,0.05645l-0.00001,-0.00001z" fill="#353533" opacity="0.29" id="svg_58"/>
+      <rect stroke="null" x="31.17099" y="588.27215" width="1.94" height="34.31" rx="0.58" fill="#ededed" id="svg_59"/>
+      <path stroke="null" d="m116.03193,233.87691l13.39745,-0.7338c4.42284,-0.16934 6.7731,-0.95959 9.69853,-3.0481l-23.09598,0l0,3.7819z" fill="#d1d1cf" id="svg_60"/>
+      <path stroke="null" d="m138.22548,230.6756l0,0l-22.19356,-0.16934a0.44625,0.36287 0 0 1 -0.45617,-0.35481l0,0a0.43633,0.35481 0 0 1 0.4165,-0.37093l0.04958,0l22.19356,0.19353a0.46608,0.379 0 0 1 0.45617,0.37093l0,0a0.476,0.38706 0 0 1 -0.46608,0.33061l0,0.00001z" fill="#dadada" id="svg_61"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes headShake {
+            0% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+
+            6.5% {
+                -webkit-transform: translateX(-6px) rotateY(-9deg);
+                transform: translateX(-6px) rotateY(-9deg)
+            }
+
+            18.5% {
+                -webkit-transform: translateX(5px) rotateY(7deg);
+                transform: translateX(5px) rotateY(7deg)
+            }
+
+            31.5% {
+                -webkit-transform: translateX(-3px) rotateY(-5deg);
+                transform: translateX(-3px) rotateY(-5deg)
+            }
+
+            43.5% {
+                -webkit-transform: translateX(2px) rotateY(3deg);
+                transform: translateX(2px) rotateY(3deg)
+            }
+
+            50% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+        }
+
+        @keyframes headShake {
+            0% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+
+            6.5% {
+                -webkit-transform: translateX(-6px) rotateY(-9deg);
+                transform: translateX(-6px) rotateY(-9deg)
+            }
+
+            18.5% {
+                -webkit-transform: translateX(5px) rotateY(7deg);
+                transform: translateX(5px) rotateY(7deg)
+            }
+
+            31.5% {
+                -webkit-transform: translateX(-3px) rotateY(-5deg);
+                transform: translateX(-3px) rotateY(-5deg)
+            }
+
+            43.5% {
+                -webkit-transform: translateX(2px) rotateY(3deg);
+                transform: translateX(2px) rotateY(3deg)
+            }
+
+            50% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+        }
+
+        .animate__headShake {
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+            -webkit-animation-name: headShake;
+            animation-name: headShake
+        }
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    
+    .animate__animated.animate__slow {
+          -webkit-animation-duration: calc(1s * 6);
+          animation-duration: calc(1s * 6);
+          -webkit-animation-duration: calc(var(--animate-duration) * 6);
+          animation-duration: calc(var(--animate-duration) * 6);
+        }</style>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes headShake {
+            0% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+
+            6.5% {
+                -webkit-transform: translateX(-6px) rotateY(-9deg);
+                transform: translateX(-6px) rotateY(-9deg)
+            }
+
+            18.5% {
+                -webkit-transform: translateX(5px) rotateY(7deg);
+                transform: translateX(5px) rotateY(7deg)
+            }
+
+            31.5% {
+                -webkit-transform: translateX(-3px) rotateY(-5deg);
+                transform: translateX(-3px) rotateY(-5deg)
+            }
+
+            43.5% {
+                -webkit-transform: translateX(2px) rotateY(3deg);
+                transform: translateX(2px) rotateY(3deg)
+            }
+
+            50% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+        }
+
+        @keyframes headShake {
+            0% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+
+            6.5% {
+                -webkit-transform: translateX(-6px) rotateY(-9deg);
+                transform: translateX(-6px) rotateY(-9deg)
+            }
+
+            18.5% {
+                -webkit-transform: translateX(5px) rotateY(7deg);
+                transform: translateX(5px) rotateY(7deg)
+            }
+
+            31.5% {
+                -webkit-transform: translateX(-3px) rotateY(-5deg);
+                transform: translateX(-3px) rotateY(-5deg)
+            }
+
+            43.5% {
+                -webkit-transform: translateX(2px) rotateY(3deg);
+                transform: translateX(2px) rotateY(3deg)
+            }
+
+            50% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+        }
+
+        .animate__headShake {
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+            -webkit-animation-name: headShake;
+            animation-name: headShake
+        }
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+ </g>
+</svg>

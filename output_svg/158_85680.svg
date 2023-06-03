@@ -1,0 +1,108 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g>
+  <title>background</title>
+  <rect y="-1" x="-1" width="1068.66667" height="602" id="canvas_background" fill="#ffffff"/>
+ </g>
+
+ <g>
+  <title>title1</title>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes rollOut {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+        transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg)
+    }
+}
+
+@keyframes rollOut {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+        transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg)
+    }
+}
+
+.animate__rollOut {
+    -webkit-animation-name: rollOut;
+    animation-name: rollOut
+}
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }</style>
+  <g class="animate__animated animate__rollOut animate__infinite">
+   <image xlink:href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMzAwcHgiIGhlaWdodD0iMzAwcHgiIHZpZXdCb3g9IjAgMCAzMDAgMzAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAzMDAgMzAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNDNjIxMjciIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJNMjcyLjI1LDIxM2MwLjI1LTkuNzUsMC4wMTktMTAuNzU0LDAuMzc1LTE3DQoJYzAuNDMtNy41MjQtMC4wMDgtMTQuMDY0LTAuMDE0LTIxLjZjLTAuMDE1LTE2LjU0LDEuMzEzLTMzLjQxNywwLjUtNDkuOWMtMC44MzItMTYuODc3LDAuMjU2LTM0LjYyOC0xLjYxMS01MS41DQoJYy0wLjc2NS02LjkwNC0zLjI3LTE0LjY3OC04LjEyNS0xOS44NzVjLTIuNjcyLTIuODYxLTQuMzgxLTUuMzktNy04LjVjLTIuMDY3LTIuNDU1LTYuMDM4LTUuNTkxLTguODc1LTcuMTI1bC01LjUtNA0KCWMtNi4wNTMtMi44NjUtNC4zNzUtMy41LTEzLjUtNS40ODhjLTYuNTIxLTEuNDIxLTEzLjE3Ni0xLjAxMS0yMC0xLjAxMmMtMTQuMzg0LTAuMDAyLTI5LjgyNy0wLjk2Ni00NC4zNzUtMC4yNQ0KCUMxNDYuMDY0LDI3LjYzOCwxMjguODg0LDI4LDExMC41LDI4Yy04Ljc4NywwLTE3LjI3Mi0wLjQ5MS0yNi0wLjVjLTguMTUxLTAuMDA4LTE5LjY2LDAuMTczLTI2LjY2Myw1LjEyNA0KCWMtNi4yODYsNC40NDQtMTMuOTQyLDkuNjI1LTE4LjIwMiwxNS44NjRDMzQuODY0LDU1LjQ3NiwzMi4yMDksNjIuOTQ0LDI5Ljg3Nyw3MUMyNS4xODQsODcuMjE3LDI2LDEwNC4xMDcsMjYsMTIxLjQ4Ng0KCWMwLDE5LjY4NC0wLjUsMzguODY4LTAuNSw1OC41MTRjMCwxNy41NTMtMS43NzEsMzYuNTQ5LDEuNjExLDUzLjVjMS4xMjMsNS42MjksMy4zMjEsMTIuMzIyLDYuMzc2LDE3LjEwOQ0KCWMyLjU0OSwzLjk5Myw5LjE3OCwxMS4wNTksMTMuMjYzLDEzLjY0MWw0LjYyNSwyLjg3NWM0LjAxNywyLjM0LDE4LjIwMSw1LjU2OSwyMi42MTMsNS44ODdDODIuMzk5LDI3My42MTUsODkuOTE0LDI3NSw5OC41MTIsMjc1DQoJYzE3LjE5MSwwLDM0LjE1MiwwLjUsNTEuNDg4LDAuNWMxNi43MzgsMCwzMy43MDksMC42ODUsNTAuMzg5LTAuMTExYzE2LjAzMi0wLjc2NiwzMC45NTctMC41OTcsNDUuMTExLTkuNTEzDQoJYzYuNjMyLTQuMTc3LDEyLjU0My0xMS4yNTgsMTYuNjI1LTE3Ljc1MWMyLjQ3Mi0zLjkzNCw0Ljk1LTcuODQsNi44NjEtMTIuMDI1YzIuNDE0LTUuMjg3LDMuMjg2LTguOTU2LDMuNTE0LTEzLjcyNUwyNzIuMjUsMjEzeiIvPg0KPHBhdGggZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjIiIGQ9Ik0xMDkuNjY3LDE2MmMtMi41MDItMC4zNzUtMy44NjItMi42NTctNS42MDEtNC42ODQNCgljLTEuOTU4LTIuMjgzLTEwLjI0Ni0xNC43MDQtMTAuNzI1LTE5LjY1Yy0wLjUxNy01LjM0MS0xLjUyMy0xMS4wNi0wLjc1Ni0xNi4zMzNjMC43Mi00Ljk1MSwyLjk1NS05Ljc4OCw1LjY2NS0xNC4wODMNCgljMi42MDUtNC4xMjcsMTkuNTQ4LTE5Ljg1MiwyNC43NS0yMi4zNDFjMTEuMDk5LTUuMzEzLDE4LjY3OS04LjU0MywzMS4yNS03LjkwOWMxMS42NTEsMC41ODksMjIuNjIyLDUuNzAzLDMyLjI1LDEzLjc1DQoJYzQuMzEsMy42MDIsMTYuNjc1LDIwLjc1LDE2LjUsMzIuNWMtMC40MDQsMjcuMTQ2LTUuOTQ0LDMzLjI4NC02Ljc1LDM0Ljc1Yy01LjgxMSwxMC41NzEtMTEuNDQxLDE4LjY3NS0yMy4zNTIsMjIuMDg1DQoJYy05LjYwNiwyLjc1MS0yNi4yMjUsNC42NjUtMzIuOTczLTcuMDU5QzEzNy45NiwxNzcuODksMTM3LjM5NCwxODQuNzIzLDEzNiwxOTBjLTEuMzA4LDQuOTU0LTEuMzYxLDkuOTA3LTMuOTAxLDE0LjQxNQ0KCWMtMi42NjQsNC43MjgtNS45MDksOS43OC05LjQ4OSwxMy44NDRjLTEuMDExLDEuMTQ3LTQuNjExLDUuNjc4LTUuOTYsNS40MjNjLTEuODk1LTAuMzU2LTIuNTUyLTUuMDIxLTIuODk5LTYuNDIzDQoJYy0yLjUyMy0xMC4xOTEsMC45NjUtMjIuMTM4LDIuOTI2LTMxLjkxOGMzLjcyLTE4LjU1Myw4Ljc3LTMyLjkzMiw5LjA3NC0zNy4wOTFjMC43NjctMTAuNDgzLTIuNzgtMTcuNTYxLDAuNTEtMjcuOTE2DQoJYzMuMTQ3LTkuOTA0LDE5LjY0My0xNS40MSwyNS44MzEtNS4zNTFjNS41MzUsOC45OTktMy43NjksMjIuNTMyLTYuMDgyLDMxLjM1N2MtMS4yNTMsNC43ODEtMS45NTUsOS42NjIsMC4zOTksMTQuMjQ0DQoJYzIuMDc1LDQuMDM5LDcuMzQ4LDYuMzkyLDExLjU5Miw1Ljc0OGMxMS42NjItMS43NjgsMTYuOTktMTEuOTI0LDIwLjkyNy0yMi4wNzRjMy43MjctOS42MDYsMy44Ny0yMS43ODgtMC4wMS0zMS4yNTkNCgljLTAuOTkyLTIuNDIyLTEuMDAxLTUuMDcyLTIuMjQxLTcuMzE2Yy0xLjM5My0yLjUyMi00LjMxNC00LjMwNi02LjM2LTYuMjc2Yy01LjA0Mi00Ljg1Ni04LjA2LTcuNDAxLTE1LjMxNS03LjQwOA0KCWMtOS44NDUtMC4wMS0yMS42NjksMi4yODYtMjkuMjUsOC41Yy0zLjc3NCwzLjA5NC04LjM0NSw4LjA3LTExLjAwOSwxMi4yNDFjLTIuNTg0LDQuMDQ2LTMuOTUxLDExLjE2Ni00LjQwOCwxNS45MjYNCgljLTAuNTQ2LDUuNjg4LDAuODIzLDExLjA4MSwzLDE2YzIuNjc0LDYuMDQyLDQuNTY0LDkuMTExLDAuNjc0LDE1LjY2NmMtMC4yNzgsMC40NjgtMC42NjksMC45ODYtMS4wMDgsMS4zMzVMMTA5LjY2NywxNjJ6Ii8+DQo8L3N2Zz4NCg==" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg_1" height="150" width="150" y="283.33333" x="50" xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+  <style rel="stylesheet" type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes rollOut {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+        transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg)
+    }
+}
+
+@keyframes rollOut {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+        transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg)
+    }
+}
+
+.animate__rollOut {
+    -webkit-animation-name: rollOut;
+    animation-name: rollOut
+}
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }</style>
+  <g stroke="null" class="animate__animated animate__rollOut animate__infinite">
+   <text stroke="#000" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="100" id="svg_2" y="394.9375" x="381.33334" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000" xmlns="http://www.w3.org/2000/svg">RollOut</text>
+  </g>
+ </g>
+</svg>

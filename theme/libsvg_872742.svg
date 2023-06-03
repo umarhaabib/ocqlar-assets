@@ -1,0 +1,350 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="1068.66667" height="602" id="canvas_background" fill="#fff"/>
+ </g>
+ <style>#big{ animation: big 10s ease-in  infinite;;
+
+
+}
+@keyframes big {
+	0%{ transform:translateX(-600px);}
+	7%{ transform:translateX(-40px);}
+	100%{ transform:translateX(-40px);}
+}
+#coin1,#coin2,#coin3{ animation: coin1 10s linear  infinite;;
+}
+@keyframes coin1 {
+	0%{ transform:translateX(150px);}
+	100%{ transform:translateX(-750px);}}
+
+	#buildings{ animation: bd 15s linear  infinite;;
+}
+@keyframes bd {
+	0%{ transform:translateX(50px);}
+	100%{ transform:translateX(-80px);}}
+
+#cloud1_1_,#cloud3,#cloud2{ animation: cl 15s linear  infinite;;
+}
+@keyframes cl {
+	0%{ transform:translateX(150px);}
+	100%{ transform:translateX(-350px);}}
+
+	
+
+#arm1 { animation: arm1 2s linear alternate infinite;
+
+    transform-origin:90% 90%;
+    transform-box: fill-box;}
+
+  @keyframes arm1{
+    0%{transform:rotateZ(-5deg);}
+	100%{transform: rotateZ(5deg);}}
+
+  #arm2 { animation: arm2 2s linear alternate infinite;
+
+    transform-origin:10% 10%;
+    transform-box: fill-box;}
+
+  @keyframes arm2{
+    0%{transform:rotateZ(5deg);}
+	100%{transform: rotateZ(-5deg);}}
+
+  #leg1 { animation: l1 2s linear alternate infinite;
+
+    transform-origin:10% 10%;
+    transform-box: fill-box;}
+
+  @keyframes l1{
+    0%{transform:rotateZ(-5deg);}
+	100%{transform: rotateZ(5deg);}
+
+  }
+  #leg2 { animation: l2 2s linear alternate infinite;
+
+    transform-origin:80% 0%;
+    transform-box: fill-box;}
+
+  @keyframes l2{
+    0%{transform:rotateZ(5deg);}
+	100%{transform: rotateZ(-3deg);}
+
+  }
+
+#man{ animation: bad 10s linear  infinite;;
+}
+@keyframes bad {
+	0%{ transform:translateX(-400px);}
+	5%{ transform:translateX(-400px);}
+	50%{ transform:translateX(-100px);}
+
+	100%{ transform:translateX(-100px);}
+	}
+
+
+#speed { animation: sd 10s linear  infinite;;}
+
+@keyframes sd {
+	0%{ transform:translateX(-400px);}
+	10%{ transform:translateX(-400px);}
+	50%{ transform:translateX(0px);}
+    100%{ transform:translateX(-50px);}
+}
+
+#red { animation: red 2s linear alternate infinite;
+
+    transform-origin:80% 30%;
+    transform-box: fill-box;}
+
+  @keyframes red {
+    0%{transform:rotateZ(10deg);}
+	100%{transform: rotateZ(-5deg);}
+
+  }
+
+    #eyes { animation: ey 10s linear alternate infinite;
+
+    transform-origin:50% 50%;
+    transform-box: fill-box;}
+
+  @keyframes ey{
+    0%{transform:rotateX(0deg);}
+	20%{transform:rotateX(0deg);}
+	22%{transform:rotateX(80deg);}
+	24%{transform:rotateX(0deg);}
+	26%{transform:rotateX(80deg);}
+	28%{transform:rotateX(0deg);}
+	60%{transform:rotateX(0deg);}
+	62%{transform:rotateX(80deg);}
+	64%{transform:rotateX(0deg);}
+	66%{transform:rotateX(80deg);}
+	68%{transform:rotateX(0deg);}
+    100%{transform: rotateX(0deg);}
+
+  }
+  #eyes1{ animation: ey1 8s linear alternate infinite;}
+@keyframes ey1 {
+	0%{ transform:translateX(0px);}
+	30%{ transform:translateX(0px);}
+	40%{ transform:translateX(-5px);}
+	70%{ transform:translateX(-5px);}
+	80%{ transform:translateX(0px);}
+
+    100%{ transform:translateX(0px);}
+}
+
+  #eyebrow{ animation: eyb 8s linear alternate infinite;}
+@keyframes eyb {
+	0%{ transform:translateY(0px);}
+	30%{ transform:translateY(0px);}
+	40%{ transform:translateY(-2px);}
+	70%{ transform:translateY(-2x);}
+	80%{ transform:translateY(0px);}
+
+    100%{ transform:translateY(0px);}
+}</style>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="null" x="0" y="-4.00001" id="svg_1" height="455.00001" width="800" fill="#49C2C2"/>
+  <g id="buildings">
+   <g id="svg_5" opacity="0.2">
+    <g id="svg_6">
+     <g id="svg_7">
+      <defs>
+       <rect height="78.8" width="55.7" y="371.2" x="593.7" id="SVGID_1_"/>
+      </defs>
+      <clipPath id="SVGID_2_">
+       <use id="svg_8" xlink:href="#SVGID_1_"/>
+      </clipPath>
+      <polygon id="svg_9" points="649.4,450 649.4,402.2 640.8,402.2 640.8,386.1 629.7,386.1       629.7,371.2 609.2,371.2 609.2,386.1 600.9,386.1 600.9,402.2 593.7,402.2 593.7,450     " fill="#005D6A" clip-path="url(#SVGID_2_)"/>
+     </g>
+    </g>
+   </g>
+   <g id="svg_10" opacity="0.2">
+    <g id="svg_11">
+     <g id="svg_12">
+      <defs>
+       <rect height="85.2" width="70" y="364.8" x="132.9" id="SVGID_3_"/>
+      </defs>
+      <clipPath id="SVGID_4_">
+       <use id="svg_13" xlink:href="#SVGID_3_"/>
+      </clipPath>
+      <polygon id="svg_14" points="202.8,450 202.8,395.7 192.1,395.7 192.1,379.7 178.1,379.7       178.1,364.8 152.4,364.8 152.4,379.7 141.9,379.7 141.9,395.7 132.9,395.7 132.9,450     " fill="#005D6A" clip-path="url(#SVGID_4_)"/>
+     </g>
+    </g>
+   </g>
+   <g id="svg_15" opacity="0.2">
+    <g id="svg_16">
+     <g id="svg_17">
+      <defs>
+       <rect height="106.1" width="64.9" y="343.9" x="513.7" id="SVGID_5_"/>
+      </defs>
+      <clipPath id="SVGID_6_">
+       <use id="svg_18" xlink:href="#SVGID_5_"/>
+      </clipPath>
+      <polygon id="svg_19" points="523.1,450 523.1,378.5 525.5,378.5 525.5,450 531.9,450       531.9,378.5 534.2,378.5 534.2,450 540.7,450 540.7,350.8 543,350.8 543,450 549.4,450 549.4,350.8 551.7,350.8 551.7,450       558.2,450 558.2,378.5 560.5,378.5 560.5,450 566.9,450 566.9,378.5 569.2,378.5 569.2,450 578.6,450 578.6,371.6 565.4,371.6       565.4,343.9 527,343.9 527,371.6 513.7,371.6 513.7,450     " fill="#005D6A" clip-path="url(#SVGID_6_)"/>
+     </g>
+    </g>
+   </g>
+   <g id="svg_20" opacity="0.2">
+    <g id="svg_21">
+     <g id="svg_22">
+      <defs>
+       <rect height="93.2" width="64.9" y="356.8" x="54.3" id="SVGID_7_"/>
+      </defs>
+      <clipPath id="SVGID_8_">
+       <use id="svg_23" xlink:href="#SVGID_7_"/>
+      </clipPath>
+      <polygon id="svg_24" points="63.8,450 63.8,391.3 66.1,391.3 66.1,450 72.5,450 72.5,391.3       74.8,391.3 74.8,450 81.3,450 81.3,363.7 83.6,363.7 83.6,450 90,450 90,363.7 92.3,363.7 92.3,450 98.8,450 98.8,391.3       101.1,381.3 101.1,440 107.5,450 107.5,391.3 109.8,391.3 109.8,450 119.2,450 119.2,384.5 106,384.5 106,356.8 67.6,356.8       67.6,384.5 54.3,384.5 54.3,450     " fill="#005D6A" clip-path="url(#SVGID_8_)"/>
+     </g>
+    </g>
+   </g>
+   <g id="svg_25" opacity="0.2">
+    <g id="svg_26">
+     <g id="svg_27">
+      <defs>
+       <rect height="118.1" width="66.2" y="331.9" x="657.7" id="SVGID_9_"/>
+      </defs>
+      <clipPath id="SVGID_10_">
+       <use id="svg_28" xlink:href="#SVGID_9_"/>
+      </clipPath>
+      <path id="svg_29" d="m723.8,331.9l-66.2,0l0,118.1l66.2,0l0,-118.1zm-32.7,111.5l-9.4,0l0,-13.1l9.4,0l0,13.1zm13,0l-9.5,0l0,-13.1l9.5,0l0,13.1zm0,-18.4l-9.5,0l0,-13l9.5,0l0,13zm3.1,5.4l9.4,0l0,13.1l-9.4,0l0,-13.1zm-3.1,-21.5l-9.5,0l0,-13.1l9.5,0l0,13.1zm-18.9,-38.1l9.4,0l0,13.1l-9.4,0l0,-13.1zm-3.9,25l9.5,0l0,13.1l-9.5,0l0,-13.1zm-12.8,-42l9.5,0l0,13.1l-9.5,0l0,-13.1zm-1.1,42l9.5,0l0,13.1l-9.5,0l0,-13.1z" fill="#005D6A" clip-path="url(#SVGID_10_)"/>
+     </g>
+    </g>
+   </g>
+   <g id="svg_30" opacity="0.2">
+    <g id="svg_31">
+     <g id="svg_32">
+      <defs>
+       <rect height="97.4" width="49.8" y="352.6" x="215.4" id="SVGID_11_"/>
+      </defs>
+      <clipPath id="SVGID_12_">
+       <use id="svg_33" xlink:href="#SVGID_11_"/>
+      </clipPath>
+      <path id="svg_34" d="m265.2,352.6l-49.8,0l0,97.4l49.8,0l0,-97.4zm-14.8,93.2l-7.1,0l0,-13.1l7.1,0l0,13.1zm0,-16.2l-7.1,0l0,-13.1l7.1,0l0,13.1zm-14.3,-38.1l7.1,0l0,13.1l-7.1,0l0,-13.1zm-2.9,25.1l7.1,0l0,13.1l-7.1,0l0,-13.1zm-9.6,-42l7.1,0l0,13.1l-7.1,0l0,-13.1zm-0.8,42l7.1,0l0,13.1l-7.1,0l0,-13.1z" fill="#005D6A" clip-path="url(#SVGID_12_)"/>
+     </g>
+    </g>
+   </g>
+   <g id="svg_35" opacity="0.2">
+    <g id="svg_36">
+     <g id="svg_37">
+      <defs>
+       <rect height="80.3" width="86.4" y="369.7" x="283.7" id="SVGID_13_"/>
+      </defs>
+      <clipPath id="SVGID_14_">
+       <use id="svg_38" xlink:href="#SVGID_13_"/>
+      </clipPath>
+      <path id="svg_39" d="m370,450l0,-62.6l-15.8,0l0,-17.7l-54.8,0l0,17.7l-15.8,0l0,62.6l86.4,0zm-16.7,-53.7l8.9,0l0,13.3l-8.9,0l0,-13.3zm0,18.1l8.9,0l0,13.3l-8.9,0l0,-13.3zm0,18.1l8.9,0l0,13.3l-8.9,0l0,-13.3zm-12.2,-36.2l8.9,0l0,13.3l-8.9,0l0,-13.3zm0,18.1l8.9,0l0,13.3l-8.9,0l0,-13.3zm0,18.1l8.9,0l0,13.3l-8.9,0l0,-13.3zm-12.3,-36.2l8.9,0l0,13.3l-8.9,0l0,-13.3zm0,18.1l8.9,0l0,13.3l-8.9,0l0,-13.3zm0,18.1l8.9,0l0,13.3l-8.9,0l0,-13.3zm-11.1,-36.2l8.9,0l0,13.3l-8.9,0l0,-13.3zm0,18.1l8.9,0l0,13.3l-8.9,0l0,-13.3zm0,18.1l8.9,0l0,13.3l-8.9,0l0,-13.3zm-12.2,-36.2l8.9,0l0,13.3l-8.9,0l0,-13.3zm0,18.1l8.9,0l0,13.3l-8.9,0l0,-13.3zm0,18.1l8.9,0l0,13.3l-8.9,0l0,-13.3zm-12.2,-36.2l8.9,0l0,13.3l-8.9,0l0,-13.3zm0,18.1l8.9,0l0,13.3l-8.9,0l0,-13.3zm0,18.1l8.9,0l0,13.3l-8.9,0l0,-13.3z" fill="#005D6A" clip-path="url(#SVGID_14_)"/>
+     </g>
+    </g>
+   </g>
+   <g id="svg_40" opacity="0.2">
+    <g id="svg_41">
+     <g id="svg_42">
+      <defs>
+       <rect height="75.8" width="61.8" y="374.2" x="384.2" id="SVGID_15_"/>
+      </defs>
+      <clipPath id="SVGID_16_">
+       <use id="svg_43" xlink:href="#SVGID_15_"/>
+      </clipPath>
+      <path id="svg_44" d="m446,374.2l-61.8,0l0,75.8l61.8,0l0,-75.8l0,0zm-54.3,8l46.7,0l0,2.1l-46.7,0l0,-2.1zm0,6.4l46.7,0l0,2.1l-46.7,0l0,-2.1zm0,6.4l46.7,0l0,2.1l-46.7,0l0,-2.1zm0,6.5l46.7,0l0,2.1l-46.7,0l0,-2.1zm0,6.4l46.7,0l0,2.1l-46.7,0l0,-2.1zm0,6.4l46.7,0l0,2.1l-46.7,0l0,-2.1zm0,6.5l46.7,0l0,2.1l-46.7,0l0,-2.1zm0,6.4l46.7,0l0,2.1l-46.7,0l0,-2.1zm0,6.4l46.7,0l0,2.1l-46.7,0l0,-2.1z" fill="#005D6A" clip-path="url(#SVGID_16_)"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <path d="m451.3,44.4c0,0 -12,-1.6 -9.8,-6.3c0,0 2,-4.3 16.1,-2.2c0,0 3.2,-4 15,-4.8c7.1,-0.5 16.2,-0.4 25.5,2.9c4.9,1.7 5.7,4.1 5.7,4.1s10.2,-0.3 9.4,3c0,0 -0.5,2.2 -8,2.7c0,0 -1.8,2.9 -10.2,3.8c-7.2,0.7 -12.1,-1 -12.1,-1s0,2.5 -12,2.9c-9.6,0.3 -13.3,-3.3 -13.3,-3.3s-5,0.7 -6.3,-1.8" fill="#EAEAEA" id="cloud2"/>
+  <path d="m83.3,58.6c0,0 -0.5,-4.7 9.4,-5.4c11.8,-0.8 11.9,4.2 11.9,4.2s2.3,-1.9 7,-1.2c5,0.8 3.2,2.9 3.2,2.9s7.8,-1.5 11.1,1.2c3.3,2.6 -2.6,4.4 -8,4.5c0,0 4,3.2 -2.3,4.7c-5.2,1.3 -11.8,-1.3 -11.8,-1.3s-2.8,2.6 -9.8,2.6c-8.9,0 -10.7,-3.8 -10.7,-3.8s-7.6,2.5 -11.2,-0.1c-3.6,-2.6 6.6,-4.2 6.6,-4.2s-4.1,-1.8 -1.8,-3.6c1.9,-1.5 6.4,-0.5 6.4,-0.5" fill="#EAEAEA" id="cloud1_1_"/>
+  <path d="m583.9,125.3c0,0 -10.3,-1.9 -8.5,-7.5c0,0 1.7,-5.1 13.8,-2.6c0,0 2.7,-5 12.9,-5.7c10.2,-0.7 12.2,4.7 12.2,4.7s4.8,-2.4 9.8,-1.3c5,1.2 4.9,4.9 4.9,4.9s7.9,-0.6 8.1,3.6c0,0 -0.4,2.6 -6.9,3.2c0,0 -0.3,3.4 -8.8,4.5c-8.5,1.1 -10.4,-1.2 -10.4,-1.2s-1.8,3.2 -11.3,3.4c-9.5,0.2 -10.5,-3.9 -10.5,-3.9s-4.2,0.8 -5.3,-2.1" fill="#EAEAEA" id="cloud3"/>
+  <g id="coin1">
+   <path id="svg_45" d="m680,145.7l3.8,17.3c0,3.3 2.7,5.9 5.9,5.9l21.5,0c3.3,0 5.9,-2.6 5.9,-5.9l3.8,-17.3l-40.9,0z" fill="#F59A22"/>
+   <path id="svg_46" d="m722.1,145.6c0,1.1 -0.8,1.9 -1.9,1.9l-39.7,0c-1,0 -1.9,-0.9 -1.9,-1.9c0,-1.1 0.8,-1.9 1.9,-1.9l39.7,0c1.1,0 1.9,0.8 1.9,1.9" fill="#D2851D"/>
+   <rect id="svg_47" height="28.4" width="0.5" fill="#FFFFFF" y="118.5" x="700.5"/>
+   <path id="svg_48" d="m696.6,150.9c0,-2.3 1.8,-6.2 4.1,-6.2c2.3,0 4.1,3.9 4.1,6.2c0,2.3 -1.8,4.1 -4.1,4.1s-4.1,-1.8 -4.1,-4.1" fill="#C91820"/>
+   <path id="svg_49" d="m701.4,144.6c0,0.4 -0.3,0.7 -0.7,0.7s-0.7,-0.3 -0.7,-0.7c0,-0.4 0.3,-0.7 0.7,-0.7c0.4,0 0.7,0.3 0.7,0.7" fill="#231F20"/>
+   <rect id="svg_50" height="28.4" width="0.5" fill="#FFFFFF" y="118.5" x="714.9"/>
+   <path id="svg_51" d="m711,150.9c0,-2.3 1.8,-6.2 4.1,-6.2c2.3,0 4.1,3.9 4.1,6.2c0,2.3 -1.8,4.1 -4.1,4.1c-2.3,0 -4.1,-1.8 -4.1,-4.1" fill="#C91820"/>
+   <path id="svg_52" d="m715.8,144.6c0,0.4 -0.3,0.7 -0.7,0.7c-0.4,0 -0.7,-0.3 -0.7,-0.7c0,-0.4 0.3,-0.7 0.7,-0.7c0.4,0 0.7,0.3 0.7,0.7" fill="#231F20"/>
+   <rect id="svg_53" height="28.4" width="0.5" fill="#FFFFFF" y="118.5" x="685.5"/>
+   <path id="svg_54" d="m681.6,150.9c0,-2.3 1.9,-6.2 4.1,-6.2s4.1,3.9 4.1,6.2c0,2.3 -1.8,4.1 -4.1,4.1s-4.1,-1.8 -4.1,-4.1" fill="#C91820"/>
+   <path id="svg_55" d="m686.4,144.6c0,0.4 -0.3,0.7 -0.7,0.7c-0.4,0 -0.7,-0.3 -0.7,-0.7c0,-0.4 0.3,-0.7 0.7,-0.7c0.4,0 0.7,0.3 0.7,0.7" fill="#231F20"/>
+   <path id="svg_56" d="m745,81c0,24.6 -19.9,44.5 -44.5,44.5s-44.5,-20 -44.5,-44.5s19.9,-44.5 44.5,-44.5c24.6,-0.1 44.5,19.9 44.5,44.5" fill="#FFD20F"/>
+   <g id="svg_57">
+    <g id="svg_58">
+     <g id="svg_59">
+      <defs>
+       <rect height="81.8" width="81.8" y="40" x="659.6" id="SVGID_17_"/>
+      </defs>
+      <clipPath id="SVGID_18_">
+       <use id="svg_60" xlink:href="#SVGID_17_"/>
+      </clipPath>
+      <path id="svg_61" d="m741.4,81c0,22.6 -18.3,40.9 -40.9,40.9c-22.6,0 -40.9,-18.3 -40.9,-40.9s18.3,-41 40.9,-41c22.6,0 40.9,18.4 40.9,41" fill="#FFD20F" clip-path="url(#SVGID_18_)"/>
+     </g>
+    </g>
+   </g>
+   <path id="svg_62" d="m739.2,81c0,21.4 -17.3,38.7 -38.7,38.7c-21.4,0 -38.7,-17.3 -38.7,-38.7s17.3,-38.7 38.7,-38.7c21.4,-0.1 38.7,17.3 38.7,38.7" fill="#FFD20F"/>
+   <g id="svg_63">
+    <g id="svg_64">
+     <path id="svg_65" d="m718.9,87.9c-2.1,-9.6 -16.2,-9.9 -23.7,-12.4c-3.9,-1.3 -6.5,-5.6 -2.6,-8.8c3.3,-2.7 9.2,-2.7 13,-1.3c1.5,0.6 2.9,1.6 3.5,3.1c0.6,1.2 0,2.4 1.4,2.4l7.1,0c-0.2,-8.2 -7.1,-12 -14.6,-12.8l0,-5.5l-5,0l0,5.5c-1.9,0.2 -3.7,0.5 -5.3,1c-6.9,2.2 -11.1,8.2 -9.6,15.5c1.4,6.4 8.3,8 13.8,9.4c3.9,1 13.8,1.9 14.4,7c0.8,7 -7.2,8.6 -12.5,8.1c-4.8,-0.4 -8.9,-2.9 -8.9,-8.1c-1.2,-0.9 -6.5,0 -8.1,0c0.7,9.6 7.9,13.7 16.3,14.4l0,3.4l5.2,0l0,-3.4c9.2,-0.5 18,-7 15.6,-17.5" fill="#F59A22"/>
+    </g>
+   </g>
+  </g>
+  <g id="coin2">
+   <path id="svg_66" d="m731.4,309l2.2,9.9c0,1.9 1.5,3.4 3.4,3.4l12.3,0c1.9,0 3.4,-1.5 3.4,-3.4l2.2,-9.9l-23.5,0z" fill="#F59A22"/>
+   <path id="svg_67" d="m755.5,308.9c0,0.6 -0.5,1.1 -1.1,1.1l-22.7,0c-0.6,0 -1.1,-0.5 -1.1,-1.1c0,-0.6 0.5,-1.1 1.1,-1.1l22.7,0c0.6,0.1 1.1,0.5 1.1,1.1" fill="#D2851D"/>
+   <rect id="svg_68" height="16.2" width="0.3" fill="#FFFFFF" y="293.4" x="743.1"/>
+   <path id="svg_69" d="m740.9,312c0,-1.3 1.1,-3.5 2.4,-3.5s2.4,2.3 2.4,3.5s-1.1,2.4 -2.4,2.4s-2.4,-1.1 -2.4,-2.4" fill="#C91820"/>
+   <path id="svg_70" d="m743.6,308.4c0,0.2 -0.2,0.4 -0.4,0.4c-0.2,0 -0.4,-0.2 -0.4,-0.4c0,-0.2 0.2,-0.4 0.4,-0.4c0.3,0 0.4,0.1 0.4,0.4" fill="#231F20"/>
+   <rect id="svg_71" height="16.2" width="0.3" fill="#FFFFFF" y="293.4" x="751.3"/>
+   <path id="svg_72" d="m749.1,312c0,-1.3 1.1,-3.5 2.4,-3.5s2.4,2.3 2.4,3.5s-1.1,2.4 -2.4,2.4s-2.4,-1.1 -2.4,-2.4" fill="#C91820"/>
+   <path id="svg_73" d="m751.8,308.4c0,0.2 -0.2,0.4 -0.4,0.4c-0.2,0 -0.4,-0.2 -0.4,-0.4c0,-0.2 0.2,-0.4 0.4,-0.4c0.3,0 0.4,0.1 0.4,0.4" fill="#231F20"/>
+   <rect id="svg_74" height="16.2" width="0.3" fill="#FFFFFF" y="293.4" x="734.5"/>
+   <path id="svg_75" d="m732.3,312c0,-1.3 1.1,-3.5 2.4,-3.5s2.4,2.3 2.4,3.5s-1.1,2.4 -2.4,2.4s-2.4,-1.1 -2.4,-2.4" fill="#C91820"/>
+   <path id="svg_76" d="m735,308.4c0,0.2 -0.2,0.4 -0.4,0.4s-0.4,-0.2 -0.4,-0.4c0,-0.2 0.2,-0.4 0.4,-0.4s0.4,0.1 0.4,0.4" fill="#231F20"/>
+   <path id="svg_77" d="m768.5,272c0,14.1 -11.4,25.5 -25.5,25.5s-25.4,-11.5 -25.4,-25.5s11.4,-25.5 25.5,-25.5s25.4,11.4 25.4,25.5" fill="#FFD20F"/>
+   <g id="svg_78">
+    <g id="svg_79">
+     <g id="svg_80">
+      <path id="svg_81" d="m766.5,272c0,12.9 -10.5,23.4 -23.4,23.4s-23.4,-10.5 -23.4,-23.4c0,-12.9 10.5,-23.4 23.4,-23.4s23.4,10.4 23.4,23.4" fill="#FFD20F"/>
+     </g>
+    </g>
+   </g>
+   <path id="svg_82" d="m765.2,272c0,12.2 -9.9,22.1 -22.2,22.1c-12.2,0 -22.2,-9.9 -22.2,-22.1c0,-12.2 9.9,-22.1 22.2,-22.1c12.3,-0.1 22.2,9.8 22.2,22.1" fill="#FFD20F"/>
+   <g id="svg_83">
+    <g id="svg_84">
+     <g id="svg_85">
+      <path id="svg_86" d="m753.6,276c-1.2,-5.5 -9.3,-5.7 -13.5,-7.1c-2.2,-0.8 -3.8,-3.2 -1.5,-5c1.9,-1.5 5.3,-1.6 7.4,-0.7c0.9,0.3 1.6,0.9 2,1.8c0.3,0.7 0,1.4 0.8,1.4l4.1,0c-0.1,-4.7 -4.1,-6.9 -8.3,-7.3l0,-3.1l-3,0l0,3.1c-1.1,0.1 -2.1,0.3 -3,0.6c-3.9,1.3 -6.4,4.7 -5.5,8.9c0.8,3.6 4.8,4.6 7.9,5.4c2.2,0.6 7.9,1.1 8.2,4c0.5,4 -4.1,4.9 -7.2,4.6c-2.8,-0.3 -5.1,-1.6 -5.1,-4.6c-0.7,-0.5 -3.7,0 -4.6,0c0.4,5.5 4.5,7.8 9.3,8.3l0,2l3,0l0,-2c5.4,-0.7 10.4,-4.3 9,-10.3" fill="#F59A22"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g id="coin3">
+   <path id="svg_87" d="m581.2,343.4l1.5,6.7c0,1.3 1,2.3 2.3,2.3l8.3,0c1.3,0 2.3,-1 2.3,-2.3l1.5,-6.7l-15.9,0z" fill="#F59A22"/>
+   <path id="svg_88" d="m597.5,343.3c0,0.4 -0.3,0.7 -0.7,0.7l-15.3,0c-0.4,0 -0.7,-0.3 -0.7,-0.7c0,-0.4 0.3,-0.7 0.7,-0.7l15.3,0c0.4,0 0.7,0.3 0.7,0.7" fill="#D2851D"/>
+   <rect id="svg_89" height="11" width="0.2" fill="#FFFFFF" y="332.9" x="589.1"/>
+   <path id="svg_90" d="m587.6,345.4c0,-0.9 0.7,-2.4 1.6,-2.4s1.6,1.5 1.6,2.4s-0.7,1.6 -1.6,1.6c-0.9,0 -1.6,-0.7 -1.6,-1.6" fill="#C91820"/>
+   <path id="svg_91" d="m589.5,342.9c0,0.1 -0.1,0.3 -0.3,0.3s-0.3,-0.1 -0.3,-0.3s0.1,-0.3 0.3,-0.3c0.1,0.1 0.3,0.2 0.3,0.3" fill="#231F20"/>
+   <rect id="svg_92" height="11" width="0.2" fill="#FFFFFF" y="332.9" x="594.7"/>
+   <path id="svg_93" d="m593.2,345.4c0,-0.9 0.7,-2.4 1.6,-2.4s1.6,1.5 1.6,2.4s-0.7,1.6 -1.6,1.6c-0.9,0 -1.6,-0.7 -1.6,-1.6" fill="#C91820"/>
+   <path id="svg_94" d="m595,342.9c0,0.1 -0.1,0.3 -0.3,0.3s-0.3,-0.1 -0.3,-0.3s0.1,-0.3 0.3,-0.3s0.3,0.2 0.3,0.3" fill="#231F20"/>
+   <rect id="svg_95" height="11" width="0.2" fill="#FFFFFF" y="332.9" x="583.3"/>
+   <path id="svg_96" d="m581.8,345.4c0,-0.9 0.7,-2.4 1.6,-2.4s1.6,1.5 1.6,2.4s-0.7,1.6 -1.6,1.6c-0.9,0 -1.6,-0.7 -1.6,-1.6" fill="#C91820"/>
+   <path id="svg_97" d="m583.7,342.9c0,0.1 -0.1,0.3 -0.3,0.3s-0.3,-0.1 -0.3,-0.3s0.1,-0.3 0.3,-0.3s0.3,0.2 0.3,0.3" fill="#231F20"/>
+   <path id="svg_98" d="m606.3,318.4c0,9.5 -7.7,17.2 -17.2,17.2s-17.2,-7.7 -17.2,-17.2s7.7,-17.2 17.2,-17.2s17.2,7.7 17.2,17.2" fill="#FFD20F"/>
+   <g id="svg_99">
+    <g id="svg_100">
+     <g id="svg_101">
+      <path id="svg_102" d="m604.9,318.4c0,8.7 -7.1,15.8 -15.8,15.8c-8.7,0 -15.8,-7.1 -15.8,-15.8c0,-8.7 7.1,-15.8 15.8,-15.8c8.7,0 15.8,7 15.8,15.8" fill="#FFD20F"/>
+     </g>
+    </g>
+   </g>
+   <path id="svg_103" d="m604.1,318.4c0,8.3 -6.7,15 -15,15s-15,-6.7 -15,-15c0,-8.3 6.7,-15 15,-15s15,6.7 15,15" fill="#FFD20F"/>
+   <g id="svg_104">
+    <g id="svg_105">
+     <g id="svg_106">
+      <path id="svg_107" d="m596.2,321.1c-0.8,-3.7 -6.3,-3.8 -9.2,-4.8c-1.5,-0.5 -2.5,-2.1 -1,-3.4c1.3,-1 3.5,-1.1 5,-0.5c0.6,0.2 1.1,0.6 1.4,1.2c0.2,0.5 0,0.9 0.5,0.9l2.8,0c-0.1,-3.2 -2.8,-4.6 -5.6,-4.9l0,-2.1l-2,0l0,2.1c-0.7,0.1 -1.4,0.2 -2.1,0.4c-2.7,0.8 -4.3,3.2 -3.7,6c0.5,2.5 3.2,3.1 5.3,3.6c1.5,0.4 5.3,0.7 5.5,2.7c0.3,2.7 -2.8,3.3 -4.8,3.1c-1.9,-0.2 -3.4,-1.1 -3.5,-3.1c-0.5,-0.4 -2.5,0 -3.1,0c0.3,3.7 3,5.3 6.3,5.6l0,1.3l2,0l0,-1.3c3.8,-0.3 7.1,-2.8 6.2,-6.8" fill="#F59A22"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

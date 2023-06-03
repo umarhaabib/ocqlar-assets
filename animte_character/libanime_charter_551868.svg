@@ -1,0 +1,1613 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+ </g>
+ <style>#drone
+{
+    animation-name: drone;
+    animation-duration:20s;
+    animation-fill-mode: forwards;
+   animation-timing-function: ease-out;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes drone {
+  0%{ transform: scale(0) translate(0px, 0px);}
+  55%   { transform: scale(0); }
+  60%   { transform: scale(1); }
+  
+  60% { transform: scale(01); }
+  64%{ transform: translate(-6px, 70px);}
+  70%{ transform: translate(-6px, 70px);}
+  75%{ transform: translate(0px, 0px);}
+  78%{ transform: translate(0px, 0px);}
+  85%{ transform: translate(-215px, 25px);}
+
+  100%{ transform: translate(-215px, 25px);}
+}
+
+
+
+
+
+
+#h2arm
+{
+    animation-name: ch2arm;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    transform-origin: right ;
+    transform-box: fill-box;
+}
+@keyframes ch2arm {
+    0%{transform: rotateZ(-10deg);}
+    
+    100%{transform: rotateZ(10deg);}
+}
+#box
+{
+    animation-name: box;
+    animation-duration:20s;
+   animation-fill-mode: forwards;
+   animation-timing-function: ease-out;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes box {
+    0%{ transform: scale(0) translate(0px, 0px);}
+    55%{ transform: scale(0) translate(0px, 0px);}
+    56%{ transform: scale(1) translate(0px, 0px);}
+    70%{ transform: translate(0px, 0px);}
+    75%{ transform: translate(6px, -70px);}
+    78%{ transform: translate(6px, -70px);}
+    85%{ transform: translate(-210px, -45px);}
+     85%{ transform: translate(-210px, -45px);}
+     87%{ transform: translate(-210px, -7px);}
+    90%{ transform: translate(-210px, -7px);}
+     100%{ transform: translate(-210px, 2px);}
+  
+}
+
+#ch14a
+{
+    animation-name: ch14a;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    transform-origin: 0% 90% ;
+    transform-box: fill-box;
+}
+@keyframes ch14a {
+    0%{transform: rotateZ(110deg);}
+     70%{transform: rotateZ(110deg);}
+     80%{transform: rotateZ(110deg);}
+     89%{transform: rotateZ(0deg);}
+      90%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(15deg);}
+}
+#ch14b
+{
+    animation-name: ch14b;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    transform-origin: 10% 90%;
+    transform-box: fill-box;
+}
+@keyframes ch14b {
+    0%{transform: rotateZ(110deg);}
+     70%{transform: rotateZ(110deg);}
+     80%{transform: rotateZ(110deg);}
+     89%{transform: rotateZ(0deg);}
+      90%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(15deg);}
+}
+#glow {
+    animation-name: glow;
+    animation-duration:  2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+}
+
+
+@keyframes glow {
+    0%   { opacity: 1; }
+    50%   { opacity: .5; }
+    100%   { opacity: 1; }
+
+}
+
+
+#k
+{
+    
+}
+@keyframes f {
+    0%   { transform: scale(0); }
+    1%   { transform: scale(0); }
+    
+    3% { transform: scale(01); }
+}
+
+
+
+
+
+
+
+
+
+
+
+#ch5arm
+{
+    animation-name: ch5a;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes ch5a {
+    0%{transform: rotateZ(0deg);}
+    40%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(8deg);}
+
+}
+#ch6arm
+{
+    animation-name: ch6a;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: right top;
+    transform-box: fill-box;
+}
+@keyframes ch6a {
+    0%{transform: rotateZ(0deg);}
+    40%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(-25deg);}
+
+}
+#ch10arm
+{
+    animation-name: ch10a;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: 90% 15%;
+    transform-box: fill-box;
+}
+@keyframes ch10a {
+    0%{transform: rotateZ(0deg);}
+    24%{transform: rotateZ(0deg);}
+40%{transform: rotateZ(85deg);}
+60%{transform: rotateZ(85deg);}
+70%{transform: rotateZ(0deg);}
+85%{transform: rotateZ(0deg);}
+    
+
+}
+#ch11arm
+{
+    animation-name: ch11a;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: 90% 15%;
+    transform-box: fill-box;
+}
+@keyframes ch11a {
+    0%{transform: rotateZ(45deg);}
+    24%{transform: rotateZ(45deg);}
+40%{transform: rotateZ(0deg);}
+60%{transform: rotateZ(0deg);}
+70%{transform: rotateZ(45deg);}
+100%{transform: rotateZ(45deg);}
+
+}
+#ch78arm
+{
+    animation-name: ch78a;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+@keyframes ch78a {
+    0%{transform: rotateZ(25deg);}
+    24%{transform: rotateZ(25deg);}
+40%{transform: rotateZ(0deg);}
+60%{transform: rotateZ(0deg);}
+70%{transform: rotateZ(25deg);}
+100%{transform: rotateZ(25deg);}
+
+}
+#ch111arm
+{
+    animation-name: ch111a;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+@keyframes ch111a {
+    0%{transform: rotateZ(0deg);}
+    24%{transform: rotateZ(0deg);}
+40%{transform: rotateZ(35deg);}
+60%{transform: rotateZ(35deg);}
+70%{transform: rotateZ(0deg);}
+100%{transform: rotateZ(0deg);}
+
+}
+#ch9arm
+{
+    animation-name: ch9a;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: right;
+    transform-box: fill-box;
+}
+@keyframes ch9a {
+    0%{transform: rotateZ(0deg);}
+    24%{transform: rotateZ(0deg);}
+40%{transform: rotateZ(-55deg);}
+60%{transform: rotateZ(-55deg);}
+70%{transform: rotateZ(0deg);}
+100%{transform: rotateZ(0deg);}
+
+}
+#pparm
+{
+    animation-name: ppa;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+@keyframes ppa {
+    0%{transform: rotateZ(35deg);}
+    24%{transform: rotateZ(35deg);}
+40%{transform: rotateZ(0deg);}
+60%{transform: rotateZ(0deg);}
+70%{transform: rotateZ(35deg);}
+100%{transform: rotateZ(35deg);}
+
+}
+#ch13arm
+{
+    animation-name: ch13a;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes ch13a {
+    0%{transform: rotateZ(-55deg);}
+    24%{transform: rotateZ(-55deg);}
+40%{transform: rotateZ(0deg);}
+60%{transform: rotateZ(0deg);}
+70%{transform: rotateZ(-55deg);}
+100%{transform: rotateZ(-55deg);}
+
+}
+#sssarm
+{
+    animation-name: ch;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: 15% 10%;
+    transform-box: fill-box;
+}
+@keyframes ch {
+    0%{transform: rotateZ(-55deg);}
+    24%{transform: rotateZ(-55deg);}
+40%{transform: rotateZ(0deg);}
+60%{transform: rotateZ(0deg);}
+70%{transform: rotateZ(-55deg);}
+100%{transform: rotateZ(-55deg);}
+
+}
+
+
+#kkkarm
+{
+    animation-name: kkka;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: 90% 10%;
+    transform-box: fill-box;
+}
+@keyframes kkka {
+    0%{transform: rotateZ(-25deg);}
+    24%{transform: rotateZ(-25deg);}
+40%{transform: rotateZ(0deg);}
+60%{transform: rotateZ(0deg);}
+70%{transform: rotateZ(-25deg);}
+100%{transform: rotateZ(-25deg);}
+
+}
+#sig1
+{
+    animation-name: sig1;
+    animation-duration:20s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes sig1 {
+    0%   { transform: scale(0); }
+    30%   { transform: scale(0); }
+    
+    31% { transform: scale(01); }
+}
+#sig2
+{
+    animation-name: sig2;
+    animation-duration:20s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes sig2 {
+    0%   { transform: scale(0); }
+    50%   { transform: scale(0); }
+    
+    51% { transform: scale(01); }
+}
+#sig3
+{
+    animation-name: sig3;
+    animation-duration:20s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes sig3 {
+    0%   { transform: scale(0); }
+    70%   { transform: scale(0); }
+    
+    71% { transform: scale(01); }
+}
+#sg1,#sg4,#sg7,#dt41,#wi,#wi4,#wi7,#wi10,#wi13 {
+    animation: dt1 1s infinite linear;
+}
+@keyframes dt1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#sg2,#sg5,#sg8,#dt42,#wi2,#wi5,#wi8,#wi11,#wi14 {
+    animation: dt2 1s infinite linear;
+}
+@keyframes dt2 {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#sg3,#sg6,#sg9,#dt43,#wi3,#wi6,#wi9,#wi12,#wi15 {
+    animation: dt3 1s infinite linear;
+}
+
+@keyframes dt3 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+#s
+{
+    
+}
+@keyframes s {
+    0%   { transform: scale(0); }
+    25%   { transform: scale(0); }
+    
+    26% { transform: scale(01); }
+}
+
+
+#block2
+{
+  
+}
+@keyframes bl2 {
+    0%   { transform: scale(0); }
+    22%   { transform: scale(0); }
+    
+    22.5% { transform: scale(01); }
+}
+
+
+
+#y
+{
+   
+}
+@keyframes y {
+    0%   { transform: scale(0); }
+    30%   { transform: scale(0); }
+    
+    31% { transform: scale(01); }
+}
+
+
+#dd
+{
+    
+}
+@keyframes dd {
+    0%   { transform: scale(0); }
+    2%   { transform: scale(0); }
+    
+    3% { transform: scale(01); }
+}
+#ee
+{
+    
+}
+@keyframes ee {
+    0%   { transform: scale(0); }
+    4%   { transform: scale(0); }
+    
+    5% { transform: scale(01); }
+}
+#ch10
+{
+   
+}
+@keyframes ch10 {
+    0%   { transform: scale(0); }
+    6%   { transform: scale(0); }
+    
+    7% { transform: scale(01); }
+}
+#ch11
+{
+    
+}
+@keyframes ch11 {
+    0%   { transform: scale(0); }
+    8%   { transform: scale(0); }
+    
+    9% { transform: scale(01); }
+}
+#ch12
+{
+   
+}
+@keyframes ch12 {
+    0%   { transform: scale(0); }
+    10%   { transform: scale(0); }
+    
+    11% { transform: scale(01); }
+}
+#ch111
+{
+    
+}
+@keyframes ch111 {
+    0%   { transform: scale(0); }
+    12%   { transform: scale(0); }
+    
+13% { transform: scale(01); }
+}
+#ch13
+{
+    
+}
+@keyframes ch13 {
+    0%   { transform: scale(0); }
+    14%   { transform: scale(0); }
+    
+    15% { transform: scale(01); }
+}
+#ch14
+{
+   
+}
+@keyframes ch14 {
+    0%   { transform: scale(0); }
+    16%   { transform: scale(0); }
+    
+    17% { transform: scale(01); }
+}
+
+#ff
+{
+   
+@keyframes ff {
+    0%   { transform: scale(0); }
+    18%   { transform: scale(0); }
+    
+    19% { transform: scale(01); }
+}
+#gg
+{
+   
+}
+@keyframes gg{
+    0%   { transform: scale(0); }
+    20%   { transform: scale(0); }
+    
+    21% { transform: scale(01); }
+}
+#hh
+{
+    animation-name:hh;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes hh {
+    0%   { transform: scale(0); }
+    22%   { transform: scale(0); }
+    
+    23% { transform: scale(01); }
+}
+#ii
+{
+    animation-name: ii;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ii {
+    0%   { transform: scale(0); }
+    24%   { transform: scale(0); }
+    
+    25% { transform: scale(01); }
+}
+#jj
+{
+    animation-name:jj;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes jj {
+    0%   { transform: scale(0); }
+    26%   { transform: scale(0); }
+    
+    27% { transform: scale(01); }
+}
+#wifi4
+{
+    animation-name:wi4;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes wi4 {
+    0%   { transform: scale(0); }
+    26%   { transform: scale(0); }
+    
+    27% { transform: scale(01); }
+}
+#wifi5
+{
+    animation-name:wi5;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes wi5 {
+    0%   { transform: scale(0); }
+    60%   { transform: scale(0); }
+    
+    61% { transform: scale(01); }
+}
+#jj1
+{
+    animation-name:jj1;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes jj1 {
+    0%   { transform: scale(0); }
+    26%   { transform: scale(0); }
+    
+    27% { transform: scale(01); }
+}
+#kk
+{
+    animation-name: kk;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes kk {
+    0%   { transform: scale(0); }
+    26%   { transform: scale(0); }
+    
+    27% { transform: scale(01); }
+}
+#ll
+{
+    animation-name: ll;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ll {
+    0%   { transform: scale(0); }
+    27%   { transform: scale(0); }
+    
+    28% { transform: scale(01); }
+}
+#mm
+{
+    animation-name:mm;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes mm {
+    0%   { transform: scale(0); }
+    28%   { transform: scale(0); }
+    
+    29% { transform: scale(01); }
+}
+
+#nn
+{
+    animation-name:nn;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes nn {
+    0%   { transform: scale(0); }
+    29%   { transform: scale(0); }
+    
+    30% { transform: scale(01); }
+}
+#oo
+{
+    animation-name:oo;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes oo {
+    0%   { transform: scale(0); }
+    30%   { transform: scale(0); }
+    
+    31% { transform: scale(01); }
+}
+#oo1
+{
+    animation-name:oo1;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes oo1 {
+    0%   { transform: scale(0); }
+    31%   { transform: scale(0); }
+    
+    32% { transform: scale(01); }
+}
+#oo2
+{
+    animation-name:oo2;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes oo2 {
+    0%   { transform: scale(0); }
+    32%   { transform: scale(0); }
+    
+    33% { transform: scale(01); }
+}
+#pp
+{
+    animation-name: pp;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes pp {
+    0%   { transform: scale(0); }
+    31%   { transform: scale(0); }
+    
+    32% { transform: scale(01); }
+}
+#qq
+{
+    animation-name: qq;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes qq {
+    0%   { transform: scale(0); }
+    32%   { transform: scale(0); }
+    
+    33% { transform: scale(01); }
+}
+#rr
+{
+    animation-name: rr;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes rr {
+    0%   { transform: scale(0); }
+    33%   { transform: scale(0); }
+    
+    34% { transform: scale(01); }
+}
+#ss
+{
+    animation-name:ss;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ss {
+    0%   { transform: scale(0); }
+    34%   { transform: scale(0); }
+    
+    35% { transform: scale(01); }
+}
+#tt
+{
+    animation-name:tt;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes tt {
+    0%   { transform: scale(0); }
+    35%   { transform: scale(0); }
+    
+    36% { transform: scale(01); }
+}
+#uu,#uu1
+{
+    animation-name:uu;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes uu {
+    0%   { transform: scale(0); }
+    36%   { transform: scale(0); }
+    
+    37% { transform: scale(01); }
+}
+#vv
+{
+    animation-name:vv;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes vv{
+    0%   { transform: scale(0); }
+    37%   { transform: scale(0); }
+    
+    38% { transform: scale(01); }
+}
+#ww
+{
+    animation-name:ww;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ww {
+    0%   { transform: scale(0); }
+    38%   { transform: scale(0); }
+    
+    39% { transform: scale(01); }
+}
+#xx
+{
+    animation-name:xx;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes xx {
+    0%   { transform: scale(0); }
+    39%   { transform: scale(0); }
+    
+    40% { transform: scale(01); }
+}
+#yy
+{
+    animation-name:yy;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes yy {
+    0%   { transform: scale(0); }
+    40%   { transform: scale(0); }
+    
+    41% { transform: scale(01); }
+}
+#zz
+{
+    animation-name:zz;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes zz {
+    0%   { transform: scale(0); }
+    41%   { transform: scale(0); }
+    
+    42% { transform: scale(01); }
+}
+#aaa
+{
+    animation-name:aaa;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes aaa {
+    0%   { transform: scale(0); }
+    42%   { transform: scale(0); }
+    
+    43% { transform: scale(01); }
+}
+#text1
+{
+    animation-name:txt;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes txt {
+    0%   { transform: scale(0); }
+    42%   { transform: scale(0); }
+    
+    43% { transform: scale(01); }
+}
+#bbb
+{
+    animation-name:bbb;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes bbb {
+    0%   { transform: scale(0); }
+    43%   { transform: scale(0); }
+    
+    44% { transform: scale(01); }
+}
+#lines
+{
+    animation-name:ln;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ln {
+    0%   { transform: scale(0); }
+    5%   { transform: scale(0); }
+    
+    6% { transform: scale(01); }
+}
+#ccc
+{
+    animation-name:ccc;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ccc {
+    0%   { transform: scale(0); }
+    44%   { transform: scale(0); }
+    
+    44.5% { transform: scale(01); }
+}
+#ddd
+{
+    animation-name:ddd;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ddd {
+    0%   { transform: scale(0); }
+    20%   { transform: scale(0); }
+    
+    21% { transform: scale(01); }
+}
+#ddd1,#ddd2
+{
+    animation-name:ddd;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ddd {
+    0%   { transform: scale(0); }
+    22%   { transform: scale(0); }
+    
+    23% { transform: scale(01); }
+}
+#h1
+{
+    animation-name:h1;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes h1 {
+    0%   { transform: scale(0); }
+    46%   { transform: scale(0); }
+    
+    47% { transform: scale(01); }
+}
+#h2
+{
+    animation-name:h2;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes h2 {
+    0%   { transform: scale(0); }
+    46.5%   { transform: scale(0); }
+    
+    47.5% { transform: scale(01); }
+}
+#h3
+{
+    animation-name:h3;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes h3 {
+    0%   { transform: scale(0); }
+    47%   { transform: scale(0); }
+    
+    48% { transform: scale(01); }
+}
+#h4
+{
+    animation-name:h4;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes h4 {
+    0%   { transform: scale(0); }
+    48%   { transform: scale(0); }
+    
+    49% { transform: scale(01); }
+}
+#h5
+{
+    animation-name:h5;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes h5 {
+    0%   { transform: scale(0); }
+    48.5%   { transform: scale(0); }
+    
+    49.5% { transform: scale(01); }
+}
+#h6
+{
+    animation-name:h6;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes h6 {
+    0%   { transform: scale(0); }
+    49.5%   { transform: scale(0); }
+    
+    50.5% { transform: scale(01); }
+}
+#h7
+{
+    animation-name:h7;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes h7 {
+    0%   { transform: scale(0); }
+    51.5%   { transform: scale(0); }
+    
+    52.5% { transform: scale(01); }
+}
+#h8
+{
+    animation-name:h8;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes h8 {
+    0%   { transform: scale(0); }
+    52.5%   { transform: scale(0); }
+    
+    53.5% { transform: scale(01); }
+}
+#crane1
+{
+    animation-name:crn1;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    aanimation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes crn1 {
+    0%   { transform: scale(0); }
+    47.5%   { transform: scale(0); }
+    
+    48.5% { transform: scale(01); }
+}
+#crane2
+{
+    animation-name:crn2;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    aanimation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes crn2 {
+    0%   { transform: scale(0); }
+    49.5%   { transform: scale(0); }
+    
+    50.5% { transform: scale(01); }
+}
+#eee
+{
+    animation-name:eee;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes eee {
+    0%   { transform: scale(0); }
+    25%   { transform: scale(0); }
+    
+    26% { transform: scale(01); }
+}
+#fff
+{
+    animation-name:fff;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes fff {
+    0%   { transform: scale(0); }
+    27%   { transform: scale(0); }
+    
+    28% { transform: scale(01); }
+}
+#ggg
+{
+    animation-name:ggg;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ggg {
+    0%   { transform: scale(0); }
+    29%   { transform: scale(0); }
+    
+    30% { transform: scale(01); }
+}
+
+#hhh
+{
+    animation-name:hhh;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes hhh {
+    0%   { transform: scale(0); }
+    31%   { transform: scale(0); }
+    
+    32% { transform: scale(01); }
+}
+#iii
+{
+    animation-name:iii;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes iii {
+    0%   { transform: scale(0); }
+    33%   { transform: scale(0); }
+    
+    34% { transform: scale(01); }
+}
+
+#jjj
+{
+    animation-name:jjj;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes jjj {
+    0%   { transform: scale(0); }
+    35%   { transform: scale(0); }
+    
+    36% { transform: scale(01); }
+}
+#kkk
+{
+    animation-name:kkk;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes kkk {
+    0%   { transform: scale(0); }
+    37%   { transform: scale(0); }
+    
+    38% { transform: scale(01); }
+}
+#lll
+{
+    animation-name:lll;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes lll {
+    0%   { transform: scale(0); }
+    39%   { transform: scale(0); }
+    
+    40% { transform: scale(01); }
+}
+
+#mmm
+{
+    animation-name:mmm;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes mmm {
+    0%   { transform: scale(0); }
+    41% { transform: scale(0); }
+    
+    42% { transform: scale(01); }
+}
+
+#nnn
+{
+    animation-name:nnn;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes nnn {
+    0%   { transform: scale(0); }
+    43%   { transform: scale(0); }
+    
+    44% { transform: scale(01); }
+}
+#ooo
+{
+    animation-name:ooo;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ooo {
+    0%   { transform: scale(0); }
+    45%   { transform: scale(0); }
+    
+    46% { transform: scale(01); }
+}
+
+#ppp
+{
+    animation-name:ppp;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ppp {
+    0%   { transform: scale(0); }
+    60%   { transform: scale(0); }
+    
+    61% { transform: scale(01); }
+}
+
+#qqq
+{
+    animation-name:qqq;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes qqq {
+    0%   { transform: scale(0); }
+    61%   { transform: scale(0); }
+    
+    62% { transform: scale(01); }
+}
+
+#rrr
+{
+    animation-name:rrr;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes rrr {
+    0%   { transform: scale(0); }
+    62%   { transform: scale(0); }
+    
+    63% { transform: scale(01); }
+}
+#sss
+{
+    animation-name:sss;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes sss {
+    0%   { transform: scale(0); }
+    63%   { transform: scale(0); }
+    
+    64% { transform: scale(01); }
+}
+
+#ttt
+{
+    animation-name:ttt;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes ttt {
+    0%   { transform: scale(0); }
+    64%   { transform: scale(0); }
+    
+    65% { transform: scale(01); }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+#box
+{
+    animation-name: box;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+   animation-timing-function: ease-out;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes box {
+  0%{ transform: translate(0px, 0px);}
+  20%{ transform: translate(0px, 0px);}
+  30%{ transform: translate(9px, -70px);}
+  40%{ transform: translate(-193px, -29px);}
+   40%{ transform: translate(-193px, -29px);}
+   50%{ transform: translate(-193px, -13px);}
+  100%{ transform: translate(-193px, -13px);}
+  
+}*/
+#arm1
+{
+    animation-name: h;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+   animation-direction: alternate;
+    transform-origin:  right center ;
+    transform-box: fill-box;
+}
+@keyframes h {
+    0%{transform: rotateZ(0deg);}
+    
+    100%{transform: rotateZ(30deg);}
+}</style>
+ <defs>
+  <clipPath id="clip-path">
+   <polygon id="svg_1" fill="none" points="644.34 180.19 644.28 203.98 676.89 222.81 676.95 199.02 644.34 180.19"/>
+  </clipPath>
+  <clipPath id="clip-path-2">
+   <polygon id="svg_2" fill="none" points="650.13 63.95 669.83 74.49 669.79 61.65 650.09 51.1 650.13 63.95"/>
+  </clipPath>
+  <clipPath id="clip-path-3">
+   <polygon id="svg_3" fill="none" points="636.02 56.12 650.63 64.22 651.01 51.59 635.98 43.26 636.02 56.12"/>
+  </clipPath>
+  <linearGradient y2="0.52489" x2="0.47662" y1="0.2006" x1="0.86242" id="linear-gradient-4">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#002f6c" offset="1"/>
+  </linearGradient>
+ </defs>
+ <title>10 Drone Delivery</title>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="svg_4">
+   <g stroke="null" id="sig1">
+    <g stroke="null" id="sg3">
+     <path stroke="null" id="svg_842" opacity="0.4" fill="#fff" d="m239.9351,62.21696c-3.92228,-2.26285 -7.06872,-0.45257 -7.11182,4.05158a15.5167,15.5167 0 0 0 7.06872,12.24095c3.87918,2.1551 7.06872,0.45257 7.11182,-4.05158a15.5598,15.5598 0 0 0 -7.06872,-12.24095z"/>
+    </g>
+    <g stroke="null" id="sg2">
+     <path stroke="null" id="svg_843" opacity="0.7" fill="#fff" d="m264.24459,76.24664c-3.87918,-2.1551 -7.06872,-0.43102 -7.11182,4.07313a15.5598,15.5598 0 0 0 7.06872,12.24095c3.87918,2.1551 7.06872,0.43102 7.11182,-4.05158a15.4736,15.4736 0 0 0 -7.06872,-12.2625z"/>
+    </g>
+    <g stroke="null" id="sg1">
+     <path stroke="null" id="svg_844" fill="#fff" d="m288.59719,90.29787c-3.92228,-2.26285 -7.11182,-0.45257 -7.11182,4.05158a15.30119,15.30119 0 0 0 7.04717,12.24095c3.92228,2.26285 7.11182,0.45257 7.11182,-4.05158a15.62445,15.62445 0 0 0 -7.04717,-12.24095z"/>
+    </g>
+   </g>
+   <polygon stroke="null" id="svg_243" fill="url(#linear-gradient-4)" opacity="0.2" points="149.95834112167358,307.7713317871094 248.25228643417358,363.91156005859375 326.0297827720642,320.2061767578125 229.93397283554077,263.89349365234375 149.95834112167358,307.7713317871094 "/>
+   <g stroke="null" id="svg_244">
+    <polygon stroke="null" id="svg_245" fill="#243551" points="154.2214789390564,288.80255126953125 251.28707647323608,344.8350524902344 259.17474126815796,340.2447204589844 162.13070440292358,284.212158203125 154.2214789390564,288.80255126953125 "/>
+    <polygon stroke="null" id="svg_246" fill="#243551" points="154.2214789390564,288.80255126953125 162.13070440292358,284.212158203125 162.6694769859314,81.37438201904297 154.8033881187439,85.9647445678711 154.2214789390564,288.80255126953125 "/>
+    <path stroke="null" id="svg_247" fill="#243551" d="m193.46579,88.78793a4.67656,4.67656 0 0 1 -2.04734,-3.70677a1.57322,1.57322 0 0 1 0.64653,-1.44392l-7.90921,4.59036a1.57322,1.57322 0 0 0 -0.64653,1.44392a4.67656,4.67656 0 0 0 2.04734,3.70677a1.35771,1.35771 0 0 0 1.40081,0l7.90921,-4.59036a1.35771,1.35771 0 0 1 -1.40081,0z"/>
+    <path stroke="null" id="svg_248" fill="#121b29" d="m192.15118,83.63725l-7.90921,4.59036a1.44392,1.44392 0 0 1 1.44392,0l7.90921,-4.59036a1.44392,1.44392 0 0 0 -1.44392,0z"/>
+    <path stroke="null" id="svg_249" fill="#121b29" d="m193.48735,83.91741l-7.80145,4.59036a4.5257,4.5257 0 0 1 2.02579,3.70677a1.57322,1.57322 0 0 1 -0.64653,1.44392l7.90921,-4.59036a1.57322,1.57322 0 0 0 0.64653,-1.44392a4.65501,4.65501 0 0 0 -2.13355,-3.70677z"/>
+    <path stroke="null" id="svg_250" fill="#243551" d="m199.15525,89.64997l-7.90921,4.59036a4.67656,4.67656 0 0 0 2.1551,3.68522l7.8661,-4.59036a4.71966,4.71966 0 0 1 -2.112,-3.68522z"/>
+    <polygon stroke="null" id="svg_251" fill="#243551" points="191.24603033065796,94.24031829833984 199.1552710533142,89.64994812011719 199.1552710533142,89.49911499023438 191.24603033065796,94.0894775390625 191.24603033065796,94.24031829833984 "/>
+    <path stroke="null" id="svg_252" fill="#243551" d="m191.28915,94.13257l7.90921,-4.59036a1.44392,1.44392 0 0 1 0.60343,-1.35771l-7.90921,4.59036a1.44392,1.44392 0 0 0 -0.60343,1.35771z"/>
+    <path stroke="null" id="svg_253" fill="#121b29" d="m199.80178,88.1414l-7.90921,4.59036a1.46547,1.46547 0 0 1 1.50857,0l7.90921,-4.56881a1.42236,1.42236 0 0 0 -1.50857,-0.02155z"/>
+    <polygon stroke="null" id="svg_254" fill="#243551" points="193.35806035995483,97.90397644042969 221.0726294517517,113.89479064941406 228.98179388046265,109.30442810058594 201.26727056503296,93.31364440917969 193.35806035995483,97.90397644042969 "/>
+    <path stroke="null" id="svg_255" fill="#243551" d="m228.9818,109.21825l-7.90921,4.59036a1.61632,1.61632 0 0 0 1.53012,0l7.8661,-4.59036a1.53012,1.53012 0 0 1 -1.48702,0z"/>
+    <path stroke="null" id="svg_256" fill="#121b29" d="m222.60271,114.04567l7.8661,-4.59036a1.57322,1.57322 0 0 0 0.64653,-1.35771l-7.90921,4.56881a1.50857,1.50857 0 0 1 -0.60343,1.37926z"/>
+    <polygon stroke="null" id="svg_257" fill="#121b29" points="223.18458318710327,112.6664047241211 231.09382390975952,108.11914825439453 231.09382390975952,107.9251708984375 223.18458318710327,112.5155258178711 223.18458318710327,112.6664047241211 "/>
+    <polygon stroke="null" id="svg_258" fill="#121b29" points="193.4011206626892,92.8610610961914 221.0726294517517,108.8734130859375 228.98179388046265,104.2830810546875 201.28878545761108,88.29226684570312 193.4011206626892,92.8610610961914 "/>
+    <path stroke="null" id="svg_259" fill="#243551" d="m221.11569,108.87344l-27.71455,-16.01237a1.31461,1.31461 0 0 0 -2.1551,1.22841l0,0.15086a4.67656,4.67656 0 0 0 2.1551,3.68522l27.56369,15.99082a1.31461,1.31461 0 0 0 2.1551,-1.22841l0,0a4.67656,4.67656 0 0 0 -2.00424,-3.81452z"/>
+    <path stroke="null" id="svg_260" fill="#121b29" d="m228.9818,104.28308l-7.8661,4.59036a4.65501,4.65501 0 0 1 2.1551,3.64211l7.90921,-4.59036a4.61191,4.61191 0 0 0 -2.1982,-3.64211z"/>
+    <polygon stroke="null" id="svg_261" fill="#243551" points="154.8033881187439,85.9647445678711 251.8689398765564,142.0188446044922 259.7565894126892,137.42848205566406 162.6694769859314,81.37438201904297 154.8033881187439,85.9647445678711 "/>
+    <polygon stroke="null" id="svg_262" fill="#243551" points="251.28707647323608,344.8350524902344 259.17474126815796,340.2447204589844 259.7565894126892,137.42848205566406 251.8689398765564,142.0188446044922 251.28707647323608,344.8350524902344 "/>
+    <path stroke="null" id="svg_263" fill="#fff" d="m250.01555,115.27408l-93.25106,-53.87743c-3.06024,-1.81028 -5.73256,-0.34482 -5.73256,3.27575l-0.66808,235.37972a12.60732,12.60732 0 0 0 5.68946,9.87035l93.25106,53.87743c3.06024,1.81028 5.73256,0.36637 5.73256,-3.27575l0.66808,-235.37972a12.60732,12.60732 0 0 0 -5.68946,-9.87035zm-58.7264,-21.1415c0,-1.35771 0.94824,-1.89649 2.1551,-1.22841l27.71455,16.01237a4.65501,4.65501 0 0 1 2.1551,3.64211l0,0c0,1.35771 -0.96979,1.89649 -2.1551,1.22841l-27.56369,-15.99082a4.63346,4.63346 0 0 1 -2.1551,-3.68522l-0.15086,0.02155zm-5.60325,-5.77566a4.5257,4.5257 0 0 1 2.02579,3.70677c0,1.37926 -0.92669,1.96114 -2.04734,1.31461a4.67656,4.67656 0 0 1 -2.04734,-3.70677c-0.0862,-1.37926 0.79739,-2.00424 2.06889,-1.31461zm65.64426,256.45657l-96.97938,-56.03253l0.58188,-202.83775l97.10868,56.14028l-0.71118,202.73z"/>
+    <path stroke="null" id="svg_264" fill="#243551" d="m185.68589,88.35691c-1.16375,-0.66808 -2.1551,0 -2.1551,1.31461a4.67656,4.67656 0 0 0 2.04734,3.70677c1.1422,0.64653 2.04734,0 2.04734,-1.31461a4.4395,4.4395 0 0 0 -1.93959,-3.70677z"/>
+    <polygon stroke="null" id="svg_265" fill="#74a5cc" points="154.2214789390564,288.80255126953125 251.28707647323608,344.8350524902344 251.8689398765564,142.0188446044922 154.8033881187439,85.9647445678711 154.2214789390564,288.80255126953125 "/>
+    <polygon stroke="null" id="svg_266" fill="#d8e3f2" points="154.0491156578064,279.6433410644531 154.2214789390564,288.80255126953125 251.28707647323608,344.8350524902344 251.0931372642517,335.6758728027344 154.0491156578064,279.6433410644531 "/>
+    <g stroke="null" id="svg_267">
+     <polygon stroke="null" id="svg_268" fill="#d8e3f2" points="187.69013738632202,269.75146484375 236.56771612167358,297.9185791015625 236.56771612167358,293.7377014160156 187.69013738632202,265.54901123046875 187.69013738632202,269.75146484375 "/>
+     <polygon stroke="null" id="svg_269" fill="#d8e3f2" points="187.69013738632202,278.0270080566406 236.56771612167358,306.19415283203125 236.56771612167358,302.0348205566406 187.69013738632202,273.8461608886719 187.69013738632202,278.0270080566406 "/>
+     <polygon stroke="null" id="svg_270" fill="#d8e3f2" points="199.24148321151733,293.7377014160156 236.56771612167358,315.41796875 236.56771612167358,311.2370910644531 199.24148321151733,289.5567932128906 199.24148321151733,293.7377014160156 "/>
+    </g>
+    <polygon stroke="null" id="svg_271" fill="#3182ad" points="182.30239629745483,254.32098388671875 251.28707647323608,293.996337890625 251.8689398765564,164.66893005371094 182.86272954940796,124.99360656738281 182.30239629745483,254.32098388671875 "/>
+    <polygon stroke="null" id="svg_272" fill="#3182ad" points="154.58787298202515,98.9599838256836 251.8689398765564,155.25115966796875 251.8689398765564,142.0188446044922 154.58787298202515,85.72769927978516 154.58787298202515,98.9599838256836 "/>
+    <path stroke="null" id="svg_273" fill="#243551" d="m257.92475,110.68372l-93.25106,-53.87743a4.07313,4.07313 0 0 0 -4.05158,-0.38792l-7.90921,4.59036a4.07313,4.07313 0 0 1 4.05158,0.38792l93.25106,53.87743a12.60732,12.60732 0 0 1 5.68946,9.87035l-0.66808,235.37972a4.07313,4.07313 0 0 1 -1.65942,3.68522l7.90921,-4.59036a4.07313,4.07313 0 0 0 1.65942,-3.68522l0.66808,-235.27197a12.58577,12.58577 0 0 0 -5.68946,-9.9781z"/>
+   </g>
+   <g stroke="null" id="svg_274">
+    <polygon stroke="null" id="svg_275" fill="#d8e3f2" points="162.36774969100952,147.7945098876953 172.34585332870483,153.59170532226562 172.34585332870483,142.1050567626953 162.36774969100952,136.307861328125 162.36774969100952,147.7945098876953 "/>
+    <polygon stroke="null" id="svg_276" fill="#3182ad" points="162.36774969100952,164.28102111816406 172.34585332870483,170.05665588378906 172.34585332870483,158.5699920654297 162.36774969100952,152.79434204101562 162.36774969100952,164.28102111816406 "/>
+    <polygon stroke="null" id="svg_277" fill="#344d75" points="162.36774969100952,180.74595642089844 172.34585332870483,186.50006103515625 172.34585332870483,175.03492736816406 162.36774969100952,169.25929260253906 162.36774969100952,180.74595642089844 "/>
+    <polygon stroke="null" id="svg_278" fill="#243551" points="162.36774969100952,197.232421875 172.34585332870483,202.98655700683594 172.34585332870483,191.49986267089844 162.36774969100952,185.7457733154297 162.36774969100952,197.232421875 "/>
+    <polygon stroke="null" id="svg_279" fill="#e85f66" points="162.36774969100952,213.69737243652344 172.34585332870483,219.47305297851562 172.34585332870483,207.98638916015625 162.36774969100952,202.21072387695312 162.36774969100952,213.69737243652344 "/>
+   </g>
+   <g stroke="null" id="svg_280">
+    <path stroke="null" id="svg_281" fill="#fff" d="m218.57268,190.18526a3.96538,3.96538 0 0 0 -1.1422,-1.0991a1.53012,1.53012 0 0 0 -1.1422,-0.19396l-27.56369,9.87035c-0.77584,0.28016 -0.88359,1.53012 -0.28016,2.75852a3.64211,3.64211 0 0 0 1.37926,1.53012a1.50857,1.50857 0 0 0 1.1422,0.21551l2.1551,-0.73273l0,33.46866a3.66367,3.66367 0 0 0 0.51722,1.76718a3.83607,3.83607 0 0 0 1.24996,1.31461l44.71827,25.86117a1.37926,1.37926 0 0 0 1.29306,0a1.33616,1.33616 0 0 0 0.51722,-1.1422l0,-34.17984l2.04734,3.06024a3.27575,3.27575 0 0 0 1.1422,1.0991a1.16375,1.16375 0 0 0 1.37926,0c0.64653,-0.56033 0.51722,-1.89649 -0.23706,-3.06024l-27.17578,-40.53738zm29.52483,100.16892l-7.8661,-4.5257l0,-21.44322l7.8661,4.5257l0,21.44322zm16.63735,9.95655l-40.25722,-47.95091l0,-26.03357l-15.08568,-8.62039l0,26.05513l0,0l-12.93058,-7.54284l0,-34.86947l20.92599,-7.43509l20.21481,30.62393l27.13267,75.77322z"/>
+    <path stroke="null" id="svg_282" fill="#fff" d="m217.19341,178.56928a9.80569,9.80569 0 0 0 -9.65484,-0.96979c-0.71118,0.43102 -0.71118,1.72408 0,3.06024a3.2973,3.2973 0 0 0 1.24996,1.35771a1.1853,1.1853 0 0 0 1.24996,0a7.24113,7.24113 0 0 1 7.13337,0.73273a20.47342,20.47342 0 0 1 7.06872,7.47819a3.79297,3.79297 0 0 0 1.24996,1.35771a1.37926,1.37926 0 0 0 1.29306,0c0.66808,-0.38792 0.66808,-1.68098 0,-3.06024a27.75765,27.75765 0 0 0 -9.59018,-9.95655z"/>
+    <path stroke="null" id="svg_283" fill="#fff" d="m217.21497,169.56098c-5.51705,-3.06024 -11.05565,-3.98693 -15.32274,-1.55167c-0.71118,0.43102 -0.71118,1.72408 0,3.06024a3.79297,3.79297 0 0 0 1.24996,1.35771a1.1853,1.1853 0 0 0 1.24996,0a12.80128,12.80128 0 0 1 12.77973,1.31461a36.11943,36.11943 0 0 1 12.67197,13.38315a3.66367,3.66367 0 0 0 1.24996,1.31461a1.27151,1.27151 0 0 0 1.29306,0c0.71118,-0.36637 0.71118,-1.68098 0,-3.06024a43.40366,43.40366 0 0 0 -15.17188,-15.81841z"/>
+    <path stroke="null" id="svg_284" fill="#fff" d="m217.25807,160.48802c-7.49974,-4.31019 -15.08568,-5.38774 -20.75359,-2.1551c-0.71118,0.38792 -0.71118,1.72408 0,3.06024a3.18954,3.18954 0 0 0 1.24996,1.31461a1.1853,1.1853 0 0 0 1.24996,0c5.04293,-2.84473 11.63753,-1.96114 18.38298,1.87493a52.62747,52.62747 0 0 1 18.16747,19.13726a3.79297,3.79297 0 0 0 1.24996,1.35771a1.1853,1.1853 0 0 0 1.24996,0c0.71118,-0.38792 0.71118,-1.68098 0,-2.90938a59.65309,59.65309 0 0 0 -20.79669,-21.68028z"/>
+   </g>
+   <g stroke="null" id="kk">
+    <path stroke="null" id="svg_285" opacity="0.15" fill="#243551" d="m169.41779,83.46772l-0.19396,52.73523a18.33988,18.33988 0 0 0 2.56457,1.89649l46.5501,26.85251c5.75411,3.3404 10.45222,0.66808 10.47377,-5.94807l0,-48.05867c-16.5296,-9.46088 -41.29166,-24.50346 -53.1016,-31.33511a4.31019,4.31019 0 0 0 -5.79721,1.76718a4.80587,4.80587 0 0 0 -0.49567,2.09044z"/>
+    <path stroke="null" id="svg_286" fill="#e85f66" d="m213.27402,79.02822l-46.5501,-26.85251c-5.75411,-3.3404 -10.45222,-0.66808 -10.47377,5.94807l-0.15086,53.59727a23.03799,23.03799 0 0 0 10.40912,18.01661l46.5501,26.89561c5.75411,3.2973 10.45222,0.64653 10.47377,-5.96962l0,-53.51106a22.93023,22.93023 0 0 0 -10.25826,-18.12437z"/>
+    <g stroke="null" id="svg_287">
+     <path stroke="null" id="svg_288" fill="#fff" d="m189.20159,94.00615a2.1551,2.1551 0 0 0 -0.92669,-1.59477a0.58188,0.58188 0 0 0 -0.94824,0.51722l0,24.89137c-1.24996,-0.28016 -2.1551,0.56033 -2.1551,2.1551a6.85321,6.85321 0 0 0 3.06024,5.36619c1.72408,1.0129 3.06024,0.21551 3.06024,-1.74563a6.96096,6.96096 0 0 0 -2.1551,-4.67656l0.06465,-24.91292z"/>
+     <path stroke="null" id="svg_289" fill="#fff" d="m197.82197,94.28631a0.58188,0.58188 0 0 0 0.94824,-0.51722a2.1551,2.1551 0 0 0 -0.94824,-1.61632l-4.5257,-2.56457l0,-2.71542a10.90479,10.90479 0 0 0 -4.93517,-8.62039c-2.71542,-1.55167 -4.95672,-0.30171 -4.99983,2.82318l0,31.78768a4.87052,4.87052 0 0 0 -2.1551,4.65501a15.79686,15.79686 0 0 0 7.17647,12.24095c3.94383,2.1551 7.19802,0.45257 7.19802,-4.07313a14.52536,14.52536 0 0 0 -2.1551,-7.21958l0,-4.4395l4.50415,2.60767a0.58188,0.58188 0 0 0 0.94824,-0.51722a2.02579,2.02579 0 0 0 -0.94824,-1.61632l-4.46105,-2.56457l0,-3.36195l4.50415,2.60767c0.51722,0.30171 0.92669,0 0.92669,-0.56033a2.00424,2.00424 0 0 0 -0.92669,-1.59477l-4.50415,-2.71542l-0.56033,-0.30171a0.71118,0.71118 0 0 0 -0.51722,0a0.71118,0.71118 0 0 1 0.51722,0l0.56033,0.30171l0,-3.46971l4.46105,2.60767a0.60343,0.60343 0 0 0 0.94824,-0.56033a2.02579,2.02579 0 0 0 -0.94824,-1.59477l-4.46105,-2.60767l0,-3.46971l4.50415,2.56457a0.56033,0.56033 0 0 0 0.92669,-0.51722a1.96114,1.96114 0 0 0 -0.92669,-1.61632l-4.50415,-2.56457l-0.56033,-0.34482a0.71118,0.71118 0 0 0 -0.51722,0a0.71118,0.71118 0 0 1 0.51722,0l0.56033,0.34482l0,-3.46971l-0.58188,-0.34482l0.58188,0.34482l4.3533,2.67232zm-8.66349,27.95161c0,3.3404 -2.39216,4.67656 -5.32309,3.06024a11.46512,11.46512 0 0 1 -5.25844,-9.18071a3.44816,3.44816 0 0 1 1.89649,-3.55591a0.66808,0.66808 0 0 0 0.34482,-0.64653l0,-32.32646c0,-1.93959 1.37926,-2.69387 3.06024,-1.72408a6.78856,6.78856 0 0 1 3.06024,5.25844l0,32.32646a1.89649,1.89649 0 0 0 0.34482,1.0129a10.991,10.991 0 0 1 1.89649,5.68946l0,0l-0.02155,0.0862z"/>
+    </g>
+   </g>
+   <g stroke="null" id="ll">
+    <path stroke="null" id="svg_310" opacity="0.15" fill="#243551" d="m181.27083,138.14254l0,-33.68417a16.76666,16.76666 0 0 0 -7.56439,-13.10299l-17.65025,-10.23671l0,29.9774a21.68028,21.68028 0 0 0 10.77549,18.38298c5.90497,3.66367 12.45646,7.67215 14.43915,8.66349z"/>
+    <path stroke="null" id="svg_311" fill="#3182ad" d="m163.34042,93.87684l-33.98588,-19.63294c-4.20244,-2.41371 -7.62904,-0.45257 -7.62904,4.31019l0,39.07191a16.87441,16.87441 0 0 0 7.58594,13.14609l34.02899,19.67604c4.20244,2.41371 7.62904,0.45257 7.62904,-4.31019l0,-39.11501a16.68045,16.68045 0 0 0 -7.62904,-13.14609z"/>
+    <g stroke="null" id="svg_312">
+     <path stroke="null" id="svg_313" fill="#fff" d="m142.93165,125.92314a0.51722,0.51722 0 0 0 -0.81894,0.49567a1.85338,1.85338 0 0 0 0.81894,1.44392l1.1422,0.66808a4.69811,4.69811 0 0 0 2.1551,3.06024c1.0991,0.66808 2.04734,0.36637 2.1551,-0.60343l1.1422,0.66808a0.51722,0.51722 0 0 0 0.81894,-0.49567a1.85338,1.85338 0 0 0 -0.81894,-1.44392l-6.5946,-3.79297z"/>
+     <path stroke="null" id="svg_314" fill="#fff" d="m149.95726,126.50502l-7.32733,-4.31019c-0.45257,-0.28016 -0.81894,0 -0.81894,0.49567a1.81028,1.81028 0 0 0 0.81894,1.44392l7.32733,4.31019c0.49567,0.28016 0.86204,0 0.86204,-0.45257a1.87493,1.87493 0 0 0 -0.86204,-1.48702z"/>
+     <path stroke="null" id="svg_315" fill="#fff" d="m146.3367,93.9415a11.80993,11.80993 0 0 0 -1.83183,-0.86204a5.06448,5.06448 0 0 0 -6.7239,2.43526a5.40929,5.40929 0 0 0 -0.45257,1.65942a14.20209,14.20209 0 0 0 0.77584,7.21958a72.92849,72.92849 0 0 1 3.06024,10.40912l1.03445,5.38774l4.46105,2.60767l1.1422,0.64653l2.71542,1.59477l0.81894,-3.2973a35.04188,35.04188 0 0 1 3.2973,-8.06006a8.01696,8.01696 0 0 0 0.88359,-3.98693a19.89155,19.89155 0 0 0 -9.18071,-15.75376zm6.96096,18.38298a34.3307,34.3307 0 0 0 -3.40505,8.27557l-0.58188,2.1551l-1.61632,-0.94824l-1.1422,-0.64653l-3.36195,-1.96114l-0.77584,-3.98693a78.5964,78.5964 0 0 0 -3.06024,-10.77549a12.32716,12.32716 0 0 1 -0.64653,-6.12048a4.31019,4.31019 0 0 1 4.5257,-3.90073a4.11624,4.11624 0 0 1 1.59477,0.45257a8.879,8.879 0 0 1 1.59477,0.73273a16.91751,16.91751 0 0 1 7.6937,13.3616a7.13337,7.13337 0 0 1 -0.66808,3.3404l-0.15086,0.02155z"/>
+    </g>
+   </g>
+   <g stroke="null" id="ch111">
+    <path stroke="null" id="svg_316" opacity="0.15" fill="#00586c" d="m132.30702,370.48358a55.17049,55.17049 0 0 0 -24.99913,-6.6808c-9.8919,0.28016 -20.15016,7.41353 -10.04275,11.85303c14.20209,6.12048 17.24078,3.27575 26.09823,3.06024c6.70235,-0.30171 19.9993,-2.13355 8.94365,-8.23247z"/>
+    <g stroke="null" id="svg_317">
+     <path stroke="null" id="svg_318" fill="#243551" d="m132.50098,372.01369a92.51832,92.51832 0 0 1 -11.44357,-1.03445l-9.52553,1.93959l-0.43102,6.12048c1.72408,4.31019 7.00407,2.78008 7.00407,2.78008l17.24078,-3.77142a3.55591,3.55591 0 0 0 -2.75852,-6.03427l-0.0862,0z"/>
+     <path stroke="null" id="svg_319" fill="#243551" d="m111.9198,361.58302c-4.56881,0 -10.49532,-0.64653 -10.49532,-0.64653l-8.21092,2.56457l-0.38792,6.12048c1.65942,4.00848 7.54284,2.34906 7.54284,2.34906l14.20209,-4.50415c2.86628,-1.20685 0.43102,-5.88342 -2.65077,-5.88342z"/>
+     <path stroke="null" id="svg_320" fill="#e85f66" d="m92.86874,268.84919s-2.84473,12.93058 -3.06024,17.24078c-0.36637,5.21534 0.28016,4.71966 0.94824,13.44781c0.81894,10.49532 2.47836,27.7361 2.47836,27.7361l-0.28016,36.74441s0.81894,2.1551 6.12048,1.37926c1.98269,-0.30171 4.07313,-1.37926 4.20244,-3.40505l3.55591,-34.76172l0.60343,-25.02068l6.96096,23.03799l-3.06024,49.00691s8.9221,3.83607 10.32292,-1.07755l5.5817,-47.51989l-3.2973,-50.25687c-4.18089,7.09027 -29.99895,-5.94807 -31.0765,-6.5515z"/>
+     <path stroke="null" id="svg_321" opacity="0.1" fill="#00586c" d="m97.07118,365.44065a10.12896,10.12896 0 0 0 1.98269,-0.19396c1.98269,-0.30171 4.07313,-1.37926 4.20244,-3.40505l3.55591,-34.76172l0.60343,-25.02068s-0.49567,0.56033 -1.16375,1.44392c-3.49126,8.03851 -6.18513,50.83874 -9.18071,61.93749z"/>
+     <path stroke="null" id="svg_322" opacity="0.1" fill="#00586c" d="m92.86874,268.84919s-0.30171,1.35771 -0.71118,3.3404a11.0341,11.0341 0 0 1 8.74969,1.24996c17.8011,10.19361 24.3095,29.02916 23.3397,48.72675c-0.88359,17.97351 -4.87052,35.4729 -6.12048,53.29555a3.44816,3.44816 0 0 0 3.51281,-2.45681l5.5817,-47.51989l-3.2973,-50.25687c-4.15934,7.26268 -29.9774,-5.77566 -31.05495,-6.37909z"/>
+    </g>
+    <path stroke="null" id="svg_323" fill="#1f2e46" d="m87.69651,221.58791a187.04089,187.04089 0 0 0 -2.30595,33.38246c0,5.10758 9.9781,11.91769 9.9781,11.91769l-0.86204,-35.62376l-6.81011,-9.67639z"/>
+    <path stroke="null" id="svg_324" opacity="0.1" fill="#00586c" d="m91.20931,226.63083a54.22225,54.22225 0 0 0 -1.65942,35.49445a48.20953,48.20953 0 0 0 5.81876,4.84897l-0.86204,-35.62376l-3.2973,-4.71966z"/>
+    <path stroke="null" id="svg_325" fill="#1f2e46" d="m126.31585,235.42363c-1.31461,-3.4266 0.45257,-11.78838 -2.62922,-15.32274a34.48156,34.48156 0 0 0 -8.62039,-6.31443c-8.12472,-4.31019 -18.16747,0 -18.16747,0c-15.62445,6.12048 -6.6377,14.09434 -6.98252,15.86152s3.68522,26.91716 3.68522,26.91716l-3.53436,23.36125a103.0352,103.0352 0 0 0 16.22788,4.31019c12.73662,2.82318 19.11571,-0.71118 19.11571,-0.71118a131.74109,131.74109 0 0 1 -1.07755,-21.55097c0.81894,-13.46936 1.98269,-26.5508 1.98269,-26.5508z"/>
+    <path stroke="null" id="svg_326" opacity="0.1" fill="#00586c" d="m126.31585,235.42363c-1.03445,-2.71542 -0.19396,-8.62039 -1.31461,-12.58577c-5.47395,13.90038 -4.31019,28.01626 -4.15934,42.86488a52.69213,52.69213 0 0 1 -3.06024,19.50363a19.39588,19.39588 0 0 0 7.54284,-1.72408a131.74109,131.74109 0 0 1 -1.07755,-21.55097c0.90514,-13.42626 2.06889,-26.5077 2.06889,-26.5077z"/>
+    <g stroke="null" id="svg_327">
+     <path stroke="null" id="svg_328" fill="#b77b65" d="m102.24341,212.51495c0,3.55591 12.24095,4.71966 12.24095,1.16375l0.58188,-11.87459l-11.93924,0l-0.88359,10.71083z"/>
+     <path stroke="null" id="svg_329" fill="#fff" d="m102.32962,210.2521l-0.58188,1.03445a3.03869,3.03869 0 0 0 0.49567,3.06024c3.46971,3.64211 11.35736,3.36195 13.62021,0l-1.35771,-2.69387c-3.72832,1.65942 -11.09875,1.98269 -12.1763,-1.40081z"/>
+     <path stroke="null" id="svg_330" fill="#b77b65" d="m99.44179,192.98977l1.22841,9.9781c0,5.38774 9.74104,8.27557 9.74104,8.27557c5.21534,0 8.9652,-2.52146 8.9221,-7.99541l-0.19396,-13.83572l-19.69759,3.57746z"/>
+     <path stroke="null" id="svg_331" fill="#412928" d="m117.17824,182.51599c-2.1551,-1.16375 -16.27098,-1.35771 -18.12437,6.12048a22.04664,22.04664 0 0 0 3.4266,19.50363s4.15934,3.06024 6.46529,1.16375c3.27575,-2.62922 7.6506,-6.89631 7.58594,-11.1203s2.60767,-4.89207 2.60767,-4.89207c1.89649,-1.29306 -0.81894,-10.12896 -1.96114,-10.77549z"/>
+     <path stroke="null" id="svg_332" fill="#b77b65" d="m114.03179,198.93783c-0.28016,2.34906 1.31461,4.95672 3.21109,4.05158l0,-4.56881s-2.84473,-2.65077 -3.21109,0.51722z"/>
+    </g>
+    <g stroke="null" id="ch111arm">
+     <path stroke="null" id="svg_333" fill="#b77b65" d="m174.1159,233.41939l-8.14627,1.59477l-2.02579,6.70235l6.12048,-0.34482c1.03445,1.1853 6.12048,0.60343 6.12048,0.60343a1.93959,1.93959 0 0 0 0.71118,1.50857l3.68522,-2.54301a11.22806,11.22806 0 0 0 0.77584,-5.94807l5.90497,-1.1853c1.83183,-1.1422 1.03445,-2.26285 1.03445,-2.26285l-14.18054,1.87493z"/>
+     <path stroke="null" id="svg_334" fill="#1f2e46" d="m166.76702,234.36763l-20.27947,2.04734a7.32733,7.32733 0 0 1 -5.6248,-1.74563c-7.00407,-6.12048 -17.24078,-15.08568 -19.26657,-15.86152c-10.77549,-4.31019 -11.93924,8.16782 -6.12048,13.94348a160.87801,160.87801 0 0 0 23.3397,15.90462a7.88766,7.88766 0 0 0 6.12048,0.66808l24.07244,-6.96096s0,0.88359 0.49567,-2.1551a6.85321,6.85321 0 0 0 -2.73697,-5.84031z"/>
+     <path stroke="null" id="svg_335" opacity="0.1" fill="#00586c" d="m116.68256,233.80731a183.98065,183.98065 0 0 0 22.17595,14.82707a7.88766,7.88766 0 0 0 6.12048,0.66808l24.07244,-6.96096s0,0.88359 0.49567,-2.1551c-2.88783,0.45257 -19.39588,5.32309 -24.50346,5.25844c-10.15051,-0.19396 -20.0424,-6.89631 -28.36108,-11.63753z"/>
+    </g>
+   </g>
+   <g stroke="null" opacity="0.5" id="wifi4">
+    <g stroke="null" id="wi12">
+     <path stroke="null" id="svg_865" fill="#fff" d="m257.13025,25.62491c-17.24078,-9.91345 -33.38246,-11.55132 -45.58031,-4.63346c-1.1853,0.71118 -1.1853,3.06024 0,4.99983a6.46529,6.46529 0 0 0 2.1551,2.30595a2.1551,2.1551 0 0 0 2.1551,0.21551c11.05565,-6.12048 25.68876,-4.78432 41.22701,4.31019s30.17136,24.50346 41.11926,43.33901a6.27133,6.27133 0 0 0 2.1551,2.30595a2.1551,2.1551 0 0 0 2.1551,0.21551c1.22841,-0.66808 1.22841,-3.06024 0,-4.99983c-12.02544,-21.07685 -28.16712,-38.10212 -45.38635,-48.05867z"/>
+    </g>
+    <g stroke="null" id="wi11">
+     <path stroke="null" id="svg_866" fill="#fff" d="m257.08715,45.47336c-12.06854,-6.98252 -24.00778,-8.62039 -33.1885,-3.4266c-1.22841,0.71118 -1.22841,3.06024 0,5.02138a6.24978,6.24978 0 0 0 2.1551,2.1551a2.1551,2.1551 0 0 0 2.1551,0.21551c8.01696,-4.56881 18.53384,-3.06024 29.00761,3.06024a83.48847,83.48847 0 0 1 28.96451,30.73169a6.27133,6.27133 0 0 0 2.1551,2.30595a2.1551,2.1551 0 0 0 2.1551,0.21551c1.1853,-0.66808 1.22841,-3.06024 0,-5.02138a95.47081,95.47081 0 0 0 -33.40401,-35.25739z"/>
+    </g>
+    <g stroke="null" id="wi10">
+     <path stroke="null" id="svg_867" fill="#fff" d="m257.0225,65.77438c-7.54284,-4.31019 -15.08568,-5.38774 -20.81824,-2.1551c-1.1853,0.66808 -1.1853,3.06024 0,4.99983a6.46529,6.46529 0 0 0 2.1551,2.30595a2.30595,2.30595 0 0 0 2.1551,0.21551c4.5257,-2.60767 10.49532,-1.74563 16.48649,1.68098a47.41214,47.41214 0 0 1 16.42184,17.43474a6.46529,6.46529 0 0 0 2.1551,2.30595a2.1551,2.1551 0 0 0 2.1551,0.21551c1.1853,-0.66808 1.22841,-3.06024 0,-4.99983a59.39448,59.39448 0 0 0 -20.71048,-22.00354z"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

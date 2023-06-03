@@ -1,0 +1,242 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+ 
+
+ <style>#banner {
+    animation-name: m1h;
+    animation-duration: .4s;
+	animation-direction: alternate;
+	
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: top;
+    
+    transform-box: fill-box;
+
+  }
+
+@keyframes  m1h {
+  0%{transform: rotateZ(.5deg) skew(-1deg)}
+  100%{transform: rotateZ(-.5deg) skew(1deg)}
+}
+   
+   
+ #fan {
+    animation-name: fm1h;
+    animation-duration: .15s;
+       animation-direction: inherit;
+	
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    
+    transform-box: fill-box;
+
+  }
+
+@keyframes  fm1h {
+  0%{transform: rotateX(0deg) }
+  100%{transform: rotateX(360deg) }
+}
+
+#clouds {
+    animation: map1 20s  linear infinite;
+   animation-direction: inherit;
+  }
+  @keyframes map1 {
+    0%{ transform: translateY(-450px)}
+   
+    100%{ transform: translateY(450px)}
+  }
+
+
+  #clouds2 {
+    animation: map2 40s   linear infinite;
+   animation-direction: inherit;
+    
+  }
+  @keyframes map2 {
+    0%{ transform: translateY(-900px)}
+    
+   
+    100%{ transform: translateY(900px)}
+  }</style>
+ <title>balloon</title>
+ <g>
+  <title>Layer 1</title>
+  <g id="Layer_22">
+   <g id="banner">
+    <g id="Layer_21">
+     <g id="svg_31">
+      <path id="svg_32" fill="#f42900" d="m205.35,218.29l-17.71,-31.29l0,-14l-1,0l0,14l-18.26,31.33l36.97,-0.04zm-35.23,-1l17,-29.15l16.51,29.15l-33.51,0z"/>
+      <polygon id="svg_33" fill="#f6f6f6" points="205.35000610351562,357.9800109863281 205.35000610351562,218.2899932861328 168.3800048828125,218.2899932861328 168.3800048828125,357.9800109863281 186.8599853515625,336.9200134277344 205.35000610351562,357.9800109863281 "/>
+     </g>
+    </g>
+   </g>
+   <g id="Layer_35">
+    <g id="svg_34">
+     <rect transform="rotate(-88.86 -2.59001 583.74)" id="svg_35" fill="#603913" height="0.32" width="13.56" y="765.36999" x="418.28"/>
+     <rect transform="rotate(-9.25 -263.71 48.61)" id="svg_36" fill="#603913" height="14.54" width="0.32" y="223.11" x="160.44"/>
+     <rect id="svg_37" fill="#603913" transform="matrix(0.95 -0.3 0.3 0.95 -35.23 135.33)" height="15.58" width="0.32" y="80.66799" x="198.57696"/>
+     <rect transform="rotate(-78.54 -72.94 546.12)" id="svg_38" fill="#603913" height="0.32" width="14.54" y="727.86" x="350.73"/>
+     <rect transform="rotate(-70.11 -125.43 505.87)" id="svg_39" fill="#603913" height="0.32" width="15.6" y="688" x="300.21"/>
+     <rect transform="rotate(-15.44 -273.2 96.25)" id="svg_40" fill="#603913" height="14.04" width="0.36" y="270.81" x="146.17"/>
+     <rect transform="rotate(-11.39 -267.64 64.08)" id="svg_41" fill="#603913" height="13.89" width="0.36" y="238.73" x="149.86"/>
+     <rect transform="rotate(-75.5 -89.92 535.83)" id="svg_42" fill="#603913" height="0.36" width="14.06" y="717.65002" x="338.32"/>
+     <rect transform="rotate(-79.58 -61.55 556.78)" id="svg_43" fill="#603913" height="0.36" width="14.04" y="738.87003" x="368.09"/>
+    </g>
+   </g>
+   <g id="Layer_34">
+    <path id="svg_44" fill="#2e3192" d="m240.47,90.07c-0.4,20.43 -25.19,44.05 -37.52,57.71c-1.95,2.16 -3.58,4.07 -4.76,5.68l-22.06,-0.46c-0.95,-1.42 -2.23,-3.06 -3.74,-4.9c-11.46,-14 -36.42,-39.21 -36,-60.11c0.42,-21.33 9.06,-31.39 20.58,-36a51.8,51.8 0 0 1 13.1,-3.2l5.66,-0.49l0,0c2.5,-0.14 5,-0.19 7.49,-0.19c2,0 4,0 6,0.06c23.22,0.43 52.03,2.48 51.25,41.9z"/>
+   </g>
+   <g id="Layer_33">
+    <path id="svg_45" fill="#fff" d="m240.47,90.07c-0.46,23.65 -33.63,51.58 -42.28,63.39l-3.89,-0.07l2.07,-105a106.79,106.79 0 0 1 11.85,1.15a52,52 0 0 1 12.86,3.62c11.45,5.04 19.82,15.43 19.39,36.91z"/>
+   </g>
+   <g id="Layer_32">
+    <path id="svg_46" fill="#2e3192" d="m181.68,153.14l-3.11,-0.06c-33.92,-49.16 -42.85,-89 -8.51,-104.31l5.66,-0.49l0,0c-9.72,12.91 -5.72,47.72 5.96,104.86z"/>
+   </g>
+   <g id="Layer_31">
+    <path id="svg_47" fill="#fff" d="m178.57,153.08l-1.37,0c-17.13,-22.28 -34.12,-44.13 -36,-64.94c-1.29,-13.92 3.16,-26.56 15.8,-36.14a51.8,51.8 0 0 1 13.1,-3.2c-31.54,17.29 -22.61,54.69 8.47,104.28z"/>
+   </g>
+   <g id="Layer_30">
+    <path id="svg_48" fill="#fff" d="m184.2,153.19l-2.75,-0.06c-29.24,-56.2 -27.21,-93.17 -6,-104.84c2.6,-0.15 5.21,-0.21 7.78,-0.21c-9.67,12.92 -10.66,48.05 0.97,105.11z"/>
+   </g>
+   <g id="Layer_29">
+    <path id="svg_49" fill="#2e3192" d="m189.23,48.14l-2.07,105.11l-3,-0.06c-13.68,-50.19 -13.96,-96.19 -0.86,-105.19l5.93,0.14z"/>
+   </g>
+   <g id="Layer_28">
+    <path id="svg_50" fill="#fff" d="m202.39,48.81l5.67,0.71c33.71,16.64 23.22,56.1 -12.6,103.89l-3.11,-0.06c13.88,-56.63 19.26,-91.26 10.04,-104.54z"/>
+   </g>
+   <g id="Layer_27">
+    <path id="svg_51" fill="#2e3192" d="m235.69,86.77c-1.43,21.53 -19.3,43.39 -38.87,66.67l-1.36,0c33,-48.32 43.38,-85.39 12.59,-103.93c0.05,0 0.11,0 0.17,0a52,52 0 0 1 12.86,3.62c11.24,9.31 15.45,21.05 14.61,33.64z"/>
+   </g>
+   <g id="Layer_26">
+    <path id="svg_52" fill="#2e3192" d="m194.86,48.25c3.05,0.18 5.92,0.36 7.81,0.55c20.76,12.5 21.33,49.54 -10.09,104.55l-2.75,0c13.88,-56.68 -11.12,-106.06 5.03,-105.1z"/>
+   </g>
+   <g id="Layer_25">
+    <path id="svg_53" fill="#fff" d="m188.93,48.13l-2.07,105.11l3,0.06c15.68,-49.63 17.77,-95.61 5,-105l-5.93,-0.17z"/>
+   </g>
+   <g id="Layer_24">
+    <path id="svg_54" fill="#2e3192" d="m203,147.78c-1.95,2.16 -3.58,4.07 -4.76,5.68l-22.11,-0.46c-0.95,-1.42 -2.23,-3.06 -3.74,-4.9l0,-0.87c11.91,0.04 18.94,-0.23 30.61,0.55z"/>
+   </g>
+   <g id="Layer_23">
+    <g id="svg_55">
+     <g id="svg_56">
+      <path id="svg_57" fill="#ad8835" d="m195.79,166.44l-0.39,1.7l-0.28,1.27l-0.34,1.46l-1.84,8.13a1.89,1.89 0 0 1 -1.88,1.47l-8.06,-0.16a1.88,1.88 0 0 1 -1.81,-1.54l-1.53,-8.23l-0.27,-1.47l-0.24,-1.28l-0.32,-1.71l16.96,0.36z"/>
+      <polygon id="svg_58" fill="#6b5421" points="195.79000854492188,166.44000244140625 195.39999389648438,168.13999938964844 179.14999389648438,167.82000732421875 178.82998657226562,166.11000061035156 195.79000854492188,166.44000244140625 "/>
+      <polygon id="svg_59" fill="#6b5421" points="195.1199951171875,169.41000366210938 194.77999877929688,170.8699951171875 179.66000366210938,170.57000732421875 179.3800048828125,169.10000610351562 195.1199951171875,169.41000366210938 "/>
+     </g>
+     <g id="svg_60">
+      <path id="svg_61" fill="#fad41c" d="m188.59,173.08a1.4,1.4 0 1 1 -1.37,-1.42a1.4,1.4 0 0 1 1.37,1.42z"/>
+      <path id="svg_62" fill="#fad41c" d="m187.89,170.78l-1.3,0a0.39,0.39 0 1 1 0,-0.77l1.29,0a0.38,0.38 0 0 1 0.38,0.4a0.39,0.39 0 0 1 -0.37,0.37z"/>
+      <rect transform="rotate(1.13 -236.11 -30.37)" id="svg_63" fill="#fad41c" height="1.17" width="1.11" y="162.39" x="190.56"/>
+     </g>
+     <g id="svg_64">
+      <path id="svg_65" fill="#fad41c" d="m193.92,172.09a1.39,1.39 0 0 1 -2.78,-0.05a1.4,1.4 0 0 1 1.42,-1.37a1.39,1.39 0 0 1 1.36,1.42z"/>
+      <path id="svg_66" fill="#fad41c" d="m193.22,169.79l-1.29,0a0.4,0.4 0 0 1 -0.38,-0.4a0.39,0.39 0 0 1 0.39,-0.38l1.3,0a0.39,0.39 0 0 1 0.38,0.39a0.38,0.38 0 0 1 -0.4,0.39z"/>
+      <rect transform="rotate(1.13 -236.13 -30.47)" id="svg_67" fill="#fad41c" height="1.17" width="1.11" y="161.31" x="195.88"/>
+     </g>
+     <g id="svg_68">
+      <path id="svg_69" fill="#fad41c" d="m183.61,171.61a1.39,1.39 0 1 1 -1.36,-1.42a1.4,1.4 0 0 1 1.36,1.42z"/>
+      <path id="svg_70" fill="#fad41c" d="m182.91,169.31l-1.29,0a0.38,0.38 0 0 1 -0.38,-0.4a0.39,0.39 0 0 1 0.39,-0.38l1.3,0a0.39,0.39 0 0 1 0.38,0.39a0.38,0.38 0 0 1 -0.4,0.39z"/>
+      <rect transform="rotate(1.13 -236.14 -30.27)" id="svg_71" fill="#fad41c" height="1.17" width="1.11" y="161.03" x="185.56"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <style type="text/css">:root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      
+       .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    @-webkit-keyframes headShake {
+            0% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+
+            6.5% {
+                -webkit-transform: translateX(-6px) rotateY(-9deg);
+                transform: translateX(-6px) rotateY(-9deg)
+            }
+
+            18.5% {
+                -webkit-transform: translateX(5px) rotateY(7deg);
+                transform: translateX(5px) rotateY(7deg)
+            }
+
+            31.5% {
+                -webkit-transform: translateX(-3px) rotateY(-5deg);
+                transform: translateX(-3px) rotateY(-5deg)
+            }
+
+            43.5% {
+                -webkit-transform: translateX(2px) rotateY(3deg);
+                transform: translateX(2px) rotateY(3deg)
+            }
+
+            50% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+        }
+
+        @keyframes headShake {
+            0% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+
+            6.5% {
+                -webkit-transform: translateX(-6px) rotateY(-9deg);
+                transform: translateX(-6px) rotateY(-9deg)
+            }
+
+            18.5% {
+                -webkit-transform: translateX(5px) rotateY(7deg);
+                transform: translateX(5px) rotateY(7deg)
+            }
+
+            31.5% {
+                -webkit-transform: translateX(-3px) rotateY(-5deg);
+                transform: translateX(-3px) rotateY(-5deg)
+            }
+
+            43.5% {
+                -webkit-transform: translateX(2px) rotateY(3deg);
+                transform: translateX(2px) rotateY(3deg)
+            }
+
+            50% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+        }
+
+        .animate__headShake {
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+            -webkit-animation-name: headShake;
+            animation-name: headShake
+        }
+    .animate__animated.animate__infinite {
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+        }
+    
+    .animate__animated.animate__slower {
+          -webkit-animation-duration: calc(1s * 8);
+          animation-duration: calc(1s * 8);
+          -webkit-animation-duration: calc(var(--animate-duration) * 8);
+          animation-duration: calc(var(--animate-duration) * 8);
+        }</style>
+ </g>
+</svg>
